@@ -1,0 +1,25 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:Custom="http://schemas.microsoft.com/surface/2008"
+	mc:Ignorable="d"
+	x:Class="MagicTactilForWindows.UCLog"
+	x:Name="UserControl" Width="308.4" Height="166">
+
+	<Border BorderThickness="10" Margin="0" BorderBrush="#FF095EA7">
+
+		<Grid x:Name="LayoutRoot" Background="#FF24A9E9" Margin="0">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="0.271*"/>
+				<ColumnDefinition Width="0.729*"/>
+			</Grid.ColumnDefinitions>
+			<Custom:SurfaceButton x:Name="ConnectButton" Content="Connect" Command="{Binding connect}" Margin="8,0,8.121,8" TabIndex="2" Height="38" VerticalAlignment="Bottom" RenderTransformOrigin="0.795,0.632" Grid.ColumnSpan="2" Width="190" IsDefault="True" />
+			<Custom:SurfaceTextBox x:Name="NameBox" Text="{Binding name, UpdateSourceTrigger=PropertyChanged}" Margin="8,8,8,0" AcceptsTab="False" TabIndex="0" Height="38" VerticalAlignment="Top" Grid.Column="1" MaxLines="1" />
+			<Label x:Name="UsernameLabel" Content="username" VerticalAlignment="Top" Height="30" Foreground="White" FontWeight="Bold" FontSize="13.333" Margin="0,8,4.782,0"/>
+			<Label x:Name="PasswordLabel" Content="password" Margin="0,53.2,4.782,-75" Foreground="White" FontWeight="Bold" FontSize="13.333"/>
+			<Custom:SurfacePasswordBox x:Name="SurfacePasswordBox" Grid.Column="1" Margin="8,0,8,54.8" PasswordChanged="SurfacePasswordBox_PasswordChanged" Height="38" VerticalAlignment="Bottom" />
+		</Grid>
+	</Border>
+</UserControl>

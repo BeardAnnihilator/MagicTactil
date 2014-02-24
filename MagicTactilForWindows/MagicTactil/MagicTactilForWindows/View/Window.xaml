@@ -1,0 +1,34 @@
+﻿<s:SurfaceWindow x:Class="MagicTactilForWindows.Window"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:s="http://schemas.microsoft.com/surface/2008"
+    xmlns:VM="clr-namespace:MagicTactilForWindows.ViewModel"
+    xmlns:View="clr-namespace:MagicTactilForWindows.View"
+    Title="MagicTactilForWindows" Closed="SurfaceWindow_Closed">
+    <!-- Setting the data context (the ViewModel class linked to this xaml)-->
+    <s:SurfaceWindow.DataContext>
+        <VM:Switcher x:Name="Switch"/>
+    </s:SurfaceWindow.DataContext>
+    
+    <!-- Declaring the specific ressources-->
+    <Window.Resources>
+    
+        <!-- Templating the view model classes in view classes-->
+        <!-- LogIn-->
+        <DataTemplate DataType="{x:Type VM:VMLogIn}">
+            <View:LogIn/>
+        </DataTemplate>
+
+        <!-- InnerBoard-->
+        <DataTemplate DataType="{x:Type VM:VMInnerBoard}">
+            <View:InnerBoard/>
+        </DataTemplate>
+
+    </Window.Resources>
+    
+    <!--The actual display content-->
+    <Grid>
+        <!-- Binding the good VM class in the data context class (Switcher)-->
+        <ContentPresenter Content="{Binding ViewModelView.CurrentItem}" DataContext="{Binding ViewModelView.CurrentItem}"/>
+    </Grid>
+</s:SurfaceWindow>

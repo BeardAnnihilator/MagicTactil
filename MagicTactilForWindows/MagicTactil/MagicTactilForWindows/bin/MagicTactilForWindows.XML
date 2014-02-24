@@ -1,0 +1,1519 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MagicTactilForWindows</name>
+    </assembly>
+    <members>
+        <member name="T:MagicTactilForWindows.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.Model.CardFileClass">
+            <summary>
+            This class represent the card db
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.Model.ANetwork">
+            <summary>
+            Server's abstraction
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Model.ANetwork.CreateRoom(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Create a new room CNRO
+            </summary>
+            <param name="creatorName"></param>
+            <param name="format"></param>
+            <param name="nameRoom"></param>
+            <param name="state"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.Model.ANetwork.DeleteRoom(System.String,System.String)">
+            <summary>
+            Delete a room DERO
+            </summary>
+            <param name="nameOwner"></param>
+            <param name="nameRoom"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.Model.ANetwork.JoinRoom(System.String,System.String)">
+            <summary>
+            Join a room JORO
+            </summary>
+            <param name="userName"></param>
+            <param name="roomName"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.Model.ANetwork.LeaveRoom(System.String,System.String)">
+            <summary>
+            Leave a room LEAR
+            </summary>
+            <param name="userName"></param>
+            <param name="roomName"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.Model.ANetwork.GetAllRooms">
+            <summary>
+            Get All rooms GEAR
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Model.ANetwork.GetPlayerFromRoom(System.Int32)">
+            <summary>
+            Leave a room GPFR
+            </summary>
+            <param name="idroom"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.Model.ANetwork.PrivateMessage(System.String,System.String)">
+            <summary>
+            Send private message to user destName, 
+            message is the content of the message
+            </summary>
+            <param name="destName"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.Model.ANetwork.BroadcastMessage(System.String,System.String)">
+            <summary>
+            Send message in the room roomName,
+            message is the content of the message
+            </summary>
+            <param name="roomName"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.Model.ANetwork.getBytes(MagicTactilForWindows.Model.HeadPacket)">
+            <summary>
+            from HeadPacket to byte[]
+            </summary>
+            <param name="p"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MagicTactilForWindows.Model.ANetwork.fromBytes(System.Byte[])">
+            <summary>
+            from byte[] to HeadPacket
+            </summary>
+            <param name="arr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MagicTactilForWindows.Model.Network.#ctor">
+            <summary>
+            connection
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Model.Network.connect(System.String,System.Int32)">
+            <summary>
+            connect to the server
+            </summary>
+            <param name="ip"></param>
+            <param name="port"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.Model.Network.send(System.Int32,System.Int32,System.String,System.String)">
+            <summary>
+            write to server
+            </summary>
+            <param name="_src"></param>
+            <param name="_dst"></param>
+            <param name="_fun"></param>
+            <param name="_data"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.Model.Network.receive">
+            <summary>
+             read from server
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MagicTactilForWindows.Model.HeadPacket">
+            <summary>
+            Describe HeadPacket and Packet (data)
+            used for communication with server
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.Model.Packet">
+            <summary>
+            Describe HeadPacket and Packet (data)
+            used for communication with server
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.Model.serverReturnEventArgs">
+            <summary>
+            represent a server return.
+            Then can be used to be throw
+            to others modules
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Model.serverReturnEventArgs.#ctor(System.Int32,System.Int32,System.String,System.Int32,System.String)">
+            <summary>
+            constructor
+            </summary>
+            <param name="_srce"></param>
+            <param name="_dest"></param>
+            <param name="_func"></param>
+            <param name="_size"></param>
+            <param name="_data"></param>
+        </member>
+        <member name="T:MagicTactilForWindows.Utilities.InputDeviceHelper">
+            <summary>
+            A helper class that provides extra data for a given input device:
+             - delta between the current position,
+             - an element the intput device was placed at.
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.InputDeviceHelper.DraggedDelta(System.Windows.Input.InputDevice,System.Windows.UIElement)">
+            <summary>
+            Returns delta between current input device position and where the input device was placed
+            relative to the given elementToDrag.
+            </summary>
+            <param name="inputDevice"></param>
+            <param name="relativeTo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.InputDeviceHelper.GetDragSource(System.Windows.Input.InputDevice)">
+            <summary>
+            Returns the Source the input device was placed at.
+            </summary>
+        </member>
+        <member name="F:MagicTactilForWindows.Utilities.DragDropScatterView.AllowDragProperty">
+            <summary>
+            Property to identify whether the ScatterViewItem can be dragged.
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.DragDropScatterView.GetAllowDrag(System.Windows.DependencyObject)">
+            <summary>
+            Getter of AllowDrag AttachProperty.
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.DragDropScatterView.SetAllowDrag(System.Windows.DependencyObject,System.Boolean)">
+            <summary>
+            Setter of AllowDrag AttachProperty.
+            </summary>
+            <param name="element"></param>
+            <param name="value"></param>
+        </member>
+        <member name="T:MagicTactilForWindows.ViewModel.Deck">
+            <summary>
+            this class represent a deck of cards
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMBuilding.#ctor(MagicTactilForWindows.Model.Network)">
+            <summary>
+            constructor takes server in args
+            </summary>
+            <param name="Server"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMBuilding.Clear">
+            <summary>
+            clear deck
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMBuilding.loadMore">
+            <summary>
+            display more cards
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMBuilding.ToMain(System.Object)">
+            <summary>
+            put card to side board
+            </summary>
+            <param name="param"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMBuilding.sortList``1(System.Collections.Generic.List{``0})">
+            <summary>
+            sort a list
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMBuilding.ToSide(System.Object)">
+            <summary>
+            put card in sideboard
+            </summary>
+            <param name="param"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMDecks.#ctor(MagicTactilForWindows.Model.Network)">
+            <summary>
+            constructor takes server as arg
+            </summary>
+            <param name="Server"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMDecks.refreshDeckList">
+            <summary>
+            refresh the list of decks
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMDecks.r_GLID(System.Object,MagicTactilForWindows.Model.serverReturnEventArgs)">
+            <summary>
+            receive the server return for the list of decks
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMDecks.DeckSpliting(System.String)">
+            <summary>
+            split a server return aand build a list of deck
+            </summary>
+            <param name="serverReturn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMDecks.r_GETU(System.Object,MagicTactilForWindows.Model.serverReturnEventArgs)">
+            <summary>
+            server return for user info
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMDecks.r_SDTU(System.Object,MagicTactilForWindows.Model.serverReturnEventArgs)">
+            <summary>
+            server return for deck to user
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMDecks.buildNew(System.Object)">
+            <summary>
+            event click build new deck
+            </summary>
+            <param name="param"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMInnerDecks.#ctor(MagicTactilForWindows.Model.Network)">
+            <summary>
+            constructor takes server in arguments
+            </summary>
+            <param name="Server"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMInnerDecks.Inner_moveTo(System.Object,MagicTactilForWindows.Utilities.MoveToEventArgs)">
+            <summary>
+            general fonction to move
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMInnerDecks.move_To(System.String)">
+            <summary>
+            this function change the value of ViewModelView.current
+            so the screen change.
+            </summary>
+            <param name="page"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMInnerDecks.refreshDeckList">
+            <summary>
+            refresh deck list
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.ViewModel.VMGame">
+            <summary>
+            View model for game board
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.UCReconnect">
+            <summary>
+            Interaction logic for UCReconnect.xaml
+            </summary>
+            <summary>
+            UCReconnect
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.UCReconnect.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.View.Building">
+            <summary>
+            Interaction logic for Building.xaml
+            </summary>
+            <summary>
+            Building
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.View.Building.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.View.Decks">
+            <summary>
+            Interaction logic for Decks.xaml
+            </summary>
+            <summary>
+            Decks
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.View.Decks.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.View.InnerDecks">
+            <summary>
+            Interaction logic for InnerDecks.xaml
+            </summary>
+            <summary>
+            InnerDecks
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.View.InnerDecks.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.UCBoard">
+            <summary>
+            Interaction logic for UCBoard.xaml
+            </summary>
+            <summary>
+            UCBoard
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.UCBoard.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.UCHand">
+            <summary>
+            Interaction logic for UCHand.xaml
+            </summary>
+            <summary>
+            UCHand
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.UCHand.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.UCLifeCounter">
+            <summary>
+            Interaction logic for UCLifeCounter.xaml
+            </summary>
+            <summary>
+            UCLifeCounter
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.UCLifeCounter.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.RelayCommand`1.#ctor(System.Action{`0},System.Predicate{`0})">
+            <summary>
+            Creates a new command.
+            </summary>
+            <param name="execute">The execution logic.</param>
+            <param name="canExecute">The execution status logic.</param>
+        </member>
+        <member name="T:MagicTactilForWindows.Utilities.MoveToEventArgs">
+            <summary>
+            Represent an event with information about navigation.
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.Utilities.DelegateCommand">
+            <summary>
+                This class allows delegating the commanding logic to methods passed as parameters,
+                and enables a View to bind commands to objects that are not part of the element tree.
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.DelegateCommand.#ctor(System.Action)">
+            <summary>
+                Constructor
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.DelegateCommand.#ctor(System.Action,System.Func{System.Boolean})">
+            <summary>
+                Constructor
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.DelegateCommand.#ctor(System.Action,System.Func{System.Boolean},System.Boolean)">
+            <summary>
+                Constructor
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.DelegateCommand.CanExecute">
+            <summary>
+                Method to determine if the command can be executed
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.DelegateCommand.Execute">
+            <summary>
+                Execution of the command
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.DelegateCommand.RaiseCanExecuteChanged">
+            <summary>
+                Raises the CanExecuteChaged event
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.DelegateCommand.OnCanExecuteChanged">
+            <summary>
+                Protected virtual method to raise CanExecuteChanged event
+            </summary>
+        </member>
+        <member name="P:MagicTactilForWindows.Utilities.DelegateCommand.IsAutomaticRequeryDisabled">
+            <summary>
+                Property to enable or disable CommandManager's automatic requery on this command
+            </summary>
+        </member>
+        <member name="E:MagicTactilForWindows.Utilities.DelegateCommand.CanExecuteChanged">
+            <summary>
+                ICommand.CanExecuteChanged implementation
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.Utilities.DelegateCommand`1">
+            <summary>
+                This class allows delegating the commanding logic to methods passed as parameters,
+                and enables a View to bind commands to objects that are not part of the element tree.
+            </summary>
+            <typeparam name="T">Type of the parameter passed to the delegates</typeparam>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.DelegateCommand`1.#ctor(System.Action{`0})">
+            <summary>
+                Constructor
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.DelegateCommand`1.#ctor(System.Action{`0},System.Func{`0,System.Boolean})">
+            <summary>
+                Constructor
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.DelegateCommand`1.#ctor(System.Action{`0},System.Func{`0,System.Boolean},System.Boolean)">
+            <summary>
+                Constructor
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.DelegateCommand`1.CanExecute(`0)">
+            <summary>
+                Method to determine if the command can be executed
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.DelegateCommand`1.Execute(`0)">
+            <summary>
+                Execution of the command
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.DelegateCommand`1.RaiseCanExecuteChanged">
+            <summary>
+                Raises the CanExecuteChaged event
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.DelegateCommand`1.OnCanExecuteChanged">
+            <summary>
+                Protected virtual method to raise CanExecuteChanged event
+            </summary>
+        </member>
+        <member name="P:MagicTactilForWindows.Utilities.DelegateCommand`1.IsAutomaticRequeryDisabled">
+            <summary>
+                Property to enable or disable CommandManager's automatic requery on this command
+            </summary>
+        </member>
+        <member name="E:MagicTactilForWindows.Utilities.DelegateCommand`1.CanExecuteChanged">
+            <summary>
+                ICommand.CanExecuteChanged implementation
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.Utilities.CommandManagerHelper">
+            <summary>
+                This class contains methods for the CommandManager that help avoid memory leaks by
+                using weak references.
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.Utilities.RoomEventArgs">
+            <summary>
+            A class for event within rooms
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.Helpers.FindVisualChild``1(System.Windows.DependencyObject)">
+            <summary>
+            Finds a visual child of a given type.
+            </summary>
+            <typeparam name="T">The type to search for.</typeparam>
+            <param name="obj">The object at the root of the tree to search.</param>
+            <returns>The visual child.</returns>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.Helpers.FindVisualParent``1(System.Windows.DependencyObject)">
+            <summary>
+            Finds a visual parent of a given type.
+            </summary>
+            <typeparam name="T">The type to search for.</typeparam>
+            <param name="obj">The object at the root of the tree to search.</param>
+            <returns>The visual parent.</returns>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.Helpers.GetVisualTree(System.Windows.DependencyObject)">
+            <summary>
+            Gets the Visual Tree for a DependencyObject with that DependencyObject as the root.
+            </summary>
+            <param name="element">The root element.</param>
+            <returns>The matching elements.</returns>
+        </member>
+        <member name="T:MagicTactilForWindows.Utilities.ScrollViewerOffsetMediator">
+            <summary>
+            A mediator that forwards VerticalOffset and HorizontalOffset properties to a ScrollViewer, enabling animation of these properties.
+            </summary>
+        </member>
+        <member name="F:MagicTactilForWindows.Utilities.ScrollViewerOffsetMediator._Updating">
+            <summary>
+            Internal flag, don't scroll the ScrollViewer when doing an internal property update.
+            </summary>
+        </member>
+        <member name="F:MagicTactilForWindows.Utilities.ScrollViewerOffsetMediator.ScrollViewerProperty">
+            <summary>
+            Identifier for the ScrollViewer dependency property.
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ScrollViewerOffsetMediator.UpdateScrollViewer(System.Windows.Controls.ScrollViewer)">
+            <summary>
+            Updates the scroll viewer.
+            </summary>
+            <param name="oldValue">The old value.</param>
+        </member>
+        <member name="F:MagicTactilForWindows.Utilities.ScrollViewerOffsetMediator.VerticalOffsetProperty">
+            <summary>
+            Identifier for the VerticalOffset dependency property.
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ScrollViewerOffsetMediator.UpdateVerticalOffset">
+            <summary>
+            Updates the vertical offset.
+            </summary>
+        </member>
+        <member name="F:MagicTactilForWindows.Utilities.ScrollViewerOffsetMediator.HorizontalOffsetProperty">
+            <summary>
+            Identifier for the HorizontalOffset dependency property.
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ScrollViewerOffsetMediator.UpdateHorizontalOffset">
+            <summary>
+            Updates the Horizontal offset.
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ScrollViewerOffsetMediator.ScrollViewer_ScrollChanged(System.Object,System.Windows.Controls.ScrollChangedEventArgs)">
+            <summary>
+            Handles the ScrollChanged event of the ScrollViewer control. Updates the internal properties to reflect the changed scroll.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Controls.ScrollChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="P:MagicTactilForWindows.Utilities.ScrollViewerOffsetMediator.ScrollViewer">
+            <summary>
+            Gets or sets the ScrollViewer instance to forward Offset changes on to..
+            </summary>
+            <value>The scroll viewer.</value>
+        </member>
+        <member name="P:MagicTactilForWindows.Utilities.ScrollViewerOffsetMediator.VerticalOffset">
+            <summary>
+            Gets or sets the VerticalOffset property to forward to the ScrollViewer..
+            </summary>
+            <value>The vertical offset.</value>
+        </member>
+        <member name="P:MagicTactilForWindows.Utilities.ScrollViewerOffsetMediator.HorizontalOffset">
+            <summary>
+            Gets or sets the HorizontalOffset property to forward to the ScrollViewer..
+            </summary>
+            <value>The Horizontal offset.</value>
+        </member>
+        <member name="T:MagicTactilForWindows.Utilities.ModeSelector">
+            <summary>
+            A ListBox which only shows the selected item, but expands to show other items when tapped. Similar to a Combo Box.
+            </summary>
+        </member>
+        <member name="F:MagicTactilForWindows.Utilities.ModeSelector._TriggerButton">
+            <summary>
+            A hidden button which expands the control when clicked.
+            </summary>
+        </member>
+        <member name="F:MagicTactilForWindows.Utilities.ModeSelector._ListBox">
+            <summary>
+            The ListBox that this control is wrapping.
+            </summary>
+        </member>
+        <member name="F:MagicTactilForWindows.Utilities.ModeSelector._ExpandDuration">
+            <summary>
+            How long the expand/collapse transitions should take.
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ModeSelector.OnApplyTemplate">
+            <summary>
+            When overridden in a derived class, is invoked whenever application code or internal processes call <see cref="M:System.Windows.FrameworkElement.ApplyTemplate"/>.
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ModeSelector.TriggerButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the TriggerButton control. Expand the control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ModeSelector.ListBox_SizeChanged(System.Object,System.Windows.SizeChangedEventArgs)">
+            <summary>
+            Handles the SizeChanged event of the ListBox control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.SizeChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ModeSelector.ListBox_LayoutUpdated(System.Object,System.EventArgs)">
+            <summary>
+            Wait until the list has been created and the default item is selected, then set the initial size and position.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ModeSelector.GetSelectedItem">
+            <summary>
+            Return the currently selected SurfaceListBoxItem.
+            </summary>
+            <returns>The currently selected SurfaceListBoxItem.</returns>
+        </member>
+        <member name="F:MagicTactilForWindows.Utilities.ModeSelector.SelectedItemProperty">
+            <summary>
+            Identifier for the SelectedItem dependency property.
+            </summary>
+        </member>
+        <member name="F:MagicTactilForWindows.Utilities.ModeSelector.SelectedIndexProperty">
+            <summary>
+            The identifier for the SelectedIndex dependency property.
+            </summary>
+        </member>
+        <member name="F:MagicTactilForWindows.Utilities.ModeSelector.ItemsSourceProperty">
+            <summary>
+            Identifier for the ItemsSource property.
+            </summary>
+        </member>
+        <member name="F:MagicTactilForWindows.Utilities.ModeSelector.IsExpandedProperty">
+            <summary>
+            Identifier for the IsExpanded dependency property/
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ModeSelector.UpdateIsExpanded(System.Boolean)">
+            <summary>
+            Expands or collapses the control.
+            </summary>
+            <param name="smooth">if set to <c>true</c> animate the transition.</param>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ModeSelector.DoExpandTransition(System.Boolean)">
+            <summary>
+            Does the expand transition.
+            </summary>
+            <param name="smooth">if set to <c>true</c> [smooth].</param>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ModeSelector.DoCollapseTransition(System.Boolean)">
+            <summary>
+            Does the collapse transition.
+            </summary>
+            <param name="smooth">if set to <c>true</c> [smooth].</param>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ModeSelector.ListBox_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Handles the SelectionChanged event of the ListBox control. Collapses the ListBox.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Controls.SelectionChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ModeSelector.HandleClickOrTap(System.Object)">
+            <summary>
+            Handles the click or tap.
+            </summary>
+            <param name="originalSource">The original source.</param>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ModeSelector.CloseOnParentInteraction(System.Windows.FrameworkElement)">
+            <summary>
+            If there is any interaction on a parent SVI, close this list.
+            </summary>
+            <param name="parent">The parent.</param>
+        </member>
+        <member name="P:MagicTactilForWindows.Utilities.ModeSelector.SelectedItem">
+            <summary>
+            Gets or sets the selected item.
+            </summary>
+            <value>The selected item.</value>
+        </member>
+        <member name="P:MagicTactilForWindows.Utilities.ModeSelector.SelectedIndex">
+            <summary>
+            Gets or sets the selected index.
+            </summary>
+            <value>The selected index.</value>
+        </member>
+        <member name="P:MagicTactilForWindows.Utilities.ModeSelector.ItemsSource">
+            <summary>
+            Gets or sets the items source.
+            </summary>
+            <value>The items source.</value>
+        </member>
+        <member name="P:MagicTactilForWindows.Utilities.ModeSelector.IsExpanded">
+            <summary>
+            Gets or sets a value indicating whether the list is expanded and scrollable..
+            </summary>
+            <value>
+            <c>true</c> if this instance is expanded; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="E:MagicTactilForWindows.Utilities.ModeSelector.DropDownOpened">
+            <summary>
+            Occurs when the dropdown is opened.
+            </summary>
+        </member>
+        <member name="E:MagicTactilForWindows.Utilities.ModeSelector.DropDownClosed">
+            <summary>
+            Occurs when the dropdown is closed.
+            </summary>
+        </member>
+        <member name="E:MagicTactilForWindows.Utilities.ModeSelector.SelectionChanged">
+            <summary>
+            Occurs when when the ListBox selection changes.
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.Utilities.SelectorLabelConverter">
+            <summary>
+            A converter used to display the labels for each item selector.
+            This could be useful if the itemSource is not a collection of strings, but rather a collection of
+            more complex structures.
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.SelectorLabelConverter.Convert(System.Object[],System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts source values to a value for the binding target. The data binding engine calls this method when it propagates the values from source bindings to the binding target.
+            </summary>
+            <param name="values">The array of values that the source bindings in the <see cref="T:System.Windows.Data.MultiBinding"/> produces. The value <see cref="F:System.Windows.DependencyProperty.UnsetValue"/> indicates that the source binding has no value to provide for conversion.</param>
+            <param name="targetType">The type of the binding target property.</param>
+            <param name="parameter">The converter parameter to use.</param>
+            <param name="culture">The culture to use in the converter.</param>
+            <returns>
+            A converted value.If the method returns null, the valid null value is used.A return value of <see cref="T:System.Windows.DependencyProperty"/>.<see cref="F:System.Windows.DependencyProperty.UnsetValue"/> indicates that the converter did not produce a value, and that the binding will use the <see cref="P:System.Windows.Data.BindingBase.FallbackValue"/> if it is available, or else will use the default value.A return value of <see cref="T:System.Windows.Data.Binding"/>.<see cref="F:System.Windows.Data.Binding.DoNothing"/> indicates that the binding does not transfer the value or use the <see cref="P:System.Windows.Data.BindingBase.FallbackValue"/> or the default value.
+            </returns>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.SelectorLabelConverter.ConvertBack(System.Object,System.Type[],System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts a binding target value to the source binding values.
+            </summary>
+            <param name="value">The value that the binding target produces.</param>
+            <param name="targetTypes">The array of types to convert to. The array length indicates the number and types of values that are suggested for the method to return.</param>
+            <param name="parameter">The converter parameter to use.</param>
+            <param name="culture">The culture to use in the converter.</param>
+            <returns>
+            An array of values that have been converted from the target value back to the source values.
+            </returns>
+        </member>
+        <member name="T:MagicTactilForWindows.Utilities.ShadowScrollBehavior">
+            <summary>
+            A behavior to show "shadows" on sides of a ScrollViewer to indicate that there is additional content in a given
+            direction. Best used with a style that only shows the scrollbar during scrolling user interaction.
+            </summary>
+        </member>
+        <member name="F:MagicTactilForWindows.Utilities.ShadowScrollBehavior._content">
+            <summary>
+            A reference to the last content placed inside the ScrollViewer.
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ShadowScrollBehavior.OnAttached">
+            <summary>
+            Called after the behavior is attached to an AssociatedObject.
+            </summary>
+            <remarks>Override this to hook up functionality to the AssociatedObject.</remarks>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ShadowScrollBehavior.OnDetaching">
+            <summary>
+            Called when the behavior is being detached from its AssociatedObject, but before it has actually occurred.
+            </summary>
+            <remarks>Override this to unhook functionality from the AssociatedObject.</remarks>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ShadowScrollBehavior.ScrollViewer_SizeChanged(System.Object,System.Windows.SizeChangedEventArgs)">
+            <summary>
+            Handles the SizeChanged event of the ScrollViewer control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.SizeChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ShadowScrollBehavior.ContentChanged(System.Object,System.EventArgs)">
+            <summary>
+            When the content of the ScrollViewer changes, hook up a listener to it.
+            </summary>
+            <param name="sender">The ScrollViewer.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ShadowScrollBehavior.UpdateContent">
+            <summary>
+            When the content of the ScrollViewer changes, stop listening for size changes on the old content, and look at the new content instead.
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ShadowScrollBehavior.Content_SizeChanged(System.Object,System.Windows.SizeChangedEventArgs)">
+            <summary>
+            When the size of the content changes, update the scroll bounds.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.SizeChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ShadowScrollBehavior.ScrollViewer_ScrollChanged(System.Object,System.Windows.Controls.ScrollChangedEventArgs)">
+            <summary>
+            Handles the ScrollChanged event of the ScrollViewer control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Controls.ScrollChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MagicTactilForWindows.Utilities.ShadowScrollBehavior.UpdateShadows">
+            <summary>
+            Show or hide the shadows based on the current scroll position.
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.ViewModel.Room">
+            <summary>
+            represent a room
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.ViewModel.Conversation">
+            <summary>
+            view model for conversation
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.Conversation.#ctor(MagicTactilForWindows.Model.Network,System.String,MagicTactilForWindows.ViewModel.Room)">
+            <summary>
+            constructor with server in argument
+            </summary>
+            <param name="server"></param>
+            <param name="name"></param>
+            <param name="room"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.Conversation.#ctor(MagicTactilForWindows.Model.Network,System.String,System.String)">
+            <summary>
+            constructor with server in argument
+            </summary>
+            <param name="server"></param>
+            <param name="name"></param>
+            <param name="dest"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.Conversation.#ctor(MagicTactilForWindows.Model.Network,System.String,System.String,System.String)">
+            <summary>
+            constructor with server in argument
+            </summary>
+            <param name="server"></param>
+            <param name="name"></param>
+            <param name="dest"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.Conversation.addContent(System.String)">
+            <summary>
+            add message to conversatino stream
+            </summary>
+            <param name="content"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.Conversation.sendMessage(System.String)">
+            <summary>
+            send message to chatee
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMConversationManager.#ctor(MagicTactilForWindows.Model.Network)">
+            <summary>
+            constructor with server as arg
+            </summary>
+            <param name="server"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMConversationManager.Add(System.String)">
+            <summary>
+            add content to the stream
+            </summary>
+            <param name="dest"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMConversationManager.Add(System.String,System.String)">
+            <summary>
+             add content to the stream and create a chat
+            </summary>
+            <param name="dest"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMConversationManager.neo_focus(System.Object,System.EventArgs)">
+            <summary>
+            create new conversation
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMConversationManager.neo_delete(System.Object,System.EventArgs)">
+            <summary>
+            delete tmp conversation
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:MagicTactilForWindows.ViewModel.VMFriend">
+            <summary>
+            Friend list manager
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMFriend.#ctor(MagicTactilForWindows.Model.Network)">
+            <summary>
+            constructor takes server in args
+            </summary>
+            <param name="Server"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMFriend.#ctor(MagicTactilForWindows.Model.Network,MagicTactilForWindows.ViewModel.VMConversationManager)">
+            <summary>
+            construcotr  with a conversatino manager
+            </summary>
+            <param name="Server"></param>
+            <param name="CM"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMFriend.ask(System.Object)">
+            <summary>
+            send friend request
+            </summary>
+            <param name="param"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMFriend.removeFriend(System.String)">
+            <summary>
+            remove a friend
+            </summary>
+            <param name="relative"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMFriend.doubleClickAFriend(System.String)">
+            <summary>
+            open chat with a friend
+            </summary>
+            <param name="friend"></param>
+        </member>
+        <member name="T:MagicTactilForWindows.ViewModel.VMModifyEvent">
+            <summary>
+            Modify Event ViewModel
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMModifyEvent.editEvent(System.Object)">
+            <summary>
+            edit an existing event
+            </summary>
+            <param name="param"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMModifyEvent.goHome(System.Object)">
+            <summary>
+            return to home view
+            </summary>
+            <param name="param"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMModifyEvent.setEvent(System.String,System.String,System.String,System.String)">
+            <summary>
+            Set current event. (display it)
+            </summary>
+            <param name="eventName"></param>
+            <param name="eventLocation"></param>
+            <param name="eventDate"></param>
+            <param name="eventContent"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMCreateEvent.setEvent(System.String,System.String,System.String,System.String)">
+            <summary>
+            Set current event.
+            </summary>
+            <param name="eventName"></param>
+            <param name="eventLocation"></param>
+            <param name="eventDate"></param>
+            <param name="eventContent"></param>
+        </member>
+        <member name="T:MagicTactilForWindows.ViewModel.VMHome">
+            <summary>
+            view model for the principal view
+            </summary>
+        </member>
+        <member name="F:MagicTactilForWindows.ViewModel.VMHome._Server">
+            <summary>
+            link to the server
+            </summary>
+        </member>
+        <member name="F:MagicTactilForWindows.ViewModel.VMHome._eventList">
+            <summary>
+            event's list
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMInnerBoard.getLanguage">
+            <summary>
+            get used language
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMLogIn.#ctor(MagicTactilForWindows.Model.Network)">
+            <summary>
+            constructor, takes the server in argument.
+            </summary>
+            <param name="Server"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMLogIn.emailCheck(System.String)">
+            <summary>
+            check email validity
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMLogIn.nameCheck(System.String)">
+            <summary>
+            check name validity
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMLogIn.passCheck(System.String)">
+            <summary>
+            check password
+            </summary>
+            <param name="pass"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMLogIn.IsValidEmail(System.String)">
+            <summary>
+            check if email is correct
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMLogIn.IsValidName(System.String)">
+            <summary>
+            check if name is correct
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMLogIn.IsValidPass(System.String)">
+            <summary>
+            ceck if password is correct
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMLogIn.IsValidDate(System.String)">
+            <summary>
+            check if date is correct
+            </summary>
+            <param name="date"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMLogIn.IsValidGender(System.String)">
+            <summary>
+            check if gender is correct
+            </summary>
+            <param name="gender"></param>
+            <returns></returns>
+        </member>
+        <member name="F:MagicTactilForWindows.ViewModel.VMProfile._Server">
+            <summary>
+            link to the server
+            </summary>
+        </member>
+        <member name="F:MagicTactilForWindows.ViewModel.VMProfile._name">
+            <summary>
+            real infos (get from server)
+            </summary>
+        </member>
+        <member name="F:MagicTactilForWindows.ViewModel.VMProfile._tmpmail">
+            <summary>
+            tmp infos used before confirmation of modification
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMProfile.edit">
+            <summary>
+            confirmation of modification
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMProfile.refresh">
+            <summary>
+            cancel modification
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMProfile.getval(System.String,System.String)">
+            <summary>
+            a function for getting a specific value form a string server formated 
+            </summary>
+            <param name="data"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MagicTactilForWindows.ViewModel.VMRooms">
+            <summary>
+            view model for manging rooms
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMRooms.#ctor(MagicTactilForWindows.Model.Network)">
+            <summary>
+            constructor with server as arg
+            </summary>
+            <param name="Server"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMRooms.CreateRoom(System.Object)">
+            <summary>
+            go to the create room view
+            </summary>
+            <param name="param"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.ViewModel.VMRooms.RoomSpliting(System.String)">
+            <summary>
+            get a server return and build a list of room
+            </summary>
+            <param name="serverReturn"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MagicTactilForWindows.View.Game">
+            <summary>
+            Interaction logic for Game.xaml
+            </summary>
+            <summary>
+            Game
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.View.Game.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.View.CreateRoom">
+            <summary>
+            Interaction logic for CreateRoom.xaml
+            </summary>
+            <summary>
+            CreateRoom
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.View.CreateRoom.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.View.InnerRooms">
+            <summary>
+            Interaction logic for InnerRooms.xaml
+            </summary>
+            <summary>
+            InnerRooms
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.View.InnerRooms.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.View.ModifyEvent">
+            <summary>
+            Interaction logic for ModifyEvent.xaml
+            </summary>
+            <summary>
+            ModifyEvent
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.View.ModifyEvent.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.View.CreateEvent">
+            <summary>
+            Interaction logic for CreateEvent.xaml
+            </summary>
+            <summary>
+            CreateEvent
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.View.CreateEvent.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.View.Home">
+            <summary>
+            Interaction logic for Home.xaml
+            </summary>
+            <summary>
+            Home
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.View.Home.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.View.InnerBoard">
+            <summary>
+            Interaction logic for InnerBord.xaml
+            </summary>
+            <summary>
+            InnerBoard
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.View.InnerBoard.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.View.LogIn">
+            <summary>
+            Interaction logic for LogIn.xaml
+            </summary>
+            <summary>
+            LogIn
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.View.LogIn.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.View.Profile">
+            <summary>
+            Interaction logic for Profile.xaml
+            </summary>
+            <summary>
+            Profile
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.View.Profile.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.View.Room">
+            <summary>
+            Interaction logic for Room.xaml
+            </summary>
+            <summary>
+            Room
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.View.Room.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.View.Rooms">
+            <summary>
+            Interaction logic for Rooms.xaml
+            </summary>
+            <summary>
+            Rooms
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.View.Rooms.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.UCChatBox">
+            <summary>
+            Interaction logic for UCChatBox.xaml
+            </summary>
+            <summary>
+            UCChatBox
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.UCChatBox.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.UCConversation">
+            <summary>
+            Interaction logic for UCConversation.xaml
+            </summary>
+            <summary>
+            UCConversation
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.UCConversation.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.UCDiscutions">
+            <summary>
+            Interaction logic for UCDiscutions.xaml
+            </summary>
+            <summary>
+            UCDiscutions
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.UCDiscutions.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.UCEventInfo">
+            <summary>
+            Interaction logic for UCEventInfo.xaml
+            </summary>
+            <summary>
+            UCEventInfo
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.UCEventInfo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.UCFriendList">
+            <summary>
+            Interaction logic for UCFriendList.xaml
+            </summary>
+            <summary>
+            UCFriendList
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.UCFriendList.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.UCLog">
+            <summary>
+            Interaction logic for UCLog.xaml
+            </summary>
+            <summary>
+            UCLog
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.UCLog.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.UCRButtonLogin">
+            <summary>
+            Interaction logic for UCRButtonLogin.xaml
+            </summary>
+            <summary>
+            UCRButtonLogin
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.UCRButtonLogin.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.UCReg">
+            <summary>
+            Interaction logic for UCReg.xaml
+            </summary>
+            <summary>
+            UCReg
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.UCReg.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.UCUserInfo">
+            <summary>
+            Interaction logic for UCUserInfo.xaml
+            </summary>
+            <summary>
+            UCUserInfo
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.UCUserInfo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.Window">
+            <summary>
+            Interaction logic for SurfaceWindow1.xaml
+            </summary>
+            <summary>
+            Window
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Window.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Window.OnClosed(System.EventArgs)">
+            <summary>
+            Occurs when the window is about to close. 
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.Window.AddWindowAvailabilityHandlers">
+            <summary>
+            Adds handlers for window availability events.
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Window.RemoveWindowAvailabilityHandlers">
+            <summary>
+            Removes handlers for window availability events.
+            </summary>
+        </member>
+        <member name="M:MagicTactilForWindows.Window.OnWindowInteractive(System.Object,System.EventArgs)">
+            <summary>
+            This is called when the user can interact with the application's window.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.Window.OnWindowNoninteractive(System.Object,System.EventArgs)">
+            <summary>
+            This is called when the user can see but not interact with the application's window.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.Window.OnWindowUnavailable(System.Object,System.EventArgs)">
+            <summary>
+            This is called when the application's window is not visible or interactive.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MagicTactilForWindows.Window.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MagicTactilForWindows.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:MagicTactilForWindows.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:MagicTactilForWindows.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

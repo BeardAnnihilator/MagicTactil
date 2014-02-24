@@ -1,0 +1,47 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:Custom="http://schemas.microsoft.com/surface/2008"
+	mc:Ignorable="d"
+	x:Class="MagicTactilForWindows.UCUserInfo"
+	x:Name="UserControl" Height="445.2" Width="426.8">
+
+	<Grid x:Name="LayoutRoot">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="0.467*"/>
+			<ColumnDefinition Width="0.533*"/>
+		</Grid.ColumnDefinitions>
+		<Grid x:Name="KeyLabels" Margin="8">
+			<Label Content="username :" Height="28" HorizontalAlignment="Left" x:Name="nameKeyLabel" VerticalAlignment="Top" Width="174" Foreground="Black" />
+			<Label Content="email address :" Height="28" HorizontalAlignment="Left" Margin="0,46,0,0" x:Name="mailKeyLabel" VerticalAlignment="Top" Width="174" Foreground="Black" />
+			<Label Content="first name :" Height="28" Margin="0,92,9.316,0" x:Name="firstnameKeyLabel" VerticalAlignment="Top" d:LayoutOverrides="HorizontalAlignment" Foreground="Black" />
+			<Label Content="surname :" Height="28" HorizontalAlignment="Left" Margin="0,138,0,0" x:Name="surnameKeyLabel" VerticalAlignment="Top" Width="174" Foreground="Black" />
+			<Label Content="birthday :" Height="28" HorizontalAlignment="Left" Margin="0,184,0,0" x:Name="birthdayKeyLabel" VerticalAlignment="Top" Width="174" d:LayoutOverrides="VerticalAlignment" Foreground="Black" />
+			<Label Content="location :" Height="28" HorizontalAlignment="Left" Margin="0,230,0,0" x:Name="locationKeyLabel" VerticalAlignment="Top" Width="174" Foreground="Black" />
+			<Label Content="gender :" Height="28" HorizontalAlignment="Left" Margin="0,276,0,0" x:Name="genderKeyLabel" VerticalAlignment="Top" Width="174" Foreground="Black" />
+			<Label Content="phone number :" Height="28" HorizontalAlignment="Left" Margin="0,322,0,0" x:Name="phoneKeyLabel" VerticalAlignment="Top" Width="174" Foreground="Black" />
+		</Grid>
+		<Grid x:Name="ValLabels" Margin="8" Grid.Column="1" d:LayoutOverrides="HorizontalMargin">
+			<Label Content="{Binding name}" Height="28" HorizontalAlignment="Left" x:Name="nameValLabel" VerticalAlignment="Top" Width="174" Foreground="Black" />
+			<TextBlock Text="{Binding mail}" Height="28" Margin="0,46,0,0" x:Name="mailValLabel" VerticalAlignment="Top" HorizontalAlignment="Left" Width="174" Foreground="Black" />
+			<Label Content="{Binding firstName}" Height="28" Margin="0,92,0,0" x:Name="firstnameValLabel" VerticalAlignment="Top" HorizontalAlignment="Left" Width="174" Foreground="Black" />
+			<Label Content="{Binding surName}" Height="28" HorizontalAlignment="Left" Margin="0,138,0,0" x:Name="surnameValLabel" VerticalAlignment="Top" Width="174" Foreground="Black" />
+			<Label Content="{Binding birth}" Height="28" HorizontalAlignment="Left" Margin="0,184,0,0" x:Name="birthdayValLabel" VerticalAlignment="Top" Width="174" d:LayoutOverrides="VerticalAlignment" Foreground="Black" />
+			<Label Content="{Binding location}" Height="28" HorizontalAlignment="Left" Margin="0,230,0,0" x:Name="locationValLabel" VerticalAlignment="Top" Width="174" Foreground="Black" />
+			<Label Content="{Binding gender}" Height="28" HorizontalAlignment="Left" Margin="0,276,0,0" x:Name="genderValLabel" VerticalAlignment="Top" Width="174" Foreground="Black" />
+			<Label Content="{Binding phone}" Height="28" HorizontalAlignment="Left" Margin="0,322,0,0" x:Name="phoneValLabel" VerticalAlignment="Top" Width="174" Foreground="Black" />
+		</Grid>
+		<Grid x:Name="TextBoxes" Margin="8" Grid.Column="1" d:LayoutOverrides="HorizontalMargin" Visibility="Hidden">
+			<Label Content="{Binding name}" Height="38" HorizontalAlignment="Left" Margin="0" x:Name="nameTextBox" VerticalAlignment="Top" Width="174" Foreground="Black" />
+            <Custom:SurfaceTextBox Text="{Binding tmpmail, UpdateSourceTrigger=PropertyChanged}" Height="38" HorizontalAlignment="Left" Margin="0,46,0,0" x:Name="emailTextBox" VerticalAlignment="Top" Width="174" Foreground="#CC000000" />
+            <Custom:SurfaceTextBox Text="{Binding tmpfirstName, UpdateSourceTrigger=PropertyChanged}" Height="38" HorizontalAlignment="Left" Margin="0,92,0,0" x:Name="firstnameTextBox" VerticalAlignment="Top" Width="174" Foreground="#CC000000" />
+            <Custom:SurfaceTextBox Text="{Binding tmpsurName, UpdateSourceTrigger=PropertyChanged}" Height="38" HorizontalAlignment="Left" Margin="0,136,0,0" x:Name="surnameTextBox" VerticalAlignment="Top" Width="174" d:LayoutOverrides="VerticalAlignment" Foreground="#CC000000" />
+            <Custom:SurfaceTextBox Text="{Binding tmpbirth, UpdateSourceTrigger=PropertyChanged}" Height="38" HorizontalAlignment="Left" Margin="0,184,0,0" x:Name="birthdayTextBox" VerticalAlignment="Top" Width="174" Foreground="#CC000000" />
+            <Custom:SurfaceTextBox Text="{Binding tmplocation, UpdateSourceTrigger=PropertyChanged}" Height="38" HorizontalAlignment="Left" Margin="0,230,0,0" x:Name="locationTextBox" VerticalAlignment="Top" Width="174" Foreground="#CC000000" />
+            <Custom:SurfaceTextBox Text="{Binding tmpgender, UpdateSourceTrigger=PropertyChanged}" Height="38" HorizontalAlignment="Left" Margin="0,276,0,0" x:Name="genderTextBox" VerticalAlignment="Top" Width="174" Foreground="#CC000000" />
+            <Custom:SurfaceTextBox Text="{Binding tmpphone, UpdateSourceTrigger=PropertyChanged}" Height="38" HorizontalAlignment="Left" Margin="0,322,0,0" x:Name="phoneTextBox" VerticalAlignment="Top" Width="174" Foreground="#CC000000" />
+		</Grid>
+	</Grid>
+</UserControl>

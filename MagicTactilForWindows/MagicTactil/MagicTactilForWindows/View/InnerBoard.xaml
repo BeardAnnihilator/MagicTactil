@@ -1,0 +1,82 @@
+﻿<UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:View="clr-namespace:MagicTactilForWindows.View"
+             xmlns:VM="clr-namespace:MagicTactilForWindows.ViewModel"
+             xmlns:Custom="http://schemas.microsoft.com/surface/2008"
+             xmlns:MagicTactilForWindows="clr-namespace:MagicTactilForWindows"
+             mc:Ignorable="d" 
+             x:Class="MagicTactilForWindows.View.InnerBoard"
+             d:DesignHeight="300" d:DesignWidth="700">
+
+    <!-- Declaring the specific ressources-->
+    <UserControl.Resources>
+
+        <!-- Templating the view model classes in view classes-->
+
+        <!-- Home-->
+        <DataTemplate DataType="{x:Type VM:VMHome}">
+            <View:Home/>
+        </DataTemplate>
+
+        <!-- Profile-->
+        <DataTemplate DataType="{x:Type VM:VMProfile}">
+            <View:Profile/>
+        </DataTemplate>
+
+        <!-- Create Event-->
+        <DataTemplate DataType="{x:Type VM:VMCreateEvent}">
+            <View:CreateEvent/>
+        </DataTemplate>
+
+        <!-- Modify Event-->
+        <DataTemplate DataType="{x:Type VM:VMModifyEvent}">
+            <View:ModifyEvent/>
+        </DataTemplate>
+
+        <!-- Rooms-->
+        <DataTemplate DataType="{x:Type VM:VMInnerRooms}">
+            <View:InnerRooms/>
+        </DataTemplate>
+
+        <!-- Decks-->
+        <DataTemplate DataType="{x:Type VM:VMInnerDecks}">
+            <View:InnerDecks/>
+        </DataTemplate>
+
+    </UserControl.Resources>
+
+    <!--The actual display content-->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.46*"/>
+            <RowDefinition Height="0.54*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.368*"/>
+            <ColumnDefinition Width="0.632*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="linesblue.jpg"/>
+        </Grid.Background>
+        <!-- Binding the good VM class in the data context class (Switcher)-->
+        <ContentPresenter Content="{Binding ViewModelView.CurrentItem}" DataContext="{Binding ViewModelView.CurrentItem}" Margin="0,67,0,43" Grid.ColumnSpan="2" Grid.RowSpan="2" />
+        <Custom:SurfaceButton x:Name="DisconectButton" Content="{Binding LogOut_label}" Command="{Binding disconnect}" Margin="0,0,8,0" VerticalAlignment="Top" HorizontalAlignment="Right" Background="#FFF60E0E" Foreground="Black" Grid.Column="1" Style="{DynamicResource SurfaceButtonStyle1}" Width="60" d:LayoutOverrides="HorizontalAlignment" Height="60"/>
+        <Custom:SurfaceButton x:Name="ProfileButton" Content="{Binding Profile_label}" Command="{Binding profile}" Margin="90.4,0,0,0" VerticalAlignment="Top" Background="#FF868B86" Foreground="Black" Grid.Column="1" Style="{DynamicResource SurfaceButtonStyle1}" Height="60" HorizontalAlignment="Left" Width="60" />
+        <Custom:SurfaceButton x:Name="HomeButton" Content="{Binding Home_label}" Command="{Binding home}" Margin="74.2,0,0,0" VerticalAlignment="Top" Background="#FF1457FC" Foreground="Black" HorizontalAlignment="Left" Width="60" Style="{DynamicResource SurfaceButtonStyle1}" Height="60" />
+        <Custom:SurfaceButton x:Name="LogoButton" Content="" Command="{Binding home}" HorizontalAlignment="Left" Margin="21.293,12,0,0" VerticalAlignment="Top">
+            <Custom:SurfaceButton.Background>
+                <ImageBrush ImageSource="/MagicTactilForWindows;component/Resources/Logo Magictactil.ico"/>
+            </Custom:SurfaceButton.Background>
+        </Custom:SurfaceButton>
+        <Custom:SurfaceButton Content="{Binding Friends_label}" Margin="0,0,0,1" x:Name="friendButton" Height="38" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="144.1" Click="friendButton_Click" Foreground="Black" Background="#FF301EBE" Grid.Column="1" d:LayoutOverrides="HorizontalAlignment" Grid.Row="1" />
+        <MagicTactilForWindows:UCFriendList DataContext="{Binding Friend}"  Margin="0,67,0,43" HorizontalAlignment="Right" Width="250" x:Name="FriendList" Visibility="Hidden" Grid.RowSpan="2" Grid.Column="1" />
+        <Custom:SurfaceButton Background="#FFCC19E3" Command="{Binding rooms}" Content="{Binding Rooms_label}" Foreground="Black" Margin="174.6,0,0,0" x:Name="RoomButton" VerticalAlignment="Top" HorizontalAlignment="Left" Width="60" Style="{DynamicResource SurfaceButtonStyle1}" Height="60" />
+        <MagicTactilForWindows:UCChatBox Visibility="{Binding ConversationManager.privateChatVisi}" DataContext="{Binding ConversationManager.focus}" Margin="7.6,8,0.4,43" Grid.Row="1" d:LayoutOverrides="VerticalAlignment" />
+
+        <MagicTactilForWindows:UCDiscutions Margin="7.6,0,156.1,0" Grid.Row="1" Height="39" VerticalAlignment="Bottom" Grid.ColumnSpan="2" DataContext="{Binding ConversationManager}"/>
+        <Custom:SurfaceButton Background="#FF26D424" Command="{Binding decks}" Content="Decks" Foreground="Black" Margin="8,0,0,0" x:Name="DecksButton" VerticalAlignment="Top" HorizontalAlignment="Left" Width="60" Grid.Column="1" Style="{DynamicResource SurfaceButtonStyle1}" Height="60" d:LayoutOverrides="VerticalAlignment" />
+        <Custom:SurfaceButton Content="{Binding language}" Command="{Binding translate}" Grid.Column="1" Margin="0,12,92,0" VerticalAlignment="Top" Height="40" HorizontalAlignment="Right" Width="100"/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,64 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:Custom="http://schemas.microsoft.com/surface/2008"
+	mc:Ignorable="d"
+	x:Class="MagicTactilForWindows.UCFriendList"
+	x:Name="UserControl"
+	d:DesignWidth="250" d:DesignHeight="250">
+	<UserControl.Resources>
+
+        <DataTemplate x:Key="ItemTemplate">
+            <Grid Width="230" Height="30" x:Name="friendtemplate">
+            <Custom:SurfaceButton x:Name="deleteFriendButton" Content="SurfaceButton" HorizontalAlignment="Right" Margin="0,8,8,0" Width="10" Height="10" VerticalAlignment="Top" d:LayoutOverrides="HorizontalAlignment" MinWidth="15" MinHeight="15" RenderTransformOrigin="7.64,0.667" Click="deleteFriendButton_Click">
+            	<Custom:SurfaceButton.Background>
+            		<ImageBrush ImageSource="/MagicTactilForWindows;component/Resources/delete.png"/>
+            	</Custom:SurfaceButton.Background>
+            </Custom:SurfaceButton>
+            <TextBlock Text="{Binding}" Foreground="White" FontSize="16" FontFamily="Rockwell"/>
+            </Grid>
+        </DataTemplate>
+
+        <DataTemplate x:Key="SelectedTemplate" >
+            <!--Custom:SurfaceButton  MouseDoubleClick="SurfaceButton_MouseDoubleClick" Width="230" Height="30" OpacityMask="{x:Null}" Background="{x:Null}"-->
+                <Grid Width="230" Height="30" x:Name="friendtemplate">
+                    <Custom:SurfaceButton x:Name="deleteFriendButton" Content="SurfaceButton" HorizontalAlignment="Right" Margin="0,8,8,0" Width="10" Height="10" VerticalAlignment="Top" d:LayoutOverrides="HorizontalAlignment" MinWidth="15" MinHeight="15" RenderTransformOrigin="7.64,0.667" Click="deleteFriendButton_Click">
+                	<Custom:SurfaceButton.Background>
+                		<ImageBrush ImageSource="/MagicTactilForWindows;component/Resources/delete.png"/>
+                	</Custom:SurfaceButton.Background>
+                </Custom:SurfaceButton>
+            	<TextBlock Text="{Binding}" Foreground="Black" FontSize="16" FontFamily="Rockwell"/>
+                </Grid>
+            <!--/Custom:SurfaceButton-->
+            
+        </DataTemplate>
+
+        <Style TargetType="{x:Type ListBoxItem}" x:Key="ContainerStyle">
+            <EventSetter Event="MouseDoubleClick" Handler="ListBoxItem_MouseDoubleClick"/>
+            <Setter Property="ContentTemplate" Value="{StaticResource ItemTemplate}" />
+            <Style.Triggers>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="ContentTemplate" Value="{StaticResource SelectedTemplate}" />
+                </Trigger>
+            </Style.Triggers>
+
+            
+        </Style>
+
+    </UserControl.Resources>
+
+    <Grid x:Name="LayoutRoot" Background="#FF0D37A8"> <!--DataContext="{Binding Friend}"-->
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="0.498*"/>
+			<ColumnDefinition Width="0.25*"/>
+			<ColumnDefinition Width="0.25*"/>
+		</Grid.ColumnDefinitions>
+		<Custom:SurfaceRadioButton Content="Black List" Margin="0" VerticalAlignment="Top" Grid.Column="1" Grid.ColumnSpan="2" Checked="SurfaceRadioButton_Checked" />
+        <Custom:SurfaceRadioButton Content="Friend List" Margin="0" VerticalAlignment="Top" IsChecked="{Binding frORbl}" Checked="SurfaceRadioButton_Checked_1" />
+        <Custom:SurfaceListBox x:Name="friendListBox" ItemsSource="{Binding frORblList}" Margin="0,77.2,0,0" Grid.ColumnSpan="3" ItemContainerStyle="{StaticResource ContainerStyle}" />
+        <Custom:SurfaceTextBox Margin="0,38,0,0" TextWrapping="Wrap" Text="{Binding entry, UpdateSourceTrigger=PropertyChanged}" Height="26.8" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+		<Custom:SurfaceButton Content="+" Grid.Column="2" Command="{Binding friendenter}" Margin="0,38,0,0" VerticalAlignment="Top" Height="39.2" MinWidth="0" MinHeight="0" d:LayoutOverrides="HorizontalAlignment" IsDefault="True" />
+	</Grid>
+</UserControl>

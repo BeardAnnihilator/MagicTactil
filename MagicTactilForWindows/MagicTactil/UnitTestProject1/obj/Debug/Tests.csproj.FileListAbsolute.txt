@@ -1,0 +1,11 @@
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\UnitTestProject1\bin\Debug\MagicTactilForWindows.exe
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\UnitTestProject1\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\UnitTestProject1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\UnitTestProject1\bin\Debug\MagicTactilForWindows.pdb
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\UnitTestProject1\bin\Debug\MagicTactilForWindows.xml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\UnitTestProject1\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\UnitTestProject1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\UnitTestProject1\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

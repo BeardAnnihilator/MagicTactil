@@ -1,0 +1,143 @@
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\bin\Debug\Resources\icon.png
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\bin\Debug\MagicTactilForWindows.xml
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\bin\Debug\MagicTactilForWindows.exe
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\bin\Debug\MagicTactilForWindows.pdb
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\ResolveAssemblyReference.cache
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\View\Window.baml
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\App.baml
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\View\Window.g.cs
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\App.g.cs
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\MagicTactilForWindows_Content.g.cs
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\MagicTactilForWindows_MarkupCompile.cache
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\MagicTactilForWindows.g.resources
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\MagicTactilForWindows.Properties.Resources.resources
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\GenerateResource.read.1.tlog
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\GenerateResource.write.1.tlog
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\MagicTactilForWindows.exe
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\MagicTactilForWindows.pdb
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\MagicTactilForWindows_MarkupCompile.lref
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\View\Home.baml
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\View\LogIn.baml
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\View\Home.g.cs
+c:\users\periph_a\documents\visual studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\View\LogIn.g.cs
+C:\Users\Periph_a\Documents\Visual Studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\View\UCLog.baml
+C:\Users\Periph_a\Documents\Visual Studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\View\UCLog.g.cs
+C:\Users\Periph_a\Documents\Visual Studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\View\UCRButtonLogin.baml
+C:\Users\Periph_a\Documents\Visual Studio 2010\Projects\MagicTactil\MagicTactilForWindows\obj\Debug\View\UCRButtonLogin.g.cs
+C:\Users\Periph_a\Documents\Visual Studio 2010\Projects\MagicTactil\MagicTactilForWindows\bin\Debug\MagicTactilForWindows.exe.config
+C:\Users\io\Desktop\Nouveau dossier\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Debug\MagicTactilForWindows.exe.config
+C:\Users\io\Desktop\Nouveau dossier\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\MagicTactilForWindows.exe
+C:\Users\io\Desktop\Nouveau dossier\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\MagicTactilForWindows.pdb
+C:\Users\io\Desktop\Nouveau dossier\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\io\Desktop\Nouveau dossier\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\App.baml
+C:\Users\io\Desktop\Nouveau dossier\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\LogIn.g.cs
+C:\Users\io\Desktop\Nouveau dossier\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\App.g.cs
+C:\Users\io\Desktop\Nouveau dossier\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\MagicTactilForWindows_Content.g.cs
+C:\Users\io\Desktop\Nouveau dossier\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\io\Desktop\Nouveau dossier\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\MagicTactilForWindows_MarkupCompile.cache
+C:\Users\io\Desktop\Nouveau dossier\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\MagicTactilForWindows_MarkupCompile.lref
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Authentification\UCReconnect.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Decks\Building.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Decks\Decks.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Game\UCHand.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Game\UCLifeCounter.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\Simple Styles.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Rooms\Rooms.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Notification\UCChatBox.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Notification\UCConversation.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Event\UCEventInfo.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Friend\UCFriendList.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Authentification\UCLog.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Authentification\UCRButtonLogin.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Authentification\UCReg.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Profile\UCUserInfo.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\App.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Authentification\UCReconnect.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Decks\Building.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Decks\Decks.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Decks\InnerDecks.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Game\UCBoard.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Game\UCHand.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Game\UCLifeCounter.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Game\Game.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Rooms\CreateRoom.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Rooms\InnerRooms.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Event\ModifyEvent.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Event\CreateEvent.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Event\Home.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\InnerBoard.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Authentification\LogIn.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Profile\Profile.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Rooms\Room.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Rooms\Rooms.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Notification\UCChatBox.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Notification\UCConversation.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Notification\UCDiscutions.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Event\UCEventInfo.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Friend\UCFriendList.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Authentification\UCLog.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Authentification\UCRButtonLogin.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Authentification\UCReg.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Profile\UCUserInfo.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Window.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\App.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\MagicTactilForWindows_Content.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\MagicTactilForWindows_MarkupCompile.cache
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\MagicTactilForWindows_MarkupCompile.lref
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Decks\InnerDecks.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Game\UCBoard.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Game\Game.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Rooms\CreateRoom.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\Dictionary1.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Rooms\InnerRooms.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Event\ModifyEvent.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Event\CreateEvent.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Event\Home.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\InnerBoard.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Authentification\LogIn.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Profile\Profile.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Rooms\Room.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Notification\UCDiscutions.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\View\Window.baml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\MagicTactilForWindows.g.resources
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\MagicTactilForWindows.Properties.Resources.resources
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\MagicTactilForWindows.csproj.GenerateResource.Cache
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\MagicTactilForWindows.exe
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\MagicTactilForWindows.pdb
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\obj\Debug\MagicTactilForWindows.csprojResolveAssemblyReference.cache
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\MagicTactilForWindows.exe.config
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\MagicTactilForWindows.xml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Resources\icon.png
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\View\Decks\texture_game_01.jpg
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\View\Game\caption_401.jpg
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\View\Game\texture_game_01.jpg
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\View\Game\texture_game_03.jpg
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\MagicTactilForWindows.exe
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\MagicTactilForWindows.pdb
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Microsoft.Expression.Controls.dll
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Newtonsoft.Json.dll
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\System.Windows.Interactivity.dll
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Microsoft.Expression.Drawing.dll
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Microsoft.Expression.Controls.xml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Newtonsoft.Json.xml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\System.Windows.Interactivity.xml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Microsoft.Expression.Drawing.xml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Debug\MagicTactilForWindows.exe.config
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Debug\Resources\icon.png
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Debug\MagicTactilForWindows.xml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Debug\View\Decks\texture_game_01.jpg
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Debug\View\Game\caption_401.jpg
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Debug\View\Game\texture_game_01.jpg
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Debug\View\Game\texture_game_03.jpg
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Debug\MagicTactilForWindows.exe
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Debug\MagicTactilForWindows.pdb
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Debug\Microsoft.Expression.Controls.dll
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Debug\Microsoft.Expression.Controls.xml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilForWindows\bin\Debug\Microsoft.Expression.Drawing.xml

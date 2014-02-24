@@ -1,0 +1,49 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:Custom="http://schemas.microsoft.com/surface/2008"
+	mc:Ignorable="d"
+	x:Class="MagicTactilForWindows.UCHand"
+	x:Name="UserControl"
+	d:DesignWidth="667.27" d:DesignHeight="125.28">
+    
+    
+    <UserControl.Resources>
+
+        <!--Data Template for Cards in the Hand-->
+        <DataTemplate x:Key="CardInHandStyle">
+            <StackPanel Height="92" Width="67.2">
+                <Image Source="{Binding path}" />
+            </StackPanel>
+        </DataTemplate>
+
+        <!-- Style for stacking element in the list horizontaly-->
+        <ItemsPanelTemplate x:Key="HorizontalItemPanel">
+        <VirtualizingStackPanel IsItemsHost="True" Orientation="Horizontal"/>
+        </ItemsPanelTemplate>
+
+        <!-- Style of dynamic scatter Item while drag item from the hand-->
+        <Style x:Key="ScatterItemStyle" TargetType="{x:Type Custom:ScatterViewItem}">
+            <Setter Property="Width" Value="91" />
+            <Setter Property="Height" Value="130" />
+            <Setter Property="Background" Value="{x:Null}" />
+            <Setter Property="ContentTemplate">
+                <Setter.Value>
+                    <DataTemplate>
+                        <Image Source="{Binding Bitmap}" />
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
+    </UserControl.Resources>
+
+            <Grid x:Name="LayoutRoot">
+        <!--    	<Grid.Background>
+            <ImageBrush ImageSource="pack://siteoforigin:,,,/View/Game/caption_401.jpg"/>
+            	</Grid.Background> -->
+        <Custom:SurfaceListBox x:Name="HandListBox" PreviewMouseMove="HandListBox_PreviewMouseMove" PreviewMouseLeftButtonDown="HandListBox_PreviewMouseLeftButtonDown" ItemsSource="{Binding Hand}" ItemTemplate="{DynamicResource CardInHandStyle}" ItemsPanel="{DynamicResource HorizontalItemPanel}" AllowDrop="True"/>
+	</Grid>
+</UserControl>

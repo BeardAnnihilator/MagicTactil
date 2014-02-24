@@ -1,0 +1,16 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:Custom="http://schemas.microsoft.com/surface/2008"
+	mc:Ignorable="d"
+	x:Class="MagicTactilForWindows.UCChatBox"
+	x:Name="UserControl"
+	d:DesignWidth="255.87" d:DesignHeight="229.6" >
+
+    <Grid x:Name="LayoutRoot" Visibility="{Binding visib}">
+        <Custom:SurfaceTextBox Margin="0" TextWrapping="Wrap" VerticalAlignment="Bottom" Height="38" Background="White" Foreground="Black" KeyUp="SurfaceTextBox_KeyUp" Name="buffer" BorderBrush="Black" BorderThickness="5" />
+		<Custom:SurfaceTextBox Text="{Binding content}" Margin="0,0,0,42" TextWrapping="Wrap" Background="White" Foreground="Black" IsReadOnly="True" BorderBrush="Black" BorderThickness="5"/>
+	</Grid>
+</UserControl>

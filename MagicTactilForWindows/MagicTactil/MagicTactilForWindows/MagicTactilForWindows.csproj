@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F8CB7527-6DBC-430D-AB91-999F2BE91623}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MagicTactilForWindows</RootNamespace>
+    <AssemblyName>MagicTactilForWindows</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Utf8Output>true</Utf8Output>
+    <ExpressionBlendVersion>4.0.30816.0</ExpressionBlendVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\MagicTactilForWindows.XML</DocumentationFile>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Logo Magictactil.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="Microsoft.Expression.Controls" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.8\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PresentationUI, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="ReachFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="Microsoft.Surface" />
+    <Reference Include="Microsoft.Surface.Presentation" />
+    <Reference Include="Microsoft.Surface.Presentation.Generic" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Properties\DesignTimeResources.xaml" Condition="'$(DesignTime)'=='true' OR ('$(SolutionPath)'!='' AND Exists('$(SolutionPath)') AND '$(BuildingInsideVisualStudio)'!='true' AND '$(BuildingInsideExpressionBlend)'!='true')">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <ContainsDesignTimeResources>true</ContainsDesignTimeResources>
+    </Page>
+    <Page Include="View\Authentification\UCReconnect.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Decks\Building.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Decks\Decks.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Decks\InnerDecks.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Game\UCBoard.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Game\UCHand.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Game\UCLifeCounter.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Simple Styles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Game\Game.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Rooms\CreateRoom.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dictionary1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Rooms\InnerRooms.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Event\ModifyEvent.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Event\CreateEvent.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Event\Home.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\InnerBoard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Authentification\LogIn.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Profile\Profile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Rooms\Room.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Rooms\Rooms.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Notification\UCChatBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Notification\UCConversation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Notification\UCDiscutions.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Event\UCEventInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Friend\UCFriendList.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Authentification\UCLog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Authentification\UCRButtonLogin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Authentification\UCReg.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Profile\UCUserInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Window.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\CardFileClass.cs" />
+    <Compile Include="Model\Network.cs" />
+    <Compile Include="Model\Packet.cs" />
+    <Compile Include="Model\serverReturnEventArgs.cs" />
+    <Compile Include="Utilities\ContactHelper.cs" />
+    <Compile Include="Utilities\DragDropScatterView.cs" />
+    <Compile Include="Utilities\Extenssions.cs" />
+    <Compile Include="Utilities\JsonImporter.cs" />
+    <Compile Include="Utilities\ScrollSurfaceListBox.cs" />
+    <Compile Include="ViewModel\Decks\Deck.cs" />
+    <Compile Include="ViewModel\Decks\VMBuilding.cs" />
+    <Compile Include="ViewModel\Decks\VMDecks.cs" />
+    <Compile Include="ViewModel\Decks\VMInnerDecks.cs" />
+    <Compile Include="ViewModel\Game\VMGame.cs" />
+    <Compile Include="View\Authentification\UCReconnect.xaml.cs">
+      <DependentUpon>UCReconnect.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Decks\Building.xaml.cs">
+      <DependentUpon>Building.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Decks\Decks.xaml.cs">
+      <DependentUpon>Decks.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Decks\InnerDecks.xaml.cs">
+      <DependentUpon>InnerDecks.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Game\UCBoard.xaml.cs">
+      <DependentUpon>UCBoard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Game\UCHand.xaml.cs">
+      <DependentUpon>UCHand.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Game\UCLifeCounter.xaml.cs">
+      <DependentUpon>UCLifeCounter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\ActionCommand.cs" />
+    <Compile Include="Utilities\MoveToEventArgs.cs" />
+    <Compile Include="Utilities\DelegateCommand.cs" />
+    <Compile Include="Utilities\RoomCreatedEventArgs.cs" />
+    <Compile Include="Utilities\Selector.cs" />
+    <Compile Include="Utilities\SelectorLabelConverter.cs" />
+    <Compile Include="Utilities\ShadowScrollBehavior.cs" />
+    <Compile Include="ViewModel\APage.cs" />
+    <Compile Include="ViewModel\Rooms\Room.cs" />
+    <Compile Include="ViewModel\Notification\VMConversationManager.cs" />
+    <Compile Include="ViewModel\Rooms\VMCreateRoom.cs" />
+    <Compile Include="ViewModel\Friend\VMFriend.cs" />
+    <Compile Include="ViewModel\Rooms\VMInnerRooms.cs" />
+    <Compile Include="ViewModel\Event\VMModifyEvent.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="ViewModel\Event\VMCreateEvent.cs" />
+    <Compile Include="ViewModel\Event\VMHome.cs" />
+    <Compile Include="ViewModel\VMInnerBoard.cs" />
+    <Compile Include="ViewModel\Authentification\VMLogIn.cs" />
+    <Compile Include="ViewModel\Switcher.cs" />
+    <Compile Include="ViewModel\Profile\VMProfile.cs" />
+    <Compile Include="ViewModel\Rooms\VMRoom.cs" />
+    <Compile Include="ViewModel\Rooms\VMRooms.cs" />
+    <Compile Include="View\Game\Game.xaml.cs">
+      <DependentUpon>Game.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Rooms\CreateRoom.xaml.cs">
+      <DependentUpon>CreateRoom.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Rooms\InnerRooms.xaml.cs">
+      <DependentUpon>InnerRooms.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Event\ModifyEvent.xaml.cs">
+      <DependentUpon>ModifyEvent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Event\CreateEvent.xaml.cs">
+      <DependentUpon>CreateEvent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Event\Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\InnerBoard.xaml.cs">
+      <DependentUpon>InnerBoard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Authentification\LogIn.xaml.cs">
+      <DependentUpon>LogIn.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Profile\Profile.xaml.cs">
+      <DependentUpon>Profile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Rooms\Room.xaml.cs">
+      <DependentUpon>Room.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Rooms\Rooms.xaml.cs">
+      <DependentUpon>Rooms.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Notification\UCChatBox.xaml.cs">
+      <DependentUpon>UCChatBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Notification\UCConversation.xaml.cs">
+      <DependentUpon>UCConversation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Notification\UCDiscutions.xaml.cs">
+      <DependentUpon>UCDiscutions.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Event\UCEventInfo.xaml.cs">
+      <DependentUpon>UCEventInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Friend\UCFriendList.xaml.cs">
+      <DependentUpon>UCFriendList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Authentification\UCLog.xaml.cs">
+      <DependentUpon>UCLog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Authentification\UCRButtonLogin.xaml.cs">
+      <DependentUpon>UCRButtonLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Authentification\UCReg.xaml.cs">
+      <DependentUpon>UCReg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Profile\UCUserInfo.xaml.cs">
+      <DependentUpon>UCUserInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Window.xaml.cs">
+      <DependentUpon>Window.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Model\cards.json" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="View\Decks\texture_game_01.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="View\Game\caption_401.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="View\Game\texture_game_01.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="View\Game\texture_game_03.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Game\texture_game_04.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\delete.png" />
+    <Resource Include="Resources\red-pattern.jpg" />
+    <Resource Include="Resources\purple-pattern.jpg" />
+    <Resource Include="Logo Magictactil.ico" />
+    <Resource Include="Resources\green-pattern.jpg" />
+    <Content Include="Resources\icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MagicTactilForWindows.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Resources\Logo Magictactil.ico" />
+    <Resource Include="Resources\Logo Magictactil.png" />
+    <Resource Include="Resources\logimage.jpg" />
+    <Resource Include="Resources\refresh.ico" />
+    <Resource Include="Resources\magic_back.jpg" />
+    <Resource Include="View\Authentification\tumblr_m9840wh87G1rohpb2.jpg" />
+    <Resource Include="View\Decks\texture_game.jpg" />
+    <Resource Include="View\Event\11845161-magic-sphere-with-black-and-white-abstract-drawing.jpg" />
+    <Resource Include="View\Game\card back.png" />
+    <Resource Include="View\Game\graveyard.png" />
+    <Resource Include="View\Game\jail.png" />
+    <Resource Include="View\Game\texture_game.jpg" />
+    <Resource Include="View\linesblue.jpg" />
+    <Resource Include="View\Notification\11845161-magic-sphere-with-black-and-white-abstract-drawing.jpg" />
+    <Resource Include="View\Profile\11845161-magic-sphere-with-black-and-white-abstract-drawing.jpg" />
+    <Resource Include="View\tumblr_m9840wh87G1rohpb2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Fonts\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Expression\Blend\.NETFramework\v4.0\Microsoft.Expression.Blend.WPF.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

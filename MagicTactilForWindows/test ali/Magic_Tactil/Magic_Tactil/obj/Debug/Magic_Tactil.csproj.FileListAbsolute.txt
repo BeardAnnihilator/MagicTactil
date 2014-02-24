@@ -1,0 +1,32 @@
+c:\users\jaber_a\documents\visual studio 2010\Projects\Magic_Tactil\Magic_Tactil\Bin\Debug\ApplicationIcon.png
+c:\users\jaber_a\documents\visual studio 2010\Projects\Magic_Tactil\Magic_Tactil\Bin\Debug\Background.png
+c:\users\jaber_a\documents\visual studio 2010\Projects\Magic_Tactil\Magic_Tactil\Bin\Debug\Magic_Tactil.dll
+c:\users\jaber_a\documents\visual studio 2010\Projects\Magic_Tactil\Magic_Tactil\Bin\Debug\Magic_Tactil.pdb
+c:\users\jaber_a\documents\visual studio 2010\Projects\Magic_Tactil\Magic_Tactil\Bin\Debug\Microsoft.Phone.Controls.dll
+c:\users\jaber_a\documents\visual studio 2010\Projects\Magic_Tactil\Magic_Tactil\Bin\Debug\Microsoft.Phone.Controls.xml
+c:\users\jaber_a\documents\visual studio 2010\Projects\Magic_Tactil\Magic_Tactil\obj\Debug\ResolveAssemblyReference.cache
+c:\users\jaber_a\documents\visual studio 2010\Projects\Magic_Tactil\Magic_Tactil\obj\Debug\App.g.i.cs
+c:\users\jaber_a\documents\visual studio 2010\Projects\Magic_Tactil\Magic_Tactil\obj\Debug\MainPage.g.i.cs
+c:\users\jaber_a\documents\visual studio 2010\Projects\Magic_Tactil\Magic_Tactil\obj\Debug\Homepage.g.i.cs
+c:\users\jaber_a\documents\visual studio 2010\Projects\Magic_Tactil\Magic_Tactil\obj\Debug\Magic_Tactil.g.resources
+c:\users\jaber_a\documents\visual studio 2010\Projects\Magic_Tactil\Magic_Tactil\obj\Debug\Magic_Tactil.dll
+c:\users\jaber_a\documents\visual studio 2010\Projects\Magic_Tactil\Magic_Tactil\obj\Debug\Magic_Tactil.pdb
+c:\users\jaber_a\documents\visual studio 2010\Projects\Magic_Tactil\Magic_Tactil\Bin\Debug\AppManifest.xaml
+c:\users\jaber_a\documents\visual studio 2010\Projects\Magic_Tactil\Magic_Tactil\Bin\Debug\Magic_Tactil.xap
+c:\users\jaber_a\documents\visual studio 2010\Projects\Magic_Tactil\Magic_Tactil\obj\Debug\XapCacheFile.xml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\test ali\Magic_Tactil\Magic_Tactil\Bin\Debug\ApplicationIcon.png
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\test ali\Magic_Tactil\Magic_Tactil\Bin\Debug\Background.png
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\test ali\Magic_Tactil\Magic_Tactil\Bin\Debug\Magic_Tactil.dll
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\test ali\Magic_Tactil\Magic_Tactil\Bin\Debug\Magic_Tactil.pdb
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\test ali\Magic_Tactil\Magic_Tactil\Bin\Debug\AppManifest.xaml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\test ali\Magic_Tactil\Magic_Tactil\Bin\Debug\Magic_Tactil.xap
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\test ali\Magic_Tactil\Magic_Tactil\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\test ali\Magic_Tactil\Magic_Tactil\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\test ali\Magic_Tactil\Magic_Tactil\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\test ali\Magic_Tactil\Magic_Tactil\obj\Debug\App.g.i.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\test ali\Magic_Tactil\Magic_Tactil\obj\Debug\MainPage.g.i.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\test ali\Magic_Tactil\Magic_Tactil\obj\Debug\Homepage.g.i.cs
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\test ali\Magic_Tactil\Magic_Tactil\obj\Debug\Magic_Tactil.g.resources
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\test ali\Magic_Tactil\Magic_Tactil\obj\Debug\Magic_Tactil.dll
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\test ali\Magic_Tactil\Magic_Tactil\obj\Debug\Magic_Tactil.pdb
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\test ali\Magic_Tactil\Magic_Tactil\obj\Debug\XapCacheFile.xml

@@ -1,0 +1,31 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:Custom="http://schemas.microsoft.com/surface/2008"
+    xmlns:VM="clr-namespace:MagicTactilForWindows.ViewModel"
+	xmlns:MagicTactilForWindows="clr-namespace:MagicTactilForWindows"
+	mc:Ignorable="d"
+	x:Class="MagicTactilForWindows.View.Home"
+	x:Name="UserControl"
+	d:DesignWidth="640" d:DesignHeight="480">
+
+	<Grid x:Name="LayoutRoot">
+		<Grid.Background>
+			<ImageBrush ImageSource="pack://siteoforigin:,,,/View/Game/texture_game_03.jpg"/>
+		</Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="290*" />
+            <ColumnDefinition Width="350*" />
+        </Grid.ColumnDefinitions>
+        <Custom:SurfaceButton Content="{Binding cr_event_label}" Height="23" Command="{Binding create_event}" Margin="12,12,0,0" x:Name="createEventButton" VerticalAlignment="Top" HorizontalAlignment="Left" Width="141" Foreground="Black" Background="#7F0FAB63" />
+        <Custom:SurfaceListBox ItemsSource="{Binding eventList}" Margin="12,56,0,12" x:Name="eventListBox" SelectionChanged="eventListBox_SelectionChanged" Background="#4C000000" />
+        <Custom:SurfaceButton Command="{Binding refresh_event}" Height="23" Margin="0,12,32.8,0" x:Name="refreshButton" VerticalAlignment="Top" HorizontalAlignment="Right" Width="33.4" >
+        	<Custom:SurfaceButton.Background>
+        		<ImageBrush ImageSource="/MagicTactilForWindows;component/Resources/refresh.ico" Stretch="Uniform" TileMode="Tile"/>
+        	</Custom:SurfaceButton.Background>
+        </Custom:SurfaceButton>
+        <MagicTactilForWindows:UCEventInfo Grid.Column="1" Margin="8,8,8,8" Visibility="Hidden" x:Name="eventInfo" Background="#4C000000" Foreground="Black" />
+    </Grid>
+</UserControl>

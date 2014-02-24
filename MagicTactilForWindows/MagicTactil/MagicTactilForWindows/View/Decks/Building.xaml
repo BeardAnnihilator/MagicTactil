@@ -1,0 +1,40 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:Custom="http://schemas.microsoft.com/surface/2008" x:Class="MagicTactilForWindows.View.Building" 
+             mc:Ignorable="d" d:DesignHeight="400" d:DesignWidth="600">
+    <Grid Margin="0,0,0.6,-0.6">
+    	<Grid.Background>
+    		<ImageBrush ImageSource="texture_game.jpg"/>
+    	</Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="57*"/>
+            <RowDefinition Height="59*"/>
+            <RowDefinition Height="151*"/>
+            <RowDefinition Height="134*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200*"/>
+            <ColumnDefinition Width="200*"/>
+            <ColumnDefinition Width="100*"/>
+            <ColumnDefinition Width="100*"/>
+        </Grid.ColumnDefinitions>
+
+        <Custom:SurfaceListBox x:Name="CollectionListBox" ItemsSource="{Binding Collection}" SelectedItem="{Binding selectedCard}" Margin="10,13,10,10.8"   Grid.Row="2" RenderTransformOrigin="0.667,-0.211" Background="#19000000" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Grid.RowSpan="2"/>
+        <Custom:SurfaceListBox VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" SelectedItem="{Binding selectedCard}" ItemsSource="{Binding Main}" x:Name="MainDeckListBox" Margin="10,10.2,10.2,10.2" Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="2" Background="#19000000" />  
+        <Custom:SurfaceTextBox IsEnabled="{Binding isNew}" x:Name="NameTextBox" Margin="93,10,10,0" TextWrapping="Wrap" Text="{Binding deckName, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Grid.ColumnSpan="3" Height="38" BorderBrush="#33000000" Foreground="White"/>
+        <Image DataContext="{Binding selectedCard}" Source="{Binding Bitmap}" Margin="100,0.2,100,2" RenderTransformOrigin="1.266,0.523"  Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" HorizontalAlignment="Center"/>
+        <!--<Custom:SurfaceButton Command="{Binding toSide}" Content="Add to side -&gt;" Margin="25,0,25,49.8" Grid.Column="1" Grid.Row="3" Height="38" Foreground="White" Background="#7F1FDCE6" HorizontalAlignment="Center" Width="150" VerticalAlignment="Bottom"/>
+        -->
+        <!--<Custom:SurfaceButton Content="&lt;- Remove" Margin="25,0,25,6.8" Grid.Column="1" Grid.Row="3" Height="38" Background="#7FED290F" Foreground="White" HorizontalAlignment="Center" Width="150" VerticalAlignment="Bottom"/>
+        -->
+        <Custom:SurfaceButton Command="{Binding toMain}" Content="Add to main -&gt;" Margin="25,0,25,92.8" Grid.Row="3" Height="38" Background="#7F0FAB63" Foreground="White" HorizontalAlignment="Center" Width="150" VerticalAlignment="Bottom" Grid.Column="1"/>
+        <Custom:SurfaceTextBox x:Name="SearchTextBox" Margin="10,10.2,10,0" TextWrapping="Wrap" Text="{Binding Filter,UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Height="42" Grid.Row="1" BorderBrush="#33000000" Foreground="White"/>
+        <Custom:SurfaceButton Command="{Binding back}" Content="&lt;-" Margin="10,10,0,0" HorizontalAlignment="Left" Width="78" Height="38" VerticalAlignment="Top" Background="#7FDAA118" Foreground="White"/>
+        <Custom:SurfaceButton Command="{Binding save}" Content="Save" Margin="0,10,10.2,0" VerticalAlignment="Top" Grid.Column="3" Height="38" Foreground="White" Background="#7F0FAB63" HorizontalAlignment="Right" Width="79"/>
+        <!--<Custom:SurfaceListBox ItemsSource="{Binding Side}" SelectedItem="{Binding selectedCard}" x:Name="SideDeckListBox" Margin="10,9.8,10.2,10.8" Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="2" Background="#19000000"/>
+-->
+    </Grid>
+</UserControl>

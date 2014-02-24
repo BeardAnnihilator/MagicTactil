@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicTactilForWindows", "MagicTactilForWindows\MagicTactilForWindows.csproj", "{F8CB7527-6DBC-430D-AB91-999F2BE91623}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{FE96DBDD-6E66-46CD-B604-478FBA98B55D}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "MagicTactilUML", "MagicTactilUML\MagicTactilUML.modelproj", "{B62FCAF6-D818-47C1-B312-16390AB91D26}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://mslab.epitech.eu:8080/tfs/eip-2014
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MagicTactilForWindows\\MagicTactilForWindows.csproj
+		SccProjectName1 = MagicTactilForWindows
+		SccLocalPath1 = MagicTactilForWindows
+		SccProjectUniqueName2 = ..\\..\\..\\..\\Desktop\\svn\\WebServiceMagicTactil\\WebServiceMagicTactil\\WebServiceMagicTactil.csproj
+		SccProjectName2 = WebServiceMagicTactil
+		SccLocalPath2 = ..\\..\\..\\..\\Desktop\\svn\\WebServiceMagicTactil\\WebServiceMagicTactil
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8CB7527-6DBC-430D-AB91-999F2BE91623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CB7527-6DBC-430D-AB91-999F2BE91623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CB7527-6DBC-430D-AB91-999F2BE91623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CB7527-6DBC-430D-AB91-999F2BE91623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE96DBDD-6E66-46CD-B604-478FBA98B55D}.Debug|Any CPU.ActiveCfg = Debug
+		{FE96DBDD-6E66-46CD-B604-478FBA98B55D}.Release|Any CPU.ActiveCfg = Release
+		{B62FCAF6-D818-47C1-B312-16390AB91D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B62FCAF6-D818-47C1-B312-16390AB91D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B62FCAF6-D818-47C1-B312-16390AB91D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B62FCAF6-D818-47C1-B312-16390AB91D26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

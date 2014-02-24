@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="06fc5fac-5c32-412c-bfd8-2a610ad37770"
+  name="MagicTactilUML" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <ownedCommentsInternal>
+    <comment
+      Id="427b3791-e43b-4ed6-bb3b-4aeb94ccb18b">
+      <body>Light blue: Window
+Blue : User interface
+Pink : User control</body>
+    </comment>
+    <comment
+      Id="f61f0ab2-8c9f-42e2-ad58-3fa4925fc1aa">
+      <body>Light blue: Switcher (root element of the ViewModel)
+Green : Herited from APage, these classes are directly binded to their equivalant in the View part
+Red : Data Class</body>
+    </comment>
+    <comment
+      Id="2568ba1c-256c-4d5a-b5f1-cc4f7d1e4938">
+      <body>Red: Model
+Orange: Utility classes</body>
+    </comment>
+    <comment
+      Id="cd2032de-03a3-446c-a03d-250696418e33">
+      <body>Blue links represents links between sections</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="b0740596-d04d-4366-ab22-24444ff36081"
+        LastKnownName="View"
+        LastKnownLocation="Package_1402.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="8541b49d-7794-4872-9b55-6a5661d29444"
+        LastKnownName="ViewModel"
+        LastKnownLocation="Package_1412.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e8ddaec2-1316-4f57-86b0-1ca97122fe83"
+        LastKnownName="Model"
+        LastKnownLocation="Package_1432.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="cb5a90fc-e4f5-4b94-af3b-e163706825ac"
+        name="Sequence1"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="48daef9b-3b69-48d4-bea6-9fff8834c071"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="659ca62e-9a11-46ad-b9df-a73d25d74d97"
+                LastKnownName="Network"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="dd51aae2-4efb-4e79-b641-71fca9563d6a"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="358ba304-1b2e-4199-a947-fabbfe545e32"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="f925ec02-c33c-4bfa-b211-6490861eb8b6"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="MagicTactilUML.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="4c1c5aa9-732a-4dff-8a22-6013cfb5ba6e"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="MagicTactilUML.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="70b00988-02a7-4d94-be30-e09a17cfbe21"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="358ba304-1b2e-4199-a947-fabbfe545e32"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="b4605519-78e7-43a2-b766-a89cc83c6e4b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="MagicTactilUML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="659ca62e-9a11-46ad-b9df-a73d25d74d97"
+                LastKnownName="Network"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f925ec02-c33c-4bfa-b211-6490861eb8b6"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="659ca62e-9a11-46ad-b9df-a73d25d74d97"
+                LastKnownName="Network"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="cd1f2ab4-e9c8-4b8b-ab59-9b105603aaba"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="e771e4d0-ebf9-4d1b-aa07-6be79bd2cecf"
+                LastKnownName="ViewModel"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="d03edd65-f615-4f09-a153-72b0937d73d0"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="f3b34fef-1252-4ed7-b03e-7221018bb48e"
+                LastKnownName="Server"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="64802e9f-d34e-4aa2-9b77-3603432174e1"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="ff68f948-714b-41e5-82e0-d91d64f891d9"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="95ab3fc1-24cd-4548-8752-e9d55a7b3d89"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="MagicTactilUML.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="1ff119eb-c434-4ad9-99b8-4e99a6fdef6f"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="ff68f948-714b-41e5-82e0-d91d64f891d9"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="e93c7d7a-669e-42db-8b75-b2a261d268af"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="MagicTactilUML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f3b34fef-1252-4ed7-b03e-7221018bb48e"
+                LastKnownName="Server"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4c1c5aa9-732a-4dff-8a22-6013cfb5ba6e"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="659ca62e-9a11-46ad-b9df-a73d25d74d97"
+                LastKnownName="Network"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="95ab3fc1-24cd-4548-8752-e9d55a7b3d89"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="f3b34fef-1252-4ed7-b03e-7221018bb48e"
+                LastKnownName="Server"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d6c7c52b-c1cc-495b-8030-3073e70a5736"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="e771e4d0-ebf9-4d1b-aa07-6be79bd2cecf"
+                LastKnownName="ViewModel"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="70b00988-02a7-4d94-be30-e09a17cfbe21"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="659ca62e-9a11-46ad-b9df-a73d25d74d97"
+                LastKnownName="Network"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="dd51aae2-4efb-4e79-b641-71fca9563d6a"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="3452cc4a-575e-4fed-a8c1-6bbbc6fadfa1"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="MagicTactilUML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="659ca62e-9a11-46ad-b9df-a73d25d74d97"
+                LastKnownName="Network"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="e9e3b833-6f18-4a44-b2e2-0cf1d6ce721b"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="659ca62e-9a11-46ad-b9df-a73d25d74d97"
+                LastKnownName="Network"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="4a3b9f77-03c5-444c-95e1-0f9de0b7148a"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="f1e3f963-ab21-45ff-9c00-7cb47e04d53f"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="2c5fac3f-4ca9-4dfd-a2ac-4f7e7fbd7204"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="MagicTactilUML.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="4a57931d-7252-48bc-bc5b-37476089084e"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="f1e3f963-ab21-45ff-9c00-7cb47e04d53f"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="2ab597e8-2ff6-46e3-b8bc-7bf98b876e46"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="MagicTactilUML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="659ca62e-9a11-46ad-b9df-a73d25d74d97"
+                LastKnownName="Network"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2c5fac3f-4ca9-4dfd-a2ac-4f7e7fbd7204"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="659ca62e-9a11-46ad-b9df-a73d25d74d97"
+                LastKnownName="Network"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1ff119eb-c434-4ad9-99b8-4e99a6fdef6f"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="f3b34fef-1252-4ed7-b03e-7221018bb48e"
+                LastKnownName="Server"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="64802e9f-d34e-4aa2-9b77-3603432174e1"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="07e91f68-1d7f-4641-a993-93236616a769"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="MagicTactilUML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f3b34fef-1252-4ed7-b03e-7221018bb48e"
+                LastKnownName="Server"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="eccdaf31-3c5e-49a2-b846-72df9b7f9350"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="e771e4d0-ebf9-4d1b-aa07-6be79bd2cecf"
+                LastKnownName="ViewModel"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="3e74f0c0-a744-4290-ab49-e488c966917f"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="540a3e02-92db-4d71-825f-bc0cf87e7726"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="4e30e282-c17e-4770-9cf1-60fdcb2084e1"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="540a3e02-92db-4d71-825f-bc0cf87e7726"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="4c5a84bb-493c-499e-a1b2-42f338563aa8"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="MagicTactilUML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="e771e4d0-ebf9-4d1b-aa07-6be79bd2cecf"
+                LastKnownName="ViewModel"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4a57931d-7252-48bc-bc5b-37476089084e"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="659ca62e-9a11-46ad-b9df-a73d25d74d97"
+                LastKnownName="Network"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4e30e282-c17e-4770-9cf1-60fdcb2084e1"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="e771e4d0-ebf9-4d1b-aa07-6be79bd2cecf"
+                LastKnownName="ViewModel"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="4a3b9f77-03c5-444c-95e1-0f9de0b7148a"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="948006c6-4514-4ee8-9645-fd55e4217d04"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="MagicTactilUML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="659ca62e-9a11-46ad-b9df-a73d25d74d97"
+                LastKnownName="Network"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="3e74f0c0-a744-4290-ab49-e488c966917f"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="840d411e-a6e1-4da4-af11-d58b3f59ae04"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="MagicTactilUML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="e771e4d0-ebf9-4d1b-aa07-6be79bd2cecf"
+                LastKnownName="ViewModel"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="e771e4d0-ebf9-4d1b-aa07-6be79bd2cecf"
+            name="ViewModel"
+            isActor="false"
+            lifelineDisplayName="ViewModel">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="cd1f2ab4-e9c8-4b8b-ab59-9b105603aaba"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="MagicTactilUML.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="d6c7c52b-c1cc-495b-8030-3073e70a5736"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="MagicTactilUML.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="540a3e02-92db-4d71-825f-bc0cf87e7726"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="MagicTactilUML.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="3e74f0c0-a744-4290-ab49-e488c966917f"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="659ca62e-9a11-46ad-b9df-a73d25d74d97"
+            name="Network"
+            isActor="false"
+            lifelineDisplayName="Network">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="358ba304-1b2e-4199-a947-fabbfe545e32"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="MagicTactilUML.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="dd51aae2-4efb-4e79-b641-71fca9563d6a"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="MagicTactilUML.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="f1e3f963-ab21-45ff-9c00-7cb47e04d53f"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="MagicTactilUML.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="4a3b9f77-03c5-444c-95e1-0f9de0b7148a"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="f3b34fef-1252-4ed7-b03e-7221018bb48e"
+            name="Server"
+            isActor="false"
+            lifelineDisplayName="Server">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="ff68f948-714b-41e5-82e0-d91d64f891d9"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="MagicTactilUML.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="64802e9f-d34e-4aa2-9b77-3603432174e1"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="2ba9b11d-2b63-46d2-9366-dc099ceb93f3"
+            name="Calling Method"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="cd1f2ab4-e9c8-4b8b-ab59-9b105603aaba"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f925ec02-c33c-4bfa-b211-6490861eb8b6"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="3b6f0233-3541-4def-b218-9d518646553f"
+            name="Send request to the server"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4c1c5aa9-732a-4dff-8a22-6013cfb5ba6e"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="95ab3fc1-24cd-4548-8752-e9d55a7b3d89"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="533a8b7f-b09a-46a4-a80e-0c85288b67e1"
+            name="void"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="70b00988-02a7-4d94-be30-e09a17cfbe21"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d6c7c52b-c1cc-495b-8030-3073e70a5736"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="34e57072-5920-444d-8e6c-7c4fa0eebf1e"
+            name="Response from the server"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1ff119eb-c434-4ad9-99b8-4e99a6fdef6f"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2c5fac3f-4ca9-4dfd-a2ac-4f7e7fbd7204"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="cb026708-ca26-4e2e-97b5-3b94dc143e81"
+            name="Throw associated event"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4a57931d-7252-48bc-bc5b-37476089084e"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4e30e282-c17e-4770-9cf1-60fdcb2084e1"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="MagicTactilUML.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="b4605519-78e7-43a2-b766-a89cc83c6e4b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="3452cc4a-575e-4fed-a8c1-6bbbc6fadfa1"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="e93c7d7a-669e-42db-8b75-b2a261d268af"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="07e91f68-1d7f-4641-a993-93236616a769"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="2ab597e8-2ff6-46e3-b8bc-7bf98b876e46"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="948006c6-4514-4ee8-9645-fd55e4217d04"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="4c5a84bb-493c-499e-a1b2-42f338563aa8"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="840d411e-a6e1-4da4-af11-d58b3f59ae04"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="a3044487-c062-4be5-afc8-46572982573b"
+        name="Component1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="efc8ef4f-5e33-4773-8253-08671838f348"
+        name="Component2"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

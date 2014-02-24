@@ -1,0 +1,17 @@
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilTests\bin\Debug\MagicTactilForWindows.xml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilTests\bin\Debug\Resources\icon.png
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilTests\bin\Debug\View\Decks\texture_game_01.jpg
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilTests\bin\Debug\View\Game\caption_401.jpg
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilTests\bin\Debug\View\Game\texture_game_01.jpg
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilTests\bin\Debug\View\Game\texture_game_03.jpg
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilTests\bin\Debug\MagicTactilTests.dll
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilTests\bin\Debug\MagicTactilTests.pdb
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilTests\bin\Debug\MagicTactilForWindows.exe
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilTests\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilTests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilTests\bin\Debug\MagicTactilForWindows.pdb
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilTests\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilTests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilTests\obj\Debug\MagicTactilTests.csprojResolveAssemblyReference.cache
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilTests\obj\Debug\MagicTactilTests.dll
+C:\Users\Periph_a\Desktop\svn\MagicTactilForWindows\MagicTactil\MagicTactilTests\obj\Debug\MagicTactilTests.pdb
