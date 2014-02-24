@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp" >
+
+    <EditText
+        android:id="@+id/etSignUpEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textSize="17sp"
+        android:maxLength="256"
+        android:maxLines="1"
+        android:singleLine="true" >
+
+        <requestFocus>
+        </requestFocus>
+    </EditText>
+
+    <EditText
+        android:id="@+id/etSignUpUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="@string/username"
+        android:textSize="17sp"
+        android:inputType="text"
+        android:maxLength="256"
+        android:maxLines="1"
+        android:singleLine="true" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/etSignUpPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textSize="17sp"
+        android:maxLength="12"
+        android:maxLines="1" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/etSignUpCPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="@string/confirm_passsword"
+        android:inputType="textPassword"
+        android:textSize="17sp"
+        android:ellipsize="end"
+        android:maxLength="12" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:text="@string/sign_up"
+        android:textSize="18sp" >
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp" >
+
+    <EditText
+        android:layout_marginTop="70dp"
+        android:id="@+id/etSignInEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/username"
+        android:inputType="textEmailAddress"
+        android:maxLength="256"
+        android:maxLines="1"
+        android:singleLine="true" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/etSignInPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:maxLength="10"
+        android:maxLines="1" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="@string/sign_in"
+        android:textSize="18sp" >
+    </Button>
+
+    <ImageView
+        android:id="@+id/ivFacebookConnect"
+        android:layout_marginTop="50dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/facebook_connect"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:contentDescription="@string/fb_connect" />
+
+</LinearLayout>

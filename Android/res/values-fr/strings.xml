@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application -->
+    <string name="app_name">MagicTactil</string>
+    <string name="app_id">429401827128369</string>
+
+    <!-- Sign in -->
+    <string name="signin_load">Connexion en cours</string>
+    <string name="sign_in">Connexion</string>
+    <string name="signin_ok">Connexion réussi</string>
+    <string name="signin_ko">Echec de la connexion</string>
+
+    <!-- Sign up -->
+    <string name="sign_up">Enregistrement</string>
+    <string name="sign_up_load">Enregistrement en cours</string>
+    <string name="signup_ok">Enregistrement réussi</string>
+    <string name="signup_ko">Echec de l\'enregistrement</string>
+    <string name="confirm_passsword">Confirmer mot de passe</string>
+
+    <!-- Profile -->
+    <string name="profile">Profil</string>
+    <string name="update">Mise a jour</string>
+    <string name="male">Homme</string>
+    <string name="female">Femme</string>
+    <string name="first_name">Prénom</string>
+    <string name="avatar">Avatar</string>
+    <string name="phone">Téléphone</string>
+    <string name="edit_profil">Editer profil</string>
+
+    <!-- Cards -->
+    <string name="cards_loading">Chargement de toutes les cartes du jeu</string>
+    <string name="cards_search">Rechercher une carte</string>
+    
+    <!-- Deck -->
+    <string name="deck">Deck</string>
+    <string name="deck_create">Créer un deck</string>
+    <string name="deck_real">Créer à partir de mes cartes</string>
+    <string name="deck_creation">Création du nouveau deck</string>
+    <string name="deck_create_ok">Deck crée</string>
+    <string name="deck_create_ko">Impossible de créer le deck</string>
+    <string name="deck_add_card">Ajouter une carte</string>
+    <string name="deck_adding_card">Ajout de la carte</string>
+    <string name="deck_adding_card_ok">Carte ajoutée</string>
+    <string name="deck_adding_card_ko">Impossible d\'ajouter la carte</string>
+    <string name="deck_needed">Pour jouer il faut un deck sélectionné</string>
+    <string name="deck_getting_cards">Récupération de la liste des cartes du deck</string>
+
+    <!-- Event -->
+    <string name="events">Evenements</string>
+    <string name="event">Evenement</string>
+    <string name="event_created">Evenement crée</string>
+    <string name="get_events">Récupération des évenements</string>
+    <string name="get_event">Récupération de l\'évenement</string>
+    <string name="sing_up_ev">S\'inscrire</string>
+    <string name="unsubscribe">Se désinscrire</string>
+    <string name="subsribing">Inscription en cours</string>
+    <string name="unsubscribing">Désinscription en cours</string>
+    <string name="subscribe_success">Inscription a l\'evenement réussie</string>
+    <string name="unsubscribe_success">Désinscription de l\'evenement réussie</string>
+    <string name="new_event">Créer un evenement</string>
+    <string name="event_empty">Il n\'y a actuelement aucun évenement en cours. Vous pouvez en créer grace au menu ci dessus.</string>
+
+    <!-- Common -->
+    <string name="delete">Supprimer</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="username">Pseudo</string>
+    <string name="plz_fillin">Veuillez remplir tout les champs</string>
+    <string name="pwd_same">Les mots de passe doivent être identique</string>
+    <string name="fb_connect">Connexion Facebook</string>
+    <string name="name">Nom</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+    <string name="address">Adresse</string>
+    <string name="create">Créer</string>
+    <string name="change_pwd">Changer de mot de passe</string>
+
+    <!-- Friend -->
+    <string name="friends">Amis</string>
+    <string name="friend">Ami</string>
+    <string name="friend_add">Ajouter un ami</string>
+    <string name="friend_adding">Ajout ami en cours</string>
+    <string name="friend_added">Ami ajouté</string>
+    <string name="friend_cant_add">Impossible d\'ajouter cet ami</string>
+    <string name="friend_get">Récupération de la liste d\'amis</string>
+    <string name="friend_deleting">Suppression de l\'ami</string>
+    <string name="friend_deleted">Ami supprimé</string>
+    <string name="friend_cant_delete">Impossible de supprimer l\'ami</string>
+    <string name="friend_empty">Vous n\'avez pour l\'instant aucun ami dans votre liste d\'amis. Vous pouvez en ajouter grace au menu ci dessus.</string>
+
+    <!-- Room -->
+    <string name="room">Room</string>
+    <string name="room_create">Créer une room</string>
+    <string name="room_creating">Création de la room</string>
+    <string name="room_created">Room créée</string>
+    <string name="room_visible">Room visible</string>
+    <string name="room_delete">Supprimer la room</string>
+	<string name="room_deleting">Suppression de la room</string>
+    <string name="room_deleted">Room supprimée</string>
+    <string name="room_join">Rejoindre la room</string>
+    <string name="room_join_ok">Room rejoint</string>
+    <string name="room_joining">Connexion à la room</string>
+    <string name="room_get_players">Récupération de la liste des joueurs</string>
+	<string name="room_players_joined">Joueurs présents dans la room</string>
+    
+    <string-array name="room_format">
+        <item>Standard</item>
+        <item>Moderne</item>
+        <item>Edh</item>
+        <item>Vintage</item>
+        <item>Legacy</item>
+    </string-array>
+
+    <!-- Game -->
+    <string name="end_game">Find de la partie</string>
+    <string name="game_won">Vous avez gagné !</string>
+    <string name="game_lost">Vous avez perdu !</string>
+    <string name="game_loading">Préparation de la partie</string>
+    
+</resources>

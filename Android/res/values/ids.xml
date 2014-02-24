@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item name="ID_ACTION_NEW_EVENT" type="id"/>
+    <item name="ID_ACTION_EDIT_PROFIL" type="id"/>
+    <item name="ID_ACTION_ADD_FRIEND" type="id"/>
+    <item name="ID_ACTION_CREATE_DECK" type="id"/>
+    <item name="ID_ACTION_DECK_ADD_CARD" type="id"/>
+    <item name="ID_ACTION_ROOM_CREATE" type="id"/>
+
+</resources>

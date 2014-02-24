@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <EditText
+            android:id="@+id/etDeckName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="@string/name" >
+        </EditText>
+
+        <CheckBox
+            android:id="@+id/cbDeckReal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deck_real" />
+
+        <Button
+            android:id="@+id/btnDeckCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/deck_create" />
+    </LinearLayout>
+
+</ScrollView>
