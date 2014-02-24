@@ -1,0 +1,16 @@
+1- Ruby
+2- IOS
+3- Android
+4- Surface 2
+5- Card game
+6- Communautaire
+7- Evenementiel
+8- Tablettes
+9- Mobiles
+10- De-Virtualisation
+11- Accessibilite
+12- Grand public
+13- Visibilite
+14- Evolutif
+15- Divertissement
+

@@ -1,0 +1,28 @@
+1. installation de mysql http://dev.mysql.com/downloads/
+	- Full
+2.  aller sur http://dev.mysql.com/downloads/connector/c/
+	- telecharger : mysql-connector-c-noinstall-6.0.2-win32.zip
+	- extraire le contenu dans C:/ (donc vous avez un dossier C:/mysql-connector-c-noinstall-6.0.2-win32)
+3. aller sur http://rubyinstaller.org/downloads
+	- telecharger Ruby 1.9.3-p392 (installer) et DevKit-tdm-32-4.5.2-20111229-1559-sfx.exe
+	- installer Ruby 1.9.3-p392
+	- installer DevKit-tdm-32-4.5.2-20111229-1559-sfx.exe
+		- choisir comme dossier de destination C:/DevKit
+		- utiliser Command prompt with ruby
+			- cd C:/Devkit
+			- ruby dk.rb init
+			- ruby dk.rb review
+			- ruby dk.rb install
+4. Toujours avec le command prompt ruby,
+	- gem install mysql --platform=ruby -- --with-mysql-dir=C:/mysql-connector-c-noinstall-6.0.2-win32
+	- copier la lib C:/mysql-connector-c-noinstall-6.0.2-win32/lib/libmysql.dll dans C:/Ruby193/bin
+
+5. pour que le serveur tourne il faut aussi installer :
+	- gem install activerecord
+	- gem install activerecord-mysql-adapter
+	Et si on est sur du mysql2
+	- gem install mysql2
+	- gem install activerecord-mysql2-adapter
+
+
+Note : sur les vm des TA, il faut utiliser l'adapter mysql, remplacer dans le fichier de conf mysql2 par mysql

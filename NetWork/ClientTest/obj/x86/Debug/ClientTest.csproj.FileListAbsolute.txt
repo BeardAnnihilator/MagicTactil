@@ -1,0 +1,22 @@
+C:\Users\oualid\Documents\Visual Studio 2010\Projects\NetWork\ClientTest\bin\Debug\ClientTest.exe
+C:\Users\oualid\Documents\Visual Studio 2010\Projects\NetWork\ClientTest\bin\Debug\ClientTest.pdb
+C:\Users\oualid\Documents\Visual Studio 2010\Projects\NetWork\ClientTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\oualid\Documents\Visual Studio 2010\Projects\NetWork\ClientTest\obj\x86\Debug\ClientTest.exe
+C:\Users\oualid\Documents\Visual Studio 2010\Projects\NetWork\ClientTest\obj\x86\Debug\ClientTest.pdb
+C:\Users\oualid\Desktop\New folder (2)\NetWork\ClientTest\obj\x86\Debug\ClientTest.exe
+C:\Users\oualid\Desktop\New folder (2)\NetWork\ClientTest\obj\x86\Debug\ClientTest.pdb
+C:\Users\Periph_a\Desktop\svn\NetWork\ClientTest\bin\Debug\ClientTest.exe
+C:\Users\Periph_a\Desktop\svn\NetWork\ClientTest\bin\Debug\ClientTest.pdb
+C:\Users\Periph_a\Desktop\svn\NetWork\ClientTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Periph_a\Desktop\svn\NetWork\ClientTest\obj\x86\Debug\ClientTest.exe
+C:\Users\Periph_a\Desktop\svn\NetWork\ClientTest\obj\x86\Debug\ClientTest.pdb
+C:\Users\Ekhoo\Desktop\magictactil\NetWork\ClientTest\bin\Debug\ClientTest.exe
+C:\Users\Ekhoo\Desktop\magictactil\NetWork\ClientTest\bin\Debug\ClientTest.pdb
+C:\Users\Ekhoo\Desktop\magictactil\NetWork\ClientTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ekhoo\Desktop\magictactil\NetWork\ClientTest\obj\x86\Debug\ClientTest.exe
+C:\Users\Ekhoo\Desktop\magictactil\NetWork\ClientTest\obj\x86\Debug\ClientTest.pdb
+C:\Users\oualid\Desktop\New folder (3)\NetWork\ClientTest\bin\Debug\ClientTest.exe
+C:\Users\oualid\Desktop\New folder (3)\NetWork\ClientTest\bin\Debug\ClientTest.pdb
+C:\Users\oualid\Desktop\New folder (3)\NetWork\ClientTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\oualid\Desktop\New folder (3)\NetWork\ClientTest\obj\x86\Debug\ClientTest.exe
+C:\Users\oualid\Desktop\New folder (3)\NetWork\ClientTest\obj\x86\Debug\ClientTest.pdb

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<users>
+  <user email="mehdi@mehdi.com" username="mehdi" name="farsi" givenname="mehdi" birthday="13/12/1989" location="boulevard auriol" password="qwerty" telephone="s234" gender="male" logstatus="Disconnected" roomstatus="None" id="0"></user>
+  <user email="mickael.pucheu@gmail.com" username="mickael" name="pucheu" givenname="mickael" birthday="18/07/1991" location="beijing" password="coucoulol" telephone="poulet" gender="beijingnoua" logstatus="Disconnected" roomstatus="None" id="0"></user>
+  <user email="toto@mail.com" username="toto" name="crevette" givenname="toto" birthday="13/12/1991" location="London" password="tata" telephone="0777888999" gender="male" logstatus="Disconnected" roomstatus="None" id="0"></user>
+  <user email="toto@mail.com" username="paul" name="crevette" givenname="toto" birthday="13/12/1991" location="London" password="pif" telephone="0777888999" gender="male" logstatus="Disconnected" roomstatus="None" id="0"></user>
+  <user email="toto@mail.com" username="wgg" name="crevette" givenname="toto" birthday="13/12/1991" location="London" password="se" telephone="0777888999" gender="male" logstatus="Disconnected" roomstatus="None" id="0"></user>
+  <user email="" username="paul" name="" givenname="" birthday="" location="" password="he" telephone="" gender="" logstatus="Connected" roomstatus="None" id="0"></user>
+  <user email="" username="Oriane" name="" givenname="" birthday="" location="" password="pouet" telephone="" gender="" logstatus="Disconnected" roomstatus="None" id="0"></user>
+  <user email="you@toto.com" username="pouf" name="" givenname="" birthday="" location="" password="you" telephone="" gender="" logstatus="Disconnected" roomstatus="None" id="0"></user>
+  <user email="toutou@youtou.com" username="tou" name="huhu" givenname="jiji" birthday="12/12/12" location="ban" password="tou" telephone="08423782" gender="boum" logstatus="Connected" roomstatus="None" id="0"></user>
+  <user email="bon@bon.com" username="bon" name="paulo" givenname="le bon" birthday="12/12/1212" location="londres" password="bon" telephone="+44 12 12 12 12 12" gender="femelle" logstatus="Disconnected" roomstatus="None" id="0" idSocket="4"></user>
+  <user email="iufweifuew@wiudhqwi.com" username="bondw" name="" givenname="" birthday="" location="" password="dsds" telephone="" gender="" logstatus="Disconnected" roomstatus="None" id="0"></user>
+  <user email="iufweifuew@wiudhqwi.eu" username="bondwqweqwe" name="" givenname="" birthday="" location="" password="dsds" telephone="" gender="" logstatus="Disconnected" roomstatus="None" id="0"></user>
+  <user email="iufweifuew@wiudhqwi.fr" username="eqweqwe" name="" givenname="" birthday="" location="" password="dsds" telephone="" gender="" logstatus="Disconnected" roomstatus="None" id="0"></user>
+  <user email="iufweifuew@wiudhqwi.ac.uk" username="qweqweqwe" name="" givenname="" birthday="" location="" password="dsds" telephone="" gender="" logstatus="Disconnected" roomstatus="None" id="0"></user>
+  <user email="iufweifuew@wiudhqwi.cn" username="gwthtryuer" name="" givenname="" birthday="" location="" password="dsds" telephone="" gender="" logstatus="Disconnected" roomstatus="None" id="0"></user>
+  <user email="iufweifuew@wiudhqwi.miuiefwer" username="ewrwerwer" name="" givenname="" birthday="" location="" password="dsds" telephone="" gender="" logstatus="Disconnected" roomstatus="None" id="0"></user>
+  <user email="iufweifuew@wiudhqwi.miuiefwer" username="ewrwerwerfefe" name="" givenname="" birthday="" location="" password="dsds" telephone="" gender="" logstatus="Disconnected" roomstatus="None" id="0"></user>
+  <user email="iufweifuew@wiudhqwi.miuiefwer" username="ewrwerwwerwererfefe" name="" givenname="" birthday="" location="" password="dsds" telephone="" gender="" logstatus="Disconnected" roomstatus="None" id="0"></user>
+  <user email="iufweifuew@wiudhqwi.mqweweefwer" username="fwuifhwoeu" name="" givenname="" birthday="" location="" password="dsds" telephone="" gender="" logstatus="Disconnected" roomstatus="None" id="0"></user>
+  <user email="aaaaa@aaaa.it" username="ziobismark" name="a" givenname="b" birthday="31/01/20" location="pisa" password="aaaaaa" telephone="" gender="M" logstatus="Disconnected" roomstatus="None" id="0" idSocket="0"></user>
+  <user email="aaaaa@aaaa.it" username="ziobismar" name="a" givenname="b" birthday="31/01/2010" location="pisa" password="aaaaaa" telephone="" gender="M" logstatus="Disconnected" roomstatus="None" id="0"></user>
+  <user email="toto@huh.com" username="test" name="jean" givenname="le dur" birthday="" location="" password="a" telephone="" gender="" logstatus="Disconnected" roomstatus="None" id="0" idSocket="2"></user>
+  <user email="alex@pop.com" username="alex" name="eqwe" givenname="yiwegfi" birthday="" location="tot" password="erty" telephone="" gender="" logstatus="Disconnected" roomstatus="None" id="0" idSocket="4"></user>
+  <user email="annitza_kiss@yahoo.com" username="ana" name="teleaba" givenname="ana" birthday="04-05-89" location="" password="matymba" telephone="" gender="" logstatus="Disconnected" roomstatus="None" id="0" idSocket="0"></user>
+  <user email="jaber_a@epitech.eu" username="AliJaber" name="" givenname="" birthday="" location="" password="p@ssword" telephone="" gender="" logstatus="Disconnected" roomstatus="None" id="0"></user>
+  <user email="Jid@toto.com" username="Jid" name="" givenname="" birthday="" location="" password="qwerty" telephone="" gender="" logstatus="Disconnected" roomstatus="None" id="0"></user>
+  <user email="o@o.com" username="totop" name="" givenname="" birthday="" location="" password="o" telephone="" gender="" logstatus="Disconnected" roomstatus="None" id="0"></user>
+</users>

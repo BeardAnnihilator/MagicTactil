@@ -1,0 +1,20 @@
+c:\users\io\documents\visual studio 2010\Projects\ClientTest\ClientTest\bin\Debug\ClientTest.exe
+c:\users\io\documents\visual studio 2010\Projects\ClientTest\ClientTest\bin\Debug\ClientTest.pdb
+c:\users\io\documents\visual studio 2010\Projects\ClientTest\ClientTest\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\io\documents\visual studio 2010\Projects\ClientTest\ClientTest\obj\x86\Debug\ClientTest.exe
+c:\users\io\documents\visual studio 2010\Projects\ClientTest\ClientTest\obj\x86\Debug\ClientTest.pdb
+C:\Users\Periph_a\Desktop\svn\ClientTest\ClientTest\ClientTest\obj\x86\Debug\ClientTest.exe
+C:\Users\Periph_a\Desktop\svn\ClientTest\ClientTest\ClientTest\obj\x86\Debug\ClientTest.pdb
+C:\Users\Periph_a\Desktop\svn\ClientTest\ClientTest\ClientTest\bin\Debug\ClientTest.exe
+C:\Users\Periph_a\Desktop\svn\ClientTest\ClientTest\ClientTest\bin\Debug\ClientTest.pdb
+C:\Users\Periph_a\Desktop\svn\ClientTest\ClientTest\ClientTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\oualid\Desktop\New folder (2)\ClientTest\ClientTest\ClientTest\obj\x86\Debug\ClientTest.exe
+C:\Users\oualid\Desktop\New folder (2)\ClientTest\ClientTest\ClientTest\obj\x86\Debug\ClientTest.pdb
+C:\Users\oualid\Desktop\New folder (2)\ClientTest\ClientTest\ClientTest\bin\Debug\ClientTest.exe
+C:\Users\oualid\Desktop\New folder (2)\ClientTest\ClientTest\ClientTest\bin\Debug\ClientTest.pdb
+C:\Users\oualid\Desktop\New folder (2)\ClientTest\ClientTest\ClientTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\oualid\Desktop\New folder (3)\ClientTest\ClientTest\ClientTest\obj\x86\Debug\ClientTest.exe
+C:\Users\oualid\Desktop\New folder (3)\ClientTest\ClientTest\ClientTest\obj\x86\Debug\ClientTest.pdb
+C:\Users\oualid\Desktop\New folder (3)\ClientTest\ClientTest\ClientTest\bin\Debug\ClientTest.exe
+C:\Users\oualid\Desktop\New folder (3)\ClientTest\ClientTest\ClientTest\bin\Debug\ClientTest.pdb
+C:\Users\oualid\Desktop\New folder (3)\ClientTest\ClientTest\ClientTest\obj\x86\Debug\ResolveAssemblyReference.cache
