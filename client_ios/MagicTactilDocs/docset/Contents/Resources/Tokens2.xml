@@ -1,0 +1,1417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AddEvent.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AddEvent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/clickReturn:</TokenIdentifier>
+			<Abstract type="html">Cette méthode est appelé quand l&apos;utilisateur appuie sur le boutton retour</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickReturn:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton retour</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickReturn:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/clickAddIphone:</TokenIdentifier>
+			<Abstract type="html">Cette méthode est appelé quand l&apos;utilisateur appuie sur le boutton ajouter un évènement</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickAddIphone:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton ajouter une évènement</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickAddIphone:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/closeKeyboard:</TokenIdentifier>
+			<Abstract type="html">Ferme le clavier</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)closeKeyboard:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">le textfield</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/closeKeyboard:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/clickDeleteIphone:</TokenIdentifier>
+			<Abstract type="html">Supprime l&apos;évènement</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickDeleteIphone:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton suppression d&apos;évènement</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickDeleteIphone:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/clickSignIn:</TokenIdentifier>
+			<Abstract type="html">Envoie l&apos;inscription à l&apos;évènement</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickSignIn:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton inscription</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickSignIn:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/clickSignOut:</TokenIdentifier>
+			<Abstract type="html">Envoie désinscription de l&apos;évènement</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickSignOut:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">&lt;#sender description#&gt;</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickSignOut:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setNameIphone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *nameIphone</Declaration>
+			
+			
+			<Anchor>//api/name/nameIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/nameIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *nameIphone</Declaration>
+			
+			
+			<Anchor>//api/name/nameIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/nameIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *nameIphone</Declaration>
+			
+			
+			<Anchor>//api/name/nameIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setDescriptionIphone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextView *descriptionIphone</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/descriptionIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextView *descriptionIphone</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/descriptionIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextView *descriptionIphone</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setDateIphone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *dateIphone</Declaration>
+			
+			
+			<Anchor>//api/name/dateIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/dateIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *dateIphone</Declaration>
+			
+			
+			<Anchor>//api/name/dateIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/dateIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *dateIphone</Declaration>
+			
+			
+			<Anchor>//api/name/dateIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setAdressIphone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *adressIphone</Declaration>
+			
+			
+			<Anchor>//api/name/adressIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/adressIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *adressIphone</Declaration>
+			
+			
+			<Anchor>//api/name/adressIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/adressIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *adressIphone</Declaration>
+			
+			
+			<Anchor>//api/name/adressIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setButtonAddIphone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonAddIphone</Declaration>
+			
+			
+			<Anchor>//api/name/buttonAddIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/buttonAddIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonAddIphone</Declaration>
+			
+			
+			<Anchor>//api/name/buttonAddIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/buttonAddIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonAddIphone</Declaration>
+			
+			
+			<Anchor>//api/name/buttonAddIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setButtonDeleteIphone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonDeleteIphone</Declaration>
+			
+			
+			<Anchor>//api/name/buttonDeleteIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/buttonDeleteIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonDeleteIphone</Declaration>
+			
+			
+			<Anchor>//api/name/buttonDeleteIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/buttonDeleteIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonDeleteIphone</Declaration>
+			
+			
+			<Anchor>//api/name/buttonDeleteIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setButtonSigninIphone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSigninIphone</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSigninIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/buttonSigninIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSigninIphone</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSigninIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/buttonSigninIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSigninIphone</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSigninIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setButtonSignOutIphone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSignOutIphone</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSignOutIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/buttonSignOutIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSignOutIphone</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSignOutIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/buttonSignOutIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSignOutIphone</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSignOutIphone</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setNavBarLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *navBarLabel</Declaration>
+			
+			
+			<Anchor>//api/name/navBarLabel</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/navBarLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *navBarLabel</Declaration>
+			
+			
+			<Anchor>//api/name/navBarLabel</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/navBarLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *navBarLabel</Declaration>
+			
+			
+			<Anchor>//api/name/navBarLabel</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setLabelTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelTitle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTitle</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/labelTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelTitle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTitle</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/labelTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelTitle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTitle</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setButtonBack:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonBack</Declaration>
+			
+			
+			<Anchor>//api/name/buttonBack</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/buttonBack</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonBack</Declaration>
+			
+			
+			<Anchor>//api/name/buttonBack</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/buttonBack</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonBack</Declaration>
+			
+			
+			<Anchor>//api/name/buttonBack</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setTitleName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *titleName</Declaration>
+			
+			
+			<Anchor>//api/name/titleName</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/titleName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *titleName</Declaration>
+			
+			
+			<Anchor>//api/name/titleName</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/titleName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *titleName</Declaration>
+			
+			
+			<Anchor>//api/name/titleName</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setTitleDescription:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *titleDescription</Declaration>
+			
+			
+			<Anchor>//api/name/titleDescription</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/titleDescription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *titleDescription</Declaration>
+			
+			
+			<Anchor>//api/name/titleDescription</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/titleDescription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *titleDescription</Declaration>
+			
+			
+			<Anchor>//api/name/titleDescription</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setTitleDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *titleDate</Declaration>
+			
+			
+			<Anchor>//api/name/titleDate</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/titleDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *titleDate</Declaration>
+			
+			
+			<Anchor>//api/name/titleDate</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/titleDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *titleDate</Declaration>
+			
+			
+			<Anchor>//api/name/titleDate</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setTitleAddress:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *titleAddress</Declaration>
+			
+			
+			<Anchor>//api/name/titleAddress</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/titleAddress</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *titleAddress</Declaration>
+			
+			
+			<Anchor>//api/name/titleAddress</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/titleAddress</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *titleAddress</Declaration>
+			
+			
+			<Anchor>//api/name/titleAddress</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setNameIpad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *nameIpad</Declaration>
+			
+			
+			<Anchor>//api/name/nameIpad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/nameIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *nameIpad</Declaration>
+			
+			
+			<Anchor>//api/name/nameIpad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/nameIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *nameIpad</Declaration>
+			
+			
+			<Anchor>//api/name/nameIpad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setDescriptionIpad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextView *descriptionIpad</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionIpad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/descriptionIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextView *descriptionIpad</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionIpad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/descriptionIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextView *descriptionIpad</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionIpad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setDateIpad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *dateIpad</Declaration>
+			
+			
+			<Anchor>//api/name/dateIpad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/dateIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *dateIpad</Declaration>
+			
+			
+			<Anchor>//api/name/dateIpad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/dateIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *dateIpad</Declaration>
+			
+			
+			<Anchor>//api/name/dateIpad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setAddressipad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *addressipad</Declaration>
+			
+			
+			<Anchor>//api/name/addressipad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/addressipad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *addressipad</Declaration>
+			
+			
+			<Anchor>//api/name/addressipad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/addressipad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *addressipad</Declaration>
+			
+			
+			<Anchor>//api/name/addressipad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setButtonAddIpad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonAddIpad</Declaration>
+			
+			
+			<Anchor>//api/name/buttonAddIpad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/buttonAddIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonAddIpad</Declaration>
+			
+			
+			<Anchor>//api/name/buttonAddIpad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/buttonAddIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonAddIpad</Declaration>
+			
+			
+			<Anchor>//api/name/buttonAddIpad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setButtonDeleteIpad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonDeleteIpad</Declaration>
+			
+			
+			<Anchor>//api/name/buttonDeleteIpad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/buttonDeleteIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonDeleteIpad</Declaration>
+			
+			
+			<Anchor>//api/name/buttonDeleteIpad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/buttonDeleteIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonDeleteIpad</Declaration>
+			
+			
+			<Anchor>//api/name/buttonDeleteIpad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setButtonSignUpIpad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSignUpIpad</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSignUpIpad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/buttonSignUpIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSignUpIpad</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSignUpIpad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/buttonSignUpIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSignUpIpad</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSignUpIpad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setButtonSignOutIpad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSignOutIpad</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSignOutIpad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/buttonSignOutIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSignOutIpad</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSignOutIpad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/buttonSignOutIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSignOutIpad</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSignOutIpad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setLabelCreate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelCreate</Declaration>
+			
+			
+			<Anchor>//api/name/labelCreate</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/labelCreate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelCreate</Declaration>
+			
+			
+			<Anchor>//api/name/labelCreate</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/labelCreate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelCreate</Declaration>
+			
+			
+			<Anchor>//api/name/labelCreate</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setLabelName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *labelName</Declaration>
+			
+			
+			<Anchor>//api/name/labelName</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/labelName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *labelName</Declaration>
+			
+			
+			<Anchor>//api/name/labelName</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/labelName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *labelName</Declaration>
+			
+			
+			<Anchor>//api/name/labelName</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setLabelDescription:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *labelDescription</Declaration>
+			
+			
+			<Anchor>//api/name/labelDescription</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/labelDescription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *labelDescription</Declaration>
+			
+			
+			<Anchor>//api/name/labelDescription</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/labelDescription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *labelDescription</Declaration>
+			
+			
+			<Anchor>//api/name/labelDescription</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setLabelDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *labelDate</Declaration>
+			
+			
+			<Anchor>//api/name/labelDate</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/labelDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *labelDate</Declaration>
+			
+			
+			<Anchor>//api/name/labelDate</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/labelDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *labelDate</Declaration>
+			
+			
+			<Anchor>//api/name/labelDate</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/setLabelAddress:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *labelAddress</Declaration>
+			
+			
+			<Anchor>//api/name/labelAddress</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/labelAddress</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *labelAddress</Declaration>
+			
+			
+			<Anchor>//api/name/labelAddress</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddEvent/labelAddress</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *labelAddress</Declaration>
+			
+			
+			<Anchor>//api/name/labelAddress</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/initObjects</TokenIdentifier>
+			<Abstract type="html">Initialise les propriétés</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (void)initObjects</Declaration>
+			
+			
+			<Anchor>//api/name/initObjects</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/translate</TokenIdentifier>
+			<Abstract type="html">Traduit la vue</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (void)translate</Declaration>
+			
+			
+			<Anchor>//api/name/translate</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/checkCreateEvent</TokenIdentifier>
+			<Abstract type="html">Vérifie les champs pour créer un évèvenement</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (void)checkCreateEvent</Declaration>
+			
+			
+			<Anchor>//api/name/checkCreateEvent</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/checkAddEventResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie le retour du serveur de la fonction add event</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (void)checkAddEventResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">notification add event</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkAddEventResponse:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/sendAddEventRequest</TokenIdentifier>
+			<Abstract type="html">Envoie la requette add event au serveur</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (void)sendAddEventRequest</Declaration>
+			
+			
+			<Anchor>//api/name/sendAddEventRequest</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/checkEditEventResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie le retour du serveur de la requette edit event</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (void)checkEditEventResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">edit event notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkEditEventResponse:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/sendEditEventRequest</TokenIdentifier>
+			<Abstract type="html">Envoie la requete edit event au serveur</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (void)sendEditEventRequest</Declaration>
+			
+			
+			<Anchor>//api/name/sendEditEventRequest</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/checkDeleteEventResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie le retour du serveur de la requête delete event</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (void)checkDeleteEventResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">delete event notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkDeleteEventResponse:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/sendDeleteEventRequest</TokenIdentifier>
+			<Abstract type="html">Envoie la requête delete event au serveur</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (void)sendDeleteEventRequest</Declaration>
+			
+			
+			<Anchor>//api/name/sendDeleteEventRequest</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/checkSignInEventResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie le retour du serveur de la requête sign in event</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (void)checkSignInEventResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">sign in event notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkSignInEventResponse:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/sendSignInEventRequest</TokenIdentifier>
+			<Abstract type="html">Envoie la requête sign in event au serveur</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (void)sendSignInEventRequest</Declaration>
+			
+			
+			<Anchor>//api/name/sendSignInEventRequest</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/checkSignOutEventResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie le retour du serveur de la requête sign out event</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (void)checkSignOutEventResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">sign out event notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkSignOutEventResponse:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/sendSignOutEventRequest</TokenIdentifier>
+			<Abstract type="html">Envoie la requête sign out event au serveur</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (void)sendSignOutEventRequest</Declaration>
+			
+			
+			<Anchor>//api/name/sendSignOutEventRequest</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/handle4</TokenIdentifier>
+			<Abstract type="html">Redimmensionne l&apos;écran 4 inch</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (void)handle4</Declaration>
+			
+			
+			<Anchor>//api/name/handle4</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/handle3_5</TokenIdentifier>
+			<Abstract type="html">Redimmensionne l&apos;écran 3.5 inch</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (void)handle3_5</Declaration>
+			
+			
+			<Anchor>//api/name/handle3_5</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/checkFields</TokenIdentifier>
+			<Abstract type="html">Vérifie les champs pour ajouter un évènement</Abstract>
+			<DeclaredIn>AddEvent.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)checkFields</Declaration>
+			
+			<ReturnValue><Abstract type="html">si c&apos;est ok ou ko pour créer un évènement</Abstract></ReturnValue>
+			<Anchor>//api/name/checkFields</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/initWithNibName:bundle:</TokenIdentifier>
+			<Abstract type="html">Initialise la vue</Abstract>
+			<DeclaredIn>AddEvent.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>nibNameOrNil</Name>
+					<Abstract type="html">fichier xib</Abstract>
+				</Parameter><Parameter>
+					<Name>nibBundleOrNil</Name>
+					<Abstract type="html">bundle de l&apos;application</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">retourne la vue</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithNibName:bundle:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/viewDidLoad</TokenIdentifier>
+			<Abstract type="html">Charge la vue</Abstract>
+			<DeclaredIn>AddEvent.m</DeclaredIn>
+			
+			<Declaration>- (void)viewDidLoad</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidLoad</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/viewWillAppear:</TokenIdentifier>
+			<Abstract type="html">Affiche la vue</Abstract>
+			<DeclaredIn>AddEvent.m</DeclaredIn>
+			
+			<Declaration>- (void)viewWillAppear:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">avec ou sans animation</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/viewWillAppear:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/viewWillLayoutSubviews</TokenIdentifier>
+			<Abstract type="html">Redimmensionne la vue</Abstract>
+			<DeclaredIn>AddEvent.m</DeclaredIn>
+			
+			<Declaration>- (void)viewWillLayoutSubviews</Declaration>
+			
+			
+			<Anchor>//api/name/viewWillLayoutSubviews</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddEvent/didReceiveMemoryWarning</TokenIdentifier>
+			<Abstract type="html">Libère la mémoire</Abstract>
+			<DeclaredIn>AddEvent.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveMemoryWarning</Declaration>
+			
+			
+			<Anchor>//api/name/didReceiveMemoryWarning</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

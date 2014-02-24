@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GameBoard.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GameBoard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+            
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/clickDeck:</TokenIdentifier>
+			<Abstract type="html">Pioche une carte</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickDeck:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton card</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickDeck:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/changePoints:</TokenIdentifier>
+			<Abstract type="html">Met à jour les points</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)changePoints:(UIStepper *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">uistepper</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/changePoints:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/clickLoose:</TokenIdentifier>
+			<Abstract type="html">Abandonner la partie</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickLoose:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton abandon</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickLoose:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/setHandZone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIScrollView *handZone</Declaration>
+			
+			
+			<Anchor>//api/name/handZone</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/handZone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIScrollView *handZone</Declaration>
+			
+			
+			<Anchor>//api/name/handZone</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GameBoard/handZone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIScrollView *handZone</Declaration>
+			
+			
+			<Anchor>//api/name/handZone</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/setDeckZone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIView *deckZone</Declaration>
+			
+			
+			<Anchor>//api/name/deckZone</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/deckZone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIView *deckZone</Declaration>
+			
+			
+			<Anchor>//api/name/deckZone</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GameBoard/deckZone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIView *deckZone</Declaration>
+			
+			
+			<Anchor>//api/name/deckZone</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/setGraveyardZone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIView *graveyardZone</Declaration>
+			
+			
+			<Anchor>//api/name/graveyardZone</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/graveyardZone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIView *graveyardZone</Declaration>
+			
+			
+			<Anchor>//api/name/graveyardZone</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GameBoard/graveyardZone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIView *graveyardZone</Declaration>
+			
+			
+			<Anchor>//api/name/graveyardZone</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/setExiledZone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIView *exiledZone</Declaration>
+			
+			
+			<Anchor>//api/name/exiledZone</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/exiledZone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIView *exiledZone</Declaration>
+			
+			
+			<Anchor>//api/name/exiledZone</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GameBoard/exiledZone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIView *exiledZone</Declaration>
+			
+			
+			<Anchor>//api/name/exiledZone</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/setPlayerZone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIScrollView *playerZone</Declaration>
+			
+			
+			<Anchor>//api/name/playerZone</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/playerZone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIScrollView *playerZone</Declaration>
+			
+			
+			<Anchor>//api/name/playerZone</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GameBoard/playerZone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIScrollView *playerZone</Declaration>
+			
+			
+			<Anchor>//api/name/playerZone</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/setOpponentZone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIScrollView *opponentZone</Declaration>
+			
+			
+			<Anchor>//api/name/opponentZone</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/opponentZone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIScrollView *opponentZone</Declaration>
+			
+			
+			<Anchor>//api/name/opponentZone</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GameBoard/opponentZone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIScrollView *opponentZone</Declaration>
+			
+			
+			<Anchor>//api/name/opponentZone</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/setAudioPlayer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) AVAudioPlayer *audioPlayer</Declaration>
+			
+			
+			<Anchor>//api/name/audioPlayer</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/audioPlayer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) AVAudioPlayer *audioPlayer</Declaration>
+			
+			
+			<Anchor>//api/name/audioPlayer</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GameBoard/audioPlayer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) AVAudioPlayer *audioPlayer</Declaration>
+			
+			
+			<Anchor>//api/name/audioPlayer</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/setLabelMyPseudo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelMyPseudo</Declaration>
+			
+			
+			<Anchor>//api/name/labelMyPseudo</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/labelMyPseudo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelMyPseudo</Declaration>
+			
+			
+			<Anchor>//api/name/labelMyPseudo</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GameBoard/labelMyPseudo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelMyPseudo</Declaration>
+			
+			
+			<Anchor>//api/name/labelMyPseudo</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/setLabelOpponent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelOpponent</Declaration>
+			
+			
+			<Anchor>//api/name/labelOpponent</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/labelOpponent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelOpponent</Declaration>
+			
+			
+			<Anchor>//api/name/labelOpponent</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GameBoard/labelOpponent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelOpponent</Declaration>
+			
+			
+			<Anchor>//api/name/labelOpponent</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/setLabelCardsInDeck:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelCardsInDeck</Declaration>
+			
+			
+			<Anchor>//api/name/labelCardsInDeck</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/labelCardsInDeck</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelCardsInDeck</Declaration>
+			
+			
+			<Anchor>//api/name/labelCardsInDeck</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GameBoard/labelCardsInDeck</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelCardsInDeck</Declaration>
+			
+			
+			<Anchor>//api/name/labelCardsInDeck</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/setLabelCardsInGraveyard:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelCardsInGraveyard</Declaration>
+			
+			
+			<Anchor>//api/name/labelCardsInGraveyard</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/labelCardsInGraveyard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelCardsInGraveyard</Declaration>
+			
+			
+			<Anchor>//api/name/labelCardsInGraveyard</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GameBoard/labelCardsInGraveyard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelCardsInGraveyard</Declaration>
+			
+			
+			<Anchor>//api/name/labelCardsInGraveyard</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/setLabelCardsInExiled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelCardsInExiled</Declaration>
+			
+			
+			<Anchor>//api/name/labelCardsInExiled</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/labelCardsInExiled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelCardsInExiled</Declaration>
+			
+			
+			<Anchor>//api/name/labelCardsInExiled</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GameBoard/labelCardsInExiled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelCardsInExiled</Declaration>
+			
+			
+			<Anchor>//api/name/labelCardsInExiled</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/setLabelPoints:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelPoints</Declaration>
+			
+			
+			<Anchor>//api/name/labelPoints</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/labelPoints</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelPoints</Declaration>
+			
+			
+			<Anchor>//api/name/labelPoints</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GameBoard/labelPoints</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelPoints</Declaration>
+			
+			
+			<Anchor>//api/name/labelPoints</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/setLabelPointsOpponent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelPointsOpponent</Declaration>
+			
+			
+			<Anchor>//api/name/labelPointsOpponent</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/labelPointsOpponent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelPointsOpponent</Declaration>
+			
+			
+			<Anchor>//api/name/labelPointsOpponent</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GameBoard/labelPointsOpponent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelPointsOpponent</Declaration>
+			
+			
+			<Anchor>//api/name/labelPointsOpponent</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/setPlayerLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *playerLabel</Declaration>
+			
+			
+			<Anchor>//api/name/playerLabel</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/playerLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *playerLabel</Declaration>
+			
+			
+			<Anchor>//api/name/playerLabel</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GameBoard/playerLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *playerLabel</Declaration>
+			
+			
+			<Anchor>//api/name/playerLabel</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/setOpponentLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *opponentLabel</Declaration>
+			
+			
+			<Anchor>//api/name/opponentLabel</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/opponentLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *opponentLabel</Declaration>
+			
+			
+			<Anchor>//api/name/opponentLabel</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GameBoard/opponentLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *opponentLabel</Declaration>
+			
+			
+			<Anchor>//api/name/opponentLabel</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/setHandLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *handLabel</Declaration>
+			
+			
+			<Anchor>//api/name/handLabel</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/handLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *handLabel</Declaration>
+			
+			
+			<Anchor>//api/name/handLabel</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GameBoard/handLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *handLabel</Declaration>
+			
+			
+			<Anchor>//api/name/handLabel</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/setExiledLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *exiledLabel</Declaration>
+			
+			
+			<Anchor>//api/name/exiledLabel</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/exiledLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *exiledLabel</Declaration>
+			
+			
+			<Anchor>//api/name/exiledLabel</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GameBoard/exiledLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *exiledLabel</Declaration>
+			
+			
+			<Anchor>//api/name/exiledLabel</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/setGraveyardLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *graveyardLabel</Declaration>
+			
+			
+			<Anchor>//api/name/graveyardLabel</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/graveyardLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *graveyardLabel</Declaration>
+			
+			
+			<Anchor>//api/name/graveyardLabel</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GameBoard/graveyardLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *graveyardLabel</Declaration>
+			
+			
+			<Anchor>//api/name/graveyardLabel</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/setDeckLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *deckLabel</Declaration>
+			
+			
+			<Anchor>//api/name/deckLabel</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/deckLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *deckLabel</Declaration>
+			
+			
+			<Anchor>//api/name/deckLabel</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GameBoard/deckLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *deckLabel</Declaration>
+			
+			
+			<Anchor>//api/name/deckLabel</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/initObjects</TokenIdentifier>
+			<Abstract type="html">Initialise les objets</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)initObjects</Declaration>
+			
+			
+			<Anchor>//api/name/initObjects</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/translate</TokenIdentifier>
+			<Abstract type="html">Traduit la vue</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)translate</Declaration>
+			
+			
+			<Anchor>//api/name/translate</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/initHand</TokenIdentifier>
+			<Abstract type="html">Initialise la main de jeu</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)initHand</Declaration>
+			
+			
+			<Anchor>//api/name/initHand</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/initPlayersNames</TokenIdentifier>
+			<Abstract type="html">initialise les joueurs</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)initPlayersNames</Declaration>
+			
+			
+			<Anchor>//api/name/initPlayersNames</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/initCountersCards</TokenIdentifier>
+			<Abstract type="html">Initialise les compteur de points</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)initCountersCards</Declaration>
+			
+			
+			<Anchor>//api/name/initCountersCards</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/checkIntersection:withEvent:</TokenIdentifier>
+			<Abstract type="html">Gère l&apos;intersection des zone de drag and drop</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)checkIntersection:(ButtonCard *)sender withEvent:(UIEvent *)event</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">drag</Abstract>
+				</Parameter><Parameter>
+					<Name>event</Name>
+					<Abstract type="html">drop</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkIntersection:withEvent:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/handleIntersection:withEvent:</TokenIdentifier>
+			<Abstract type="html">Gère les intersections</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)handleIntersection:(ButtonCard *)sender withEvent:(UIEvent *)event</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">drag</Abstract>
+				</Parameter><Parameter>
+					<Name>event</Name>
+					<Abstract type="html">drop</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/handleIntersection:withEvent:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/handleIntersectionHand:withEvent:</TokenIdentifier>
+			<Abstract type="html">Gère l&apos;intersection avec la main</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)handleIntersectionHand:(ButtonCard *)sender withEvent:(UIEvent *)event</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">drag</Abstract>
+				</Parameter><Parameter>
+					<Name>event</Name>
+					<Abstract type="html">drop</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/handleIntersectionHand:withEvent:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/handleIntersectionGraveyard:withEvent:</TokenIdentifier>
+			<Abstract type="html">Gère l&apos;intersection avec le cimetiere</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)handleIntersectionGraveyard:(ButtonCard *)sender withEvent:(UIEvent *)event</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">drag</Abstract>
+				</Parameter><Parameter>
+					<Name>event</Name>
+					<Abstract type="html">drop</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/handleIntersectionGraveyard:withEvent:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/handleIntersectionExiled:withEvent:</TokenIdentifier>
+			<Abstract type="html">Gère l&apos;intersection avec l&apos;exil</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)handleIntersectionExiled:(ButtonCard *)sender withEvent:(UIEvent *)event</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">drag</Abstract>
+				</Parameter><Parameter>
+					<Name>event</Name>
+					<Abstract type="html">drop</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/handleIntersectionExiled:withEvent:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/handleIntersectionGame:withEvent:</TokenIdentifier>
+			<Abstract type="html">Gère l&apos;intersection avec le jeu</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)handleIntersectionGame:(ButtonCard *)sender withEvent:(UIEvent *)event</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">drag</Abstract>
+				</Parameter><Parameter>
+					<Name>event</Name>
+					<Abstract type="html">drop</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/handleIntersectionGame:withEvent:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/handleIntersectionDeck:withEvent:</TokenIdentifier>
+			<Abstract type="html">Gère l&apos;intersection avec le deck</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)handleIntersectionDeck:(ButtonCard *)sender withEvent:(UIEvent *)event</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">drag</Abstract>
+				</Parameter><Parameter>
+					<Name>event</Name>
+					<Abstract type="html">drop</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/handleIntersectionDeck:withEvent:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/handleIntersectionNill:withEvent:</TokenIdentifier>
+			<Abstract type="html">Gère l&apos;intersection avec une zone interdite</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)handleIntersectionNill:(ButtonCard *)sender withEvent:(UIEvent *)event</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">drag</Abstract>
+				</Parameter><Parameter>
+					<Name>event</Name>
+					<Abstract type="html">drop</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/handleIntersectionNill:withEvent:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/handleLongTap:</TokenIdentifier>
+			<Abstract type="html">Affiche les details de la carte</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)handleLongTap:(UIGestureRecognizer *)gesture</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>gesture</Name>
+					<Abstract type="html">zoom</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/handleLongTap:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/initAudioPlayer</TokenIdentifier>
+			<Abstract type="html">Initialise la musique</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)initAudioPlayer</Declaration>
+			
+			
+			<Anchor>//api/name/initAudioPlayer</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/sendMoveCard:</TokenIdentifier>
+			<Abstract type="html">Envoie la requête move card au serveur lors du déplacement d&apos;une carte</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)sendMoveCard:(NSString *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">la requête</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendMoveCard:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/checkMoveCard:</TokenIdentifier>
+			<Abstract type="html">Détecte le mouvement d&apos;une carte de l&apos;adversaire</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)checkMoveCard:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">move card notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkMoveCard:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/getCurrentCardOpponent:</TokenIdentifier>
+			<Abstract type="html">Récupère la carte courrante de l&apos;adversaire pour le déplacement</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)getCurrentCardOpponent:(NSString *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">requête</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getCurrentCardOpponent:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/getCurrentCardOpponentOnTap:</TokenIdentifier>
+			<Abstract type="html">Récupère la carte courrante de l&apos;adversaire pour le switch</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)getCurrentCardOpponentOnTap:(NSString *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">requête</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getCurrentCardOpponentOnTap:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/handleCurrentCard</TokenIdentifier>
+			<Abstract type="html">Gère la carte de l&apos;adversaire</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)handleCurrentCard</Declaration>
+			
+			
+			<Anchor>//api/name/handleCurrentCard</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/sendTapHorizontalCard:</TokenIdentifier>
+			<Abstract type="html">Envoie le switch de la carte</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)sendTapHorizontalCard:(NSString *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">requête</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendTapHorizontalCard:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/checkTapHorizontalCard:</TokenIdentifier>
+			<Abstract type="html">Vérifie le switch de la carte</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)checkTapHorizontalCard:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">switch card notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkTapHorizontalCard:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/sendTapVerticalCard:</TokenIdentifier>
+			<Abstract type="html">Envoie switch de la carte</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)sendTapVerticalCard:(NSString *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">requête</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendTapVerticalCard:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/checkTapVerticalCard:</TokenIdentifier>
+			<Abstract type="html">Vérifie le switch de la carte</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)checkTapVerticalCard:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">switch cart notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkTapVerticalCard:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/sendUpdatePoints:</TokenIdentifier>
+			<Abstract type="html">Met à jour les points</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)sendUpdatePoints:(NSString *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">nombre de points</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendUpdatePoints:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/checkupdatePoints:</TokenIdentifier>
+			<Abstract type="html">Vérifie la mise à jour des points</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)checkupdatePoints:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">update health points notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkupdatePoints:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/sendLoose:</TokenIdentifier>
+			<Abstract type="html">Envoie abandon de la partie</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)sendLoose:(NSString *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">requête</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendLoose:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/checkLoose:</TokenIdentifier>
+			<Abstract type="html">Vérifie l&apos;abandon de la partie</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)checkLoose:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">loose notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkLoose:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/cleanGameBoard</TokenIdentifier>
+			<Abstract type="html">Nettoie le plateau de jeu</Abstract>
+			<DeclaredIn>GameBoard.h</DeclaredIn>
+			
+			<Declaration>- (void)cleanGameBoard</Declaration>
+			
+			
+			<Anchor>//api/name/cleanGameBoard</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/initWithNibName:bundle:</TokenIdentifier>
+			<Abstract type="html">Initialise la vue</Abstract>
+			<DeclaredIn>GameBoard.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>nibNameOrNil</Name>
+					<Abstract type="html">fichier xib</Abstract>
+				</Parameter><Parameter>
+					<Name>nibBundleOrNil</Name>
+					<Abstract type="html">bundle de l&apos;application</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">retourne la vue</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithNibName:bundle:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/viewDidLoad</TokenIdentifier>
+			<Abstract type="html">Charge la vue</Abstract>
+			<DeclaredIn>GameBoard.m</DeclaredIn>
+			
+			<Declaration>- (void)viewDidLoad</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidLoad</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/viewWillAppear:</TokenIdentifier>
+			<Abstract type="html">Affiche la vue</Abstract>
+			<DeclaredIn>GameBoard.m</DeclaredIn>
+			
+			<Declaration>- (void)viewWillAppear:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">avec ou sans animation</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/viewWillAppear:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/supportedInterfaceOrientations</TokenIdentifier>
+			<Abstract type="html">Défini les orientations supportées</Abstract>
+			<DeclaredIn>GameBoard.m</DeclaredIn>
+			
+			<Declaration>- (NSInteger)supportedInterfaceOrientations</Declaration>
+			
+			<ReturnValue><Abstract type="html">Enum de l&apos;orientation</Abstract></ReturnValue>
+			<Anchor>//api/name/supportedInterfaceOrientations</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/buttonCardTouchUp:withEvent:</TokenIdentifier>
+			<Abstract type="html">Envoie le switch de la carte</Abstract>
+			<DeclaredIn>GameBoard.m</DeclaredIn>
+			
+			<Declaration>- (IBAction)buttonCardTouchUp:(ButtonCard *)sender withEvent:(UIEvent *)event</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">drag</Abstract>
+				</Parameter><Parameter>
+					<Name>event</Name>
+					<Abstract type="html">drop</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/buttonCardTouchUp:withEvent:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/buttonCardMoved:withEvent:</TokenIdentifier>
+			<Abstract type="html">Déplace la carte</Abstract>
+			<DeclaredIn>GameBoard.m</DeclaredIn>
+			
+			<Declaration>- (IBAction)buttonCardMoved:(ButtonCard *)sender withEvent:(UIEvent *)event</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">drag</Abstract>
+				</Parameter><Parameter>
+					<Name>event</Name>
+					<Abstract type="html">drop</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/buttonCardMoved:withEvent:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GameBoard/didReceiveMemoryWarning</TokenIdentifier>
+			<Abstract type="html">Libère la mémoire</Abstract>
+			<DeclaredIn>GameBoard.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveMemoryWarning</Declaration>
+			
+			
+			<Anchor>//api/name/didReceiveMemoryWarning</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

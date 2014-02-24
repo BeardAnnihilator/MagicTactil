@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/Game.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/Game</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Game.h</DeclaredIn>
+            
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Game/clickCreateRoom:</TokenIdentifier>
+			<Abstract type="html">Cette méthode est appelé quand l&apos;utilisateur appuis sur le boutton créer une room</Abstract>
+			<DeclaredIn>Game.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickCreateRoom:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">le boutton créer une room</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickCreateRoom:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Game/clickJoinRoom:</TokenIdentifier>
+			<Abstract type="html">Cette méthode est appelé quand l&apos;utilisateur appuis sur le boutton rejoindre une room</Abstract>
+			<DeclaredIn>Game.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickJoinRoom:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">le boutton rejoindre une room</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickJoinRoom:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Game/clickDeck:</TokenIdentifier>
+			<Abstract type="html">Cette méthode est appelé quand l&apos;utilisateur appuis sur le boutton Deck</Abstract>
+			<DeclaredIn>Game.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickDeck:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">le boutton Deck</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickDeck:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Game/setLabelGame:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Game.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelGame</Declaration>
+			
+			
+			<Anchor>//api/name/labelGame</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Game/labelGame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Game.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelGame</Declaration>
+			
+			
+			<Anchor>//api/name/labelGame</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Game/labelGame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Game.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelGame</Declaration>
+			
+			
+			<Anchor>//api/name/labelGame</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Game/setButtonCreateGame:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Game.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonCreateGame</Declaration>
+			
+			
+			<Anchor>//api/name/buttonCreateGame</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Game/buttonCreateGame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Game.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonCreateGame</Declaration>
+			
+			
+			<Anchor>//api/name/buttonCreateGame</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Game/buttonCreateGame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Game.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonCreateGame</Declaration>
+			
+			
+			<Anchor>//api/name/buttonCreateGame</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Game/setButtonJoinGame:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Game.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonJoinGame</Declaration>
+			
+			
+			<Anchor>//api/name/buttonJoinGame</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Game/buttonJoinGame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Game.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonJoinGame</Declaration>
+			
+			
+			<Anchor>//api/name/buttonJoinGame</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Game/buttonJoinGame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Game.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonJoinGame</Declaration>
+			
+			
+			<Anchor>//api/name/buttonJoinGame</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Game/setButtonDeck:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Game.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonDeck</Declaration>
+			
+			
+			<Anchor>//api/name/buttonDeck</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Game/buttonDeck</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Game.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonDeck</Declaration>
+			
+			
+			<Anchor>//api/name/buttonDeck</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Game/buttonDeck</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Game.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonDeck</Declaration>
+			
+			
+			<Anchor>//api/name/buttonDeck</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Game/initObjects</TokenIdentifier>
+			<Abstract type="html">Initialise les propriétés</Abstract>
+			<DeclaredIn>Game.h</DeclaredIn>
+			
+			<Declaration>- (void)initObjects</Declaration>
+			
+			
+			<Anchor>//api/name/initObjects</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Game/translate</TokenIdentifier>
+			<Abstract type="html">Traduit la vue</Abstract>
+			<DeclaredIn>Game.h</DeclaredIn>
+			
+			<Declaration>- (void)translate</Declaration>
+			
+			
+			<Anchor>//api/name/translate</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Game/initWithNibName:bundle:</TokenIdentifier>
+			<Abstract type="html">Initialise la vue</Abstract>
+			<DeclaredIn>Game.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>nibNameOrNil</Name>
+					<Abstract type="html">fichier xib</Abstract>
+				</Parameter><Parameter>
+					<Name>nibBundleOrNil</Name>
+					<Abstract type="html">bundle de l&apos;application</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">la vue</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithNibName:bundle:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Game/viewDidLoad</TokenIdentifier>
+			<Abstract type="html">Charge la vue</Abstract>
+			<DeclaredIn>Game.m</DeclaredIn>
+			
+			<Declaration>- (void)viewDidLoad</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidLoad</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Game/didReceiveMemoryWarning</TokenIdentifier>
+			<Abstract type="html">Libère la mémoire</Abstract>
+			<DeclaredIn>Game.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveMemoryWarning</Declaration>
+			
+			
+			<Anchor>//api/name/didReceiveMemoryWarning</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

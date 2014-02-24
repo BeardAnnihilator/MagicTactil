@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DetailFriend.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DetailFriend</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+            
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/clickReturn:</TokenIdentifier>
+			<Abstract type="html">Retourne à la vue précédente</Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickReturn:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton retour</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickReturn:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/clickDelete:</TokenIdentifier>
+			<Abstract type="html">Supprime un ami</Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickDelete:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton supprimer</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickDelete:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/clickSendMessage:</TokenIdentifier>
+			<Abstract type="html">Envoie un message privée</Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickSendMessage:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton send</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickSendMessage:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/closeKeyboard:</TokenIdentifier>
+			<Abstract type="html">Ferme le clavier</Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)closeKeyboard:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">textfield</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/closeKeyboard:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/beginEditing:</TokenIdentifier>
+			<Abstract type="html">Call back de début d&apos;edition de message privée</Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)beginEditing:(UITextField *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">textfield</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/beginEditing:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/setPseudo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *pseudo</Declaration>
+			
+			
+			<Anchor>//api/name/pseudo</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/pseudo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *pseudo</Declaration>
+			
+			
+			<Anchor>//api/name/pseudo</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DetailFriend/pseudo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *pseudo</Declaration>
+			
+			
+			<Anchor>//api/name/pseudo</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/setPseudoIpad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *pseudoIpad</Declaration>
+			
+			
+			<Anchor>//api/name/pseudoIpad</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/pseudoIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *pseudoIpad</Declaration>
+			
+			
+			<Anchor>//api/name/pseudoIpad</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DetailFriend/pseudoIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *pseudoIpad</Declaration>
+			
+			
+			<Anchor>//api/name/pseudoIpad</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/setChatArea:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextView *chatArea</Declaration>
+			
+			
+			<Anchor>//api/name/chatArea</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/chatArea</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextView *chatArea</Declaration>
+			
+			
+			<Anchor>//api/name/chatArea</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DetailFriend/chatArea</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextView *chatArea</Declaration>
+			
+			
+			<Anchor>//api/name/chatArea</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/setMessageArea:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *messageArea</Declaration>
+			
+			
+			<Anchor>//api/name/messageArea</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/messageArea</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *messageArea</Declaration>
+			
+			
+			<Anchor>//api/name/messageArea</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DetailFriend/messageArea</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *messageArea</Declaration>
+			
+			
+			<Anchor>//api/name/messageArea</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/setButtonDelete:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonDelete</Declaration>
+			
+			
+			<Anchor>//api/name/buttonDelete</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/buttonDelete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonDelete</Declaration>
+			
+			
+			<Anchor>//api/name/buttonDelete</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DetailFriend/buttonDelete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonDelete</Declaration>
+			
+			
+			<Anchor>//api/name/buttonDelete</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/setButtonSend:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSend</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSend</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/buttonSend</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSend</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSend</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DetailFriend/buttonSend</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSend</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSend</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/initObjects</TokenIdentifier>
+			<Abstract type="html">Initialise les propriétés</Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>- (void)initObjects</Declaration>
+			
+			
+			<Anchor>//api/name/initObjects</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/translate</TokenIdentifier>
+			<Abstract type="html">Traduit la vue</Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>- (void)translate</Declaration>
+			
+			
+			<Anchor>//api/name/translate</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/sendDeleteFriend</TokenIdentifier>
+			<Abstract type="html">Supprime un ami</Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>- (void)sendDeleteFriend</Declaration>
+			
+			
+			<Anchor>//api/name/sendDeleteFriend</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/checkDeleteFriendResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie le retour du serveur de la requête delete friend</Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>- (void)checkDeleteFriendResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">delete friend notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkDeleteFriendResponse:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/sendPrivateMessageRoom</TokenIdentifier>
+			<Abstract type="html">Envoie un message privée</Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>- (void)sendPrivateMessageRoom</Declaration>
+			
+			
+			<Anchor>//api/name/sendPrivateMessageRoom</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/checkReceiveMessage:</TokenIdentifier>
+			<Abstract type="html">Vérifie le reception d&apos;un message</Abstract>
+			<DeclaredIn>DetailFriend.h</DeclaredIn>
+			
+			<Declaration>- (void)checkReceiveMessage:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">check private message notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkReceiveMessage:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/initWithNibName:bundle:</TokenIdentifier>
+			<Abstract type="html">Initialise la vue</Abstract>
+			<DeclaredIn>DetailFriend.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>nibNameOrNil</Name>
+					<Abstract type="html">fichier xib</Abstract>
+				</Parameter><Parameter>
+					<Name>nibBundleOrNil</Name>
+					<Abstract type="html">bundle de l&apos;application</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">retourne la vue</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithNibName:bundle:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/viewDidLoad</TokenIdentifier>
+			<Abstract type="html">Charge la vue</Abstract>
+			<DeclaredIn>DetailFriend.m</DeclaredIn>
+			
+			<Declaration>- (void)viewDidLoad</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidLoad</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/didReceiveMemoryWarning</TokenIdentifier>
+			<Abstract type="html">Libère la mémoire</Abstract>
+			<DeclaredIn>DetailFriend.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveMemoryWarning</Declaration>
+			
+			
+			<Anchor>//api/name/didReceiveMemoryWarning</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DetailFriend/viewWillAppear:</TokenIdentifier>
+			<Abstract type="html">Affiche la vue</Abstract>
+			<DeclaredIn>DetailFriend.m</DeclaredIn>
+			
+			<Declaration>- (void)viewWillAppear:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">avec ou sans animation</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/viewWillAppear:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

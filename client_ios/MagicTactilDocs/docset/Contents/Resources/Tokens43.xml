@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="43"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/setButtonStateIphone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonStateIphone</Declaration>
+			
+			
+			<Anchor>//api/name/buttonStateIphone</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/buttonStateIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonStateIphone</Declaration>
+			
+			
+			<Anchor>//api/name/buttonStateIphone</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewController/buttonStateIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonStateIphone</Declaration>
+			
+			
+			<Anchor>//api/name/buttonStateIphone</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/setNavBarLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *navBarLabel</Declaration>
+			
+			
+			<Anchor>//api/name/navBarLabel</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/navBarLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *navBarLabel</Declaration>
+			
+			
+			<Anchor>//api/name/navBarLabel</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewController/navBarLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *navBarLabel</Declaration>
+			
+			
+			<Anchor>//api/name/navBarLabel</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/setLabelTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelTitle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTitle</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/labelTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelTitle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTitle</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewController/labelTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelTitle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTitle</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/setButtonSignUp:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSignUp</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSignUp</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/buttonSignUp</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSignUp</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSignUp</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewController/buttonSignUp</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSignUp</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSignUp</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/setButtonSignIn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSignIn</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSignIn</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/buttonSignIn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSignIn</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSignIn</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewController/buttonSignIn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSignIn</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSignIn</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/setLabelState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *labelState</Declaration>
+			
+			
+			<Anchor>//api/name/labelState</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/labelState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *labelState</Declaration>
+			
+			
+			<Anchor>//api/name/labelState</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewController/labelState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *labelState</Declaration>
+			
+			
+			<Anchor>//api/name/labelState</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/setButtonStateIpad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonStateIpad</Declaration>
+			
+			
+			<Anchor>//api/name/buttonStateIpad</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/buttonStateIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonStateIpad</Declaration>
+			
+			
+			<Anchor>//api/name/buttonStateIpad</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewController/buttonStateIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonStateIpad</Declaration>
+			
+			
+			<Anchor>//api/name/buttonStateIpad</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/setLabelHome:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelHome</Declaration>
+			
+			
+			<Anchor>//api/name/labelHome</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/labelHome</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelHome</Declaration>
+			
+			
+			<Anchor>//api/name/labelHome</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewController/labelHome</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelHome</Declaration>
+			
+			
+			<Anchor>//api/name/labelHome</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/setBouttonInscription:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonInscription</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonInscription</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/bouttonInscription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonInscription</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonInscription</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewController/bouttonInscription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonInscription</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonInscription</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/setBouttonConnexion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonConnexion</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonConnexion</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/bouttonConnexion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonConnexion</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonConnexion</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewController/bouttonConnexion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonConnexion</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonConnexion</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/clickSignUpIphone:</TokenIdentifier>
+			<Abstract type="html">Cette méthode est appelé quand l&apos;utilisateur appuis sur le boutton d&apos;inscription iPhone</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickSignUpIphone:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">le boutton d&apos;inscription iPhone</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickSignUpIphone:</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/clickSignInIphone:</TokenIdentifier>
+			<Abstract type="html">Cette méthode est appelé quand l&apos;utilisateur appuis sur le boutton de connexion iPhone</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickSignInIphone:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">le boutton de connexion iPhone</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickSignInIphone:</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/clickSignUpIpad:</TokenIdentifier>
+			<Abstract type="html">Cette méthode est appelé quand l&apos;utilisateur appuis sur le boutton d&apos;inscription iPad</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickSignUpIpad:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">le boutton d&apos;inscription iPad</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickSignUpIpad:</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/clickSignInIpad:</TokenIdentifier>
+			<Abstract type="html">Cette méthode est appelé quand l&apos;utilisateur appuis sur le boutton de connexion iPad</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickSignInIpad:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">le boutton de connexion iPad</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickSignInIpad:</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/setTabBarItemColor</TokenIdentifier>
+			<Abstract type="html">Initialise les onglets en fonction de l&apos;état de la connexion</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)setTabBarItemColor</Declaration>
+			
+			
+			<Anchor>//api/name/setTabBarItemColor</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/initObjects</TokenIdentifier>
+			<Abstract type="html">Initialises les propriétés</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)initObjects</Declaration>
+			
+			
+			<Anchor>//api/name/initObjects</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/updateLabelAuthentificationIphone</TokenIdentifier>
+			<Abstract type="html">Met à jour les informations de la vue (les onglets, le status)</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)updateLabelAuthentificationIphone</Declaration>
+			
+			
+			<Anchor>//api/name/updateLabelAuthentificationIphone</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/handle3_5</TokenIdentifier>
+			<Abstract type="html">Redimmensionne les vues en fonction du device (3.5 inch)</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)handle3_5</Declaration>
+			
+			
+			<Anchor>//api/name/handle3_5</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/handle4</TokenIdentifier>
+			<Abstract type="html">Redimmensionne les vues en fonction du device (4 inch)</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)handle4</Declaration>
+			
+			
+			<Anchor>//api/name/handle4</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/translate</TokenIdentifier>
+			<Abstract type="html">Traduit la vue</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>- (void)translate</Declaration>
+			
+			
+			<Anchor>//api/name/translate</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/viewDidLoad</TokenIdentifier>
+			<Abstract type="html">Charge la vue</Abstract>
+			<DeclaredIn>ViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)viewDidLoad</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidLoad</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/viewWillAppear:</TokenIdentifier>
+			<Abstract type="html">Affiche la vue</Abstract>
+			<DeclaredIn>ViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)viewWillAppear:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">Affichage avec animation</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/viewWillAppear:</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/viewWillLayoutSubviews</TokenIdentifier>
+			<Abstract type="html">Redimmensionne la vue</Abstract>
+			<DeclaredIn>ViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)viewWillLayoutSubviews</Declaration>
+			
+			
+			<Anchor>//api/name/viewWillLayoutSubviews</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/didReceiveMemoryWarning</TokenIdentifier>
+			<Abstract type="html">Libère de la mémoire</Abstract>
+			<DeclaredIn>ViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveMemoryWarning</Declaration>
+			
+			
+			<Anchor>//api/name/didReceiveMemoryWarning</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSData+GIF.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSData(GIF)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSData+GIF.h</DeclaredIn>
+            
+			
+			<NodeRef refid="46"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/sd_isGIF</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSData+GIF.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)sd_isGIF</Declaration>
+			
+			
+			<Anchor>//api/name/sd_isGIF</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

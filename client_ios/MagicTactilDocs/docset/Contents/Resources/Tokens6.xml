@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CardObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CardObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+            
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/setIdCard:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *idCard</Declaration>
+			
+			
+			<Anchor>//api/name/idCard</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/idCard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *idCard</Declaration>
+			
+			
+			<Anchor>//api/name/idCard</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CardObject/idCard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *idCard</Declaration>
+			
+			
+			<Anchor>//api/name/idCard</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CardObject/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/setColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/color</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CardObject/color</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/setManacost:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *manacost</Declaration>
+			
+			
+			<Anchor>//api/name/manacost</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/manacost</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *manacost</Declaration>
+			
+			
+			<Anchor>//api/name/manacost</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CardObject/manacost</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *manacost</Declaration>
+			
+			
+			<Anchor>//api/name/manacost</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/setTypeCard:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *typeCard</Declaration>
+			
+			
+			<Anchor>//api/name/typeCard</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/typeCard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *typeCard</Declaration>
+			
+			
+			<Anchor>//api/name/typeCard</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CardObject/typeCard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *typeCard</Declaration>
+			
+			
+			<Anchor>//api/name/typeCard</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/setPt:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *pt</Declaration>
+			
+			
+			<Anchor>//api/name/pt</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/pt</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *pt</Declaration>
+			
+			
+			<Anchor>//api/name/pt</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CardObject/pt</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *pt</Declaration>
+			
+			
+			<Anchor>//api/name/pt</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/setTableRow:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *tableRow</Declaration>
+			
+			
+			<Anchor>//api/name/tableRow</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/tableRow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *tableRow</Declaration>
+			
+			
+			<Anchor>//api/name/tableRow</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CardObject/tableRow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *tableRow</Declaration>
+			
+			
+			<Anchor>//api/name/tableRow</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/setText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/text</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CardObject/text</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/setNbCard:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *nbCard</Declaration>
+			
+			
+			<Anchor>//api/name/nbCard</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/nbCard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *nbCard</Declaration>
+			
+			
+			<Anchor>//api/name/nbCard</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CardObject/nbCard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *nbCard</Declaration>
+			
+			
+			<Anchor>//api/name/nbCard</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/setIsSided:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *isSided</Declaration>
+			
+			
+			<Anchor>//api/name/isSided</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/isSided</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *isSided</Declaration>
+			
+			
+			<Anchor>//api/name/isSided</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CardObject/isSided</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *isSided</Declaration>
+			
+			
+			<Anchor>//api/name/isSided</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/setUrl:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/url</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CardObject/url</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/setIdGame:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *idGame</Declaration>
+			
+			
+			<Anchor>//api/name/idGame</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CardObject/idGame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *idGame</Declaration>
+			
+			
+			<Anchor>//api/name/idGame</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CardObject/idGame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CardObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *idGame</Declaration>
+			
+			
+			<Anchor>//api/name/idGame</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

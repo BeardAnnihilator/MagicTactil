@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/Deck.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/Deck</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/clickAddDeck:</TokenIdentifier>
+			<Abstract type="html">Ajouter une deck</Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickAddDeck:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton ajouter un deck</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickAddDeck:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/clickReturn:</TokenIdentifier>
+			<Abstract type="html">Retourne à la vue précédente</Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickReturn:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton retour</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickReturn:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/closeKeyboard:</TokenIdentifier>
+			<Abstract type="html">Ferme le clavier</Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)closeKeyboard:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">textfield</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/closeKeyboard:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/setCollectionView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UICollectionView *collectionView</Declaration>
+			
+			
+			<Anchor>//api/name/collectionView</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/collectionView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UICollectionView *collectionView</Declaration>
+			
+			
+			<Anchor>//api/name/collectionView</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Deck/collectionView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UICollectionView *collectionView</Declaration>
+			
+			
+			<Anchor>//api/name/collectionView</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/setRealState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UISegmentedControl *realState</Declaration>
+			
+			
+			<Anchor>//api/name/realState</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/realState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UISegmentedControl *realState</Declaration>
+			
+			
+			<Anchor>//api/name/realState</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Deck/realState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UISegmentedControl *realState</Declaration>
+			
+			
+			<Anchor>//api/name/realState</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/setDeckNameArea:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *deckNameArea</Declaration>
+			
+			
+			<Anchor>//api/name/deckNameArea</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/deckNameArea</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *deckNameArea</Declaration>
+			
+			
+			<Anchor>//api/name/deckNameArea</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Deck/deckNameArea</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *deckNameArea</Declaration>
+			
+			
+			<Anchor>//api/name/deckNameArea</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/setButtonAdd:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonAdd</Declaration>
+			
+			
+			<Anchor>//api/name/buttonAdd</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/buttonAdd</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonAdd</Declaration>
+			
+			
+			<Anchor>//api/name/buttonAdd</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Deck/buttonAdd</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonAdd</Declaration>
+			
+			
+			<Anchor>//api/name/buttonAdd</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/initObjects</TokenIdentifier>
+			<Abstract type="html">Initialise les propriétés</Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>- (void)initObjects</Declaration>
+			
+			
+			<Anchor>//api/name/initObjects</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/translate</TokenIdentifier>
+			<Abstract type="html">Traduit la vue</Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>- (void)translate</Declaration>
+			
+			
+			<Anchor>//api/name/translate</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/sendGetAllDecks</TokenIdentifier>
+			<Abstract type="html">Récupère les deck de l&apos;utilisateur</Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>- (void)sendGetAllDecks</Declaration>
+			
+			
+			<Anchor>//api/name/sendGetAllDecks</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/checkGetAllDecksResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie le retour du serveur de la requête get all deck</Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>- (void)checkGetAllDecksResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">get all deck notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkGetAllDecksResponse:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/sendAddDeck</TokenIdentifier>
+			<Abstract type="html">Ajouter un deck</Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>- (void)sendAddDeck</Declaration>
+			
+			
+			<Anchor>//api/name/sendAddDeck</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/checkAddDeckResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie le retour du serveur de la requête add deck</Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>- (void)checkAddDeckResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">add deck notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkAddDeckResponse:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/storeAllDecks:</TokenIdentifier>
+			<Abstract type="html">Sauvegarde tous les decks</Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>- (void)storeAllDecks:(NSString *)list</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>list</Name>
+					<Abstract type="html">liste de tous les decks</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/storeAllDecks:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/storeDetailsDeck:</TokenIdentifier>
+			<Abstract type="html">Sauvegarde les détails du deck</Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>- (void)storeDetailsDeck:(NSString *)list</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>list</Name>
+					<Abstract type="html">liste du deck</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/storeDetailsDeck:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/sendGetDetailsDeck</TokenIdentifier>
+			<Abstract type="html">Récupère les détails du deck</Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>- (void)sendGetDetailsDeck</Declaration>
+			
+			
+			<Anchor>//api/name/sendGetDetailsDeck</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/checkGetDetailsDeckResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie le retour du serveur de la requête get details deck</Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>- (void)checkGetDetailsDeckResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">get details deck notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkGetDetailsDeckResponse:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/loadCards</TokenIdentifier>
+			<Abstract type="html">Charge en mémoire le catalogue</Abstract>
+			<DeclaredIn>Deck.h</DeclaredIn>
+			
+			<Declaration>- (void)loadCards</Declaration>
+			
+			
+			<Anchor>//api/name/loadCards</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/initWithNibName:bundle:</TokenIdentifier>
+			<Abstract type="html">Initialise la vue</Abstract>
+			<DeclaredIn>Deck.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>nibNameOrNil</Name>
+					<Abstract type="html">fichier xib</Abstract>
+				</Parameter><Parameter>
+					<Name>nibBundleOrNil</Name>
+					<Abstract type="html">bundle de l&apos;application</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">retourne la vue</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithNibName:bundle:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/viewDidLoad</TokenIdentifier>
+			<Abstract type="html">Charge la vue</Abstract>
+			<DeclaredIn>Deck.m</DeclaredIn>
+			
+			<Declaration>- (void)viewDidLoad</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidLoad</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/viewWillAppear:</TokenIdentifier>
+			<Abstract type="html">Affiche la vue</Abstract>
+			<DeclaredIn>Deck.m</DeclaredIn>
+			
+			<Declaration>- (void)viewWillAppear:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">&lt;#animated description#&gt;</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/viewWillAppear:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/didReceiveMemoryWarning</TokenIdentifier>
+			<Abstract type="html">Libère la mémoire</Abstract>
+			<DeclaredIn>Deck.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveMemoryWarning</Declaration>
+			
+			
+			<Anchor>//api/name/didReceiveMemoryWarning</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/collectionView:numberOfItemsInSection:</TokenIdentifier>
+			<Abstract type="html">Défini le nombre d&apos;items par section</Abstract>
+			<DeclaredIn>Deck.m</DeclaredIn>
+			
+			<Declaration>- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>collectionView</Name>
+					<Abstract type="html">collectionView</Abstract>
+				</Parameter><Parameter>
+					<Name>section</Name>
+					<Abstract type="html">la section</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">le nombre d&apos;items</Abstract></ReturnValue>
+			<Anchor>//api/name/collectionView:numberOfItemsInSection:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/numberOfSectionsInCollectionView:</TokenIdentifier>
+			<Abstract type="html">Défini le nombre de section de la collection</Abstract>
+			<DeclaredIn>Deck.m</DeclaredIn>
+			
+			<Declaration>- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>collectionView</Name>
+					<Abstract type="html">collectionView</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">retourne le nombre de sections</Abstract></ReturnValue>
+			<Anchor>//api/name/numberOfSectionsInCollectionView:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/collectionView:cellForItemAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">Défini la cellule</Abstract>
+			<DeclaredIn>Deck.m</DeclaredIn>
+			
+			<Declaration>- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>collectionView</Name>
+					<Abstract type="html">collectionView</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">l&apos;index</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">retourne la cellule</Abstract></ReturnValue>
+			<Anchor>//api/name/collectionView:cellForItemAtIndexPath:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Deck/collectionView:didHighlightItemAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">Sélectionne la cellule</Abstract>
+			<DeclaredIn>Deck.m</DeclaredIn>
+			
+			<Declaration>- (void)collectionView:(UICollectionView *)collectionView didHighlightItemAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>collectionView</Name>
+					<Abstract type="html">collectionView</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">l&apos;index</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/collectionView:didHighlightItemAtIndexPath:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

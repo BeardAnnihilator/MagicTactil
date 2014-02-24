@@ -1,0 +1,1542 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>JDStatusBarNotification Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">MagicTactil </a></h1>
+				<a id="developerHome" href="../index.html">Magictactil</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">JDStatusBarNotification Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/activeStyle">&nbsp;&nbsp;&nbsp;&nbsp;activeStyle</option>
+	
+	<option value="//api/name/defaultStyle">&nbsp;&nbsp;&nbsp;&nbsp;defaultStyle</option>
+	
+	<option value="//api/name/dismissTimer">&nbsp;&nbsp;&nbsp;&nbsp;dismissTimer</option>
+	
+	<option value="//api/name/overlayWindow">&nbsp;&nbsp;&nbsp;&nbsp;overlayWindow</option>
+	
+	<option value="//api/name/progress">&nbsp;&nbsp;&nbsp;&nbsp;progress</option>
+	
+	<option value="//api/name/progressView">&nbsp;&nbsp;&nbsp;&nbsp;progressView</option>
+	
+	<option value="//api/name/topBar">&nbsp;&nbsp;&nbsp;&nbsp;topBar</option>
+	
+	<option value="//api/name/userStyles">&nbsp;&nbsp;&nbsp;&nbsp;userStyles</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/addStyleNamed:prepare:">&nbsp;&nbsp;&nbsp;&nbsp;+ addStyleNamed:prepare:</option>
+	
+	<option value="//api/name/dismiss">&nbsp;&nbsp;&nbsp;&nbsp;+ dismiss</option>
+	
+	<option value="//api/name/dismissAfter:">&nbsp;&nbsp;&nbsp;&nbsp;+ dismissAfter:</option>
+	
+	<option value="//api/name/dismissAnimated:">&nbsp;&nbsp;&nbsp;&nbsp;+ dismissAnimated:</option>
+	
+	<option value="//api/name/isVisible">&nbsp;&nbsp;&nbsp;&nbsp;+ isVisible</option>
+	
+	<option value="//api/name/setDefaultStyle:">&nbsp;&nbsp;&nbsp;&nbsp;+ setDefaultStyle:</option>
+	
+	<option value="//api/name/sharedInstance">&nbsp;&nbsp;&nbsp;&nbsp;+ sharedInstance</option>
+	
+	<option value="//api/name/showActivityIndicator:indicatorStyle:">&nbsp;&nbsp;&nbsp;&nbsp;+ showActivityIndicator:indicatorStyle:</option>
+	
+	<option value="//api/name/showProgress:">&nbsp;&nbsp;&nbsp;&nbsp;+ showProgress:</option>
+	
+	<option value="//api/name/showWithStatus:">&nbsp;&nbsp;&nbsp;&nbsp;+ showWithStatus:</option>
+	
+	<option value="//api/name/showWithStatus:dismissAfter:">&nbsp;&nbsp;&nbsp;&nbsp;+ showWithStatus:dismissAfter:</option>
+	
+	<option value="//api/name/showWithStatus:dismissAfter:styleName:">&nbsp;&nbsp;&nbsp;&nbsp;+ showWithStatus:dismissAfter:styleName:</option>
+	
+	<option value="//api/name/showWithStatus:styleName:">&nbsp;&nbsp;&nbsp;&nbsp;+ showWithStatus:styleName:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/animateInWithBounceAnimation">&nbsp;&nbsp;&nbsp;&nbsp;- animateInWithBounceAnimation</option>
+	
+	<option value="//api/name/animationDidStop:finished:">&nbsp;&nbsp;&nbsp;&nbsp;- animationDidStop:finished:</option>
+	
+	<option value="//api/name/dealloc">&nbsp;&nbsp;&nbsp;&nbsp;- dealloc</option>
+	
+	<option value="//api/name/dismiss:">&nbsp;&nbsp;&nbsp;&nbsp;- dismiss:</option>
+	
+	<option value="//api/name/init">&nbsp;&nbsp;&nbsp;&nbsp;- init</option>
+	
+	<option value="//api/name/overlayWindow">&nbsp;&nbsp;&nbsp;&nbsp;- overlayWindow</option>
+	
+	<option value="//api/name/progressView">&nbsp;&nbsp;&nbsp;&nbsp;- progressView</option>
+	
+	<option value="//api/name/setDismissTimerWithInterval:">&nbsp;&nbsp;&nbsp;&nbsp;- setDismissTimerWithInterval:</option>
+	
+	<option value="//api/name/setProgress:">&nbsp;&nbsp;&nbsp;&nbsp;- setProgress:</option>
+	
+	<option value="//api/name/setupDefaultStyles">&nbsp;&nbsp;&nbsp;&nbsp;- setupDefaultStyles</option>
+	
+	<option value="//api/name/showWithStatus:style:">&nbsp;&nbsp;&nbsp;&nbsp;- showWithStatus:style:</option>
+	
+	<option value="//api/name/topBar">&nbsp;&nbsp;&nbsp;&nbsp;- topBar</option>
+	
+	<option value="//api/name/updateTopBarFrameWithStatusBarFrame:">&nbsp;&nbsp;&nbsp;&nbsp;- updateTopBarFrameWithStatusBarFrame:</option>
+	
+	<option value="//api/name/updateWindowTransform">&nbsp;&nbsp;&nbsp;&nbsp;- updateWindowTransform</option>
+	
+	<option value="//api/name/willChangeStatusBarFrame:">&nbsp;&nbsp;&nbsp;&nbsp;- willChangeStatusBarFrame:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Extension Methods">Extension Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/activeStyle">activeStyle</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/defaultStyle">defaultStyle</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dismissTimer">dismissTimer</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/overlayWindow">overlayWindow</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/progress">progress</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/progressView">progressView</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/topBar">topBar</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/userStyles">userStyles</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addStyleNamed:prepare:">addStyleNamed:prepare:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dismiss">dismiss</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dismissAfter:">dismissAfter:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dismissAnimated:">dismissAnimated:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isVisible">isVisible</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setDefaultStyle:">setDefaultStyle:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sharedInstance">sharedInstance</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/showActivityIndicator:indicatorStyle:">showActivityIndicator:indicatorStyle:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/showProgress:">showProgress:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/showWithStatus:">showWithStatus:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/showWithStatus:dismissAfter:">showWithStatus:dismissAfter:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/showWithStatus:dismissAfter:styleName:">showWithStatus:dismissAfter:styleName:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/showWithStatus:styleName:">showWithStatus:styleName:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/animateInWithBounceAnimation">animateInWithBounceAnimation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/animationDidStop:finished:">animationDidStop:finished:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dealloc">dealloc</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dismiss:">dismiss:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/init">init</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/overlayWindow">overlayWindow</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/progressView">progressView</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setDismissTimerWithInterval:">setDismissTimerWithInterval:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setProgress:">setProgress:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setupDefaultStyles">setupDefaultStyles</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/showWithStatus:style:">showWithStatus:style:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/topBar">topBar</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateTopBarFrameWithStatusBarFrame:">updateTopBarFrameWithStatusBarFrame:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateWindowTransform">updateWindowTransform</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/willChangeStatusBarFrame:">willChangeStatusBarFrame:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="JDStatusBarNotification Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">JDStatusBarNotification Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">JDStatusBarNotification.h<br />JDStatusBarNotification.m</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>This class is a singletion which is used to present notifications
+on top of the status bar. To present a notification, use one of the
+given class methods.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/showWithStatus:">+&nbsp;showWithStatus:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/showWithStatus:styleName:">+&nbsp;showWithStatus:styleName:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/showWithStatus:dismissAfter:">+&nbsp;showWithStatus:dismissAfter:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/showWithStatus:dismissAfter:styleName:">+&nbsp;showWithStatus:dismissAfter:styleName:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dismiss">+&nbsp;dismiss</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dismissAnimated:">+&nbsp;dismissAnimated:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dismissAfter:">+&nbsp;dismissAfter:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setDefaultStyle:">+&nbsp;setDefaultStyle:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addStyleNamed:prepare:">+&nbsp;addStyleNamed:prepare:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/showProgress:">+&nbsp;showProgress:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/showActivityIndicator:indicatorStyle:">+&nbsp;showActivityIndicator:indicatorStyle:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isVisible">+&nbsp;isVisible</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sharedInstance">+&nbsp;sharedInstance</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dealloc">&ndash;&nbsp;dealloc</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setupDefaultStyles">&ndash;&nbsp;setupDefaultStyles</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/showWithStatus:style:">&ndash;&nbsp;showWithStatus:style:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setDismissTimerWithInterval:">&ndash;&nbsp;setDismissTimerWithInterval:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dismiss:">&ndash;&nbsp;dismiss:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/animateInWithBounceAnimation">&ndash;&nbsp;animateInWithBounceAnimation</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/animationDidStop:finished:">&ndash;&nbsp;animationDidStop:finished:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setProgress:">&ndash;&nbsp;setProgress:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/overlayWindow">&ndash;&nbsp;overlayWindow</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/topBar">&ndash;&nbsp;topBar</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/progressView">&ndash;&nbsp;progressView</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateWindowTransform">&ndash;&nbsp;updateWindowTransform</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateTopBarFrameWithStatusBarFrame:">&ndash;&nbsp;updateTopBarFrameWithStatusBarFrame:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/willChangeStatusBarFrame:">&ndash;&nbsp;willChangeStatusBarFrame:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Extension Methods" name="task_Extension Methods"></a>
+						<h3 class="subsubtitle task-title">Extension Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/overlayWindow">&nbsp;&nbsp;overlayWindow</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/progressView">&nbsp;&nbsp;progressView</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/topBar">&nbsp;&nbsp;topBar</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dismissTimer">&nbsp;&nbsp;dismissTimer</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/progress">&nbsp;&nbsp;progress</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/activeStyle">&nbsp;&nbsp;activeStyle</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/defaultStyle">&nbsp;&nbsp;defaultStyle</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/userStyles">&nbsp;&nbsp;userStyles</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/activeStyle" title="activeStyle"></a>
+	<h3 class="subsubtitle method-title">activeStyle</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) JDStatusBarStyle *activeStyle</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/defaultStyle" title="defaultStyle"></a>
+	<h3 class="subsubtitle method-title">defaultStyle</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) JDStatusBarStyle *defaultStyle</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dismissTimer" title="dismissTimer"></a>
+	<h3 class="subsubtitle method-title">dismissTimer</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSTimer *dismissTimer</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/overlayWindow" title="overlayWindow"></a>
+	<h3 class="subsubtitle method-title">overlayWindow</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) UIWindow *overlayWindow</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/progress" title="progress"></a>
+	<h3 class="subsubtitle method-title">progress</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat progress</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/progressView" title="progressView"></a>
+	<h3 class="subsubtitle method-title">progressView</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) UIView *progressView</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/topBar" title="topBar"></a>
+	<h3 class="subsubtitle method-title">topBar</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, readonly) JDStatusBarView *topBar</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/userStyles" title="userStyles"></a>
+	<h3 class="subsubtitle method-title">userStyles</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSMutableDictionary *userStyles</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addStyleNamed:prepare:" title="addStyleNamed:prepare:"></a>
+	<h3 class="subsubtitle method-title">addStyleNamed:prepare:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adds a custom style, which than can be used
+in the presentation methods.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)addStyleNamed:(NSString *)<em>identifier</em> prepare:(JDPrepareStyleBlock)<em>prepareBlock</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>identifier</em></dt>
+			<dd><p>The identifier, which will
+later be used to reference the configured style.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>prepareBlock</em></dt>
+			<dd><p>A block, which has a <a href="../Classes/JDStatusBarStyle.html">JDStatusBarStyle</a> instance as
+parameter. This instance can be modified to suit your needs. You need
+to return the modified style again.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Returns the given identifier, so it can
+be directly used as styleName parameter.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">JDStatusBarNotification.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dismiss" title="dismiss"></a>
+	<h3 class="subsubtitle method-title">dismiss</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Calls <a href="#//api/name/dismissAnimated:">dismissAnimated:</a> with animated set to YES</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)dismiss</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">JDStatusBarNotification.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dismissAfter:" title="dismissAfter:"></a>
+	<h3 class="subsubtitle method-title">dismissAfter:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Same as <a href="#//api/name/dismissAnimated:">dismissAnimated:</a>, but you can specify a delay,
+so the notification wont be dismissed immediately</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)dismissAfter:(NSTimeInterval)<em>delay</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>delay</em></dt>
+			<dd><p>The delay, how long the notification should stay visible</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">JDStatusBarNotification.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dismissAnimated:" title="dismissAnimated:"></a>
+	<h3 class="subsubtitle method-title">dismissAnimated:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Dismisses any currently displayed notification immediately</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)dismissAnimated:(BOOL)<em>animated</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>animated</em></dt>
+			<dd><p>If this is YES, the animation style used
+for presentation will also be used for the dismissal.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">JDStatusBarNotification.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isVisible" title="isVisible"></a>
+	<h3 class="subsubtitle method-title">isVisible</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This method tests, if a notification is currently displayed.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)isVisible</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>YES, if a notification is currently displayed. Otherwise NO.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">JDStatusBarNotification.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setDefaultStyle:" title="setDefaultStyle:"></a>
+	<h3 class="subsubtitle method-title">setDefaultStyle:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This changes the default style, which is always used
+when a method without styleName is used for presentation, or
+styleName is nil, or no style is found with this name.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)setDefaultStyle:(JDPrepareStyleBlock)<em>prepareBlock</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>prepareBlock</em></dt>
+			<dd><p>A block, which has a <a href="../Classes/JDStatusBarStyle.html">JDStatusBarStyle</a> instance as
+parameter. This instance can be modified to suit your needs. You need
+to return the modified style again.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">JDStatusBarNotification.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sharedInstance" title="sharedInstance"></a>
+	<h3 class="subsubtitle method-title">sharedInstance</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (JDStatusBarNotification *)sharedInstance</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/showActivityIndicator:indicatorStyle:" title="showActivityIndicator:indicatorStyle:"></a>
+	<h3 class="subsubtitle method-title">showActivityIndicator:indicatorStyle:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Shows an activity indicator in front of the notification text</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)showActivityIndicator:(BOOL)<em>show</em> indicatorStyle:(UIActivityIndicatorViewStyle)<em>style</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>show</em></dt>
+			<dd><p>Use this flag to show or hide the activity indicator</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>indicatorStyle</em></dt>
+			<dd><p>Sets the style of the activity indicator</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">JDStatusBarNotification.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/showProgress:" title="showProgress:"></a>
+	<h3 class="subsubtitle method-title">showProgress:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Show the <a href="#//api/name/progress">progress</a> below the label.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)showProgress:(CGFloat)<em>progress</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>progress</em></dt>
+			<dd><p>Relative <a href="#//api/name/progress">progress</a> from 0.0 to 1.0</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">JDStatusBarNotification.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/showWithStatus:" title="showWithStatus:"></a>
+	<h3 class="subsubtitle method-title">showWithStatus:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Show a notification. It won&rsquo;t hide automatically,
+you have to dimiss it on your own.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (JDStatusBarView *)showWithStatus:(NSString *)<em>status</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>status</em></dt>
+			<dd><p>The message to display</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The presented notification view for further customization</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">JDStatusBarNotification.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/showWithStatus:dismissAfter:" title="showWithStatus:dismissAfter:"></a>
+	<h3 class="subsubtitle method-title">showWithStatus:dismissAfter:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Same as <a href="#//api/name/showWithStatus:">showWithStatus:</a>, but the notification will
+automatically <a href="#//api/name/dismiss">dismiss</a> after the given timeInterval.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (JDStatusBarView *)showWithStatus:(NSString *)<em>status</em> dismissAfter:(NSTimeInterval)<em>timeInterval</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>status</em></dt>
+			<dd><p>The message to display</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>timeInterval</em></dt>
+			<dd><p>The duration, how long the notification
+is displayed. (Including the animation duration)</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The presented notification view for further customization</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">JDStatusBarNotification.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/showWithStatus:dismissAfter:styleName:" title="showWithStatus:dismissAfter:styleName:"></a>
+	<h3 class="subsubtitle method-title">showWithStatus:dismissAfter:styleName:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Same as <a href="#//api/name/showWithStatus:styleName:">showWithStatus:styleName:</a>, but the notification
+will automatically <a href="#//api/name/dismiss">dismiss</a> after the given timeInterval.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (JDStatusBarView *)showWithStatus:(NSString *)<em>status</em> dismissAfter:(NSTimeInterval)<em>timeInterval</em> styleName:(NSString *)<em>styleName</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>status</em></dt>
+			<dd><p>The message to display</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>timeInterval</em></dt>
+			<dd><p>The duration, how long the notification
+is displayed. (Including the animation duration)</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>styleName</em></dt>
+			<dd><p>The name of the style. You can use any <a href="../Classes/JDStatusBarStyle.html">JDStatusBarStyle</a> constant
+(JDStatusBarStyleDefault, etc.), or a custom style identifier, after you added a
+custom style. If this is nil, the default style will be used.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The presented notification view for further customization</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">JDStatusBarNotification.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/showWithStatus:styleName:" title="showWithStatus:styleName:"></a>
+	<h3 class="subsubtitle method-title">showWithStatus:styleName:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Show a notification with a specific style. It won&rsquo;t
+hide automatically, you have to dimiss it on your own.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (JDStatusBarView *)showWithStatus:(NSString *)<em>status</em> styleName:(NSString *)<em>styleName</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>status</em></dt>
+			<dd><p>The message to display</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>styleName</em></dt>
+			<dd><p>The name of the style. You can use any <a href="../Classes/JDStatusBarStyle.html">JDStatusBarStyle</a> constant
+(JDStatusBarStyleDefault, etc.), or a custom style identifier, after you added a
+custom style. If this is nil, the default style will be used.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The presented notification view for further customization</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">JDStatusBarNotification.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/animateInWithBounceAnimation" title="animateInWithBounceAnimation"></a>
+	<h3 class="subsubtitle method-title">animateInWithBounceAnimation</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)animateInWithBounceAnimation</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/animationDidStop:finished:" title="animationDidStop:finished:"></a>
+	<h3 class="subsubtitle method-title">animationDidStop:finished:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)animationDidStop:(CAAnimation *)<em>anim</em> finished:(BOOL)<em>flag</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dealloc" title="dealloc"></a>
+	<h3 class="subsubtitle method-title">dealloc</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)dealloc</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dismiss:" title="dismiss:"></a>
+	<h3 class="subsubtitle method-title">dismiss:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)dismiss:(NSTimer *)<em>timer</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="subsubtitle method-title">init</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/overlayWindow" title="overlayWindow"></a>
+	<h3 class="subsubtitle method-title">overlayWindow</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIWindow *)overlayWindow</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/progressView" title="progressView"></a>
+	<h3 class="subsubtitle method-title">progressView</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIView *)progressView</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setDismissTimerWithInterval:" title="setDismissTimerWithInterval:"></a>
+	<h3 class="subsubtitle method-title">setDismissTimerWithInterval:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setDismissTimerWithInterval:(NSTimeInterval)<em>interval</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setProgress:" title="setProgress:"></a>
+	<h3 class="subsubtitle method-title">setProgress:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setProgress:(CGFloat)<em>progress</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setupDefaultStyles" title="setupDefaultStyles"></a>
+	<h3 class="subsubtitle method-title">setupDefaultStyles</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setupDefaultStyles</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/showWithStatus:style:" title="showWithStatus:style:"></a>
+	<h3 class="subsubtitle method-title">showWithStatus:style:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIView *)showWithStatus:(NSString *)<em>status</em> style:(JDStatusBarStyle *)<em>style</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/topBar" title="topBar"></a>
+	<h3 class="subsubtitle method-title">topBar</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (UIView *)topBar</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateTopBarFrameWithStatusBarFrame:" title="updateTopBarFrameWithStatusBarFrame:"></a>
+	<h3 class="subsubtitle method-title">updateTopBarFrameWithStatusBarFrame:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)updateTopBarFrameWithStatusBarFrame:(CGRect)<em>rect</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateWindowTransform" title="updateWindowTransform"></a>
+	<h3 class="subsubtitle method-title">updateWindowTransform</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)updateWindowTransform</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/willChangeStatusBarFrame:" title="willChangeStatusBarFrame:"></a>
+	<h3 class="subsubtitle method-title">willChangeStatusBarFrame:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)willChangeStatusBarFrame:(NSNotification *)<em>notification</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Magictactil. All rights reserved. (Last updated: 2014-01-30)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

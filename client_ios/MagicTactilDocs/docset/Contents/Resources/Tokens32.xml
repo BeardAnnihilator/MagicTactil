@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/RoomObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/RoomObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RoomObject.h</DeclaredIn>
+            
+			
+			<NodeRef refid="32"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RoomObject/setCreator:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RoomObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *creator</Declaration>
+			
+			
+			<Anchor>//api/name/creator</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RoomObject/creator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RoomObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *creator</Declaration>
+			
+			
+			<Anchor>//api/name/creator</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RoomObject/creator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RoomObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *creator</Declaration>
+			
+			
+			<Anchor>//api/name/creator</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RoomObject/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RoomObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RoomObject/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RoomObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RoomObject/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RoomObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RoomObject/setId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RoomObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *id</Declaration>
+			
+			
+			<Anchor>//api/name/id</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RoomObject/id</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RoomObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *id</Declaration>
+			
+			
+			<Anchor>//api/name/id</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RoomObject/id</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RoomObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *id</Declaration>
+			
+			
+			<Anchor>//api/name/id</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RoomObject/setState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RoomObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RoomObject/state</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RoomObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RoomObject/state</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RoomObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RoomObject/setFormat:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RoomObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *format</Declaration>
+			
+			
+			<Anchor>//api/name/format</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RoomObject/format</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RoomObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *format</Declaration>
+			
+			
+			<Anchor>//api/name/format</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RoomObject/format</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RoomObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *format</Declaration>
+			
+			
+			<Anchor>//api/name/format</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

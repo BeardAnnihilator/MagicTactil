@@ -1,0 +1,819 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>XMLDictionaryParser Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">MagicTactil </a></h1>
+				<a id="developerHome" href="../index.html">Magictactil</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">XMLDictionaryParser Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/alwaysUseArrays">&nbsp;&nbsp;&nbsp;&nbsp;alwaysUseArrays</option>
+	
+	<option value="//api/name/attributesMode">&nbsp;&nbsp;&nbsp;&nbsp;attributesMode</option>
+	
+	<option value="//api/name/collapseTextNodes">&nbsp;&nbsp;&nbsp;&nbsp;collapseTextNodes</option>
+	
+	<option value="//api/name/nodeNameMode">&nbsp;&nbsp;&nbsp;&nbsp;nodeNameMode</option>
+	
+	<option value="//api/name/preserveComments">&nbsp;&nbsp;&nbsp;&nbsp;preserveComments</option>
+	
+	<option value="//api/name/root">&nbsp;&nbsp;&nbsp;&nbsp;root</option>
+	
+	<option value="//api/name/stack">&nbsp;&nbsp;&nbsp;&nbsp;stack</option>
+	
+	<option value="//api/name/stripEmptyNodes">&nbsp;&nbsp;&nbsp;&nbsp;stripEmptyNodes</option>
+	
+	<option value="//api/name/text">&nbsp;&nbsp;&nbsp;&nbsp;text</option>
+	
+	<option value="//api/name/trimWhiteSpace">&nbsp;&nbsp;&nbsp;&nbsp;trimWhiteSpace</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/XMLStringForNode:withNodeName:">&nbsp;&nbsp;&nbsp;&nbsp;+ XMLStringForNode:withNodeName:</option>
+	
+	<option value="//api/name/sharedInstance">&nbsp;&nbsp;&nbsp;&nbsp;+ sharedInstance</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addText:">&nbsp;&nbsp;&nbsp;&nbsp;- addText:</option>
+	
+	<option value="//api/name/copyWithZone:">&nbsp;&nbsp;&nbsp;&nbsp;- copyWithZone:</option>
+	
+	<option value="//api/name/dictionaryWithData:">&nbsp;&nbsp;&nbsp;&nbsp;- dictionaryWithData:</option>
+	
+	<option value="//api/name/dictionaryWithFile:">&nbsp;&nbsp;&nbsp;&nbsp;- dictionaryWithFile:</option>
+	
+	<option value="//api/name/dictionaryWithString:">&nbsp;&nbsp;&nbsp;&nbsp;- dictionaryWithString:</option>
+	
+	<option value="//api/name/endText">&nbsp;&nbsp;&nbsp;&nbsp;- endText</option>
+	
+	<option value="//api/name/init">&nbsp;&nbsp;&nbsp;&nbsp;- init</option>
+	
+	<option value="//api/name/nameForNode:inDictionary:">&nbsp;&nbsp;&nbsp;&nbsp;- nameForNode:inDictionary:</option>
+	
+	<option value="//api/name/parser:didEndElement:namespaceURI:qualifiedName:">&nbsp;&nbsp;&nbsp;&nbsp;- parser:didEndElement:namespaceURI:qualifiedName:</option>
+	
+	<option value="//api/name/parser:didStartElement:namespaceURI:qualifiedName:attributes:">&nbsp;&nbsp;&nbsp;&nbsp;- parser:didStartElement:namespaceURI:qualifiedName:attributes:</option>
+	
+	<option value="//api/name/parser:foundCDATA:">&nbsp;&nbsp;&nbsp;&nbsp;- parser:foundCDATA:</option>
+	
+	<option value="//api/name/parser:foundCharacters:">&nbsp;&nbsp;&nbsp;&nbsp;- parser:foundCharacters:</option>
+	
+	<option value="//api/name/parser:foundComment:">&nbsp;&nbsp;&nbsp;&nbsp;- parser:foundComment:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Extension Methods">Extension Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/alwaysUseArrays">alwaysUseArrays</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/attributesMode">attributesMode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/collapseTextNodes">collapseTextNodes</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/nodeNameMode">nodeNameMode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/preserveComments">preserveComments</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/root">root</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/stack">stack</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/stripEmptyNodes">stripEmptyNodes</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/text">text</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/trimWhiteSpace">trimWhiteSpace</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/XMLStringForNode:withNodeName:">XMLStringForNode:withNodeName:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sharedInstance">sharedInstance</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addText:">addText:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/copyWithZone:">copyWithZone:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dictionaryWithData:">dictionaryWithData:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dictionaryWithFile:">dictionaryWithFile:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dictionaryWithString:">dictionaryWithString:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/endText">endText</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/init">init</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/nameForNode:inDictionary:">nameForNode:inDictionary:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/parser:didEndElement:namespaceURI:qualifiedName:">parser:didEndElement:namespaceURI:qualifiedName:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/parser:didStartElement:namespaceURI:qualifiedName:attributes:">parser:didStartElement:namespaceURI:qualifiedName:attributes:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/parser:foundCDATA:">parser:foundCDATA:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/parser:foundCharacters:">parser:foundCharacters:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/parser:foundComment:">parser:foundComment:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="XMLDictionaryParser Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">XMLDictionaryParser Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSCopying</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">XMLDictionary.h<br />XMLDictionary.m</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sharedInstance">+&nbsp;sharedInstance</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/collapseTextNodes">&nbsp;&nbsp;collapseTextNodes</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/stripEmptyNodes">&nbsp;&nbsp;stripEmptyNodes</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/trimWhiteSpace">&nbsp;&nbsp;trimWhiteSpace</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/alwaysUseArrays">&nbsp;&nbsp;alwaysUseArrays</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/preserveComments">&nbsp;&nbsp;preserveComments</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/attributesMode">&nbsp;&nbsp;attributesMode</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/nodeNameMode">&nbsp;&nbsp;nodeNameMode</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dictionaryWithData:">&ndash;&nbsp;dictionaryWithData:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dictionaryWithString:">&ndash;&nbsp;dictionaryWithString:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dictionaryWithFile:">&ndash;&nbsp;dictionaryWithFile:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/copyWithZone:">&ndash;&nbsp;copyWithZone:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/XMLStringForNode:withNodeName:">+&nbsp;XMLStringForNode:withNodeName:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/endText">&ndash;&nbsp;endText</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addText:">&ndash;&nbsp;addText:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/parser:didStartElement:namespaceURI:qualifiedName:attributes:">&ndash;&nbsp;parser:didStartElement:namespaceURI:qualifiedName:attributes:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/nameForNode:inDictionary:">&ndash;&nbsp;nameForNode:inDictionary:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/parser:didEndElement:namespaceURI:qualifiedName:">&ndash;&nbsp;parser:didEndElement:namespaceURI:qualifiedName:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/parser:foundCharacters:">&ndash;&nbsp;parser:foundCharacters:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/parser:foundCDATA:">&ndash;&nbsp;parser:foundCDATA:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/parser:foundComment:">&ndash;&nbsp;parser:foundComment:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Extension Methods" name="task_Extension Methods"></a>
+						<h3 class="subsubtitle task-title">Extension Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/root">&nbsp;&nbsp;root</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/stack">&nbsp;&nbsp;stack</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/text">&nbsp;&nbsp;text</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/alwaysUseArrays" title="alwaysUseArrays"></a>
+	<h3 class="subsubtitle method-title">alwaysUseArrays</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL alwaysUseArrays</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/attributesMode" title="attributesMode"></a>
+	<h3 class="subsubtitle method-title">attributesMode</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) XMLDictionaryAttributesMode attributesMode</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/collapseTextNodes" title="collapseTextNodes"></a>
+	<h3 class="subsubtitle method-title">collapseTextNodes</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL collapseTextNodes</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/nodeNameMode" title="nodeNameMode"></a>
+	<h3 class="subsubtitle method-title">nodeNameMode</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) XMLDictionaryNodeNameMode nodeNameMode</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/preserveComments" title="preserveComments"></a>
+	<h3 class="subsubtitle method-title">preserveComments</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL preserveComments</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/root" title="root"></a>
+	<h3 class="subsubtitle method-title">root</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSMutableDictionary *root</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/stack" title="stack"></a>
+	<h3 class="subsubtitle method-title">stack</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSMutableArray *stack</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/stripEmptyNodes" title="stripEmptyNodes"></a>
+	<h3 class="subsubtitle method-title">stripEmptyNodes</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL stripEmptyNodes</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/text" title="text"></a>
+	<h3 class="subsubtitle method-title">text</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSMutableString *text</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/trimWhiteSpace" title="trimWhiteSpace"></a>
+	<h3 class="subsubtitle method-title">trimWhiteSpace</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL trimWhiteSpace</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/XMLStringForNode:withNodeName:" title="XMLStringForNode:withNodeName:"></a>
+	<h3 class="subsubtitle method-title">XMLStringForNode:withNodeName:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)XMLStringForNode:(id)<em>node</em> withNodeName:(NSString *)<em>nodeName</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sharedInstance" title="sharedInstance"></a>
+	<h3 class="subsubtitle method-title">sharedInstance</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (XMLDictionaryParser *)sharedInstance</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addText:" title="addText:"></a>
+	<h3 class="subsubtitle method-title">addText:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)addText:(NSString *)<em>text</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/copyWithZone:" title="copyWithZone:"></a>
+	<h3 class="subsubtitle method-title">copyWithZone:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)copyWithZone:(NSZone *)<em>zone</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dictionaryWithData:" title="dictionaryWithData:"></a>
+	<h3 class="subsubtitle method-title">dictionaryWithData:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSDictionary *)dictionaryWithData:(NSData *)<em>data</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dictionaryWithFile:" title="dictionaryWithFile:"></a>
+	<h3 class="subsubtitle method-title">dictionaryWithFile:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSDictionary *)dictionaryWithFile:(NSString *)<em>path</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dictionaryWithString:" title="dictionaryWithString:"></a>
+	<h3 class="subsubtitle method-title">dictionaryWithString:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSDictionary *)dictionaryWithString:(NSString *)<em>string</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/endText" title="endText"></a>
+	<h3 class="subsubtitle method-title">endText</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)endText</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="subsubtitle method-title">init</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/nameForNode:inDictionary:" title="nameForNode:inDictionary:"></a>
+	<h3 class="subsubtitle method-title">nameForNode:inDictionary:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)nameForNode:(NSDictionary *)<em>node</em> inDictionary:(NSDictionary *)<em>dict</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/parser:didEndElement:namespaceURI:qualifiedName:" title="parser:didEndElement:namespaceURI:qualifiedName:"></a>
+	<h3 class="subsubtitle method-title">parser:didEndElement:namespaceURI:qualifiedName:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)parser:(NSXMLParser *)<em>parser</em> didEndElement:(NSString *)<em>elementName</em> namespaceURI:(NSString *)<em>namespaceURI</em> qualifiedName:(NSString *)<em>qName</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/parser:didStartElement:namespaceURI:qualifiedName:attributes:" title="parser:didStartElement:namespaceURI:qualifiedName:attributes:"></a>
+	<h3 class="subsubtitle method-title">parser:didStartElement:namespaceURI:qualifiedName:attributes:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)parser:(NSXMLParser *)<em>parser</em> didStartElement:(NSString *)<em>elementName</em> namespaceURI:(NSString *)<em>namespaceURI</em> qualifiedName:(NSString *)<em>qName</em> attributes:(NSDictionary *)<em>attributeDict</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/parser:foundCDATA:" title="parser:foundCDATA:"></a>
+	<h3 class="subsubtitle method-title">parser:foundCDATA:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)parser:(NSXMLParser *)<em>parser</em> foundCDATA:(NSData *)<em>CDATABlock</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/parser:foundCharacters:" title="parser:foundCharacters:"></a>
+	<h3 class="subsubtitle method-title">parser:foundCharacters:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)parser:(NSXMLParser *)<em>parser</em> foundCharacters:(NSString *)<em>string</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/parser:foundComment:" title="parser:foundComment:"></a>
+	<h3 class="subsubtitle method-title">parser:foundComment:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)parser:(NSXMLParser *)<em>parser</em> foundComment:(NSString *)<em>comment</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Magictactil. All rights reserved. (Last updated: 2014-01-30)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

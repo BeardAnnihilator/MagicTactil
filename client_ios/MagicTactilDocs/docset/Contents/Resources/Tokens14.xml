@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EventObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EventObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EventObject.h</DeclaredIn>
+            
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EventObject/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EventObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EventObject/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EventObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EventObject/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EventObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EventObject/setDescription:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EventObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EventObject/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EventObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EventObject/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EventObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EventObject/setDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EventObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EventObject/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EventObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EventObject/date</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EventObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *date</Declaration>
+			
+			
+			<Anchor>//api/name/date</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EventObject/setLocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EventObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EventObject/location</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EventObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EventObject/location</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EventObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EventObject/setId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EventObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *id</Declaration>
+			
+			
+			<Anchor>//api/name/id</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EventObject/id</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EventObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *id</Declaration>
+			
+			
+			<Anchor>//api/name/id</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EventObject/id</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EventObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *id</Declaration>
+			
+			
+			<Anchor>//api/name/id</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EventObject/setCreator:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EventObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *creator</Declaration>
+			
+			
+			<Anchor>//api/name/creator</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EventObject/creator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EventObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *creator</Declaration>
+			
+			
+			<Anchor>//api/name/creator</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EventObject/creator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EventObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *creator</Declaration>
+			
+			
+			<Anchor>//api/name/creator</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

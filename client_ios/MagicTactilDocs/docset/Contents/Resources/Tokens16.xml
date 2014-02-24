@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/FriendObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/FriendObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FriendObject.h</DeclaredIn>
+            
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FriendObject/setUserName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FriendObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *userName</Declaration>
+			
+			
+			<Anchor>//api/name/userName</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FriendObject/userName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FriendObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *userName</Declaration>
+			
+			
+			<Anchor>//api/name/userName</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FriendObject/userName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FriendObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *userName</Declaration>
+			
+			
+			<Anchor>//api/name/userName</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FriendObject/setMessages:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FriendObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *messages</Declaration>
+			
+			
+			<Anchor>//api/name/messages</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FriendObject/messages</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FriendObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *messages</Declaration>
+			
+			
+			<Anchor>//api/name/messages</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FriendObject/messages</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FriendObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *messages</Declaration>
+			
+			
+			<Anchor>//api/name/messages</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

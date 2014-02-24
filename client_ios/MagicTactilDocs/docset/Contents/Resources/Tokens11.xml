@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DeckObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DeckObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DeckObject.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DeckObject/setDeckName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DeckObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *deckName</Declaration>
+			
+			
+			<Anchor>//api/name/deckName</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DeckObject/deckName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DeckObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *deckName</Declaration>
+			
+			
+			<Anchor>//api/name/deckName</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DeckObject/deckName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DeckObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *deckName</Declaration>
+			
+			
+			<Anchor>//api/name/deckName</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DeckObject/setIsReal:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DeckObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *isReal</Declaration>
+			
+			
+			<Anchor>//api/name/isReal</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DeckObject/isReal</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DeckObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *isReal</Declaration>
+			
+			
+			<Anchor>//api/name/isReal</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DeckObject/isReal</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DeckObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *isReal</Declaration>
+			
+			
+			<Anchor>//api/name/isReal</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DeckObject/setIdDeck:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DeckObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *idDeck</Declaration>
+			
+			
+			<Anchor>//api/name/idDeck</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DeckObject/idDeck</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DeckObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *idDeck</Declaration>
+			
+			
+			<Anchor>//api/name/idDeck</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DeckObject/idDeck</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DeckObject.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *idDeck</Declaration>
+			
+			
+			<Anchor>//api/name/idDeck</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DeckObject/setListCards:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DeckObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableArray *listCards</Declaration>
+			
+			
+			<Anchor>//api/name/listCards</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DeckObject/listCards</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DeckObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableArray *listCards</Declaration>
+			
+			
+			<Anchor>//api/name/listCards</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DeckObject/listCards</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DeckObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableArray *listCards</Declaration>
+			
+			
+			<Anchor>//api/name/listCards</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DeckObject/init</TokenIdentifier>
+			<Abstract type="html">Initialise le deck</Abstract>
+			<DeclaredIn>DeckObject.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			<ReturnValue><Abstract type="html">le deck</Abstract></ReturnValue>
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MasterRoom.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MasterRoom</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+            
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/clickReturn:</TokenIdentifier>
+			<Abstract type="html">Affiche la vue précédente</Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickReturn:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton précédent</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickReturn:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/deleteRoom:</TokenIdentifier>
+			<Abstract type="html">Supprime la room</Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)deleteRoom:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton suppression room</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteRoom:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/clickLaunchGame:</TokenIdentifier>
+			<Abstract type="html">Lancer le jeu</Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickLaunchGame:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton lancer le jeu</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickLaunchGame:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/clickSendMessage:</TokenIdentifier>
+			<Abstract type="html">Envoyer un message public</Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickSendMessage:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton envoyer un message</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickSendMessage:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/closeKeyboard:</TokenIdentifier>
+			<Abstract type="html">Ferme le clavier</Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)closeKeyboard:(UITextField *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">textfield</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/closeKeyboard:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/editingBegin:</TokenIdentifier>
+			<Abstract type="html">Commence l&apos;édition d&apos;un uitextfield</Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)editingBegin:(UITextField *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">uitextfield</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/editingBegin:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/setTableView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/tableView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MasterRoom/tableView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/setChatArea:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextView *chatArea</Declaration>
+			
+			
+			<Anchor>//api/name/chatArea</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/chatArea</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextView *chatArea</Declaration>
+			
+			
+			<Anchor>//api/name/chatArea</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MasterRoom/chatArea</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextView *chatArea</Declaration>
+			
+			
+			<Anchor>//api/name/chatArea</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/setMessageArea:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *messageArea</Declaration>
+			
+			
+			<Anchor>//api/name/messageArea</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/messageArea</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *messageArea</Declaration>
+			
+			
+			<Anchor>//api/name/messageArea</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MasterRoom/messageArea</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *messageArea</Declaration>
+			
+			
+			<Anchor>//api/name/messageArea</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/setButtonSend:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSend</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSend</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/buttonSend</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSend</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSend</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MasterRoom/buttonSend</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonSend</Declaration>
+			
+			
+			<Anchor>//api/name/buttonSend</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/setButtonGame:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonGame</Declaration>
+			
+			
+			<Anchor>//api/name/buttonGame</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/buttonGame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonGame</Declaration>
+			
+			
+			<Anchor>//api/name/buttonGame</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MasterRoom/buttonGame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonGame</Declaration>
+			
+			
+			<Anchor>//api/name/buttonGame</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/setButtonDelete:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonDelete</Declaration>
+			
+			
+			<Anchor>//api/name/buttonDelete</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/buttonDelete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonDelete</Declaration>
+			
+			
+			<Anchor>//api/name/buttonDelete</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MasterRoom/buttonDelete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonDelete</Declaration>
+			
+			
+			<Anchor>//api/name/buttonDelete</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/initObjects</TokenIdentifier>
+			<Abstract type="html">Initialise les propriétés</Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)initObjects</Declaration>
+			
+			
+			<Anchor>//api/name/initObjects</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/translate</TokenIdentifier>
+			<Abstract type="html">Traduit la vue</Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)translate</Declaration>
+			
+			
+			<Anchor>//api/name/translate</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/sendLeaveRoom</TokenIdentifier>
+			<Abstract type="html">Quitter une room</Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)sendLeaveRoom</Declaration>
+			
+			
+			<Anchor>//api/name/sendLeaveRoom</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/checkLeaveRoomResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie le retour du serveur de leave room</Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)checkLeaveRoomResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">leave room notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkLeaveRoomResponse:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/sendDeleteRoom</TokenIdentifier>
+			<Abstract type="html">Supprime la room</Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)sendDeleteRoom</Declaration>
+			
+			
+			<Anchor>//api/name/sendDeleteRoom</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/checkDeleteRoomResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie la suppression de la room</Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)checkDeleteRoomResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">delete room notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkDeleteRoomResponse:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/sendBroadcastMessageRoom</TokenIdentifier>
+			<Abstract type="html">Envoie un message public</Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)sendBroadcastMessageRoom</Declaration>
+			
+			
+			<Anchor>//api/name/sendBroadcastMessageRoom</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/checkBroadcastMessageResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie l&apos;envoie d&apos;un message public</Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)checkBroadcastMessageResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">send broadcast message notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkBroadcastMessageResponse:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/checkPlayerJoin:</TokenIdentifier>
+			<Abstract type="html">Vérifie le retour du serveur de la requête join room</Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)checkPlayerJoin:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">join room notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkPlayerJoin:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/storeNewPlayer:</TokenIdentifier>
+			<Abstract type="html">Sauvegarde un nouveau joueur</Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)storeNewPlayer:(NSString *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">details du joueurs</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/storeNewPlayer:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/checkPlayerLeave:</TokenIdentifier>
+			<Abstract type="html">Vérifie le retour du serveur de la requête leave room</Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)checkPlayerLeave:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">leave room notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkPlayerLeave:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/deletePlayer:</TokenIdentifier>
+			<Abstract type="html">supprime les joueurs</Abstract>
+			<DeclaredIn>MasterRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)deletePlayer:(NSString *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>request</Name>
+					<Abstract type="html">liste des joueurs</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deletePlayer:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/initWithNibName:bundle:</TokenIdentifier>
+			<Abstract type="html">Initialise la vue</Abstract>
+			<DeclaredIn>MasterRoom.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>nibNameOrNil</Name>
+					<Abstract type="html">fichier xib</Abstract>
+				</Parameter><Parameter>
+					<Name>nibBundleOrNil</Name>
+					<Abstract type="html">bundle de l&apos;application</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">la vue</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithNibName:bundle:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/viewWillAppear:</TokenIdentifier>
+			<Abstract type="html">Affiche la vue</Abstract>
+			<DeclaredIn>MasterRoom.m</DeclaredIn>
+			
+			<Declaration>- (void)viewWillAppear:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">avec ou sans animation</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/viewWillAppear:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/viewDidLoad</TokenIdentifier>
+			<Abstract type="html">Charge la vue</Abstract>
+			<DeclaredIn>MasterRoom.m</DeclaredIn>
+			
+			<Declaration>- (void)viewDidLoad</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidLoad</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/supportedInterfaceOrientations</TokenIdentifier>
+			<Abstract type="html">Défini les orientations supportées</Abstract>
+			<DeclaredIn>MasterRoom.m</DeclaredIn>
+			
+			<Declaration>- (NSInteger)supportedInterfaceOrientations</Declaration>
+			
+			<ReturnValue><Abstract type="html">enum de l&apos;orientation</Abstract></ReturnValue>
+			<Anchor>//api/name/supportedInterfaceOrientations</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/didReceiveMemoryWarning</TokenIdentifier>
+			<Abstract type="html">Libère la mémoire</Abstract>
+			<DeclaredIn>MasterRoom.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveMemoryWarning</Declaration>
+			
+			
+			<Anchor>//api/name/didReceiveMemoryWarning</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/numberOfSectionsInTableView:</TokenIdentifier>
+			<Abstract type="html">Défini le nombre de sections</Abstract>
+			<DeclaredIn>MasterRoom.m</DeclaredIn>
+			
+			<Declaration>- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tableView</Name>
+					<Abstract type="html">tableView</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">le nombre de section</Abstract></ReturnValue>
+			<Anchor>//api/name/numberOfSectionsInTableView:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/tableView:numberOfRowsInSection:</TokenIdentifier>
+			<Abstract type="html">Défini le nombre de cellules par section</Abstract>
+			<DeclaredIn>MasterRoom.m</DeclaredIn>
+			
+			<Declaration>- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tableView</Name>
+					<Abstract type="html">tableView</Abstract>
+				</Parameter><Parameter>
+					<Name>section</Name>
+					<Abstract type="html">la section</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">le nombre de cellules</Abstract></ReturnValue>
+			<Anchor>//api/name/tableView:numberOfRowsInSection:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MasterRoom/tableView:cellForRowAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">Défini la cellule</Abstract>
+			<DeclaredIn>MasterRoom.m</DeclaredIn>
+			
+			<Declaration>- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tableView</Name>
+					<Abstract type="html">tableView</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">l&apos;index</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">la cellule</Abstract></ReturnValue>
+			<Anchor>//api/name/tableView:cellForRowAtIndexPath:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

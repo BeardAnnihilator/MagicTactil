@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/JDStatusBarAnimationType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/JDStatusBarAnimationType</TokenIdentifier>
+			<Abstract type="html">This style has a nearly black background with a nearly white Helvetica label.</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="57"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/JDStatusBarAnimationTypeNone</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>JDStatusBarAnimationTypeNone</Declaration>
+            
+            <DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/JDStatusBarAnimationTypeMove</TokenIdentifier>
+            <Abstract type="html">Notification won&apos;t animate</Abstract>
+            <Declaration>JDStatusBarAnimationTypeMove</Declaration>
+            
+            <DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/JDStatusBarAnimationTypeBounce</TokenIdentifier>
+            <Abstract type="html">Notification will move in from the top, and move out again to the top</Abstract>
+            <Declaration>JDStatusBarAnimationTypeBounce</Declaration>
+            
+            <DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/JDStatusBarAnimationTypeFade</TokenIdentifier>
+            <Abstract type="html">Notification will fall down from the top and bounce a little bit</Abstract>
+            <Declaration>JDStatusBarAnimationTypeFade</Declaration>
+            
+            <DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+            
+            <NodeRef refid="57"/>
+        </Token>
+        
+	</File>
+</Tokens>

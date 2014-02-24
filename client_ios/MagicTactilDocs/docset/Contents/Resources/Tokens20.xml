@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JDStatusBarNotification.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JDStatusBarNotification</TokenIdentifier>
+			<Abstract type="html">This class is a singletion which is used to present notifications
+on top of the status bar. To present a notification, use one of the
+given class methods.</Abstract>
+			<DeclaredIn>JDStatusBarNotification.h</DeclaredIn>
+            
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JDStatusBarNotification/showWithStatus:</TokenIdentifier>
+			<Abstract type="html">Show a notification. It won&apos;t hide automatically,
+you have to dimiss it on your own.</Abstract>
+			<DeclaredIn>JDStatusBarNotification.h</DeclaredIn>
+			
+			<Declaration>+ (JDStatusBarView *)showWithStatus:(NSString *)status</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>status</Name>
+					<Abstract type="html">The message to display</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The presented notification view for further customization</Abstract></ReturnValue>
+			<Anchor>//api/name/showWithStatus:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JDStatusBarNotification/showWithStatus:styleName:</TokenIdentifier>
+			<Abstract type="html">Show a notification with a specific style. It won&apos;t
+hide automatically, you have to dimiss it on your own.</Abstract>
+			<DeclaredIn>JDStatusBarNotification.h</DeclaredIn>
+			
+			<Declaration>+ (JDStatusBarView *)showWithStatus:(NSString *)status styleName:(NSString *)styleName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>status</Name>
+					<Abstract type="html">The message to display</Abstract>
+				</Parameter><Parameter>
+					<Name>styleName</Name>
+					<Abstract type="html">The name of the style. You can use any JDStatusBarStyle constant
+(JDStatusBarStyleDefault, etc.), or a custom style identifier, after you added a
+custom style. If this is nil, the default style will be used.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The presented notification view for further customization</Abstract></ReturnValue>
+			<Anchor>//api/name/showWithStatus:styleName:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JDStatusBarNotification/showWithStatus:dismissAfter:</TokenIdentifier>
+			<Abstract type="html">Same as showWithStatus:, but the notification will
+automatically dismiss after the given timeInterval.</Abstract>
+			<DeclaredIn>JDStatusBarNotification.h</DeclaredIn>
+			
+			<Declaration>+ (JDStatusBarView *)showWithStatus:(NSString *)status dismissAfter:(NSTimeInterval)timeInterval</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>status</Name>
+					<Abstract type="html">The message to display</Abstract>
+				</Parameter><Parameter>
+					<Name>timeInterval</Name>
+					<Abstract type="html">The duration, how long the notification
+is displayed. (Including the animation duration)</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The presented notification view for further customization</Abstract></ReturnValue>
+			<Anchor>//api/name/showWithStatus:dismissAfter:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JDStatusBarNotification/showWithStatus:dismissAfter:styleName:</TokenIdentifier>
+			<Abstract type="html">Same as showWithStatus:styleName:, but the notification
+will automatically dismiss after the given timeInterval.</Abstract>
+			<DeclaredIn>JDStatusBarNotification.h</DeclaredIn>
+			
+			<Declaration>+ (JDStatusBarView *)showWithStatus:(NSString *)status dismissAfter:(NSTimeInterval)timeInterval styleName:(NSString *)styleName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>status</Name>
+					<Abstract type="html">The message to display</Abstract>
+				</Parameter><Parameter>
+					<Name>timeInterval</Name>
+					<Abstract type="html">The duration, how long the notification
+is displayed. (Including the animation duration)</Abstract>
+				</Parameter><Parameter>
+					<Name>styleName</Name>
+					<Abstract type="html">The name of the style. You can use any JDStatusBarStyle constant
+(JDStatusBarStyleDefault, etc.), or a custom style identifier, after you added a
+custom style. If this is nil, the default style will be used.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The presented notification view for further customization</Abstract></ReturnValue>
+			<Anchor>//api/name/showWithStatus:dismissAfter:styleName:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JDStatusBarNotification/dismiss</TokenIdentifier>
+			<Abstract type="html">Calls dismissAnimated: with animated set to YES</Abstract>
+			<DeclaredIn>JDStatusBarNotification.h</DeclaredIn>
+			
+			<Declaration>+ (void)dismiss</Declaration>
+			
+			
+			<Anchor>//api/name/dismiss</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JDStatusBarNotification/dismissAnimated:</TokenIdentifier>
+			<Abstract type="html">Dismisses any currently displayed notification immediately</Abstract>
+			<DeclaredIn>JDStatusBarNotification.h</DeclaredIn>
+			
+			<Declaration>+ (void)dismissAnimated:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">If this is YES, the animation style used
+for presentation will also be used for the dismissal.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/dismissAnimated:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JDStatusBarNotification/dismissAfter:</TokenIdentifier>
+			<Abstract type="html">Same as dismissAnimated:, but you can specify a delay,
+so the notification wont be dismissed immediately</Abstract>
+			<DeclaredIn>JDStatusBarNotification.h</DeclaredIn>
+			
+			<Declaration>+ (void)dismissAfter:(NSTimeInterval)delay</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>delay</Name>
+					<Abstract type="html">The delay, how long the notification should stay visible</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/dismissAfter:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JDStatusBarNotification/setDefaultStyle:</TokenIdentifier>
+			<Abstract type="html">This changes the default style, which is always used
+when a method without styleName is used for presentation, or
+styleName is nil, or no style is found with this name.</Abstract>
+			<DeclaredIn>JDStatusBarNotification.h</DeclaredIn>
+			
+			<Declaration>+ (void)setDefaultStyle:(JDPrepareStyleBlock)prepareBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>prepareBlock</Name>
+					<Abstract type="html">A block, which has a JDStatusBarStyle instance as
+parameter. This instance can be modified to suit your needs. You need
+to return the modified style again.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setDefaultStyle:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JDStatusBarNotification/addStyleNamed:prepare:</TokenIdentifier>
+			<Abstract type="html">Adds a custom style, which than can be used
+in the presentation methods.</Abstract>
+			<DeclaredIn>JDStatusBarNotification.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)addStyleNamed:(NSString *)identifier prepare:(JDPrepareStyleBlock)prepareBlock</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>identifier</Name>
+					<Abstract type="html">The identifier, which will
+later be used to reference the configured style.</Abstract>
+				</Parameter><Parameter>
+					<Name>prepareBlock</Name>
+					<Abstract type="html">A block, which has a JDStatusBarStyle instance as
+parameter. This instance can be modified to suit your needs. You need
+to return the modified style again.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns the given identifier, so it can
+be directly used as styleName parameter.</Abstract></ReturnValue>
+			<Anchor>//api/name/addStyleNamed:prepare:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JDStatusBarNotification/showProgress:</TokenIdentifier>
+			<Abstract type="html">Show the progress below the label.</Abstract>
+			<DeclaredIn>JDStatusBarNotification.h</DeclaredIn>
+			
+			<Declaration>+ (void)showProgress:(CGFloat)progress</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>progress</Name>
+					<Abstract type="html">Relative progress from 0.0 to 1.0</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/showProgress:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JDStatusBarNotification/showActivityIndicator:indicatorStyle:</TokenIdentifier>
+			<Abstract type="html">Shows an activity indicator in front of the notification text</Abstract>
+			<DeclaredIn>JDStatusBarNotification.h</DeclaredIn>
+			
+			<Declaration>+ (void)showActivityIndicator:(BOOL)show indicatorStyle:(UIActivityIndicatorViewStyle)style</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>show</Name>
+					<Abstract type="html">Use this flag to show or hide the activity indicator</Abstract>
+				</Parameter><Parameter>
+					<Name>indicatorStyle</Name>
+					<Abstract type="html">Sets the style of the activity indicator</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/showActivityIndicator:indicatorStyle:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JDStatusBarNotification/isVisible</TokenIdentifier>
+			<Abstract type="html">This method tests, if a notification is currently displayed.</Abstract>
+			<DeclaredIn>JDStatusBarNotification.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isVisible</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES, if a notification is currently displayed. Otherwise NO.</Abstract></ReturnValue>
+			<Anchor>//api/name/isVisible</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JDStatusBarNotification/sharedInstance</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>+ (JDStatusBarNotification *)sharedInstance</Declaration>
+			
+			
+			<Anchor>//api/name/sharedInstance</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/dealloc</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>- (void)dealloc</Declaration>
+			
+			
+			<Anchor>//api/name/dealloc</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/setupDefaultStyles</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>- (void)setupDefaultStyles</Declaration>
+			
+			
+			<Anchor>//api/name/setupDefaultStyles</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/showWithStatus:style:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>- (UIView *)showWithStatus:(NSString *)status style:(JDStatusBarStyle *)style</Declaration>
+			
+			
+			<Anchor>//api/name/showWithStatus:style:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/setDismissTimerWithInterval:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>- (void)setDismissTimerWithInterval:(NSTimeInterval)interval</Declaration>
+			
+			
+			<Anchor>//api/name/setDismissTimerWithInterval:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/dismiss:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>- (void)dismiss:(NSTimer *)timer</Declaration>
+			
+			
+			<Anchor>//api/name/dismiss:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/animateInWithBounceAnimation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>- (void)animateInWithBounceAnimation</Declaration>
+			
+			
+			<Anchor>//api/name/animateInWithBounceAnimation</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/animationDidStop:finished:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>- (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag</Declaration>
+			
+			
+			<Anchor>//api/name/animationDidStop:finished:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/setProgress:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>- (void)setProgress:(CGFloat)progress</Declaration>
+			
+			
+			<Anchor>//api/name/setProgress:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/overlayWindow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>- (UIWindow *)overlayWindow</Declaration>
+			
+			
+			<Anchor>//api/name/overlayWindow</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/topBar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>- (UIView *)topBar</Declaration>
+			
+			
+			<Anchor>//api/name/topBar</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/progressView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>- (UIView *)progressView</Declaration>
+			
+			
+			<Anchor>//api/name/progressView</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/updateWindowTransform</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>- (void)updateWindowTransform</Declaration>
+			
+			
+			<Anchor>//api/name/updateWindowTransform</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/updateTopBarFrameWithStatusBarFrame:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>- (void)updateTopBarFrameWithStatusBarFrame:(CGRect)rect</Declaration>
+			
+			
+			<Anchor>//api/name/updateTopBarFrameWithStatusBarFrame:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/willChangeStatusBarFrame:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>- (void)willChangeStatusBarFrame:(NSNotification *)notification</Declaration>
+			
+			
+			<Anchor>//api/name/willChangeStatusBarFrame:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/setOverlayWindow:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) UIWindow *overlayWindow</Declaration>
+			
+			
+			<Anchor>//api/name/overlayWindow</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/overlayWindow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) UIWindow *overlayWindow</Declaration>
+			
+			
+			<Anchor>//api/name/overlayWindow</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JDStatusBarNotification/overlayWindow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) UIWindow *overlayWindow</Declaration>
+			
+			
+			<Anchor>//api/name/overlayWindow</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/setProgressView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) UIView *progressView</Declaration>
+			
+			
+			<Anchor>//api/name/progressView</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/progressView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) UIView *progressView</Declaration>
+			
+			
+			<Anchor>//api/name/progressView</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JDStatusBarNotification/progressView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) UIView *progressView</Declaration>
+			
+			
+			<Anchor>//api/name/progressView</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/setTopBar:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) JDStatusBarView *topBar</Declaration>
+			
+			
+			<Anchor>//api/name/topBar</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/topBar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) JDStatusBarView *topBar</Declaration>
+			
+			
+			<Anchor>//api/name/topBar</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JDStatusBarNotification/topBar</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) JDStatusBarView *topBar</Declaration>
+			
+			
+			<Anchor>//api/name/topBar</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/setDismissTimer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *dismissTimer</Declaration>
+			
+			
+			<Anchor>//api/name/dismissTimer</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/dismissTimer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *dismissTimer</Declaration>
+			
+			
+			<Anchor>//api/name/dismissTimer</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JDStatusBarNotification/dismissTimer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *dismissTimer</Declaration>
+			
+			
+			<Anchor>//api/name/dismissTimer</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/setProgress:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat progress</Declaration>
+			
+			
+			<Anchor>//api/name/progress</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/progress</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat progress</Declaration>
+			
+			
+			<Anchor>//api/name/progress</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JDStatusBarNotification/progress</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat progress</Declaration>
+			
+			
+			<Anchor>//api/name/progress</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/setActiveStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) JDStatusBarStyle *activeStyle</Declaration>
+			
+			
+			<Anchor>//api/name/activeStyle</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/activeStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) JDStatusBarStyle *activeStyle</Declaration>
+			
+			
+			<Anchor>//api/name/activeStyle</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JDStatusBarNotification/activeStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) JDStatusBarStyle *activeStyle</Declaration>
+			
+			
+			<Anchor>//api/name/activeStyle</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/setDefaultStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) JDStatusBarStyle *defaultStyle</Declaration>
+			
+			
+			<Anchor>//api/name/defaultStyle</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/defaultStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) JDStatusBarStyle *defaultStyle</Declaration>
+			
+			
+			<Anchor>//api/name/defaultStyle</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JDStatusBarNotification/defaultStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) JDStatusBarStyle *defaultStyle</Declaration>
+			
+			
+			<Anchor>//api/name/defaultStyle</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/setUserStyles:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableDictionary *userStyles</Declaration>
+			
+			
+			<Anchor>//api/name/userStyles</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotification/userStyles</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableDictionary *userStyles</Declaration>
+			
+			
+			<Anchor>//api/name/userStyles</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JDStatusBarNotification/userStyles</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableDictionary *userStyles</Declaration>
+			
+			
+			<Anchor>//api/name/userStyles</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

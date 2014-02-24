@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/Profile.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/Profile</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+            
+			
+			<NodeRef refid="30"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/setScrollView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIScrollView *scrollView</Declaration>
+			
+			
+			<Anchor>//api/name/scrollView</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/scrollView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIScrollView *scrollView</Declaration>
+			
+			
+			<Anchor>//api/name/scrollView</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Profile/scrollView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIScrollView *scrollView</Declaration>
+			
+			
+			<Anchor>//api/name/scrollView</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/setPseudo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *pseudo</Declaration>
+			
+			
+			<Anchor>//api/name/pseudo</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/pseudo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *pseudo</Declaration>
+			
+			
+			<Anchor>//api/name/pseudo</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Profile/pseudo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *pseudo</Declaration>
+			
+			
+			<Anchor>//api/name/pseudo</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/setPrenom:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *prenom</Declaration>
+			
+			
+			<Anchor>//api/name/prenom</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/prenom</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *prenom</Declaration>
+			
+			
+			<Anchor>//api/name/prenom</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Profile/prenom</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *prenom</Declaration>
+			
+			
+			<Anchor>//api/name/prenom</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/setNom:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *nom</Declaration>
+			
+			
+			<Anchor>//api/name/nom</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/nom</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *nom</Declaration>
+			
+			
+			<Anchor>//api/name/nom</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Profile/nom</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *nom</Declaration>
+			
+			
+			<Anchor>//api/name/nom</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/setEmail:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *email</Declaration>
+			
+			
+			<Anchor>//api/name/email</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/email</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *email</Declaration>
+			
+			
+			<Anchor>//api/name/email</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Profile/email</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *email</Declaration>
+			
+			
+			<Anchor>//api/name/email</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/setTelephone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *telephone</Declaration>
+			
+			
+			<Anchor>//api/name/telephone</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/telephone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *telephone</Declaration>
+			
+			
+			<Anchor>//api/name/telephone</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Profile/telephone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *telephone</Declaration>
+			
+			
+			<Anchor>//api/name/telephone</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/setAdresse:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *adresse</Declaration>
+			
+			
+			<Anchor>//api/name/adresse</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/adresse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *adresse</Declaration>
+			
+			
+			<Anchor>//api/name/adresse</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Profile/adresse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *adresse</Declaration>
+			
+			
+			<Anchor>//api/name/adresse</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/setMdp:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *mdp</Declaration>
+			
+			
+			<Anchor>//api/name/mdp</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/mdp</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *mdp</Declaration>
+			
+			
+			<Anchor>//api/name/mdp</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Profile/mdp</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *mdp</Declaration>
+			
+			
+			<Anchor>//api/name/mdp</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/setUserNameIpad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *userNameIpad</Declaration>
+			
+			
+			<Anchor>//api/name/userNameIpad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/userNameIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *userNameIpad</Declaration>
+			
+			
+			<Anchor>//api/name/userNameIpad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Profile/userNameIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *userNameIpad</Declaration>
+			
+			
+			<Anchor>//api/name/userNameIpad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/setFirstNameIpad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *firstNameIpad</Declaration>
+			
+			
+			<Anchor>//api/name/firstNameIpad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/firstNameIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *firstNameIpad</Declaration>
+			
+			
+			<Anchor>//api/name/firstNameIpad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Profile/firstNameIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *firstNameIpad</Declaration>
+			
+			
+			<Anchor>//api/name/firstNameIpad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/setLastNameIpad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *lastNameIpad</Declaration>
+			
+			
+			<Anchor>//api/name/lastNameIpad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/lastNameIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *lastNameIpad</Declaration>
+			
+			
+			<Anchor>//api/name/lastNameIpad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Profile/lastNameIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *lastNameIpad</Declaration>
+			
+			
+			<Anchor>//api/name/lastNameIpad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/setEmailIpad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *emailIpad</Declaration>
+			
+			
+			<Anchor>//api/name/emailIpad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/emailIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *emailIpad</Declaration>
+			
+			
+			<Anchor>//api/name/emailIpad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Profile/emailIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *emailIpad</Declaration>
+			
+			
+			<Anchor>//api/name/emailIpad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/setPhoneIpad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *phoneIpad</Declaration>
+			
+			
+			<Anchor>//api/name/phoneIpad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/phoneIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *phoneIpad</Declaration>
+			
+			
+			<Anchor>//api/name/phoneIpad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Profile/phoneIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *phoneIpad</Declaration>
+			
+			
+			<Anchor>//api/name/phoneIpad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/setAddressIPad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *addressIPad</Declaration>
+			
+			
+			<Anchor>//api/name/addressIPad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/addressIPad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *addressIPad</Declaration>
+			
+			
+			<Anchor>//api/name/addressIPad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Profile/addressIPad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *addressIPad</Declaration>
+			
+			
+			<Anchor>//api/name/addressIPad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/setPasswordIpad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *passwordIpad</Declaration>
+			
+			
+			<Anchor>//api/name/passwordIpad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/passwordIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *passwordIpad</Declaration>
+			
+			
+			<Anchor>//api/name/passwordIpad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Profile/passwordIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *passwordIpad</Declaration>
+			
+			
+			<Anchor>//api/name/passwordIpad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/setNavBarlabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *navBarlabel</Declaration>
+			
+			
+			<Anchor>//api/name/navBarlabel</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/navBarlabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *navBarlabel</Declaration>
+			
+			
+			<Anchor>//api/name/navBarlabel</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Profile/navBarlabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *navBarlabel</Declaration>
+			
+			
+			<Anchor>//api/name/navBarlabel</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/setLabelTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelTitle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTitle</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/labelTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelTitle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTitle</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Profile/labelTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelTitle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTitle</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/setLabelProfile:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelProfile</Declaration>
+			
+			
+			<Anchor>//api/name/labelProfile</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/labelProfile</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelProfile</Declaration>
+			
+			
+			<Anchor>//api/name/labelProfile</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Profile/labelProfile</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelProfile</Declaration>
+			
+			
+			<Anchor>//api/name/labelProfile</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/setButtonUpdate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonUpdate</Declaration>
+			
+			
+			<Anchor>//api/name/buttonUpdate</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/buttonUpdate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonUpdate</Declaration>
+			
+			
+			<Anchor>//api/name/buttonUpdate</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Profile/buttonUpdate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonUpdate</Declaration>
+			
+			
+			<Anchor>//api/name/buttonUpdate</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/closeKeyboardIphone:</TokenIdentifier>
+			<Abstract type="html">Ferme le clavier</Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)closeKeyboardIphone:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">textfield</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/closeKeyboardIphone:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/clickUpdate:</TokenIdentifier>
+			<Abstract type="html">met à jour les informations de la session</Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickUpdate:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton update</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickUpdate:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/initObjects</TokenIdentifier>
+			<Abstract type="html">Initialise les propriétés</Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>- (void)initObjects</Declaration>
+			
+			
+			<Anchor>//api/name/initObjects</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/translate</TokenIdentifier>
+			<Abstract type="html">Traduit la vue</Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>- (void)translate</Declaration>
+			
+			
+			<Anchor>//api/name/translate</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/updateInformations</TokenIdentifier>
+			<Abstract type="html">Met à jour les information de la session</Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>- (void)updateInformations</Declaration>
+			
+			
+			<Anchor>//api/name/updateInformations</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/sendSetInfoUserRequest</TokenIdentifier>
+			<Abstract type="html">Récupère les informations de la session</Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>- (void)sendSetInfoUserRequest</Declaration>
+			
+			
+			<Anchor>//api/name/sendSetInfoUserRequest</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/checkSetInfoUserResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie la récupération des informations de la session</Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>- (void)checkSetInfoUserResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">get infos user notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkSetInfoUserResponse:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/handle3_5</TokenIdentifier>
+			<Abstract type="html">Redimensionne l&apos;écran 3.5 inch</Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>- (void)handle3_5</Declaration>
+			
+			
+			<Anchor>//api/name/handle3_5</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/handle4</TokenIdentifier>
+			<Abstract type="html">Redimensionne l&apos;écran 4 inch</Abstract>
+			<DeclaredIn>Profile.h</DeclaredIn>
+			
+			<Declaration>- (void)handle4</Declaration>
+			
+			
+			<Anchor>//api/name/handle4</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/initWithNibName:bundle:</TokenIdentifier>
+			<Abstract type="html">Initialise la vue</Abstract>
+			<DeclaredIn>Profile.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>nibNameOrNil</Name>
+					<Abstract type="html">fichier xib</Abstract>
+				</Parameter><Parameter>
+					<Name>nibBundleOrNil</Name>
+					<Abstract type="html">bundle de l&apos;application</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">la vue</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithNibName:bundle:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/viewDidLoad</TokenIdentifier>
+			<Abstract type="html">Charge la vue</Abstract>
+			<DeclaredIn>Profile.m</DeclaredIn>
+			
+			<Declaration>- (void)viewDidLoad</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidLoad</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/viewWillAppear:</TokenIdentifier>
+			<Abstract type="html">Affiche la vue</Abstract>
+			<DeclaredIn>Profile.m</DeclaredIn>
+			
+			<Declaration>- (void)viewWillAppear:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">avec ou sans animation</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/viewWillAppear:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/viewWillLayoutSubviews</TokenIdentifier>
+			<Abstract type="html">Redimmensionne la vue</Abstract>
+			<DeclaredIn>Profile.m</DeclaredIn>
+			
+			<Declaration>- (void)viewWillLayoutSubviews</Declaration>
+			
+			
+			<Anchor>//api/name/viewWillLayoutSubviews</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/viewWillDisappear:</TokenIdentifier>
+			<Abstract type="html">Cette méthode est appelé quand le vue va bientôt disparaître</Abstract>
+			<DeclaredIn>Profile.m</DeclaredIn>
+			
+			<Declaration>- (void)viewWillDisappear:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">avec ou sans animation</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/viewWillDisappear:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Profile/didReceiveMemoryWarning</TokenIdentifier>
+			<Abstract type="html">Libère la mémoire</Abstract>
+			<DeclaredIn>Profile.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveMemoryWarning</Declaration>
+			
+			
+			<Anchor>//api/name/didReceiveMemoryWarning</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/User.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/User</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+            
+			
+			<NodeRef refid="42"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setFirstName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *firstName</Declaration>
+			
+			
+			<Anchor>//api/name/firstName</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/firstName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *firstName</Declaration>
+			
+			
+			<Anchor>//api/name/firstName</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/firstName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *firstName</Declaration>
+			
+			
+			<Anchor>//api/name/firstName</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setLastName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *lastName</Declaration>
+			
+			
+			<Anchor>//api/name/lastName</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/lastName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *lastName</Declaration>
+			
+			
+			<Anchor>//api/name/lastName</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/lastName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *lastName</Declaration>
+			
+			
+			<Anchor>//api/name/lastName</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setUserName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *userName</Declaration>
+			
+			
+			<Anchor>//api/name/userName</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/userName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *userName</Declaration>
+			
+			
+			<Anchor>//api/name/userName</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/userName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *userName</Declaration>
+			
+			
+			<Anchor>//api/name/userName</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setEmail:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *email</Declaration>
+			
+			
+			<Anchor>//api/name/email</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/email</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *email</Declaration>
+			
+			
+			<Anchor>//api/name/email</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/email</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *email</Declaration>
+			
+			
+			<Anchor>//api/name/email</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setGender:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *gender</Declaration>
+			
+			
+			<Anchor>//api/name/gender</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/gender</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *gender</Declaration>
+			
+			
+			<Anchor>//api/name/gender</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/gender</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *gender</Declaration>
+			
+			
+			<Anchor>//api/name/gender</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setPhone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *phone</Declaration>
+			
+			
+			<Anchor>//api/name/phone</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/phone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *phone</Declaration>
+			
+			
+			<Anchor>//api/name/phone</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/phone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *phone</Declaration>
+			
+			
+			<Anchor>//api/name/phone</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setLocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/location</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/location</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setBirthday:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *birthday</Declaration>
+			
+			
+			<Anchor>//api/name/birthday</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/birthday</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *birthday</Declaration>
+			
+			
+			<Anchor>//api/name/birthday</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/birthday</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *birthday</Declaration>
+			
+			
+			<Anchor>//api/name/birthday</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setPassword:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *password</Declaration>
+			
+			
+			<Anchor>//api/name/password</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/password</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *password</Declaration>
+			
+			
+			<Anchor>//api/name/password</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/password</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *password</Declaration>
+			
+			
+			<Anchor>//api/name/password</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setFacebookId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *facebookId</Declaration>
+			
+			
+			<Anchor>//api/name/facebookId</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/facebookId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *facebookId</Declaration>
+			
+			
+			<Anchor>//api/name/facebookId</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/facebookId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *facebookId</Declaration>
+			
+			
+			<Anchor>//api/name/facebookId</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setAuth_firstName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_firstName</Declaration>
+			
+			
+			<Anchor>//api/name/auth_firstName</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/auth_firstName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_firstName</Declaration>
+			
+			
+			<Anchor>//api/name/auth_firstName</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/auth_firstName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_firstName</Declaration>
+			
+			
+			<Anchor>//api/name/auth_firstName</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setAuth_lastName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_lastName</Declaration>
+			
+			
+			<Anchor>//api/name/auth_lastName</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/auth_lastName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_lastName</Declaration>
+			
+			
+			<Anchor>//api/name/auth_lastName</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/auth_lastName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_lastName</Declaration>
+			
+			
+			<Anchor>//api/name/auth_lastName</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setAuth_userName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_userName</Declaration>
+			
+			
+			<Anchor>//api/name/auth_userName</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/auth_userName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_userName</Declaration>
+			
+			
+			<Anchor>//api/name/auth_userName</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/auth_userName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_userName</Declaration>
+			
+			
+			<Anchor>//api/name/auth_userName</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setAuth_email:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_email</Declaration>
+			
+			
+			<Anchor>//api/name/auth_email</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/auth_email</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_email</Declaration>
+			
+			
+			<Anchor>//api/name/auth_email</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/auth_email</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_email</Declaration>
+			
+			
+			<Anchor>//api/name/auth_email</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setAuth_gender:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_gender</Declaration>
+			
+			
+			<Anchor>//api/name/auth_gender</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/auth_gender</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_gender</Declaration>
+			
+			
+			<Anchor>//api/name/auth_gender</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/auth_gender</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_gender</Declaration>
+			
+			
+			<Anchor>//api/name/auth_gender</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setAuth_phone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_phone</Declaration>
+			
+			
+			<Anchor>//api/name/auth_phone</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/auth_phone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_phone</Declaration>
+			
+			
+			<Anchor>//api/name/auth_phone</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/auth_phone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_phone</Declaration>
+			
+			
+			<Anchor>//api/name/auth_phone</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setAuth_location:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_location</Declaration>
+			
+			
+			<Anchor>//api/name/auth_location</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/auth_location</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_location</Declaration>
+			
+			
+			<Anchor>//api/name/auth_location</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/auth_location</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_location</Declaration>
+			
+			
+			<Anchor>//api/name/auth_location</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setAuth_birthday:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_birthday</Declaration>
+			
+			
+			<Anchor>//api/name/auth_birthday</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/auth_birthday</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_birthday</Declaration>
+			
+			
+			<Anchor>//api/name/auth_birthday</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/auth_birthday</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_birthday</Declaration>
+			
+			
+			<Anchor>//api/name/auth_birthday</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setAuth_password:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_password</Declaration>
+			
+			
+			<Anchor>//api/name/auth_password</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/auth_password</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_password</Declaration>
+			
+			
+			<Anchor>//api/name/auth_password</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/auth_password</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSString *auth_password</Declaration>
+			
+			
+			<Anchor>//api/name/auth_password</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

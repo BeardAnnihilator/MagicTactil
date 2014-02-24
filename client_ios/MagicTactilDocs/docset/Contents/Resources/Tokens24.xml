@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JoinRoom.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JoinRoom</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JoinRoom.h</DeclaredIn>
+            
+			
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/clickReturn:</TokenIdentifier>
+			<Abstract type="html">Affiche la vue précédente</Abstract>
+			<DeclaredIn>JoinRoom.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickReturn:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton retour</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickReturn:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/setTextFieldNameRoom:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JoinRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *textFieldNameRoom</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldNameRoom</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/textFieldNameRoom</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JoinRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *textFieldNameRoom</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldNameRoom</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JoinRoom/textFieldNameRoom</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JoinRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *textFieldNameRoom</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldNameRoom</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/setTableViewIpad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JoinRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableViewIpad</Declaration>
+			
+			
+			<Anchor>//api/name/tableViewIpad</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/tableViewIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JoinRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableViewIpad</Declaration>
+			
+			
+			<Anchor>//api/name/tableViewIpad</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JoinRoom/tableViewIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JoinRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableViewIpad</Declaration>
+			
+			
+			<Anchor>//api/name/tableViewIpad</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/initObjects</TokenIdentifier>
+			<Abstract type="html">Initialise les propriétés</Abstract>
+			<DeclaredIn>JoinRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)initObjects</Declaration>
+			
+			
+			<Anchor>//api/name/initObjects</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/sendGetAllRooms</TokenIdentifier>
+			<Abstract type="html">Récupère les rooms</Abstract>
+			<DeclaredIn>JoinRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)sendGetAllRooms</Declaration>
+			
+			
+			<Anchor>//api/name/sendGetAllRooms</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/checkGetAllRoomsResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie la récupération des rooms</Abstract>
+			<DeclaredIn>JoinRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)checkGetAllRoomsResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">get all room notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkGetAllRoomsResponse:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/sendJoinRoom</TokenIdentifier>
+			<Abstract type="html">Rejoindre une room</Abstract>
+			<DeclaredIn>JoinRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)sendJoinRoom</Declaration>
+			
+			
+			<Anchor>//api/name/sendJoinRoom</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/checkJoinRoomResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie le retour du serveur de la requête join room</Abstract>
+			<DeclaredIn>JoinRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)checkJoinRoomResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">join room notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkJoinRoomResponse:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/sendGetPlayers</TokenIdentifier>
+			<Abstract type="html">Récupère les joueurs</Abstract>
+			<DeclaredIn>JoinRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)sendGetPlayers</Declaration>
+			
+			
+			<Anchor>//api/name/sendGetPlayers</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/checkGetPlayersResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie la récupération des joueurs</Abstract>
+			<DeclaredIn>JoinRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)checkGetPlayersResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">get players notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkGetPlayersResponse:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/storeAllRooms:</TokenIdentifier>
+			<Abstract type="html">Sauvegarde les rooms</Abstract>
+			<DeclaredIn>JoinRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)storeAllRooms:(NSString *)list</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>list</Name>
+					<Abstract type="html">liste des rooms</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/storeAllRooms:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/storeAllPlayers:</TokenIdentifier>
+			<Abstract type="html">Sauvegarde les joueurs</Abstract>
+			<DeclaredIn>JoinRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)storeAllPlayers:(NSString *)list</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>list</Name>
+					<Abstract type="html">liste des joueurs</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/storeAllPlayers:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/initWithNibName:bundle:</TokenIdentifier>
+			<Abstract type="html">Initialise la vue</Abstract>
+			<DeclaredIn>JoinRoom.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>nibNameOrNil</Name>
+					<Abstract type="html">fichier xib</Abstract>
+				</Parameter><Parameter>
+					<Name>nibBundleOrNil</Name>
+					<Abstract type="html">bundle de l&apos;application</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">retourne la vue</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithNibName:bundle:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/viewDidLoad</TokenIdentifier>
+			<Abstract type="html">Charge la vue</Abstract>
+			<DeclaredIn>JoinRoom.m</DeclaredIn>
+			
+			<Declaration>- (void)viewDidLoad</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidLoad</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/viewWillAppear:</TokenIdentifier>
+			<Abstract type="html">Affiche la vue</Abstract>
+			<DeclaredIn>JoinRoom.m</DeclaredIn>
+			
+			<Declaration>- (void)viewWillAppear:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">avec ou sans animation</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/viewWillAppear:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/numberOfSectionsInTableView:</TokenIdentifier>
+			<Abstract type="html">Défini le nombre de sections</Abstract>
+			<DeclaredIn>JoinRoom.m</DeclaredIn>
+			
+			<Declaration>- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tableView</Name>
+					<Abstract type="html">tableView</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">le nombre de sections</Abstract></ReturnValue>
+			<Anchor>//api/name/numberOfSectionsInTableView:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/tableView:numberOfRowsInSection:</TokenIdentifier>
+			<Abstract type="html">Défini le nombre de cellules par sections</Abstract>
+			<DeclaredIn>JoinRoom.m</DeclaredIn>
+			
+			<Declaration>- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tableView</Name>
+					<Abstract type="html">tableView</Abstract>
+				</Parameter><Parameter>
+					<Name>section</Name>
+					<Abstract type="html">la section</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">le nombre de cellules</Abstract></ReturnValue>
+			<Anchor>//api/name/tableView:numberOfRowsInSection:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/tableView:cellForRowAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">Défini la cellule</Abstract>
+			<DeclaredIn>JoinRoom.m</DeclaredIn>
+			
+			<Declaration>- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tableView</Name>
+					<Abstract type="html">tableView</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">l&apos;index</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">la cellule</Abstract></ReturnValue>
+			<Anchor>//api/name/tableView:cellForRowAtIndexPath:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/tableView:didSelectRowAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">Sélectionne une cellule</Abstract>
+			<DeclaredIn>JoinRoom.m</DeclaredIn>
+			
+			<Declaration>- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tableView</Name>
+					<Abstract type="html">tableView</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">l&apos;index</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/tableView:didSelectRowAtIndexPath:</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JoinRoom/didReceiveMemoryWarning</TokenIdentifier>
+			<Abstract type="html">Libère la mémoire</Abstract>
+			<DeclaredIn>JoinRoom.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveMemoryWarning</Declaration>
+			
+			
+			<Anchor>//api/name/didReceiveMemoryWarning</Anchor>
+            <NodeRef refid="24"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

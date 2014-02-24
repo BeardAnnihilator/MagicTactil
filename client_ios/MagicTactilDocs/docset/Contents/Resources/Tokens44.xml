@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/XMLDictionaryParser.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/XMLDictionaryParser</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+            
+			
+			<NodeRef refid="44"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XMLDictionaryParser/sharedInstance</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>+ (XMLDictionaryParser *)sharedInstance</Declaration>
+			
+			
+			<Anchor>//api/name/sharedInstance</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/setCollapseTextNodes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL collapseTextNodes</Declaration>
+			
+			
+			<Anchor>//api/name/collapseTextNodes</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/collapseTextNodes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL collapseTextNodes</Declaration>
+			
+			
+			<Anchor>//api/name/collapseTextNodes</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XMLDictionaryParser/collapseTextNodes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL collapseTextNodes</Declaration>
+			
+			
+			<Anchor>//api/name/collapseTextNodes</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/setStripEmptyNodes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL stripEmptyNodes</Declaration>
+			
+			
+			<Anchor>//api/name/stripEmptyNodes</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/stripEmptyNodes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL stripEmptyNodes</Declaration>
+			
+			
+			<Anchor>//api/name/stripEmptyNodes</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XMLDictionaryParser/stripEmptyNodes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL stripEmptyNodes</Declaration>
+			
+			
+			<Anchor>//api/name/stripEmptyNodes</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/setTrimWhiteSpace:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL trimWhiteSpace</Declaration>
+			
+			
+			<Anchor>//api/name/trimWhiteSpace</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/trimWhiteSpace</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL trimWhiteSpace</Declaration>
+			
+			
+			<Anchor>//api/name/trimWhiteSpace</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XMLDictionaryParser/trimWhiteSpace</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL trimWhiteSpace</Declaration>
+			
+			
+			<Anchor>//api/name/trimWhiteSpace</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/setAlwaysUseArrays:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL alwaysUseArrays</Declaration>
+			
+			
+			<Anchor>//api/name/alwaysUseArrays</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/alwaysUseArrays</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL alwaysUseArrays</Declaration>
+			
+			
+			<Anchor>//api/name/alwaysUseArrays</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XMLDictionaryParser/alwaysUseArrays</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL alwaysUseArrays</Declaration>
+			
+			
+			<Anchor>//api/name/alwaysUseArrays</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/setPreserveComments:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL preserveComments</Declaration>
+			
+			
+			<Anchor>//api/name/preserveComments</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/preserveComments</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL preserveComments</Declaration>
+			
+			
+			<Anchor>//api/name/preserveComments</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XMLDictionaryParser/preserveComments</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL preserveComments</Declaration>
+			
+			
+			<Anchor>//api/name/preserveComments</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/setAttributesMode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) XMLDictionaryAttributesMode attributesMode</Declaration>
+			
+			
+			<Anchor>//api/name/attributesMode</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/attributesMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) XMLDictionaryAttributesMode attributesMode</Declaration>
+			
+			
+			<Anchor>//api/name/attributesMode</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XMLDictionaryParser/attributesMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) XMLDictionaryAttributesMode attributesMode</Declaration>
+			
+			
+			<Anchor>//api/name/attributesMode</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/setNodeNameMode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) XMLDictionaryNodeNameMode nodeNameMode</Declaration>
+			
+			
+			<Anchor>//api/name/nodeNameMode</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/nodeNameMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) XMLDictionaryNodeNameMode nodeNameMode</Declaration>
+			
+			
+			<Anchor>//api/name/nodeNameMode</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XMLDictionaryParser/nodeNameMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) XMLDictionaryNodeNameMode nodeNameMode</Declaration>
+			
+			
+			<Anchor>//api/name/nodeNameMode</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/dictionaryWithData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dictionaryWithData:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/dictionaryWithData:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/dictionaryWithString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dictionaryWithString:(NSString *)string</Declaration>
+			
+			
+			<Anchor>//api/name/dictionaryWithString:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/dictionaryWithFile:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dictionaryWithFile:(NSString *)path</Declaration>
+			
+			
+			<Anchor>//api/name/dictionaryWithFile:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.m</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/copyWithZone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.m</DeclaredIn>
+			
+			<Declaration>- (id)copyWithZone:(NSZone *)zone</Declaration>
+			
+			
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/XMLDictionaryParser/XMLStringForNode:withNodeName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.m</DeclaredIn>
+			
+			<Declaration>+ (NSString *)XMLStringForNode:(id)node withNodeName:(NSString *)nodeName</Declaration>
+			
+			
+			<Anchor>//api/name/XMLStringForNode:withNodeName:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/endText</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.m</DeclaredIn>
+			
+			<Declaration>- (void)endText</Declaration>
+			
+			
+			<Anchor>//api/name/endText</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/addText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.m</DeclaredIn>
+			
+			<Declaration>- (void)addText:(NSString *)text</Declaration>
+			
+			
+			<Anchor>//api/name/addText:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/parser:didStartElement:namespaceURI:qualifiedName:attributes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.m</DeclaredIn>
+			
+			<Declaration>- (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict</Declaration>
+			
+			
+			<Anchor>//api/name/parser:didStartElement:namespaceURI:qualifiedName:attributes:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/nameForNode:inDictionary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.m</DeclaredIn>
+			
+			<Declaration>- (NSString *)nameForNode:(NSDictionary *)node inDictionary:(NSDictionary *)dict</Declaration>
+			
+			
+			<Anchor>//api/name/nameForNode:inDictionary:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/parser:didEndElement:namespaceURI:qualifiedName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.m</DeclaredIn>
+			
+			<Declaration>- (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName</Declaration>
+			
+			
+			<Anchor>//api/name/parser:didEndElement:namespaceURI:qualifiedName:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/parser:foundCharacters:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.m</DeclaredIn>
+			
+			<Declaration>- (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string</Declaration>
+			
+			
+			<Anchor>//api/name/parser:foundCharacters:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/parser:foundCDATA:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.m</DeclaredIn>
+			
+			<Declaration>- (void)parser:(NSXMLParser *)parser foundCDATA:(NSData *)CDATABlock</Declaration>
+			
+			
+			<Anchor>//api/name/parser:foundCDATA:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/parser:foundComment:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.m</DeclaredIn>
+			
+			<Declaration>- (void)parser:(NSXMLParser *)parser foundComment:(NSString *)comment</Declaration>
+			
+			
+			<Anchor>//api/name/parser:foundComment:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/setRoot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableDictionary *root</Declaration>
+			
+			
+			<Anchor>//api/name/root</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/root</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableDictionary *root</Declaration>
+			
+			
+			<Anchor>//api/name/root</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XMLDictionaryParser/root</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableDictionary *root</Declaration>
+			
+			
+			<Anchor>//api/name/root</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/setStack:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *stack</Declaration>
+			
+			
+			<Anchor>//api/name/stack</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/stack</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *stack</Declaration>
+			
+			
+			<Anchor>//api/name/stack</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XMLDictionaryParser/stack</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *stack</Declaration>
+			
+			
+			<Anchor>//api/name/stack</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/setText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/XMLDictionaryParser/text</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/XMLDictionaryParser/text</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>XMLDictionary.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

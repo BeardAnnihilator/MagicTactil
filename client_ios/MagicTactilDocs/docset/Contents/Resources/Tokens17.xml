@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/Friends.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/Friends</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+            
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/clickReturn:</TokenIdentifier>
+			<Abstract type="html">Retourne à la vue précédente</Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickReturn:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton retour</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickReturn:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/clickAddFriend:</TokenIdentifier>
+			<Abstract type="html">Ajoute une ami</Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickAddFriend:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton ajouter un ami</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickAddFriend:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/closeKeyboard:</TokenIdentifier>
+			<Abstract type="html">Ferme le clavier</Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)closeKeyboard:(UITextField *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">textfield</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/closeKeyboard:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/setTableViewIphone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableViewIphone</Declaration>
+			
+			
+			<Anchor>//api/name/tableViewIphone</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/tableViewIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableViewIphone</Declaration>
+			
+			
+			<Anchor>//api/name/tableViewIphone</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Friends/tableViewIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableViewIphone</Declaration>
+			
+			
+			<Anchor>//api/name/tableViewIphone</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/setTextFieldUserName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *textFieldUserName</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldUserName</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/textFieldUserName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *textFieldUserName</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldUserName</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Friends/textFieldUserName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *textFieldUserName</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldUserName</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/setTableViewIpad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableViewIpad</Declaration>
+			
+			
+			<Anchor>//api/name/tableViewIpad</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/tableViewIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableViewIpad</Declaration>
+			
+			
+			<Anchor>//api/name/tableViewIpad</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Friends/tableViewIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableViewIpad</Declaration>
+			
+			
+			<Anchor>//api/name/tableViewIpad</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/setTextFieldIpad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *textFieldIpad</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldIpad</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/textFieldIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *textFieldIpad</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldIpad</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Friends/textFieldIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *textFieldIpad</Declaration>
+			
+			
+			<Anchor>//api/name/textFieldIpad</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/setButtonAdd:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonAdd</Declaration>
+			
+			
+			<Anchor>//api/name/buttonAdd</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/buttonAdd</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonAdd</Declaration>
+			
+			
+			<Anchor>//api/name/buttonAdd</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Friends/buttonAdd</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonAdd</Declaration>
+			
+			
+			<Anchor>//api/name/buttonAdd</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/initObjects</TokenIdentifier>
+			<Abstract type="html">initialise les propriétés</Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>- (void)initObjects</Declaration>
+			
+			
+			<Anchor>//api/name/initObjects</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/translate</TokenIdentifier>
+			<Abstract type="html">Traduit la vue</Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>- (void)translate</Declaration>
+			
+			
+			<Anchor>//api/name/translate</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/sendGetAllFriends</TokenIdentifier>
+			<Abstract type="html">Récupère les amis</Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>- (void)sendGetAllFriends</Declaration>
+			
+			
+			<Anchor>//api/name/sendGetAllFriends</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/checkGetAllFriendsResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie la récupération des amis</Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>- (void)checkGetAllFriendsResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">get all friends notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkGetAllFriendsResponse:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/sendAddFriends</TokenIdentifier>
+			<Abstract type="html">Ajoute un ami</Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>- (void)sendAddFriends</Declaration>
+			
+			
+			<Anchor>//api/name/sendAddFriends</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/checkAddFriendsResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie l&apos;ajout d&apos;un ami</Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>- (void)checkAddFriendsResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">add friend notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkAddFriendsResponse:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/storeAllFriends:</TokenIdentifier>
+			<Abstract type="html">Sauvegarde les amis</Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>- (void)storeAllFriends:(NSString *)list</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>list</Name>
+					<Abstract type="html">liste des amis</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/storeAllFriends:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/handle4</TokenIdentifier>
+			<Abstract type="html">Redimmensionne l&apos;écran 4 inch</Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>- (void)handle4</Declaration>
+			
+			
+			<Anchor>//api/name/handle4</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/handle3_5</TokenIdentifier>
+			<Abstract type="html">Redimmensionne l&apos;écran 3.5 inch</Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>- (void)handle3_5</Declaration>
+			
+			
+			<Anchor>//api/name/handle3_5</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/checkFields</TokenIdentifier>
+			<Abstract type="html">Vérifie les champs</Abstract>
+			<DeclaredIn>Friends.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)checkFields</Declaration>
+			
+			<ReturnValue><Abstract type="html">ok pour ajouter si non KO</Abstract></ReturnValue>
+			<Anchor>//api/name/checkFields</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/initWithNibName:bundle:</TokenIdentifier>
+			<Abstract type="html">Initialise la vue</Abstract>
+			<DeclaredIn>Friends.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>nibNameOrNil</Name>
+					<Abstract type="html">fichier xib</Abstract>
+				</Parameter><Parameter>
+					<Name>nibBundleOrNil</Name>
+					<Abstract type="html">bundle de l&apos;application</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">retourne la vue</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithNibName:bundle:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/viewDidLoad</TokenIdentifier>
+			<Abstract type="html">Charge la vue</Abstract>
+			<DeclaredIn>Friends.m</DeclaredIn>
+			
+			<Declaration>- (void)viewDidLoad</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidLoad</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/viewWillAppear:</TokenIdentifier>
+			<Abstract type="html">Affiche la vue</Abstract>
+			<DeclaredIn>Friends.m</DeclaredIn>
+			
+			<Declaration>- (void)viewWillAppear:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">avec ou sans animation</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/viewWillAppear:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/viewWillLayoutSubviews</TokenIdentifier>
+			<Abstract type="html">Redimmensionne la vue</Abstract>
+			<DeclaredIn>Friends.m</DeclaredIn>
+			
+			<Declaration>- (void)viewWillLayoutSubviews</Declaration>
+			
+			
+			<Anchor>//api/name/viewWillLayoutSubviews</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/didReceiveMemoryWarning</TokenIdentifier>
+			<Abstract type="html">Libère la mémoire</Abstract>
+			<DeclaredIn>Friends.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveMemoryWarning</Declaration>
+			
+			
+			<Anchor>//api/name/didReceiveMemoryWarning</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/numberOfSectionsInTableView:</TokenIdentifier>
+			<Abstract type="html">Défini le nombre sections</Abstract>
+			<DeclaredIn>Friends.m</DeclaredIn>
+			
+			<Declaration>- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tableView</Name>
+					<Abstract type="html">tableView</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">retourne le nombre de sections</Abstract></ReturnValue>
+			<Anchor>//api/name/numberOfSectionsInTableView:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/tableView:numberOfRowsInSection:</TokenIdentifier>
+			<Abstract type="html">Défini le nombre de cellules par sections</Abstract>
+			<DeclaredIn>Friends.m</DeclaredIn>
+			
+			<Declaration>- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tableView</Name>
+					<Abstract type="html">tableView</Abstract>
+				</Parameter><Parameter>
+					<Name>section</Name>
+					<Abstract type="html">la section</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">le nombre de cellules</Abstract></ReturnValue>
+			<Anchor>//api/name/tableView:numberOfRowsInSection:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/tableView:cellForRowAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">Défini la cellule</Abstract>
+			<DeclaredIn>Friends.m</DeclaredIn>
+			
+			<Declaration>- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tableView</Name>
+					<Abstract type="html">tableView</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">l&apos;index</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">la cellule</Abstract></ReturnValue>
+			<Anchor>//api/name/tableView:cellForRowAtIndexPath:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Friends/tableView:didSelectRowAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">Sélectionne une cellule</Abstract>
+			<DeclaredIn>Friends.m</DeclaredIn>
+			
+			<Declaration>- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tableView</Name>
+					<Abstract type="html">tableView</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">l&apos;index</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/tableView:didSelectRowAtIndexPath:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ButtonCard.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ButtonCard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setIsInHand:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isInHand</Declaration>
+			
+			
+			<Anchor>//api/name/isInHand</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/isInHand</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isInHand</Declaration>
+			
+			
+			<Anchor>//api/name/isInHand</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/isInHand</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isInHand</Declaration>
+			
+			
+			<Anchor>//api/name/isInHand</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setIsInView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isInView</Declaration>
+			
+			
+			<Anchor>//api/name/isInView</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/isInView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isInView</Declaration>
+			
+			
+			<Anchor>//api/name/isInView</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/isInView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isInView</Declaration>
+			
+			
+			<Anchor>//api/name/isInView</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setIsInGame:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isInGame</Declaration>
+			
+			
+			<Anchor>//api/name/isInGame</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/isInGame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isInGame</Declaration>
+			
+			
+			<Anchor>//api/name/isInGame</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/isInGame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isInGame</Declaration>
+			
+			
+			<Anchor>//api/name/isInGame</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setIsInGraveyard:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isInGraveyard</Declaration>
+			
+			
+			<Anchor>//api/name/isInGraveyard</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/isInGraveyard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isInGraveyard</Declaration>
+			
+			
+			<Anchor>//api/name/isInGraveyard</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/isInGraveyard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isInGraveyard</Declaration>
+			
+			
+			<Anchor>//api/name/isInGraveyard</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setIsExiled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isExiled</Declaration>
+			
+			
+			<Anchor>//api/name/isExiled</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/isExiled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isExiled</Declaration>
+			
+			
+			<Anchor>//api/name/isExiled</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/isExiled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isExiled</Declaration>
+			
+			
+			<Anchor>//api/name/isExiled</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setIsInDeck:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isInDeck</Declaration>
+			
+			
+			<Anchor>//api/name/isInDeck</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/isInDeck</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isInDeck</Declaration>
+			
+			
+			<Anchor>//api/name/isInDeck</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/isInDeck</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isInDeck</Declaration>
+			
+			
+			<Anchor>//api/name/isInDeck</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setOldPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) areaType oldPosition</Declaration>
+			
+			
+			<Anchor>//api/name/oldPosition</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/oldPosition</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) areaType oldPosition</Declaration>
+			
+			
+			<Anchor>//api/name/oldPosition</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/oldPosition</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) areaType oldPosition</Declaration>
+			
+			
+			<Anchor>//api/name/oldPosition</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setOldX:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) int oldX</Declaration>
+			
+			
+			<Anchor>//api/name/oldX</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/oldX</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) int oldX</Declaration>
+			
+			
+			<Anchor>//api/name/oldX</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/oldX</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) int oldX</Declaration>
+			
+			
+			<Anchor>//api/name/oldX</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setOldY:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) int oldY</Declaration>
+			
+			
+			<Anchor>//api/name/oldY</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/oldY</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) int oldY</Declaration>
+			
+			
+			<Anchor>//api/name/oldY</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/oldY</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) int oldY</Declaration>
+			
+			
+			<Anchor>//api/name/oldY</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setDrag:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL drag</Declaration>
+			
+			
+			<Anchor>//api/name/drag</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/drag</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL drag</Declaration>
+			
+			
+			<Anchor>//api/name/drag</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/drag</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL drag</Declaration>
+			
+			
+			<Anchor>//api/name/drag</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setIsSided:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isSided</Declaration>
+			
+			
+			<Anchor>//api/name/isSided</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/isSided</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isSided</Declaration>
+			
+			
+			<Anchor>//api/name/isSided</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/isSided</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isSided</Declaration>
+			
+			
+			<Anchor>//api/name/isSided</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setIsZoomed:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isZoomed</Declaration>
+			
+			
+			<Anchor>//api/name/isZoomed</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/isZoomed</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isZoomed</Declaration>
+			
+			
+			<Anchor>//api/name/isZoomed</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/isZoomed</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isZoomed</Declaration>
+			
+			
+			<Anchor>//api/name/isZoomed</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setIsAnimating:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isAnimating</Declaration>
+			
+			
+			<Anchor>//api/name/isAnimating</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/isAnimating</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isAnimating</Declaration>
+			
+			
+			<Anchor>//api/name/isAnimating</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/isAnimating</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL isAnimating</Declaration>
+			
+			
+			<Anchor>//api/name/isAnimating</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setIdCard:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) int idCard</Declaration>
+			
+			
+			<Anchor>//api/name/idCard</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/idCard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) int idCard</Declaration>
+			
+			
+			<Anchor>//api/name/idCard</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/idCard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) int idCard</Declaration>
+			
+			
+			<Anchor>//api/name/idCard</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setUrl:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/url</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/url</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setSrc:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *src</Declaration>
+			
+			
+			<Anchor>//api/name/src</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/src</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *src</Declaration>
+			
+			
+			<Anchor>//api/name/src</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/src</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *src</Declaration>
+			
+			
+			<Anchor>//api/name/src</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setDest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *dest</Declaration>
+			
+			
+			<Anchor>//api/name/dest</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/dest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *dest</Declaration>
+			
+			
+			<Anchor>//api/name/dest</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/dest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *dest</Declaration>
+			
+			
+			<Anchor>//api/name/dest</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setPourcentX:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) int pourcentX</Declaration>
+			
+			
+			<Anchor>//api/name/pourcentX</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/pourcentX</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) int pourcentX</Declaration>
+			
+			
+			<Anchor>//api/name/pourcentX</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/pourcentX</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) int pourcentX</Declaration>
+			
+			
+			<Anchor>//api/name/pourcentX</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setPourcentY:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) int pourcentY</Declaration>
+			
+			
+			<Anchor>//api/name/pourcentY</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/pourcentY</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) int pourcentY</Declaration>
+			
+			
+			<Anchor>//api/name/pourcentY</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/pourcentY</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) int pourcentY</Declaration>
+			
+			
+			<Anchor>//api/name/pourcentY</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setClientName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *clientName</Declaration>
+			
+			
+			<Anchor>//api/name/clientName</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/clientName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *clientName</Declaration>
+			
+			
+			<Anchor>//api/name/clientName</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/clientName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *clientName</Declaration>
+			
+			
+			<Anchor>//api/name/clientName</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setRoomName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *roomName</Declaration>
+			
+			
+			<Anchor>//api/name/roomName</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/roomName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *roomName</Declaration>
+			
+			
+			<Anchor>//api/name/roomName</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/roomName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *roomName</Declaration>
+			
+			
+			<Anchor>//api/name/roomName</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/setIdGame:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *idGame</Declaration>
+			
+			
+			<Anchor>//api/name/idGame</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/idGame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *idGame</Declaration>
+			
+			
+			<Anchor>//api/name/idGame</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ButtonCard/idGame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) NSString *idGame</Declaration>
+			
+			
+			<Anchor>//api/name/idGame</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/initButtonCard</TokenIdentifier>
+			<Abstract type="html">Initialise le boutton</Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>- (void)initButtonCard</Declaration>
+			
+			
+			<Anchor>//api/name/initButtonCard</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/resetArea</TokenIdentifier>
+			<Abstract type="html">Réinitialise le boutton</Abstract>
+			<DeclaredIn>ButtonCard.h</DeclaredIn>
+			
+			<Declaration>- (void)resetArea</Declaration>
+			
+			
+			<Anchor>//api/name/resetArea</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ButtonCard/initWithFrame:</TokenIdentifier>
+			<Abstract type="html">Initialise la vue</Abstract>
+			<DeclaredIn>ButtonCard.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithFrame:(CGRect)frame</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>frame</Name>
+					<Abstract type="html">la taille de la vue</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">la vue</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithFrame:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

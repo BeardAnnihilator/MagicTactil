@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ManageCards.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ManageCards</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ManageCards.h</DeclaredIn>
+            
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/clickReturn:</TokenIdentifier>
+			<Abstract type="html">Cette méthode est appelé quand l&apos;utilisateur appuis sur le boutton retour</Abstract>
+			<DeclaredIn>ManageCards.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickReturn:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">le boutton retour</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickReturn:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/clickAdd:</TokenIdentifier>
+			<Abstract type="html">Cette méthode est appelé quand l&apos;utilisateur appuis sur le boutton ajouter une carte</Abstract>
+			<DeclaredIn>ManageCards.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickAdd:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">le boutton ajouter une carte</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickAdd:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/setLabelTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ManageCards.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelTitle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTitle</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/labelTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ManageCards.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelTitle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTitle</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ManageCards/labelTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ManageCards.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelTitle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTitle</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/setCollection:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ManageCards.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UICollectionView *collection</Declaration>
+			
+			
+			<Anchor>//api/name/collection</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/collection</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ManageCards.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UICollectionView *collection</Declaration>
+			
+			
+			<Anchor>//api/name/collection</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ManageCards/collection</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ManageCards.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UICollectionView *collection</Declaration>
+			
+			
+			<Anchor>//api/name/collection</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/setButtonAdd:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ManageCards.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonAdd</Declaration>
+			
+			
+			<Anchor>//api/name/buttonAdd</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/buttonAdd</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ManageCards.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonAdd</Declaration>
+			
+			
+			<Anchor>//api/name/buttonAdd</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ManageCards/buttonAdd</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ManageCards.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonAdd</Declaration>
+			
+			
+			<Anchor>//api/name/buttonAdd</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/initObjects</TokenIdentifier>
+			<Abstract type="html">Initialise les propriétés</Abstract>
+			<DeclaredIn>ManageCards.h</DeclaredIn>
+			
+			<Declaration>- (void)initObjects</Declaration>
+			
+			
+			<Anchor>//api/name/initObjects</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/initListCards</TokenIdentifier>
+			<Abstract type="html">Initialise le catalogue de cartes</Abstract>
+			<DeclaredIn>ManageCards.h</DeclaredIn>
+			
+			<Declaration>- (void)initListCards</Declaration>
+			
+			
+			<Anchor>//api/name/initListCards</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/sendAddCard</TokenIdentifier>
+			<Abstract type="html">Envoie la requete add card au serveur</Abstract>
+			<DeclaredIn>ManageCards.h</DeclaredIn>
+			
+			<Declaration>- (void)sendAddCard</Declaration>
+			
+			
+			<Anchor>//api/name/sendAddCard</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/checkAddCardResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie le retour du serveur de la requette add card</Abstract>
+			<DeclaredIn>ManageCards.h</DeclaredIn>
+			
+			<Declaration>- (void)checkAddCardResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">la notification add card</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkAddCardResponse:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/storeCard</TokenIdentifier>
+			<Abstract type="html">Sauvegarde la carte dans le deck</Abstract>
+			<DeclaredIn>ManageCards.h</DeclaredIn>
+			
+			<Declaration>- (void)storeCard</Declaration>
+			
+			
+			<Anchor>//api/name/storeCard</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/translate</TokenIdentifier>
+			<Abstract type="html">Traduit la vue</Abstract>
+			<DeclaredIn>ManageCards.h</DeclaredIn>
+			
+			<Declaration>- (void)translate</Declaration>
+			
+			
+			<Anchor>//api/name/translate</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/initWithNibName:bundle:</TokenIdentifier>
+			<Abstract type="html">Initialise la vue</Abstract>
+			<DeclaredIn>ManageCards.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>nibNameOrNil</Name>
+					<Abstract type="html">fichier xib</Abstract>
+				</Parameter><Parameter>
+					<Name>nibBundleOrNil</Name>
+					<Abstract type="html">bundle de l&apos;application</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">la vue</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithNibName:bundle:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/viewDidLoad</TokenIdentifier>
+			<Abstract type="html">Charge la vue</Abstract>
+			<DeclaredIn>ManageCards.m</DeclaredIn>
+			
+			<Declaration>- (void)viewDidLoad</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidLoad</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/viewDidAppear:</TokenIdentifier>
+			<Abstract type="html">Affiche la vue</Abstract>
+			<DeclaredIn>ManageCards.m</DeclaredIn>
+			
+			<Declaration>- (void)viewDidAppear:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">avec ou sans animation</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/viewDidAppear:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/collectionView:numberOfItemsInSection:</TokenIdentifier>
+			<Abstract type="html">Défini le nombre d&apos;items par sections</Abstract>
+			<DeclaredIn>ManageCards.m</DeclaredIn>
+			
+			<Declaration>- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>collectionView</Name>
+					<Abstract type="html">collectionView</Abstract>
+				</Parameter><Parameter>
+					<Name>section</Name>
+					<Abstract type="html">la section</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">le nombre d&apos;items</Abstract></ReturnValue>
+			<Anchor>//api/name/collectionView:numberOfItemsInSection:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/numberOfSectionsInCollectionView:</TokenIdentifier>
+			<Abstract type="html">Défini le nombre de sections</Abstract>
+			<DeclaredIn>ManageCards.m</DeclaredIn>
+			
+			<Declaration>- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>collectionView</Name>
+					<Abstract type="html">collectionView</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">le nombre de sections</Abstract></ReturnValue>
+			<Anchor>//api/name/numberOfSectionsInCollectionView:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/collectionView:cellForItemAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">Défini la cellule</Abstract>
+			<DeclaredIn>ManageCards.m</DeclaredIn>
+			
+			<Declaration>- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>collectionView</Name>
+					<Abstract type="html">collectionview</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">l&apos;index</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">la cellule</Abstract></ReturnValue>
+			<Anchor>//api/name/collectionView:cellForItemAtIndexPath:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/collectionView:didHighlightItemAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">Sélectionne une cellule</Abstract>
+			<DeclaredIn>ManageCards.m</DeclaredIn>
+			
+			<Declaration>- (void)collectionView:(UICollectionView *)collectionView didHighlightItemAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>collectionView</Name>
+					<Abstract type="html">collectionView</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">l&apos;index</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/collectionView:didHighlightItemAtIndexPath:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ManageCards/didReceiveMemoryWarning</TokenIdentifier>
+			<Abstract type="html">Libère la mémoire</Abstract>
+			<DeclaredIn>ManageCards.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveMemoryWarning</Declaration>
+			
+			
+			<Anchor>//api/name/didReceiveMemoryWarning</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

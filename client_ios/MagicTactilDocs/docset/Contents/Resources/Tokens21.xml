@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JDStatusBarNotificationViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JDStatusBarNotificationViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+            
+			
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarNotificationViewController/preferredStatusBarStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>- (UIStatusBarStyle)preferredStatusBarStyle</Declaration>
+			
+			
+			<Anchor>//api/name/preferredStatusBarStyle</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

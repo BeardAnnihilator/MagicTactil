@@ -1,0 +1,883 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>ButtonCard Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">MagicTactil </a></h1>
+				<a id="developerHome" href="../index.html">Magictactil</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">ButtonCard Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/clientName">&nbsp;&nbsp;&nbsp;&nbsp;clientName</option>
+	
+	<option value="//api/name/dest">&nbsp;&nbsp;&nbsp;&nbsp;dest</option>
+	
+	<option value="//api/name/drag">&nbsp;&nbsp;&nbsp;&nbsp;drag</option>
+	
+	<option value="//api/name/idCard">&nbsp;&nbsp;&nbsp;&nbsp;idCard</option>
+	
+	<option value="//api/name/idGame">&nbsp;&nbsp;&nbsp;&nbsp;idGame</option>
+	
+	<option value="//api/name/isAnimating">&nbsp;&nbsp;&nbsp;&nbsp;isAnimating</option>
+	
+	<option value="//api/name/isExiled">&nbsp;&nbsp;&nbsp;&nbsp;isExiled</option>
+	
+	<option value="//api/name/isInDeck">&nbsp;&nbsp;&nbsp;&nbsp;isInDeck</option>
+	
+	<option value="//api/name/isInGame">&nbsp;&nbsp;&nbsp;&nbsp;isInGame</option>
+	
+	<option value="//api/name/isInGraveyard">&nbsp;&nbsp;&nbsp;&nbsp;isInGraveyard</option>
+	
+	<option value="//api/name/isInHand">&nbsp;&nbsp;&nbsp;&nbsp;isInHand</option>
+	
+	<option value="//api/name/isInView">&nbsp;&nbsp;&nbsp;&nbsp;isInView</option>
+	
+	<option value="//api/name/isSided">&nbsp;&nbsp;&nbsp;&nbsp;isSided</option>
+	
+	<option value="//api/name/isZoomed">&nbsp;&nbsp;&nbsp;&nbsp;isZoomed</option>
+	
+	<option value="//api/name/oldPosition">&nbsp;&nbsp;&nbsp;&nbsp;oldPosition</option>
+	
+	<option value="//api/name/oldX">&nbsp;&nbsp;&nbsp;&nbsp;oldX</option>
+	
+	<option value="//api/name/oldY">&nbsp;&nbsp;&nbsp;&nbsp;oldY</option>
+	
+	<option value="//api/name/pourcentX">&nbsp;&nbsp;&nbsp;&nbsp;pourcentX</option>
+	
+	<option value="//api/name/pourcentY">&nbsp;&nbsp;&nbsp;&nbsp;pourcentY</option>
+	
+	<option value="//api/name/roomName">&nbsp;&nbsp;&nbsp;&nbsp;roomName</option>
+	
+	<option value="//api/name/src">&nbsp;&nbsp;&nbsp;&nbsp;src</option>
+	
+	<option value="//api/name/url">&nbsp;&nbsp;&nbsp;&nbsp;url</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/initButtonCard">&nbsp;&nbsp;&nbsp;&nbsp;- initButtonCard</option>
+	
+	<option value="//api/name/initWithFrame:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithFrame:</option>
+	
+	<option value="//api/name/resetArea">&nbsp;&nbsp;&nbsp;&nbsp;- resetArea</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/clientName">clientName</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dest">dest</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/drag">drag</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/idCard">idCard</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/idGame">idGame</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isAnimating">isAnimating</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isExiled">isExiled</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isInDeck">isInDeck</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isInGame">isInGame</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isInGraveyard">isInGraveyard</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isInHand">isInHand</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isInView">isInView</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isSided">isSided</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isZoomed">isZoomed</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/oldPosition">oldPosition</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/oldX">oldX</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/oldY">oldY</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pourcentX">pourcentX</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pourcentY">pourcentY</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/roomName">roomName</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/src">src</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/url">url</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initButtonCard">initButtonCard</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithFrame:">initWithFrame:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resetArea">resetArea</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="ButtonCard Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">ButtonCard Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">UIButton</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">ButtonCard.h<br />ButtonCard.m</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isInHand">&nbsp;&nbsp;isInHand</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isInView">&nbsp;&nbsp;isInView</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isInGame">&nbsp;&nbsp;isInGame</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isInGraveyard">&nbsp;&nbsp;isInGraveyard</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isExiled">&nbsp;&nbsp;isExiled</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isInDeck">&nbsp;&nbsp;isInDeck</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/oldPosition">&nbsp;&nbsp;oldPosition</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/oldX">&nbsp;&nbsp;oldX</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/oldY">&nbsp;&nbsp;oldY</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/drag">&nbsp;&nbsp;drag</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isSided">&nbsp;&nbsp;isSided</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isZoomed">&nbsp;&nbsp;isZoomed</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isAnimating">&nbsp;&nbsp;isAnimating</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/idCard">&nbsp;&nbsp;idCard</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/url">&nbsp;&nbsp;url</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/src">&nbsp;&nbsp;src</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dest">&nbsp;&nbsp;dest</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pourcentX">&nbsp;&nbsp;pourcentX</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pourcentY">&nbsp;&nbsp;pourcentY</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/clientName">&nbsp;&nbsp;clientName</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/roomName">&nbsp;&nbsp;roomName</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/idGame">&nbsp;&nbsp;idGame</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initButtonCard">&ndash;&nbsp;initButtonCard</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/resetArea">&ndash;&nbsp;resetArea</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithFrame:">&ndash;&nbsp;initWithFrame:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/clientName" title="clientName"></a>
+	<h3 class="subsubtitle method-title">clientName</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) NSString *clientName</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dest" title="dest"></a>
+	<h3 class="subsubtitle method-title">dest</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) NSString *dest</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/drag" title="drag"></a>
+	<h3 class="subsubtitle method-title">drag</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) BOOL drag</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/idCard" title="idCard"></a>
+	<h3 class="subsubtitle method-title">idCard</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) int idCard</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/idGame" title="idGame"></a>
+	<h3 class="subsubtitle method-title">idGame</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) NSString *idGame</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isAnimating" title="isAnimating"></a>
+	<h3 class="subsubtitle method-title">isAnimating</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) BOOL isAnimating</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isExiled" title="isExiled"></a>
+	<h3 class="subsubtitle method-title">isExiled</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) BOOL isExiled</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isInDeck" title="isInDeck"></a>
+	<h3 class="subsubtitle method-title">isInDeck</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) BOOL isInDeck</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isInGame" title="isInGame"></a>
+	<h3 class="subsubtitle method-title">isInGame</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) BOOL isInGame</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isInGraveyard" title="isInGraveyard"></a>
+	<h3 class="subsubtitle method-title">isInGraveyard</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) BOOL isInGraveyard</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isInHand" title="isInHand"></a>
+	<h3 class="subsubtitle method-title">isInHand</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) BOOL isInHand</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isInView" title="isInView"></a>
+	<h3 class="subsubtitle method-title">isInView</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) BOOL isInView</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isSided" title="isSided"></a>
+	<h3 class="subsubtitle method-title">isSided</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) BOOL isSided</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isZoomed" title="isZoomed"></a>
+	<h3 class="subsubtitle method-title">isZoomed</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) BOOL isZoomed</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/oldPosition" title="oldPosition"></a>
+	<h3 class="subsubtitle method-title">oldPosition</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) areaType oldPosition</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/oldX" title="oldX"></a>
+	<h3 class="subsubtitle method-title">oldX</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) int oldX</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/oldY" title="oldY"></a>
+	<h3 class="subsubtitle method-title">oldY</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) int oldY</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pourcentX" title="pourcentX"></a>
+	<h3 class="subsubtitle method-title">pourcentX</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) int pourcentX</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pourcentY" title="pourcentY"></a>
+	<h3 class="subsubtitle method-title">pourcentY</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) int pourcentY</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/roomName" title="roomName"></a>
+	<h3 class="subsubtitle method-title">roomName</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) NSString *roomName</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/src" title="src"></a>
+	<h3 class="subsubtitle method-title">src</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) NSString *src</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/url" title="url"></a>
+	<h3 class="subsubtitle method-title">url</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, nonatomic) NSString *url</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/initButtonCard" title="initButtonCard"></a>
+	<h3 class="subsubtitle method-title">initButtonCard</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initialise le boutton</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)initButtonCard</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ButtonCard.m</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithFrame:" title="initWithFrame:"></a>
+	<h3 class="subsubtitle method-title">initWithFrame:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initialise la vue</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithFrame:(CGRect)<em>frame</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>frame</em></dt>
+			<dd><p>la taille de la vue</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>la vue</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ButtonCard.m</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/resetArea" title="resetArea"></a>
+	<h3 class="subsubtitle method-title">resetArea</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Réinitialise le boutton</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)resetArea</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ButtonCard.m</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2014 Magictactil. All rights reserved. (Last updated: 2014-01-30)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

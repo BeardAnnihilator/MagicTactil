@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/Social.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/Social</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+            
+			
+			<NodeRef refid="41"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/clickEventsIphone:</TokenIdentifier>
+			<Abstract type="html">Affiche les évènements</Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickEventsIphone:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton évènement</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickEventsIphone:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/clickFriendsIphone:</TokenIdentifier>
+			<Abstract type="html">Affiche les amis</Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickFriendsIphone:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton affichage des amis</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickFriendsIphone:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/clickBL:</TokenIdentifier>
+			<Abstract type="html">Affiche les joueurs bloqués</Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickBL:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton affichage des amis bloqués</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickBL:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/setNavBarLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *navBarLabel</Declaration>
+			
+			
+			<Anchor>//api/name/navBarLabel</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/navBarLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *navBarLabel</Declaration>
+			
+			
+			<Anchor>//api/name/navBarLabel</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Social/navBarLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *navBarLabel</Declaration>
+			
+			
+			<Anchor>//api/name/navBarLabel</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/setButtonEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonEvent</Declaration>
+			
+			
+			<Anchor>//api/name/buttonEvent</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/buttonEvent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonEvent</Declaration>
+			
+			
+			<Anchor>//api/name/buttonEvent</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Social/buttonEvent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonEvent</Declaration>
+			
+			
+			<Anchor>//api/name/buttonEvent</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/setButtonFriend:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonFriend</Declaration>
+			
+			
+			<Anchor>//api/name/buttonFriend</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/buttonFriend</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonFriend</Declaration>
+			
+			
+			<Anchor>//api/name/buttonFriend</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Social/buttonFriend</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonFriend</Declaration>
+			
+			
+			<Anchor>//api/name/buttonFriend</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/setButtonBL:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonBL</Declaration>
+			
+			
+			<Anchor>//api/name/buttonBL</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/buttonBL</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonBL</Declaration>
+			
+			
+			<Anchor>//api/name/buttonBL</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Social/buttonBL</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonBL</Declaration>
+			
+			
+			<Anchor>//api/name/buttonBL</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/setLabelTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelTitle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTitle</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/labelTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelTitle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTitle</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Social/labelTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelTitle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTitle</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/setLabelSocial:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelSocial</Declaration>
+			
+			
+			<Anchor>//api/name/labelSocial</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/labelSocial</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelSocial</Declaration>
+			
+			
+			<Anchor>//api/name/labelSocial</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Social/labelSocial</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelSocial</Declaration>
+			
+			
+			<Anchor>//api/name/labelSocial</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/setBouttonEvenement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonEvenement</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonEvenement</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/bouttonEvenement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonEvenement</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonEvenement</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Social/bouttonEvenement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonEvenement</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonEvenement</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/setBouttonAmis:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonAmis</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonAmis</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/bouttonAmis</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonAmis</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonAmis</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Social/bouttonAmis</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonAmis</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonAmis</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/setBouttonBL:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonBL</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonBL</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/bouttonBL</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonBL</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonBL</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Social/bouttonBL</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonBL</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonBL</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/initObjects</TokenIdentifier>
+			<Abstract type="html">Initialise les propriétés</Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>- (void)initObjects</Declaration>
+			
+			
+			<Anchor>//api/name/initObjects</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/translate</TokenIdentifier>
+			<Abstract type="html">Traduit la vue</Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>- (void)translate</Declaration>
+			
+			
+			<Anchor>//api/name/translate</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/handle3_5</TokenIdentifier>
+			<Abstract type="html">Redimensionne la vue 3.5 inch</Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>- (void)handle3_5</Declaration>
+			
+			
+			<Anchor>//api/name/handle3_5</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/handle4</TokenIdentifier>
+			<Abstract type="html">Redimensionne la vue 4 inch</Abstract>
+			<DeclaredIn>Social.h</DeclaredIn>
+			
+			<Declaration>- (void)handle4</Declaration>
+			
+			
+			<Anchor>//api/name/handle4</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/initWithNibName:bundle:</TokenIdentifier>
+			<Abstract type="html">Initialise la vue</Abstract>
+			<DeclaredIn>Social.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>nibNameOrNil</Name>
+					<Abstract type="html">fichier xib</Abstract>
+				</Parameter><Parameter>
+					<Name>nibBundleOrNil</Name>
+					<Abstract type="html">bundle de l&apos;application</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">la vue</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithNibName:bundle:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/viewDidLoad</TokenIdentifier>
+			<Abstract type="html">Charge la vue</Abstract>
+			<DeclaredIn>Social.m</DeclaredIn>
+			
+			<Declaration>- (void)viewDidLoad</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidLoad</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/viewWillLayoutSubviews</TokenIdentifier>
+			<Abstract type="html">Redimmensionne la vue</Abstract>
+			<DeclaredIn>Social.m</DeclaredIn>
+			
+			<Declaration>- (void)viewWillLayoutSubviews</Declaration>
+			
+			
+			<Anchor>//api/name/viewWillLayoutSubviews</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Social/didReceiveMemoryWarning</TokenIdentifier>
+			<Abstract type="html">Libère la mémoire</Abstract>
+			<DeclaredIn>Social.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveMemoryWarning</Declaration>
+			
+			
+			<Anchor>//api/name/didReceiveMemoryWarning</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

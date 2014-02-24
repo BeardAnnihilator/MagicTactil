@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AddCard.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AddCard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/clickReturn:</TokenIdentifier>
+			<Abstract type="html">Cette méthode est appelé quand l&apos;utilisateur appuie sur le boutton retour</Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickReturn:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">le boutton retour</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickReturn:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/closeKeyboard:</TokenIdentifier>
+			<Abstract type="html">Ferme le clavier</Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)closeKeyboard:(UITextField *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">textfield</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/closeKeyboard:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/clickFind:</TokenIdentifier>
+			<Abstract type="html">Appuie sur recherche de carte</Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickFind:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">description de la carte</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickFind:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/clickAdd:</TokenIdentifier>
+			<Abstract type="html">Cette méthode est appelé quand l&apos;utilisateur appuie sur le boutton ajouter une carte</Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickAdd:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton ajouter un carte</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickAdd:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/clickDeleteCard:</TokenIdentifier>
+			<Abstract type="html">Cette méthode est appelé quand l&apos;utilisateur appuie sur le boutton supprimer une carte</Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickDeleteCard:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton supprimer un carte</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickDeleteCard:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/setIdCardArea:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *idCardArea</Declaration>
+			
+			
+			<Anchor>//api/name/idCardArea</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/idCardArea</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *idCardArea</Declaration>
+			
+			
+			<Anchor>//api/name/idCardArea</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddCard/idCardArea</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *idCardArea</Declaration>
+			
+			
+			<Anchor>//api/name/idCardArea</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/setNameCard:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *nameCard</Declaration>
+			
+			
+			<Anchor>//api/name/nameCard</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/nameCard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *nameCard</Declaration>
+			
+			
+			<Anchor>//api/name/nameCard</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddCard/nameCard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *nameCard</Declaration>
+			
+			
+			<Anchor>//api/name/nameCard</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/setImgCard:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIImageView *imgCard</Declaration>
+			
+			
+			<Anchor>//api/name/imgCard</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/imgCard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIImageView *imgCard</Declaration>
+			
+			
+			<Anchor>//api/name/imgCard</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddCard/imgCard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIImageView *imgCard</Declaration>
+			
+			
+			<Anchor>//api/name/imgCard</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/setDescriptionCard:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextView *descriptionCard</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionCard</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/descriptionCard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextView *descriptionCard</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionCard</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddCard/descriptionCard</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextView *descriptionCard</Declaration>
+			
+			
+			<Anchor>//api/name/descriptionCard</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/setButtonDelete:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonDelete</Declaration>
+			
+			
+			<Anchor>//api/name/buttonDelete</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/buttonDelete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonDelete</Declaration>
+			
+			
+			<Anchor>//api/name/buttonDelete</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AddCard/buttonDelete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonDelete</Declaration>
+			
+			
+			<Anchor>//api/name/buttonDelete</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/initObjects</TokenIdentifier>
+			<Abstract type="html">Initialise les propriétés</Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>- (void)initObjects</Declaration>
+			
+			
+			<Anchor>//api/name/initObjects</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/sendGetCard</TokenIdentifier>
+			<Abstract type="html">Envoie la requette get card au serveur</Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>- (void)sendGetCard</Declaration>
+			
+			
+			<Anchor>//api/name/sendGetCard</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/checkGetCardResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie les retour du serveur de la requette get card</Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>- (void)checkGetCardResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">get card</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkGetCardResponse:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/displayDetailsCard:</TokenIdentifier>
+			<Abstract type="html">Affiche les détails de la carte</Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>- (void)displayDetailsCard:(NSString *)details</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>details</Name>
+					<Abstract type="html">description de la carte</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/displayDetailsCard:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/sendAddCard</TokenIdentifier>
+			<Abstract type="html">Envoie la requette add card au serveur</Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>- (void)sendAddCard</Declaration>
+			
+			
+			<Anchor>//api/name/sendAddCard</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/checkAddCardResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie le retour du serveur de la requette add card</Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>- (void)checkAddCardResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">notification add card</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkAddCardResponse:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/sendDeleteCard</TokenIdentifier>
+			<Abstract type="html">Envoie la requete delete card au serveur</Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>- (void)sendDeleteCard</Declaration>
+			
+			
+			<Anchor>//api/name/sendDeleteCard</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/checkDeleteCardResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie le retour du serveur delete card</Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>- (void)checkDeleteCardResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">notification delete card</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkDeleteCardResponse:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/storeCard</TokenIdentifier>
+			<Abstract type="html">Sauvegarde la carte dans le deck</Abstract>
+			<DeclaredIn>AddCard.h</DeclaredIn>
+			
+			<Declaration>- (void)storeCard</Declaration>
+			
+			
+			<Anchor>//api/name/storeCard</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/initWithNibName:bundle:</TokenIdentifier>
+			<Abstract type="html">Initialise la vue</Abstract>
+			<DeclaredIn>AddCard.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>nibNameOrNil</Name>
+					<Abstract type="html">fichier xib</Abstract>
+				</Parameter><Parameter>
+					<Name>nibBundleOrNil</Name>
+					<Abstract type="html">bundle de l&apos;application</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">retourne la vue</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithNibName:bundle:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/viewDidLoad</TokenIdentifier>
+			<Abstract type="html">Charge la vue</Abstract>
+			<DeclaredIn>AddCard.m</DeclaredIn>
+			
+			<Declaration>- (void)viewDidLoad</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidLoad</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/viewWillAppear:</TokenIdentifier>
+			<Abstract type="html">Affiche la vue</Abstract>
+			<DeclaredIn>AddCard.m</DeclaredIn>
+			
+			<Declaration>- (void)viewWillAppear:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">Avec animation</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/viewWillAppear:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AddCard/didReceiveMemoryWarning</TokenIdentifier>
+			<Abstract type="html">Libère la mémoire</Abstract>
+			<DeclaredIn>AddCard.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveMemoryWarning</Declaration>
+			
+			
+			<Anchor>//api/name/didReceiveMemoryWarning</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

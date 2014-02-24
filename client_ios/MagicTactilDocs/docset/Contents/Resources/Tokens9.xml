@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CustomCellDeck.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CustomCellDeck</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CustomCellDeck.h</DeclaredIn>
+            
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CustomCellDeck/setImg:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CustomCellDeck.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIImageView *img</Declaration>
+			
+			
+			<Anchor>//api/name/img</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CustomCellDeck/img</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CustomCellDeck.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIImageView *img</Declaration>
+			
+			
+			<Anchor>//api/name/img</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CustomCellDeck/img</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CustomCellDeck.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIImageView *img</Declaration>
+			
+			
+			<Anchor>//api/name/img</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CustomCellDeck/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CustomCellDeck.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CustomCellDeck/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CustomCellDeck.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CustomCellDeck/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CustomCellDeck.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CustomCellDeck/setIsReal:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CustomCellDeck.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *isReal</Declaration>
+			
+			
+			<Anchor>//api/name/isReal</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CustomCellDeck/isReal</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CustomCellDeck.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *isReal</Declaration>
+			
+			
+			<Anchor>//api/name/isReal</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CustomCellDeck/isReal</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CustomCellDeck.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *isReal</Declaration>
+			
+			
+			<Anchor>//api/name/isReal</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CustomCellDeck/initWithFrame:</TokenIdentifier>
+			<Abstract type="html">Initialise le deck</Abstract>
+			<DeclaredIn>CustomCellDeck.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithFrame:(CGRect)frame</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>frame</Name>
+					<Abstract type="html">taille du deck</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">le deck</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithFrame:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SignIn.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SignIn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+            
+			
+			<NodeRef refid="39"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/setUserNameIphone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *userNameIphone</Declaration>
+			
+			
+			<Anchor>//api/name/userNameIphone</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/userNameIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *userNameIphone</Declaration>
+			
+			
+			<Anchor>//api/name/userNameIphone</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SignIn/userNameIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *userNameIphone</Declaration>
+			
+			
+			<Anchor>//api/name/userNameIphone</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/setPasswordIphone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *passwordIphone</Declaration>
+			
+			
+			<Anchor>//api/name/passwordIphone</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/passwordIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *passwordIphone</Declaration>
+			
+			
+			<Anchor>//api/name/passwordIphone</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SignIn/passwordIphone</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *passwordIphone</Declaration>
+			
+			
+			<Anchor>//api/name/passwordIphone</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/setUserNameIpad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *userNameIpad</Declaration>
+			
+			
+			<Anchor>//api/name/userNameIpad</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/userNameIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *userNameIpad</Declaration>
+			
+			
+			<Anchor>//api/name/userNameIpad</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SignIn/userNameIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *userNameIpad</Declaration>
+			
+			
+			<Anchor>//api/name/userNameIpad</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/setPasswordIpad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *passwordIpad</Declaration>
+			
+			
+			<Anchor>//api/name/passwordIpad</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/passwordIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *passwordIpad</Declaration>
+			
+			
+			<Anchor>//api/name/passwordIpad</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SignIn/passwordIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *passwordIpad</Declaration>
+			
+			
+			<Anchor>//api/name/passwordIpad</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/setCheckIphone_01:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIImageView *checkIphone_01</Declaration>
+			
+			
+			<Anchor>//api/name/checkIphone_01</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/checkIphone_01</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIImageView *checkIphone_01</Declaration>
+			
+			
+			<Anchor>//api/name/checkIphone_01</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SignIn/checkIphone_01</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIImageView *checkIphone_01</Declaration>
+			
+			
+			<Anchor>//api/name/checkIphone_01</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/setCheckIphone_02:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIImageView *checkIphone_02</Declaration>
+			
+			
+			<Anchor>//api/name/checkIphone_02</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/checkIphone_02</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIImageView *checkIphone_02</Declaration>
+			
+			
+			<Anchor>//api/name/checkIphone_02</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SignIn/checkIphone_02</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIImageView *checkIphone_02</Declaration>
+			
+			
+			<Anchor>//api/name/checkIphone_02</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/setCheckIpad_01:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIImageView *checkIpad_01</Declaration>
+			
+			
+			<Anchor>//api/name/checkIpad_01</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/checkIpad_01</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIImageView *checkIpad_01</Declaration>
+			
+			
+			<Anchor>//api/name/checkIpad_01</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SignIn/checkIpad_01</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIImageView *checkIpad_01</Declaration>
+			
+			
+			<Anchor>//api/name/checkIpad_01</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/setCheckIpad_02:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIImageView *checkIpad_02</Declaration>
+			
+			
+			<Anchor>//api/name/checkIpad_02</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/checkIpad_02</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIImageView *checkIpad_02</Declaration>
+			
+			
+			<Anchor>//api/name/checkIpad_02</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SignIn/checkIpad_02</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIImageView *checkIpad_02</Declaration>
+			
+			
+			<Anchor>//api/name/checkIpad_02</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/setBouttonConnexion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonConnexion</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonConnexion</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/bouttonConnexion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonConnexion</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonConnexion</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SignIn/bouttonConnexion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonConnexion</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonConnexion</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/setBouttonDeconnexion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonDeconnexion</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonDeconnexion</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/bouttonDeconnexion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonDeconnexion</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonDeconnexion</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SignIn/bouttonDeconnexion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonDeconnexion</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonDeconnexion</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/clickReturnIphone:</TokenIdentifier>
+			<Abstract type="html">Affiche la vue précédente</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickReturnIphone:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton retour</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickReturnIphone:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/clickFacebookConnectIphone:</TokenIdentifier>
+			<Abstract type="html">Initialise une session facebook</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickFacebookConnectIphone:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton facebook</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickFacebookConnectIphone:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/clickSignInIphone:</TokenIdentifier>
+			<Abstract type="html">Se connecter sur iPhone</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickSignInIphone:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton sign in</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickSignInIphone:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/closeKeyboardIphone:</TokenIdentifier>
+			<Abstract type="html">Ferme le clavier</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)closeKeyboardIphone:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">textfield</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/closeKeyboardIphone:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/checktextFieldIphone:</TokenIdentifier>
+			<Abstract type="html">Vérifie les champs de connexion</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)checktextFieldIphone:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">retourne le status</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checktextFieldIphone:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/clickReturnIpad:</TokenIdentifier>
+			<Abstract type="html">Affiche la vue précédente</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickReturnIpad:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">button return</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickReturnIpad:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/clickSignOutIphone:</TokenIdentifier>
+			<Abstract type="html">Se déconnecte du serveur</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickSignOutIphone:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">button signout</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickSignOutIphone:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/initObjects</TokenIdentifier>
+			<Abstract type="html">Initialise les propriétés</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (void)initObjects</Declaration>
+			
+			
+			<Anchor>//api/name/initObjects</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/translate</TokenIdentifier>
+			<Abstract type="html">Traduit la vue</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (void)translate</Declaration>
+			
+			
+			<Anchor>//api/name/translate</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/showAlertView:withMessage:</TokenIdentifier>
+			<Abstract type="html">Affiche une alerte</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (void)showAlertView:(NSString *)title withMessage:(NSString *)message</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>title</Name>
+					<Abstract type="html">Titre de l&apos;alerte</Abstract>
+				</Parameter><Parameter>
+					<Name>message</Name>
+					<Abstract type="html">description de l&apos;alerte</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/showAlertView:withMessage:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/checkFacebookSession</TokenIdentifier>
+			<Abstract type="html">Vérifie l&apos;état de la connexion de facebook</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (void)checkFacebookSession</Declaration>
+			
+			
+			<Anchor>//api/name/checkFacebookSession</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/checkSignInTextFieldIphone</TokenIdentifier>
+			<Abstract type="html">Vérifie les champs de connexion</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)checkSignInTextFieldIphone</Declaration>
+			
+			<ReturnValue><Abstract type="html">retourne le status</Abstract></ReturnValue>
+			<Anchor>//api/name/checkSignInTextFieldIphone</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/sendSignInRequest</TokenIdentifier>
+			<Abstract type="html">Envoie la connexion au serveur</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (void)sendSignInRequest</Declaration>
+			
+			
+			<Anchor>//api/name/sendSignInRequest</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/sendSignOutRequest</TokenIdentifier>
+			<Abstract type="html">Envoie la deconnexion au serveur</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (void)sendSignOutRequest</Declaration>
+			
+			
+			<Anchor>//api/name/sendSignOutRequest</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/sendGetInfoUserRequest</TokenIdentifier>
+			<Abstract type="html">Récupère les information de l&apos;utilisateur</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (void)sendGetInfoUserRequest</Declaration>
+			
+			
+			<Anchor>//api/name/sendGetInfoUserRequest</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/checkSignInResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie l&apos;inscription</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (void)checkSignInResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">sign in notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkSignInResponse:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/checkSignOutResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie la déconnexion</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (void)checkSignOutResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">sign out notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkSignOutResponse:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/checkGetInfoUserResponse:</TokenIdentifier>
+			<Abstract type="html">Récupère les informations de l&apos;utilisateur</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (void)checkGetInfoUserResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">get infos user notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkGetInfoUserResponse:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/storeUserInformations:</TokenIdentifier>
+			<Abstract type="html">Sauvegarde les informations de la session</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (void)storeUserInformations:(NSString *)response</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>response</Name>
+					<Abstract type="html">details des informations</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/storeUserInformations:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/updateUserInformations</TokenIdentifier>
+			<Abstract type="html">Met à jour les informations de facebook</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (void)updateUserInformations</Declaration>
+			
+			
+			<Anchor>//api/name/updateUserInformations</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/checkFields</TokenIdentifier>
+			<Abstract type="html">Vérifie les champs de connexion</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)checkFields</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES ou NO</Abstract></ReturnValue>
+			<Anchor>//api/name/checkFields</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/clickSignInIpad:</TokenIdentifier>
+			<Abstract type="html">Envoie la requête connexion au serveur</Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickSignInIpad:(UIButton *)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">button signin</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickSignInIpad:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/setLabelConnexion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelConnexion</Declaration>
+			
+			
+			<Anchor>//api/name/labelConnexion</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/labelConnexion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelConnexion</Declaration>
+			
+			
+			<Anchor>//api/name/labelConnexion</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SignIn/labelConnexion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SignIn.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelConnexion</Declaration>
+			
+			
+			<Anchor>//api/name/labelConnexion</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/initWithNibName:bundle:</TokenIdentifier>
+			<Abstract type="html">Initialise la vue</Abstract>
+			<DeclaredIn>SignIn.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>nibNameOrNil</Name>
+					<Abstract type="html">fichier xib</Abstract>
+				</Parameter><Parameter>
+					<Name>nibBundleOrNil</Name>
+					<Abstract type="html">bundle de l&apos;application</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">retourne la vue</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithNibName:bundle:</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/viewDidLoad</TokenIdentifier>
+			<Abstract type="html">Charge la vue</Abstract>
+			<DeclaredIn>SignIn.m</DeclaredIn>
+			
+			<Declaration>- (void)viewDidLoad</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidLoad</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SignIn/didReceiveMemoryWarning</TokenIdentifier>
+			<Abstract type="html">Libère la mémoire</Abstract>
+			<DeclaredIn>SignIn.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveMemoryWarning</Declaration>
+			
+			
+			<Anchor>//api/name/didReceiveMemoryWarning</Anchor>
+            <NodeRef refid="39"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

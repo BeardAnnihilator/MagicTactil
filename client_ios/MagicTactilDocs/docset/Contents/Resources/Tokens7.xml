@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CreateRoom.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CreateRoom</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/clickReturn:</TokenIdentifier>
+			<Abstract type="html">Retourne à la vue précédente</Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickReturn:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton retour</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickReturn:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/closeKeyboard:</TokenIdentifier>
+			<Abstract type="html">Ferme le clavier</Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)closeKeyboard:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">textfield</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/closeKeyboard:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/clickCreateRoom:</TokenIdentifier>
+			<Abstract type="html">Créer une room</Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickCreateRoom:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">button créer une room</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickCreateRoom:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/setRoomName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *roomName</Declaration>
+			
+			
+			<Anchor>//api/name/roomName</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/roomName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *roomName</Declaration>
+			
+			
+			<Anchor>//api/name/roomName</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CreateRoom/roomName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *roomName</Declaration>
+			
+			
+			<Anchor>//api/name/roomName</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/setFormat:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UISegmentedControl *format</Declaration>
+			
+			
+			<Anchor>//api/name/format</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/format</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UISegmentedControl *format</Declaration>
+			
+			
+			<Anchor>//api/name/format</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CreateRoom/format</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UISegmentedControl *format</Declaration>
+			
+			
+			<Anchor>//api/name/format</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/setState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UISegmentedControl *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/state</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UISegmentedControl *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CreateRoom/state</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UISegmentedControl *state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/setLabelCreate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelCreate</Declaration>
+			
+			
+			<Anchor>//api/name/labelCreate</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/labelCreate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelCreate</Declaration>
+			
+			
+			<Anchor>//api/name/labelCreate</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CreateRoom/labelCreate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelCreate</Declaration>
+			
+			
+			<Anchor>//api/name/labelCreate</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/setLabelName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelName</Declaration>
+			
+			
+			<Anchor>//api/name/labelName</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/labelName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelName</Declaration>
+			
+			
+			<Anchor>//api/name/labelName</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CreateRoom/labelName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelName</Declaration>
+			
+			
+			<Anchor>//api/name/labelName</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/setLabelFormat:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/labelFormat</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/labelFormat</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/labelFormat</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CreateRoom/labelFormat</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/labelFormat</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/setLabelType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelType</Declaration>
+			
+			
+			<Anchor>//api/name/labelType</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/labelType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelType</Declaration>
+			
+			
+			<Anchor>//api/name/labelType</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CreateRoom/labelType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelType</Declaration>
+			
+			
+			<Anchor>//api/name/labelType</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/setButtonCreate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonCreate</Declaration>
+			
+			
+			<Anchor>//api/name/buttonCreate</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/buttonCreate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonCreate</Declaration>
+			
+			
+			<Anchor>//api/name/buttonCreate</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CreateRoom/buttonCreate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonCreate</Declaration>
+			
+			
+			<Anchor>//api/name/buttonCreate</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/initObjects</TokenIdentifier>
+			<Abstract type="html">Initialise les propriétés</Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)initObjects</Declaration>
+			
+			
+			<Anchor>//api/name/initObjects</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/translate</TokenIdentifier>
+			<Abstract type="html">Traduit la vue</Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)translate</Declaration>
+			
+			
+			<Anchor>//api/name/translate</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/sendAddRoom</TokenIdentifier>
+			<Abstract type="html">Ajoute une room sur le serveur</Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)sendAddRoom</Declaration>
+			
+			
+			<Anchor>//api/name/sendAddRoom</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/checkAddRoomResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie le retour du serveur de la requête add room</Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)checkAddRoomResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">add room notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkAddRoomResponse:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/sendGetPlayers</TokenIdentifier>
+			<Abstract type="html">Récupère la liste des joueurs de la room</Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)sendGetPlayers</Declaration>
+			
+			
+			<Anchor>//api/name/sendGetPlayers</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/checkGetPlayersResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie le retour du serveur de la requête get players</Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)checkGetPlayersResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">get players notifications</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkGetPlayersResponse:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/storeAllPlayers:</TokenIdentifier>
+			<Abstract type="html">Sauvegarde les joueurs</Abstract>
+			<DeclaredIn>CreateRoom.h</DeclaredIn>
+			
+			<Declaration>- (void)storeAllPlayers:(NSString *)list</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>list</Name>
+					<Abstract type="html">liste des joueurs</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/storeAllPlayers:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/initWithNibName:bundle:</TokenIdentifier>
+			<Abstract type="html">Initialise la vue</Abstract>
+			<DeclaredIn>CreateRoom.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>nibNameOrNil</Name>
+					<Abstract type="html">fichier xib</Abstract>
+				</Parameter><Parameter>
+					<Name>nibBundleOrNil</Name>
+					<Abstract type="html">bundle de l&apos;application</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">retourne la vue</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithNibName:bundle:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/viewDidLoad</TokenIdentifier>
+			<Abstract type="html">Charge la vue</Abstract>
+			<DeclaredIn>CreateRoom.m</DeclaredIn>
+			
+			<Declaration>- (void)viewDidLoad</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidLoad</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CreateRoom/didReceiveMemoryWarning</TokenIdentifier>
+			<Abstract type="html">Libère la mémoire</Abstract>
+			<DeclaredIn>CreateRoom.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveMemoryWarning</Declaration>
+			
+			
+			<Anchor>//api/name/didReceiveMemoryWarning</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

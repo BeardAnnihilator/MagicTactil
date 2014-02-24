@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/Network.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/Network</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+            
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Network/setConnectionState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL connectionState</Declaration>
+			
+			
+			<Anchor>//api/name/connectionState</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Network/connectionState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL connectionState</Declaration>
+			
+			
+			<Anchor>//api/name/connectionState</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Network/connectionState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL connectionState</Declaration>
+			
+			
+			<Anchor>//api/name/connectionState</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Network/setAuthentificationState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL authentificationState</Declaration>
+			
+			
+			<Anchor>//api/name/authentificationState</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Network/authentificationState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL authentificationState</Declaration>
+			
+			
+			<Anchor>//api/name/authentificationState</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Network/authentificationState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL authentificationState</Declaration>
+			
+			
+			<Anchor>//api/name/authentificationState</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Network/setInputStream:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSInputStream *inputStream</Declaration>
+			
+			
+			<Anchor>//api/name/inputStream</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Network/inputStream</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSInputStream *inputStream</Declaration>
+			
+			
+			<Anchor>//api/name/inputStream</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Network/inputStream</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSInputStream *inputStream</Declaration>
+			
+			
+			<Anchor>//api/name/inputStream</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Network/setOutputStream:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSOutputStream *outputStream</Declaration>
+			
+			
+			<Anchor>//api/name/outputStream</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Network/outputStream</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSOutputStream *outputStream</Declaration>
+			
+			
+			<Anchor>//api/name/outputStream</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Network/outputStream</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSOutputStream *outputStream</Declaration>
+			
+			
+			<Anchor>//api/name/outputStream</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Network/setPacketArray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableArray *packetArray</Declaration>
+			
+			
+			<Anchor>//api/name/packetArray</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Network/packetArray</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableArray *packetArray</Declaration>
+			
+			
+			<Anchor>//api/name/packetArray</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Network/packetArray</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) NSMutableArray *packetArray</Declaration>
+			
+			
+			<Anchor>//api/name/packetArray</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Network/setSignUp:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL signUp</Declaration>
+			
+			
+			<Anchor>//api/name/signUp</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Network/signUp</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL signUp</Declaration>
+			
+			
+			<Anchor>//api/name/signUp</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Network/signUp</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL signUp</Declaration>
+			
+			
+			<Anchor>//api/name/signUp</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Network/initNetworkConnection</TokenIdentifier>
+			<Abstract type="html">Initialise le réseau</Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>- (void)initNetworkConnection</Declaration>
+			
+			
+			<Anchor>//api/name/initNetworkConnection</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Network/sendPacket:</TokenIdentifier>
+			<Abstract type="html">Envoie un packet</Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>- (void)sendPacket:(Packet *)packet</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>packet</Name>
+					<Abstract type="html">le packet</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendPacket:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Network/receivePacket</TokenIdentifier>
+			<Abstract type="html">Call back reception packet</Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>- (void)receivePacket</Declaration>
+			
+			
+			<Anchor>//api/name/receivePacket</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Network/checkInternetConnection</TokenIdentifier>
+			<Abstract type="html">Vérifie l&apos;était de la connexion</Abstract>
+			<DeclaredIn>Network.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)checkInternetConnection</Declaration>
+			
+			<ReturnValue><Abstract type="html">retourne l&apos;état de la connexion</Abstract></ReturnValue>
+			<Anchor>//api/name/checkInternetConnection</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Network/stream:handleEvent:</TokenIdentifier>
+			<Abstract type="html">Gère les évènements du réseau</Abstract>
+			<DeclaredIn>Network.m</DeclaredIn>
+			
+			<Declaration>- (void)stream:(NSStream *)aStream handleEvent:(NSStreamEvent)eventCode</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>aStream</Name>
+					<Abstract type="html">le flux</Abstract>
+				</Parameter><Parameter>
+					<Name>eventCode</Name>
+					<Abstract type="html">description de l&apos;event</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/stream:handleEvent:</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

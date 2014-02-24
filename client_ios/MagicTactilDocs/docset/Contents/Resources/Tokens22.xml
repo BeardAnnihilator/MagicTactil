@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JDStatusBarStyle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JDStatusBarStyle</TokenIdentifier>
+			<Abstract type="html">A Style defines the appeareance of a notification.</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+            
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarStyle/setBarColor:</TokenIdentifier>
+			<Abstract type="html">The background color of the notification bar</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *barColor</Declaration>
+			
+			
+			<Anchor>//api/name/barColor</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarStyle/barColor</TokenIdentifier>
+			<Abstract type="html">The background color of the notification bar</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *barColor</Declaration>
+			
+			
+			<Anchor>//api/name/barColor</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JDStatusBarStyle/barColor</TokenIdentifier>
+			<Abstract type="html">The background color of the notification bar</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *barColor</Declaration>
+			
+			
+			<Anchor>//api/name/barColor</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarStyle/setTextColor:</TokenIdentifier>
+			<Abstract type="html">The text color of the notification label</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarStyle/textColor</TokenIdentifier>
+			<Abstract type="html">The text color of the notification label</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JDStatusBarStyle/textColor</TokenIdentifier>
+			<Abstract type="html">The text color of the notification label</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *textColor</Declaration>
+			
+			
+			<Anchor>//api/name/textColor</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarStyle/setTextShadow:</TokenIdentifier>
+			<Abstract type="html">The text shadow of the notification label</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSShadow *textShadow</Declaration>
+			
+			
+			<Anchor>//api/name/textShadow</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarStyle/textShadow</TokenIdentifier>
+			<Abstract type="html">The text shadow of the notification label</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSShadow *textShadow</Declaration>
+			
+			
+			<Anchor>//api/name/textShadow</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JDStatusBarStyle/textShadow</TokenIdentifier>
+			<Abstract type="html">The text shadow of the notification label</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSShadow *textShadow</Declaration>
+			
+			
+			<Anchor>//api/name/textShadow</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarStyle/setFont:</TokenIdentifier>
+			<Abstract type="html">The font of the notification label</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarStyle/font</TokenIdentifier>
+			<Abstract type="html">The font of the notification label</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JDStatusBarStyle/font</TokenIdentifier>
+			<Abstract type="html">The font of the notification label</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarStyle/setTextVerticalPositionAdjustment:</TokenIdentifier>
+			<Abstract type="html">A correction of the vertical label position in points. Default is 0.0</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat textVerticalPositionAdjustment</Declaration>
+			
+			
+			<Anchor>//api/name/textVerticalPositionAdjustment</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarStyle/textVerticalPositionAdjustment</TokenIdentifier>
+			<Abstract type="html">A correction of the vertical label position in points. Default is 0.0</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat textVerticalPositionAdjustment</Declaration>
+			
+			
+			<Anchor>//api/name/textVerticalPositionAdjustment</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JDStatusBarStyle/textVerticalPositionAdjustment</TokenIdentifier>
+			<Abstract type="html">A correction of the vertical label position in points. Default is 0.0</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat textVerticalPositionAdjustment</Declaration>
+			
+			
+			<Anchor>//api/name/textVerticalPositionAdjustment</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarStyle/setAnimationType:</TokenIdentifier>
+			<Abstract type="html">The animation, that is used to present the notification</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) JDStatusBarAnimationType animationType</Declaration>
+			
+			
+			<Anchor>//api/name/animationType</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarStyle/animationType</TokenIdentifier>
+			<Abstract type="html">The animation, that is used to present the notification</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) JDStatusBarAnimationType animationType</Declaration>
+			
+			
+			<Anchor>//api/name/animationType</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JDStatusBarStyle/animationType</TokenIdentifier>
+			<Abstract type="html">The animation, that is used to present the notification</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) JDStatusBarAnimationType animationType</Declaration>
+			
+			
+			<Anchor>//api/name/animationType</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarStyle/setProgressBarColor:</TokenIdentifier>
+			<Abstract type="html">The background color of the progress bar (on top of the notification bar)</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *progressBarColor</Declaration>
+			
+			
+			<Anchor>//api/name/progressBarColor</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarStyle/progressBarColor</TokenIdentifier>
+			<Abstract type="html">The background color of the progress bar (on top of the notification bar)</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *progressBarColor</Declaration>
+			
+			
+			<Anchor>//api/name/progressBarColor</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JDStatusBarStyle/progressBarColor</TokenIdentifier>
+			<Abstract type="html">The background color of the progress bar (on top of the notification bar)</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *progressBarColor</Declaration>
+			
+			
+			<Anchor>//api/name/progressBarColor</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarStyle/setProgressBarHeight:</TokenIdentifier>
+			<Abstract type="html">The height of the progress bar. Default is 1.0</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat progressBarHeight</Declaration>
+			
+			
+			<Anchor>//api/name/progressBarHeight</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarStyle/progressBarHeight</TokenIdentifier>
+			<Abstract type="html">The height of the progress bar. Default is 1.0</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat progressBarHeight</Declaration>
+			
+			
+			<Anchor>//api/name/progressBarHeight</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JDStatusBarStyle/progressBarHeight</TokenIdentifier>
+			<Abstract type="html">The height of the progress bar. Default is 1.0</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat progressBarHeight</Declaration>
+			
+			
+			<Anchor>//api/name/progressBarHeight</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarStyle/setProgressBarPosition:</TokenIdentifier>
+			<Abstract type="html">The position of the progress bar. Default is JDStatusBarProgressBarPositionBottom</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) JDStatusBarProgressBarPosition progressBarPosition</Declaration>
+			
+			
+			<Anchor>//api/name/progressBarPosition</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarStyle/progressBarPosition</TokenIdentifier>
+			<Abstract type="html">The position of the progress bar. Default is JDStatusBarProgressBarPositionBottom</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) JDStatusBarProgressBarPosition progressBarPosition</Declaration>
+			
+			
+			<Anchor>//api/name/progressBarPosition</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JDStatusBarStyle/progressBarPosition</TokenIdentifier>
+			<Abstract type="html">The position of the progress bar. Default is JDStatusBarProgressBarPositionBottom</Abstract>
+			<DeclaredIn>JDStatusBarStyle.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) JDStatusBarProgressBarPosition progressBarPosition</Declaration>
+			
+			
+			<Anchor>//api/name/progressBarPosition</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JDStatusBarStyle/copyWithZone:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarStyle.m</DeclaredIn>
+			
+			<Declaration>- (instancetype)copyWithZone:(NSZone *)zone</Declaration>
+			
+			
+			<Anchor>//api/name/copyWithZone:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JDStatusBarStyle/allDefaultStyleIdentifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>+ (NSArray *)allDefaultStyleIdentifier</Declaration>
+			
+			
+			<Anchor>//api/name/allDefaultStyleIdentifier</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JDStatusBarStyle/defaultStyleWithName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JDStatusBarNotification.m</DeclaredIn>
+			
+			<Declaration>+ (JDStatusBarStyle *)defaultStyleWithName:(NSString *)styleName</Declaration>
+			
+			
+			<Anchor>//api/name/defaultStyleWithName:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

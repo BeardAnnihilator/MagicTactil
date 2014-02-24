@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/Events.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/Events</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+            
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/clickReturn:</TokenIdentifier>
+			<Abstract type="html">Retourne à la vue précédente</Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickReturn:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton retour</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickReturn:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/clickAddEventIphone:</TokenIdentifier>
+			<Abstract type="html">Ajouter un évènement</Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)clickAddEventIphone:(id)sender</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sender</Name>
+					<Abstract type="html">boutton ajouter évènement</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/clickAddEventIphone:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/setTableView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/tableView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Events/tableView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/setButtonBack:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonBack</Declaration>
+			
+			
+			<Anchor>//api/name/buttonBack</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/buttonBack</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonBack</Declaration>
+			
+			
+			<Anchor>//api/name/buttonBack</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Events/buttonBack</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonBack</Declaration>
+			
+			
+			<Anchor>//api/name/buttonBack</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/setButtonAdd:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonAdd</Declaration>
+			
+			
+			<Anchor>//api/name/buttonAdd</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/buttonAdd</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonAdd</Declaration>
+			
+			
+			<Anchor>//api/name/buttonAdd</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Events/buttonAdd</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *buttonAdd</Declaration>
+			
+			
+			<Anchor>//api/name/buttonAdd</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/setLabelTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelTitle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTitle</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/labelTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelTitle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTitle</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Events/labelTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelTitle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTitle</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/setNavBarLabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *navBarLabel</Declaration>
+			
+			
+			<Anchor>//api/name/navBarLabel</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/navBarLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *navBarLabel</Declaration>
+			
+			
+			<Anchor>//api/name/navBarLabel</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Events/navBarLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *navBarLabel</Declaration>
+			
+			
+			<Anchor>//api/name/navBarLabel</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/setTableViewIpad:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableViewIpad</Declaration>
+			
+			
+			<Anchor>//api/name/tableViewIpad</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/tableViewIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableViewIpad</Declaration>
+			
+			
+			<Anchor>//api/name/tableViewIpad</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Events/tableViewIpad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableViewIpad</Declaration>
+			
+			
+			<Anchor>//api/name/tableViewIpad</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/setLabelEvents:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelEvents</Declaration>
+			
+			
+			<Anchor>//api/name/labelEvents</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/labelEvents</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelEvents</Declaration>
+			
+			
+			<Anchor>//api/name/labelEvents</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Events/labelEvents</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UILabel *labelEvents</Declaration>
+			
+			
+			<Anchor>//api/name/labelEvents</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/setBouttonAjouter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonAjouter</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonAjouter</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/bouttonAjouter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonAjouter</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonAjouter</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Events/bouttonAjouter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *bouttonAjouter</Declaration>
+			
+			
+			<Anchor>//api/name/bouttonAjouter</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/initObject</TokenIdentifier>
+			<Abstract type="html">Initialise les propriétés</Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>- (void)initObject</Declaration>
+			
+			
+			<Anchor>//api/name/initObject</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/translate</TokenIdentifier>
+			<Abstract type="html">Traduit la vue</Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>- (void)translate</Declaration>
+			
+			
+			<Anchor>//api/name/translate</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/sendGetAllEvents</TokenIdentifier>
+			<Abstract type="html">Récupère les évènements</Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>- (void)sendGetAllEvents</Declaration>
+			
+			
+			<Anchor>//api/name/sendGetAllEvents</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/checkGetAllEventResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie le retour du serveur de la requête get all events</Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>- (void)checkGetAllEventResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">get all events notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkGetAllEventResponse:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/sendGetEvent</TokenIdentifier>
+			<Abstract type="html">Récupère les détails de l&apos;évènement</Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>- (void)sendGetEvent</Declaration>
+			
+			
+			<Anchor>//api/name/sendGetEvent</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/checkGetEventResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie le retour du serveur de la requête get event</Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>- (void)checkGetEventResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">get event notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkGetEventResponse:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/storeAllEvents:</TokenIdentifier>
+			<Abstract type="html">Sauvegarde les évènements</Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>- (void)storeAllEvents:(NSString *)allEvents</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>allEvents</Name>
+					<Abstract type="html">liste des évènements</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/storeAllEvents:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/storeCurrentEvent:</TokenIdentifier>
+			<Abstract type="html">Sauvegarde l&apos;évènement</Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>- (void)storeCurrentEvent:(NSString *)event</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>event</Name>
+					<Abstract type="html">description de l&apos;évènement</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/storeCurrentEvent:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/checkIfSignUpEventResponse:</TokenIdentifier>
+			<Abstract type="html">Vérifie l&apos;inscription à l&apos;évènement</Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>- (void)checkIfSignUpEventResponse:(NSNotification *)notification</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>notification</Name>
+					<Abstract type="html">if sign up event notification</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkIfSignUpEventResponse:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/sendIfSignUptEventRequest</TokenIdentifier>
+			<Abstract type="html">S&apos;inscrit à l&apos;évènement</Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>- (void)sendIfSignUptEventRequest</Declaration>
+			
+			
+			<Anchor>//api/name/sendIfSignUptEventRequest</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/handle4</TokenIdentifier>
+			<Abstract type="html">Redimmensionne l&apos;écran 4 inch</Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>- (void)handle4</Declaration>
+			
+			
+			<Anchor>//api/name/handle4</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/handle3_5</TokenIdentifier>
+			<Abstract type="html">Redimmensionne l&apos;écran 3.5 inch</Abstract>
+			<DeclaredIn>Events.h</DeclaredIn>
+			
+			<Declaration>- (void)handle3_5</Declaration>
+			
+			
+			<Anchor>//api/name/handle3_5</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/initWithNibName:bundle:</TokenIdentifier>
+			<Abstract type="html">Initialise la vue</Abstract>
+			<DeclaredIn>Events.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>nibNameOrNil</Name>
+					<Abstract type="html">fichier xib</Abstract>
+				</Parameter><Parameter>
+					<Name>nibBundleOrNil</Name>
+					<Abstract type="html">bundle de l&apos;application</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">retourne la vue</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithNibName:bundle:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/viewDidLoad</TokenIdentifier>
+			<Abstract type="html">Charge la vue</Abstract>
+			<DeclaredIn>Events.m</DeclaredIn>
+			
+			<Declaration>- (void)viewDidLoad</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidLoad</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/viewWillAppear:</TokenIdentifier>
+			<Abstract type="html">Affiche la vue</Abstract>
+			<DeclaredIn>Events.m</DeclaredIn>
+			
+			<Declaration>- (void)viewWillAppear:(BOOL)animated</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">&lt;#animated description#&gt;</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/viewWillAppear:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/viewWillLayoutSubviews</TokenIdentifier>
+			<Abstract type="html">Redimmensionne la vue</Abstract>
+			<DeclaredIn>Events.m</DeclaredIn>
+			
+			<Declaration>- (void)viewWillLayoutSubviews</Declaration>
+			
+			
+			<Anchor>//api/name/viewWillLayoutSubviews</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/didReceiveMemoryWarning</TokenIdentifier>
+			<Abstract type="html">Libère la mémoire</Abstract>
+			<DeclaredIn>Events.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveMemoryWarning</Declaration>
+			
+			
+			<Anchor>//api/name/didReceiveMemoryWarning</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/numberOfSectionsInTableView:</TokenIdentifier>
+			<Abstract type="html">Défini le nombre de sections</Abstract>
+			<DeclaredIn>Events.m</DeclaredIn>
+			
+			<Declaration>- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tableView</Name>
+					<Abstract type="html">tableView</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">le nombre de sections</Abstract></ReturnValue>
+			<Anchor>//api/name/numberOfSectionsInTableView:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/tableView:numberOfRowsInSection:</TokenIdentifier>
+			<Abstract type="html">Défini le nombre de cellules par sections</Abstract>
+			<DeclaredIn>Events.m</DeclaredIn>
+			
+			<Declaration>- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tableView</Name>
+					<Abstract type="html">tableView</Abstract>
+				</Parameter><Parameter>
+					<Name>section</Name>
+					<Abstract type="html">la section</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">le nombre de cellules</Abstract></ReturnValue>
+			<Anchor>//api/name/tableView:numberOfRowsInSection:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/tableView:cellForRowAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">Défini la cellule</Abstract>
+			<DeclaredIn>Events.m</DeclaredIn>
+			
+			<Declaration>- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tableView</Name>
+					<Abstract type="html">tableView</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">l&apos;index</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">retourne la cellule</Abstract></ReturnValue>
+			<Anchor>//api/name/tableView:cellForRowAtIndexPath:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Events/tableView:didSelectRowAtIndexPath:</TokenIdentifier>
+			<Abstract type="html">Sélectionne une cellule</Abstract>
+			<DeclaredIn>Events.m</DeclaredIn>
+			
+			<Declaration>- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tableView</Name>
+					<Abstract type="html">tableView</Abstract>
+				</Parameter><Parameter>
+					<Name>indexPath</Name>
+					<Abstract type="html">l&apos;index</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/tableView:didSelectRowAtIndexPath:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>
