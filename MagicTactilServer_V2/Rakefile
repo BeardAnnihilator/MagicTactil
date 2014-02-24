@@ -1,0 +1,49 @@
+require 'rdoc/task'
+require 'mysql2'
+require 'active_record'
+require 'yaml'
+require 'logger'
+require './MagicTactilBDD.rb'
+
+namespace :db do
+
+  task :configuration do
+    ENVIRONMENT = 'development'
+    VERSION = '2'
+  end
+
+  task :environment => :configuration do
+    ActiveRecord::Base.establish_connection(YAML.load_file('config/database.yml')[ENVIRONMENT])
+    ActiveRecord::Base.logger = Logger.new(File.open('log/database.log', 'a'))
+  end
+
+  desc "Migrate the database through script in 'db/migration'"
+  task :migrate => :environment do
+    ActiveRecord::Migrator.migrate('db/migration', VERSION.to_i)
+  end
+
+end
+
+namespace :doc do
+  desc 'Generate RDoc documentation for the MagicTactil server'
+  Rake::RDocTask.new(:api) do |rdoc|
+     rdoc.rdoc_files = [
+      'controllers/authentications_controller.rb',
+      'controllers/calendars_controller.rb',
+      'controllers/cards_controller.rb',
+      'controllers/decks_controller.rb',
+      'controllers/friend_blacklists_controller.rb',
+      'controllers/profiles_controller.rb',
+      'controllers/rooms_controller.rb',
+      'controllers/game_samples_controller.rb'
+      ]
+     
+
+    rdoc.main = "README.rdoc" # page to start on
+    rdoc.title = "MagicTactil API Doc"
+
+    rdoc.rdoc_dir = 'rdoc' # rdoc output folder
+  end
+end
+
+

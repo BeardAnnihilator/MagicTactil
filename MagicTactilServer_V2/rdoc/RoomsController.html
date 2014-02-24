@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>module RoomsController - MagicTactil API Doc</title>
+
+<link href="./fonts.css" rel="stylesheet">
+<link href="./rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+</script>
+
+<script src="./js/jquery.js"></script>
+<script src="./js/navigation.js"></script>
+<script src="./js/search_index.js"></script>
+<script src="./js/search.js"></script>
+<script src="./js/searcher.js"></script>
+<script src="./js/darkfish.js"></script>
+
+
+<body id="top" role="document" class="module">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="./index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="./table_of_contents.html#pages">Pages</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="class-metadata">
+    
+    
+    
+    
+    <!-- Method Quickref -->
+<div id="method-list-section" class="nav-section">
+  <h3>Methods</h3>
+
+  <ul class="link-list" role="directory">
+    
+    <li ><a href="#method-i-cnro">#cnro</a>
+    
+    <li ><a href="#method-i-dero">#dero</a>
+    
+    <li ><a href="#method-i-gear">#gear</a>
+    
+    <li ><a href="#method-i-gpfr">#gpfr</a>
+    
+    <li ><a href="#method-i-joro">#joro</a>
+    
+    <li ><a href="#method-i-lear">#lear</a>
+    
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-labelledby="module-RoomsController">
+  <h1 id="module-RoomsController" class="module">
+    module RoomsController
+  </h1>
+
+  <section class="description">
+    
+  </section>
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Instance Methods</h3>
+       </header>
+
+    
+      <div id="method-i-cnro" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">cnro</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action cnro</p>
+
+<p>Create room</p>
+
+<h3 id="method-i-cnro-label-Parameters">Parameters<span><a href="#method-i-cnro-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>nameRoom</code> - (string)</p>
+</li><li>
+<p><code>nameOwner</code> - (string)</p>
+</li><li>
+<p><code>format</code> - (string) - Which type of game do you want to play.
+For MTGC, it could be Standard, Vintage, etc</p>
+</li><li>
+<p><code>nameRoom</code> - (string)</p>
+</li><li>
+<p><code>state</code> - (integer) - If it&#39;s visible or not</p>
+</li></ul>
+
+<h3 id="method-i-cnro-label-Success">Success<span><a href="#method-i-cnro-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>1 - this number is the id&#39;s room you have just created</pre>
+
+<h3 id="method-i-cnro-label-Fail">Fail<span><a href="#method-i-cnro-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>KO</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="cnro-source">
+            <pre><span class="ruby-comment"># File controllers/rooms_controller.rb, line 20</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">cnro</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-keyword">if</span> (<span class="ruby-operator">!</span><span class="ruby-identifier">params</span>[<span class="ruby-value">:nameRoom</span>] <span class="ruby-operator">||</span> <span class="ruby-operator">!</span><span class="ruby-identifier">params</span>[<span class="ruby-value">:nameOwner</span>] <span class="ruby-operator">||</span> <span class="ruby-operator">!</span><span class="ruby-identifier">params</span>[<span class="ruby-value">:format</span>] <span class="ruby-operator">||</span>
+                        <span class="ruby-operator">!</span><span class="ruby-identifier">params</span>[<span class="ruby-value">:state</span>])
+                                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;KO&quot;</span>
+                        <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&quot;[cnro]  one of parameters is missing(nameOwner, nameRoom, format, state)&quot;</span>)
+        <span class="ruby-keyword">else</span>
+                <span class="ruby-keyword">if</span> <span class="ruby-constant">Room</span>.<span class="ruby-identifier">find_by_nameRoom</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:nameRoom</span>]) <span class="ruby-operator">||</span> (<span class="ruby-identifier">params</span>[<span class="ruby-value">:state</span>].<span class="ruby-identifier">to_i</span> <span class="ruby-operator">&gt;</span> <span class="ruby-value">1</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:state</span>].<span class="ruby-identifier">to_i</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">0</span>) 
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;KO&quot;</span>
+                        <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[cnro]  room #{params[:nameRoom]} already exist or state (#{params[:state]}) is not good&quot;</span>)
+                <span class="ruby-keyword">else</span>
+                        <span class="ruby-identifier">room</span> = <span class="ruby-constant">Room</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">params</span>.<span class="ruby-identifier">except</span>(<span class="ruby-value">:client_name</span>))
+                        <span class="ruby-comment"># room.nameOwner = params[:nameOwner]</span>
+                        <span class="ruby-comment"># room.format = params[:format]</span>
+                        <span class="ruby-comment"># room.nameRoom = params[:nameRoom]</span>
+                        <span class="ruby-comment"># room.state = params[:state]</span>
+                        <span class="ruby-identifier">room</span>.<span class="ruby-identifier">maxSize</span> = <span class="ruby-value">2</span>
+                        <span class="ruby-identifier">room</span>.<span class="ruby-identifier">nbPlayer</span> = <span class="ruby-value">0</span>
+                        <span class="ruby-keyword">if</span> <span class="ruby-identifier">room</span>.<span class="ruby-identifier">save!</span>
+                                <span class="ruby-keyword">if</span> <span class="ruby-identifier">user</span> = <span class="ruby-constant">User</span>.<span class="ruby-identifier">find_by_username</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:nameOwner</span>])
+                                        <span class="ruby-identifier">roomplayer</span> = <span class="ruby-constant">Roomplayer</span>.<span class="ruby-identifier">new</span>({<span class="ruby-value">:idRoom</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">room</span>.<span class="ruby-identifier">id</span>, <span class="ruby-value">:idUser</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">user</span>.<span class="ruby-identifier">id</span>})
+                                        <span class="ruby-comment"># roomplayer.idRoom = room.id</span>
+                                        <span class="ruby-comment"># roomplayer.idUser = user.id</span>
+                                        <span class="ruby-identifier">room</span>.<span class="ruby-identifier">nbPlayer</span> = <span class="ruby-identifier">room</span>.<span class="ruby-identifier">nbPlayer</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>;
+                                        <span class="ruby-keyword">if</span> <span class="ruby-identifier">roomplayer</span>.<span class="ruby-identifier">save</span>
+                                                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-identifier">room</span>.<span class="ruby-identifier">id</span>.<span class="ruby-identifier">to_s</span>
+                                        <span class="ruby-keyword">else</span>
+                                                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+                                                <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&quot;[cnro]  &quot;</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">roomplayer</span>.<span class="ruby-identifier">errors</span>.<span class="ruby-identifier">messages</span>)
+                                        <span class="ruby-keyword">end</span>
+                                <span class="ruby-keyword">else</span>
+                                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+                                        <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[cnro]  user #{params[:nameOwner]}&quot;</span>)
+                                <span class="ruby-keyword">end</span>
+                        <span class="ruby-keyword">else</span>
+                                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+                                <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&quot;[cnro]  &quot;</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">room</span>.<span class="ruby-identifier">errors</span>.<span class="ruby-identifier">messages</span>)
+                        <span class="ruby-keyword">end</span>
+                <span class="ruby-keyword">end</span>
+        <span class="ruby-keyword">end</span>
+        <span class="ruby-identifier">packet</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-dero" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">dero</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action dero</p>
+
+<p>Delete room</p>
+
+<h3 id="method-i-dero-label-Parameters">Parameters<span><a href="#method-i-dero-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>nameOwner</code> - (string)</p>
+</li><li>
+<p><code>nameRoom</code> - (string)</p>
+</li></ul>
+
+<h3 id="method-i-dero-label-Success">Success<span><a href="#method-i-dero-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-dero-label-Fail">Fail<span><a href="#method-i-dero-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>KO</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="dero-source">
+            <pre><span class="ruby-comment"># File controllers/rooms_controller.rb, line 73</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">dero</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-comment">#room = Room.find_by_id(params[:id])</span>
+        <span class="ruby-identifier">users</span> = <span class="ruby-constant">User</span>.<span class="ruby-identifier">find_by_username</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:nameOwner</span>])
+        <span class="ruby-identifier">room</span> = <span class="ruby-constant">Room</span>.<span class="ruby-identifier">find_by_nameRoom</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:nameRoom</span>])
+        <span class="ruby-keyword">if</span> <span class="ruby-identifier">users</span>.<span class="ruby-identifier">nil?</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">room</span>.<span class="ruby-identifier">nil?</span>
+                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;KO&quot;</span>
+                <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[dero]  one of the parameters is missing or doesn&#39;t exist (user =&gt;  [#{params[:nameOwner]}] and room =&gt; [#{params[:nameRoom]}])&quot;</span>)
+        <span class="ruby-keyword">else</span>
+                <span class="ruby-identifier">roomplayer</span> = <span class="ruby-constant">Roomplayer</span>.<span class="ruby-identifier">find_by_idUser_and_idRoom</span>(<span class="ruby-identifier">users</span>.<span class="ruby-identifier">id</span>, <span class="ruby-identifier">room</span>.<span class="ruby-identifier">id</span>)
+                <span class="ruby-keyword">if</span> <span class="ruby-identifier">roomplayer</span>.<span class="ruby-identifier">nil?</span>
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;KO&quot;</span>
+                        <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[dero]  user #{params[:nameOwner]} in not the owner of the room #{params[:nameRoom]}&quot;</span>)
+                <span class="ruby-keyword">else</span>
+                        <span class="ruby-identifier">params</span>[<span class="ruby-value">:function</span>] = <span class="ruby-string">&quot;KILR&quot;</span>
+                        <span class="ruby-identifier">params</span>[<span class="ruby-string">&quot;client_name&quot;</span>.<span class="ruby-identifier">to_sym</span>] = <span class="ruby-identifier">params</span>[<span class="ruby-value">:nameOwner</span>]
+                        <span class="ruby-identifier">params</span>[<span class="ruby-value">:data</span>] = <span class="ruby-string">&quot;OK&quot;</span>
+                        <span class="ruby-identifier">communication</span>.<span class="ruby-identifier">notif</span>(<span class="ruby-identifier">params</span>)
+                        <span class="ruby-identifier">clean_depth</span>(<span class="ruby-identifier">room</span>)
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;OK&quot;</span>
+                <span class="ruby-keyword">end</span>
+        <span class="ruby-keyword">end</span>
+        <span class="ruby-identifier">packet</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-gear" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">gear</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action gear</p>
+
+<p>Get all room</p>
+
+<h3 id="method-i-gear-label-Success">Success<span><a href="#method-i-gear-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>id\r1\nnameOwner\rexample_name\nformat\rVintage\nnameRoom\rexample_name_room\nstate\r1\n</pre>
+
+<h3 id="method-i-gear-label-Fail">Fail<span><a href="#method-i-gear-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>KO</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="gear-source">
+            <pre><span class="ruby-comment"># File controllers/rooms_controller.rb, line 230</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">gear</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">rooms</span> = <span class="ruby-constant">Room</span>.<span class="ruby-identifier">all</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">rooms</span>.<span class="ruby-identifier">empty?</span>
+       <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;KO&quot;</span>
+       <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&quot;[gear]  no rooms&quot;</span>)
+    <span class="ruby-keyword">else</span>
+       <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;&quot;</span>
+       <span class="ruby-identifier">rooms</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">room</span><span class="ruby-operator">|</span>
+                        <span class="ruby-node">%w[id nameOwner format nameRoom state]</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span> <span class="ruby-identifier">elem</span> <span class="ruby-operator">|</span>
+                                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> <span class="ruby-operator">+=</span> <span class="ruby-node">&quot;#{elem}\r#{room.send(elem.to_sym)}\n&quot;</span>
+                        <span class="ruby-keyword">end</span>
+                <span class="ruby-keyword">end</span>
+   <span class="ruby-comment">#           rooms.each do | elem |</span>
+   <span class="ruby-comment">#           packet.data += &quot;id\r&quot;</span>
+                        <span class="ruby-comment"># packet.data += &quot;#{elem.id}\n&quot;</span>
+                        <span class="ruby-comment"># packet.data += &quot;nameOwner\r&quot;</span>
+                        <span class="ruby-comment"># packet.data += &quot;#{elem.nameOwner}\n&quot;</span>
+                        <span class="ruby-comment"># packet.data += &quot;format\r&quot;</span>
+                        <span class="ruby-comment"># packet.data += &quot;#{elem.format}\n&quot;</span>
+                        <span class="ruby-comment"># packet.data += &quot;nameRoom\r&quot;</span>
+                        <span class="ruby-comment"># packet.data += &quot;#{elem.nameRoom}\n&quot;</span>
+                        <span class="ruby-comment"># packet.data += &quot;state\r&quot;</span>
+                        <span class="ruby-comment"># packet.data += &quot;#{elem.state}\n&quot;</span>
+   <span class="ruby-comment">#           end</span>
+    <span class="ruby-keyword">end</span>  
+        <span class="ruby-identifier">packet</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-gpfr" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">gpfr</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action gpfr</p>
+
+<p>Get player from a room</p>
+
+<h3 id="method-i-gpfr-label-Parameters">Parameters<span><a href="#method-i-gpfr-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>idRoom</code> - (integer) - This represents the id of the room you
+want to get a list of players</p>
+</li></ul>
+
+<h3 id="method-i-gpfr-label-Success">Success<span><a href="#method-i-gpfr-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>id\r\nusername1\nusername2\nusername3\n</pre>
+
+<h3 id="method-i-gpfr-label-Fail">Fail<span><a href="#method-i-gpfr-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>KO</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="gpfr-source">
+            <pre><span class="ruby-comment"># File controllers/rooms_controller.rb, line 201</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">gpfr</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-keyword">if</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:idRoom</span>]
+                <span class="ruby-keyword">begin</span> 
+                        <span class="ruby-constant">Room</span>.<span class="ruby-identifier">find</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:idRoom</span>])
+                        <span class="ruby-identifier">listPlayer</span> = <span class="ruby-constant">Roomplayer</span>.<span class="ruby-identifier">where</span>([<span class="ruby-string">&quot;idRoom = ?&quot;</span>, <span class="ruby-identifier">params</span>[<span class="ruby-value">:idRoom</span>]])
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;&quot;</span>
+                        <span class="ruby-identifier">listPlayer</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">item</span><span class="ruby-operator">|</span>
+                                <span class="ruby-identifier">user</span> = <span class="ruby-constant">User</span>.<span class="ruby-identifier">where</span>([<span class="ruby-string">&quot;id = ?&quot;</span>, <span class="ruby-identifier">item</span>.<span class="ruby-identifier">idUser</span>])
+                                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> <span class="ruby-operator">+=</span> <span class="ruby-node">&quot;#{user[0].username}\n&quot;</span>
+                        <span class="ruby-keyword">end</span>
+                <span class="ruby-keyword">rescue</span>   <span class="ruby-constant">ActiveRecord</span><span class="ruby-operator">::</span><span class="ruby-constant">RecordNotFound</span>
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+                        <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[gpfr]  room with id #{params[:idRoom]} doesn&#39;t exist&quot;</span>)
+                <span class="ruby-keyword">end</span>
+        <span class="ruby-keyword">else</span>
+                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+                <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&quot;[gpfr]  room  id is missing&quot;</span>)
+        <span class="ruby-keyword">end</span>
+        <span class="ruby-identifier">packet</span> 
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-joro" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">joro</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action joro</p>
+
+<p>Join room</p>
+
+<h3 id="method-i-joro-label-Parameters">Parameters<span><a href="#method-i-joro-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>username</code> - (string)</p>
+</li><li>
+<p><code>nameRoom</code> - (string)</p>
+</li><li>
+<p><code>client_name</code> - (string) - Same as username, this is used by
+communication to make the notification module working</p>
+</li></ul>
+
+<h3 id="method-i-joro-label-Success">Success<span><a href="#method-i-joro-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-joro-label-Fail">Fail<span><a href="#method-i-joro-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>KO</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="joro-source">
+            <pre><span class="ruby-comment"># File controllers/rooms_controller.rb, line 109</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">joro</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-keyword">if</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>] <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:nameRoom</span>]
+                <span class="ruby-identifier">user</span> = <span class="ruby-constant">User</span>.<span class="ruby-identifier">find_by_username</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>])
+                <span class="ruby-identifier">room</span> = <span class="ruby-constant">Room</span>.<span class="ruby-identifier">find_by_nameRoom</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:nameRoom</span>])
+                <span class="ruby-keyword">if</span> (<span class="ruby-identifier">room</span>.<span class="ruby-identifier">nil?</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">user</span>.<span class="ruby-identifier">nil?</span>) <span class="ruby-operator">||</span> (<span class="ruby-constant">Roomplayer</span>.<span class="ruby-identifier">find_by_idUser_and_idRoom</span>(<span class="ruby-identifier">user</span>.<span class="ruby-identifier">id</span>, <span class="ruby-identifier">room</span>.<span class="ruby-identifier">id</span>)) <span class="ruby-operator">||</span> (<span class="ruby-identifier">room</span>.<span class="ruby-identifier">nbPlayer</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-identifier">room</span>.<span class="ruby-identifier">maxSize</span>)
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;KO&quot;</span>
+                        <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[joro]  user #{params[:username]} already in room #{params[:nameRoom]}&quot;</span>)
+                <span class="ruby-keyword">else</span>
+                        <span class="ruby-identifier">roomplayer</span> = <span class="ruby-constant">Roomplayer</span>.<span class="ruby-identifier">new</span>({<span class="ruby-value">:idRoom</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">room</span>.<span class="ruby-identifier">id</span>, <span class="ruby-value">:idUser</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">user</span>.<span class="ruby-identifier">id</span>})
+                        <span class="ruby-comment"># roomplayer.idRoom = room.id</span>
+                        <span class="ruby-comment"># roomplayer.idUser = user.id</span>
+                        <span class="ruby-identifier">room</span>.<span class="ruby-identifier">nbPlayer</span> = <span class="ruby-identifier">room</span>.<span class="ruby-identifier">nbPlayer</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>;
+                        <span class="ruby-keyword">if</span> <span class="ruby-identifier">room</span>.<span class="ruby-identifier">save</span>
+                                <span class="ruby-keyword">if</span> <span class="ruby-identifier">roomplayer</span>.<span class="ruby-identifier">save</span>
+                             <span class="ruby-identifier">params</span>[<span class="ruby-value">:function</span>] = <span class="ruby-string">&quot;PJRO&quot;</span>
+                             <span class="ruby-identifier">params</span>[<span class="ruby-string">&quot;client_name&quot;</span>.<span class="ruby-identifier">to_sym</span>] = <span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>]
+                             <span class="ruby-identifier">params</span>[<span class="ruby-value">:data</span>] = <span class="ruby-string">&quot;username\r&quot;</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:client_name</span>] <span class="ruby-operator">+</span><span class="ruby-string">&quot;\n&quot;</span>
+                                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;OK&quot;</span>                                     
+                             <span class="ruby-identifier">communication</span>.<span class="ruby-identifier">notif</span>(<span class="ruby-identifier">params</span>)
+
+                                <span class="ruby-keyword">else</span>
+                                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+                                        <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&#39;[joro]  &#39;</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">roomplayer</span>.<span class="ruby-identifier">errors</span>.<span class="ruby-identifier">messages</span>)
+                                <span class="ruby-keyword">end</span>
+                        <span class="ruby-keyword">else</span>
+                                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+                                <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&#39;[joro]  &#39;</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">room</span>.<span class="ruby-identifier">errors</span>.<span class="ruby-identifier">messages</span>)
+                        <span class="ruby-keyword">end</span>
+                <span class="ruby-keyword">end</span>
+        <span class="ruby-keyword">else</span>
+                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+                <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[joro]  one of the parameters is missing or doesn&#39;t exist(username =&gt; [#{params[:username]}]  room =&gt; [#{params[:nameRoom]}]&quot;</span>)
+        <span class="ruby-keyword">end</span>
+        <span class="ruby-identifier">packet</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-lear" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">lear</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action lear</p>
+
+<p>Leave room</p>
+
+<h3 id="method-i-lear-label-Parameters">Parameters<span><a href="#method-i-lear-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>username</code> - (string)</p>
+</li><li>
+<p><code>nameRoom</code> - (string)</p>
+</li><li>
+<p><code>client_name</code> - (string) - Same as username, this is used by
+communication to make the notification module working</p>
+</li></ul>
+
+<h3 id="method-i-lear-label-Success">Success<span><a href="#method-i-lear-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-lear-label-Fail">Fail<span><a href="#method-i-lear-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>KO</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="lear-source">
+            <pre><span class="ruby-comment"># File controllers/rooms_controller.rb, line 157</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">lear</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-keyword">if</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>] <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:nameRoom</span>]
+                <span class="ruby-identifier">users</span> = <span class="ruby-constant">User</span>.<span class="ruby-identifier">find_by_username</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>])
+                <span class="ruby-identifier">room</span> = <span class="ruby-constant">Room</span>.<span class="ruby-identifier">find_by_nameRoom</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:nameRoom</span>])
+                <span class="ruby-keyword">if</span> <span class="ruby-identifier">users</span>.<span class="ruby-identifier">nil?</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">room</span>.<span class="ruby-identifier">nil?</span>
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;KO&quot;</span>
+                        <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[lear]  user #{params[:username]} or room #{params[:nameRoom]} doesn&#39;t exist&quot;</span>)
+                <span class="ruby-keyword">else</span>
+                        <span class="ruby-identifier">roomplayer</span> = <span class="ruby-constant">Roomplayer</span>.<span class="ruby-identifier">find_by_idUser_and_idRoom</span>(<span class="ruby-identifier">users</span>.<span class="ruby-identifier">id</span>, <span class="ruby-identifier">room</span>.<span class="ruby-identifier">id</span>)
+                        <span class="ruby-keyword">if</span> <span class="ruby-identifier">roomplayer</span>.<span class="ruby-identifier">nil?</span>
+                                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;KO&quot;</span>
+                                <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[lear]  user #{params[:username]} is not in the room #{params[:nameRoom]}&quot;</span>)
+                        <span class="ruby-keyword">else</span>
+                                <span class="ruby-identifier">room</span>.<span class="ruby-identifier">nbPlayer</span> = <span class="ruby-identifier">room</span>.<span class="ruby-identifier">nbPlayer</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>;
+                                <span class="ruby-keyword">if</span> <span class="ruby-identifier">room</span>.<span class="ruby-identifier">save</span>
+                                        <span class="ruby-identifier">clean_roomplayer</span>(<span class="ruby-identifier">users</span>, <span class="ruby-identifier">room</span>)
+                                        <span class="ruby-identifier">params</span>[<span class="ruby-value">:function</span>] = <span class="ruby-string">&quot;PLRO&quot;</span>
+                                        <span class="ruby-identifier">params</span>[<span class="ruby-string">&quot;client_name&quot;</span>.<span class="ruby-identifier">to_sym</span>] = <span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>]
+                              <span class="ruby-identifier">params</span>[<span class="ruby-value">:data</span>] = <span class="ruby-string">&quot;username\r&quot;</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:client_name</span>]
+                                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;OK&quot;</span>
+                              <span class="ruby-identifier">communication</span>.<span class="ruby-identifier">notif</span>(<span class="ruby-identifier">params</span>)
+                                <span class="ruby-keyword">else</span>
+                                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+                                        <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&#39;[lear]  &#39;</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">room</span>.<span class="ruby-identifier">errors</span>.<span class="ruby-identifier">messages</span>)
+                                <span class="ruby-keyword">end</span>
+                        <span class="ruby-keyword">end</span>
+                <span class="ruby-keyword">end</span>
+        <span class="ruby-keyword">else</span>
+                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+                <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[joro]  one of the parameters is missing or doesn&#39;t exist(username =&gt; [#{params[:username]}]  room =&gt; [#{params[:nameRoom]}]&quot;</span>)
+        <span class="ruby-keyword">end</span>
+        <span class="ruby-identifier">packet</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+    </section>
+  
+  </section>
+</main>
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="http://rdoc.rubyforge.org">RDoc</a> 4.1.1.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+

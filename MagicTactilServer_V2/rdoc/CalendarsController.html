@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>module CalendarsController - MagicTactil API Doc</title>
+
+<link href="./fonts.css" rel="stylesheet">
+<link href="./rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+</script>
+
+<script src="./js/jquery.js"></script>
+<script src="./js/navigation.js"></script>
+<script src="./js/search_index.js"></script>
+<script src="./js/search.js"></script>
+<script src="./js/searcher.js"></script>
+<script src="./js/darkfish.js"></script>
+
+
+<body id="top" role="document" class="module">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="./index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="./table_of_contents.html#pages">Pages</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="class-metadata">
+    
+    
+    
+    
+    <!-- Method Quickref -->
+<div id="method-list-section" class="nav-section">
+  <h3>Methods</h3>
+
+  <ul class="link-list" role="directory">
+    
+    <li ><a href="#method-i-crev">#crev</a>
+    
+    <li ><a href="#method-i-dele">#dele</a>
+    
+    <li ><a href="#method-i-gete">#gete</a>
+    
+    <li ><a href="#method-i-gtal">#gtal</a>
+    
+    <li ><a href="#method-i-isue">#isue</a>
+    
+    <li ><a href="#method-i-sgoe">#sgoe</a>
+    
+    <li ><a href="#method-i-sgue">#sgue</a>
+    
+    <li ><a href="#method-i-snie">#snie</a>
+    
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-labelledby="module-CalendarsController">
+  <h1 id="module-CalendarsController" class="module">
+    module CalendarsController
+  </h1>
+
+  <section class="description">
+    
+  </section>
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Instance Methods</h3>
+       </header>
+
+    
+      <div id="method-i-crev" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">crev</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action crev</p>
+
+<p>Create Event into the database</p>
+
+<h3 id="method-i-crev-label-Parameters">Parameters<span><a href="#method-i-crev-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>creator</code> - (string)</p>
+</li><li>
+<p><code>name</code> - (string)</p>
+</li><li>
+<p><code>creatorEmail</code> - (string)</p>
+</li><li>
+<p><code>description</code> - (string)</p>
+</li><li>
+<p><code>idUser</code> - (integer) - Each user has an ID which is can be got
+by using the action “getu”</p>
+</li><li>
+<p><code>date</code> - (date)</p>
+</li><li>
+<p><code>location</code> - (string)</p>
+</li></ul>
+
+<h3 id="method-i-crev-label-Success">Success<span><a href="#method-i-crev-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-crev-label-Fail">Fail<span><a href="#method-i-crev-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>KO</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="crev-source">
+            <pre><span class="ruby-comment"># File controllers/calendars_controller.rb, line 22</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">crev</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-keyword">if</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:creator</span>] <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:name</span>] <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:creatorEmail</span>] <span class="ruby-operator">&amp;&amp;</span>
+              <span class="ruby-identifier">params</span>[<span class="ruby-value">:description</span>] <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:date</span>] <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:location</span>]
+                <span class="ruby-keyword">if</span> <span class="ruby-constant">Event</span>.<span class="ruby-identifier">find_by_name</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:name</span>])
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+                        <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[crev]  event #{params[:name]} already existes&quot;</span>)
+                <span class="ruby-keyword">else</span>
+                        <span class="ruby-identifier">event</span> = <span class="ruby-constant">Event</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">params</span>.<span class="ruby-identifier">except</span>(<span class="ruby-value">:client_name</span>))
+                        <span class="ruby-keyword">if</span> <span class="ruby-identifier">event</span>.<span class="ruby-identifier">save</span>
+                                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;OK&quot;</span>
+                        <span class="ruby-keyword">else</span>
+                                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;KO&quot;</span>
+                                <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&#39;[crev]  &#39;</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">event</span>.<span class="ruby-identifier">errors</span>.<span class="ruby-identifier">messages</span>.<span class="ruby-identifier">to_s</span>)
+                        <span class="ruby-keyword">end</span>
+                <span class="ruby-keyword">end</span>
+        <span class="ruby-keyword">else</span>
+                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+        <span class="ruby-keyword">end</span>
+        <span class="ruby-identifier">packet</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-dele" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">dele</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action dele</p>
+
+<p>Delete event</p>
+
+<h3 id="method-i-dele-label-Parameters">Parameters<span><a href="#method-i-dele-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>name</code> - (string)</p>
+</li></ul>
+
+<h3 id="method-i-dele-label-Success">Success<span><a href="#method-i-dele-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-dele-label-Fail">Fail<span><a href="#method-i-dele-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>KO</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="dele-source">
+            <pre><span class="ruby-comment"># File controllers/calendars_controller.rb, line 128</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">dele</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-keyword">if</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:name</span>]
+                <span class="ruby-keyword">if</span> (<span class="ruby-identifier">event</span> = <span class="ruby-constant">Event</span>.<span class="ruby-identifier">find_by_name</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:name</span>]))
+                        <span class="ruby-identifier">event</span>.<span class="ruby-identifier">destroy</span>
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;OK&#39;</span>
+                <span class="ruby-keyword">else</span>
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+                        <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[dele]  event #{params[:name]} doesn&#39;t existe&quot;</span>)
+                <span class="ruby-keyword">end</span>
+        <span class="ruby-keyword">else</span>
+                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+                <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&quot;[dele]  name event is missing&quot;</span>)
+        <span class="ruby-keyword">end</span>
+        <span class="ruby-identifier">packet</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-gete" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">gete</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action gete</p>
+
+<p>Get information about an event</p>
+
+<h3 id="method-i-gete-label-Success">Success<span><a href="#method-i-gete-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>id\r1\ncreator\rmickael\nname\rexample\ndescription\rthis is an example\ndate\r25/12/2013\nlocation\rat home</pre>
+
+<h3 id="method-i-gete-label-Fail">Fail<span><a href="#method-i-gete-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>KO</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="gete-source">
+            <pre><span class="ruby-comment"># File controllers/calendars_controller.rb, line 192</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">gete</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+             <span class="ruby-keyword">if</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:name</span>]
+             <span class="ruby-keyword">if</span> <span class="ruby-identifier">event</span> = <span class="ruby-constant">Event</span>.<span class="ruby-identifier">find_by_name</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:name</span>])
+                    <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-node">&quot;id\r#{event.id}\ncreator\r#{event.creator}\nname\r#{event.name}\ndescription\r#{event.description}\ndate\r#{event.date}\nlocation\r#{event.location}&quot;</span>
+             <span class="ruby-keyword">else</span>
+                    <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;KO&quot;</span>
+                    <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[gete]  event #{params[:name]} doesn&#39;t existe&quot;</span> )
+             <span class="ruby-keyword">end</span>
+          <span class="ruby-keyword">else</span>
+            <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+            <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&quot;[gete]  name event is missing&quot;</span>)
+          <span class="ruby-keyword">end</span>
+     <span class="ruby-identifier">packet</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-gtal" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">gtal</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action gtal</p>
+
+<p>Get the list of all events</p>
+
+<h3 id="method-i-gtal-label-Success">Success<span><a href="#method-i-gtal-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>name1\nname2\nname3\n</pre>
+
+<h3 id="method-i-gtal-label-Fail">Fail<span><a href="#method-i-gtal-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>KO</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="gtal-source">
+            <pre><span class="ruby-comment"># File controllers/calendars_controller.rb, line 215</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">gtal</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+  <span class="ruby-identifier">event</span> = <span class="ruby-constant">Event</span>.<span class="ruby-identifier">all</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">event</span>.<span class="ruby-identifier">nil?</span>
+             <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;&quot;</span>
+         <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&quot;[gtal]  no events in the Data Base&quot;</span>)
+  <span class="ruby-keyword">else</span>
+         <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;&quot;</span>
+             <span class="ruby-identifier">event</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span> <span class="ruby-identifier">elem</span> <span class="ruby-operator">|</span>
+            <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> <span class="ruby-operator">+=</span> <span class="ruby-node">&quot;#{elem.name}\n&quot;</span>
+         <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">packet</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-isue" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">isue</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action isue</p>
+
+<p>Check if someone has already signed up or not</p>
+
+<h3 id="method-i-isue-label-Parameters">Parameters<span><a href="#method-i-isue-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>username</code> - (string)</p>
+</li><li>
+<p><code>name</code> - (string)</p>
+</li></ul>
+
+<h3 id="method-i-isue-label-Success">Success<span><a href="#method-i-isue-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-isue-label-Fail">Fail<span><a href="#method-i-isue-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>KO</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="isue-source">
+            <pre><span class="ruby-comment"># File controllers/calendars_controller.rb, line 240</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">isue</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+             <span class="ruby-keyword">if</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:name</span>] <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>]
+                 <span class="ruby-identifier">user</span> = <span class="ruby-constant">User</span>.<span class="ruby-identifier">find_by_username</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>])
+                 <span class="ruby-identifier">event</span> = <span class="ruby-constant">Event</span>.<span class="ruby-identifier">find_by_name</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:name</span>])
+                 <span class="ruby-keyword">if</span> <span class="ruby-identifier">user</span>.<span class="ruby-identifier">nil?</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">event</span>.<span class="ruby-identifier">nil?</span>
+                   <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+                     <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[isue]  user #{params[:username]} or event #{params[:name]} doesn&#39;t existe&quot;</span>)
+                 <span class="ruby-keyword">else</span>
+                   <span class="ruby-identifier">check</span> = <span class="ruby-constant">Subscriber</span>.<span class="ruby-identifier">find_by_idUser_and_idEvent</span>(<span class="ruby-identifier">user</span>.<span class="ruby-identifier">id</span>, <span class="ruby-identifier">event</span>.<span class="ruby-identifier">id</span>)
+                     <span class="ruby-keyword">if</span> <span class="ruby-identifier">check</span>.<span class="ruby-identifier">nil?</span>
+                           <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+                           <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&quot;[isue]  the user has not been signed up to the event&quot;</span>)
+                     <span class="ruby-keyword">else</span>
+                       <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;OK&#39;</span>
+                     <span class="ruby-keyword">end</span>
+                 <span class="ruby-keyword">end</span>
+             <span class="ruby-keyword">else</span>
+                     <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;KO&quot;</span>
+                     <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&quot;[isue]  name event or username is missing&quot;</span>)
+             <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">packet</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-sgoe" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">sgoe</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action sgoe</p>
+
+<p>Sign out of an event</p>
+
+<h3 id="method-i-sgoe-label-Parameters">Parameters<span><a href="#method-i-sgoe-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>username</code> - (string)</p>
+</li><li>
+<p><code>name</code> - (string)</p>
+</li></ul>
+
+<h3 id="method-i-sgoe-label-Success">Success<span><a href="#method-i-sgoe-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-sgoe-label-Fail">Fail<span><a href="#method-i-sgoe-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>KO</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="sgoe-source">
+            <pre><span class="ruby-comment"># File controllers/calendars_controller.rb, line 95</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">sgoe</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-keyword">if</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>] <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:name</span>]
+                <span class="ruby-identifier">users</span> = <span class="ruby-constant">User</span>.<span class="ruby-identifier">find_by_username</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>])
+                <span class="ruby-identifier">event</span> = <span class="ruby-constant">Event</span>.<span class="ruby-identifier">find_by_name</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:name</span>])
+                <span class="ruby-keyword">if</span> (<span class="ruby-identifier">event</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">users</span>)
+                        <span class="ruby-keyword">if</span> (<span class="ruby-identifier">subs</span> = <span class="ruby-constant">Subscriber</span>.<span class="ruby-identifier">find_by_idUser_and_idEvent</span>(<span class="ruby-identifier">users</span>.<span class="ruby-identifier">id</span>, <span class="ruby-identifier">event</span>.<span class="ruby-identifier">id</span>))
+                                <span class="ruby-identifier">subs</span>.<span class="ruby-identifier">destroy</span>
+                                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;OK&quot;</span>                         
+                        <span class="ruby-keyword">else</span>
+                                <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[sgoe]  the user[#{params[:username]}] has not been signed out to the event[#{params[:name]}]&quot;</span>)
+                                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+                        <span class="ruby-keyword">end</span>
+                <span class="ruby-keyword">else</span>
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+                        <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[sgoe]  user #{params[:username]} or event #{params[:name]} doesn&#39;t existe&quot;</span>)
+                <span class="ruby-keyword">end</span>
+        <span class="ruby-keyword">else</span>
+                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+                <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&quot;[sgoe]  username ot name event is missing&quot;</span>)
+        <span class="ruby-keyword">end</span>
+        <span class="ruby-identifier">packet</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-sgue" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">sgue</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action sgue</p>
+
+<p>Sign up to an event</p>
+
+<h3 id="method-i-sgue-label-Parameters">Parameters<span><a href="#method-i-sgue-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>username</code> - (string)</p>
+</li><li>
+<p><code>name</code> - (string)</p>
+</li></ul>
+
+<h3 id="method-i-sgue-label-Success">Success<span><a href="#method-i-sgue-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-sgue-label-Fail">Fail<span><a href="#method-i-sgue-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>KO</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="sgue-source">
+            <pre><span class="ruby-comment"># File controllers/calendars_controller.rb, line 54</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">sgue</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-keyword">if</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>] <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:name</span>]
+                <span class="ruby-identifier">user</span> = <span class="ruby-constant">User</span>.<span class="ruby-identifier">find_by_username</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>])
+                <span class="ruby-identifier">event</span> = <span class="ruby-constant">Event</span>.<span class="ruby-identifier">find_by_name</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:name</span>])
+                <span class="ruby-keyword">if</span> (<span class="ruby-operator">!</span><span class="ruby-identifier">event</span>.<span class="ruby-identifier">nil?</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-operator">!</span><span class="ruby-identifier">user</span>.<span class="ruby-identifier">nil?</span>) 
+                        <span class="ruby-keyword">if</span> <span class="ruby-constant">Subscriber</span>.<span class="ruby-identifier">find_by_idUser_and_idEvent</span>(<span class="ruby-identifier">user</span>.<span class="ruby-identifier">id</span>, <span class="ruby-identifier">event</span>.<span class="ruby-identifier">id</span>)
+                                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+                                <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[sgue]  user #{params[:username]} already signed up to the event #{params[:name]}&quot;</span>)
+                        <span class="ruby-keyword">else</span>
+                                <span class="ruby-identifier">subs</span> = <span class="ruby-constant">Subscriber</span>.<span class="ruby-identifier">new</span>()
+                                <span class="ruby-identifier">subs</span>.<span class="ruby-identifier">idEvent</span> = <span class="ruby-identifier">event</span>.<span class="ruby-identifier">id</span>
+                                <span class="ruby-identifier">subs</span>.<span class="ruby-identifier">idUser</span> = <span class="ruby-identifier">user</span>.<span class="ruby-identifier">id</span>
+                                <span class="ruby-keyword">if</span> <span class="ruby-identifier">subs</span>.<span class="ruby-identifier">save</span>
+                                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;OK&#39;</span>
+                                <span class="ruby-keyword">else</span>
+                                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+                                        <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&#39;[sgue]  &#39;</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">subs</span>.<span class="ruby-identifier">errors</span>.<span class="ruby-identifier">messages</span>.<span class="ruby-identifier">to_s</span>)
+                                <span class="ruby-keyword">end</span>
+                        <span class="ruby-keyword">end</span>
+                <span class="ruby-keyword">else</span>
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;KO&quot;</span>
+                        <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[sgue]  the user #{params[:username]} or event #{params[:name]} doesn&#39;t existe&quot;</span>)
+                <span class="ruby-keyword">end</span>
+        <span class="ruby-keyword">else</span>
+                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;KO&quot;</span>
+                <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&quot;[sgue]  the username or name event is missing&quot;</span>)
+        <span class="ruby-keyword">end</span>
+        <span class="ruby-identifier">packet</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-snie" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">snie</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action snie</p>
+
+<p>Change the information about an event</p>
+
+<h3 id="method-i-snie-label-Parameters">Parameters<span><a href="#method-i-snie-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>creatorEmail</code> - (string)</p>
+</li><li>
+<p><code>description</code> - (string)</p>
+</li><li>
+<p><code>date</code> - (date)</p>
+</li><li>
+<p><code>location</code> - (date)</p>
+</li></ul>
+
+<h3 id="method-i-snie-label-Success">Success<span><a href="#method-i-snie-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-snie-label-Fail">Fail<span><a href="#method-i-snie-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>KO</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="snie-source">
+            <pre><span class="ruby-comment"># File controllers/calendars_controller.rb, line 157</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">snie</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-keyword">if</span>  <span class="ruby-identifier">params</span>[<span class="ruby-value">:name</span>]
+                <span class="ruby-keyword">if</span> <span class="ruby-identifier">event</span> = <span class="ruby-constant">Event</span>.<span class="ruby-identifier">find_by_name</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:name</span>])         
+                        <span class="ruby-comment">#%w[creatorEmail description date location].each do |word|</span>
+                        <span class="ruby-node">%w[description date location]</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">word</span><span class="ruby-operator">|</span>
+                                <span class="ruby-keyword">if</span> <span class="ruby-identifier">params</span>[<span class="ruby-identifier">word</span>.<span class="ruby-identifier">to_sym</span>].<span class="ruby-identifier">present?</span>
+                                        <span class="ruby-identifier">event</span>.<span class="ruby-identifier">update_attribute</span>(<span class="ruby-identifier">word</span>, <span class="ruby-identifier">params</span>[<span class="ruby-identifier">word</span>.<span class="ruby-identifier">to_sym</span>])
+                                <span class="ruby-keyword">end</span>
+                        <span class="ruby-keyword">end</span>
+                        <span class="ruby-keyword">if</span> <span class="ruby-identifier">event</span>.<span class="ruby-identifier">save</span>
+                                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> =  <span class="ruby-string">&#39;OK&#39;</span>
+                        <span class="ruby-keyword">else</span>
+                                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> =  <span class="ruby-string">&#39;KO&#39;</span>
+                                <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&#39;[snie]  &#39;</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">event</span>.<span class="ruby-identifier">errors</span>.<span class="ruby-identifier">messages</span>.<span class="ruby-identifier">to_s</span>)
+                        <span class="ruby-keyword">end</span>
+                <span class="ruby-keyword">else</span>
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> =  <span class="ruby-string">&#39;KO&#39;</span>
+                        <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[snie]  event #{params[:name]} doesn&#39;t existe&quot;</span>)
+                <span class="ruby-keyword">end</span>
+        <span class="ruby-keyword">else</span>
+                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+                <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&quot;[snie]  name event is missing&quot;</span>)
+        <span class="ruby-keyword">end</span>
+        <span class="ruby-identifier">packet</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+    </section>
+  
+  </section>
+</main>
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="http://rdoc.rubyforge.org">RDoc</a> 4.1.1.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+

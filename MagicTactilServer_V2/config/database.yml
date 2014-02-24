@@ -1,0 +1,14 @@
+mysql:
+  adapter: mysql2
+  host: localhost
+  user: root
+  password: kokololo
+  database: test_mysql
+  socket: /tmp/mysql.sock
+
+sqlite:
+  adapter: sqlite3
+  database: test_sqlite3.sqlite3
+  pool: 5
+  timeout: 5000
+  encoding: utf8

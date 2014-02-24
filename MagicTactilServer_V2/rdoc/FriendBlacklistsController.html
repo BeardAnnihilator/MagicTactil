@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>module FriendBlacklistsController - MagicTactil API Doc</title>
+
+<link href="./fonts.css" rel="stylesheet">
+<link href="./rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+</script>
+
+<script src="./js/jquery.js"></script>
+<script src="./js/navigation.js"></script>
+<script src="./js/search_index.js"></script>
+<script src="./js/search.js"></script>
+<script src="./js/searcher.js"></script>
+<script src="./js/darkfish.js"></script>
+
+
+<body id="top" role="document" class="module">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="./index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="./table_of_contents.html#pages">Pages</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="class-metadata">
+    
+    
+    
+    
+    <!-- Method Quickref -->
+<div id="method-list-section" class="nav-section">
+  <h3>Methods</h3>
+
+  <ul class="link-list" role="directory">
+    
+    <li ><a href="#method-i-adbl">#adbl</a>
+    
+    <li ><a href="#method-i-adfr">#adfr</a>
+    
+    <li ><a href="#method-i-debl">#debl</a>
+    
+    <li ><a href="#method-i-delf">#delf</a>
+    
+    <li ><a href="#method-i-gfrl">#gfrl</a>
+    
+    <li ><a href="#method-i-gtbl">#gtbl</a>
+    
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-labelledby="module-FriendBlacklistsController">
+  <h1 id="module-FriendBlacklistsController" class="module">
+    module FriendBlacklistsController
+  </h1>
+
+  <section class="description">
+    
+  </section>
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Instance Methods</h3>
+       </header>
+
+    
+      <div id="method-i-adbl" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">adbl</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action adbl</p>
+
+<p>Add player to black list</p>
+
+<h3 id="method-i-adbl-label-Parameters">Parameters<span><a href="#method-i-adbl-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>username</code> - (string)</p>
+</li><li>
+<p><code>belongsto</code> - (string) - The username parameters belongsto to
+the user who sent the request</p>
+</li></ul>
+
+<h3 id="method-i-adbl-label-Success">Success<span><a href="#method-i-adbl-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-adbl-label-Fail">Fail<span><a href="#method-i-adbl-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>KO</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="adbl-source">
+            <pre><span class="ruby-comment"># File controllers/friend_blacklists_controller.rb, line 65</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">adbl</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+        <span class="ruby-keyword">if</span> (<span class="ruby-constant">User</span>.<span class="ruby-identifier">where</span>(<span class="ruby-string">&#39;username=? OR username=?&#39;</span>, <span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>], <span class="ruby-identifier">params</span>[<span class="ruby-value">:belongsto</span>]).<span class="ruby-identifier">count</span> <span class="ruby-operator">==</span> <span class="ruby-value">2</span>)
+                <span class="ruby-keyword">if</span> (<span class="ruby-constant">Friendblacklist</span>.<span class="ruby-identifier">where</span>(<span class="ruby-string">&#39;belongsto=? AND username=? AND typelist=&quot;B&quot;&#39;</span>,
+                        <span class="ruby-identifier">params</span>[<span class="ruby-value">:belongsto</span>], <span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>]).<span class="ruby-identifier">empty?</span>)
+                        <span class="ruby-constant">Friendblacklist</span>.<span class="ruby-identifier">create</span>(<span class="ruby-identifier">params</span>.<span class="ruby-identifier">merge</span>(<span class="ruby-identifier">typelist</span><span class="ruby-operator">:</span> <span class="ruby-string">&#39;B&#39;</span>).<span class="ruby-identifier">except</span>(<span class="ruby-value">:client_name</span>))
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;OK&#39;</span>; <span class="ruby-keyword">return</span> (<span class="ruby-identifier">packet</span>)
+                <span class="ruby-keyword">end</span>
+        <span class="ruby-keyword">end</span>
+        <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&#39;[adbl]    user(s) doesn\t exist or friendship already exists :)&#39;</span>)
+        <span class="ruby-identifier">packet</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-adfr" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">adfr</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action adfr</p>
+
+<p>Add friend to friend list</p>
+
+<h3 id="method-i-adfr-label-Parameters">Parameters<span><a href="#method-i-adfr-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>username</code> - (string)</p>
+</li><li>
+<p><code>belongsto</code> - (string) - The username parameters belongsto to
+the user who sent the request</p>
+</li></ul>
+
+<h3 id="method-i-adfr-label-Success">Success<span><a href="#method-i-adfr-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-adfr-label-Fail">Fail<span><a href="#method-i-adfr-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>KO</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="adfr-source">
+            <pre><span class="ruby-comment"># File controllers/friend_blacklists_controller.rb, line 16</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">adfr</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+        <span class="ruby-keyword">if</span> (<span class="ruby-constant">User</span>.<span class="ruby-identifier">where</span>(<span class="ruby-string">&#39;username=? OR username=?&#39;</span>, <span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>], <span class="ruby-identifier">params</span>[<span class="ruby-value">:belongsto</span>]).<span class="ruby-identifier">count</span> <span class="ruby-operator">==</span> <span class="ruby-value">2</span>)
+                <span class="ruby-keyword">if</span> (<span class="ruby-constant">Friendblacklist</span>.<span class="ruby-identifier">where</span>(<span class="ruby-string">&#39;belongsto=? AND username=? AND typelist=&quot;F&quot;&#39;</span>,
+                        <span class="ruby-identifier">params</span>[<span class="ruby-value">:belongsto</span>], <span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>]).<span class="ruby-identifier">empty?</span>)
+                        <span class="ruby-constant">Friendblacklist</span>.<span class="ruby-identifier">create</span>(<span class="ruby-identifier">params</span>.<span class="ruby-identifier">merge</span>(<span class="ruby-identifier">typelist</span><span class="ruby-operator">:</span> <span class="ruby-string">&#39;F&#39;</span>).<span class="ruby-identifier">except</span>(<span class="ruby-value">:client_name</span>))
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;OK&#39;</span>; <span class="ruby-keyword">return</span> (<span class="ruby-identifier">packet</span>)
+                <span class="ruby-keyword">end</span>
+        <span class="ruby-keyword">end</span>
+        <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&#39;[adfr]    user(s) doesn\t exist or friendship already exists :)&#39;</span>)
+        <span class="ruby-identifier">packet</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-debl" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">debl</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action debl</p>
+
+<p>Delete player from a blacklist</p>
+
+<h3 id="method-i-debl-label-Parameters">Parameters<span><a href="#method-i-debl-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>username</code> - (string)</p>
+</li><li>
+<p><code>belongsto</code> - (string) - The username parameters belongsto to
+the user who sent the request</p>
+</li></ul>
+
+<h3 id="method-i-debl-label-Success">Success<span><a href="#method-i-debl-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-debl-label-Fail">Fail<span><a href="#method-i-debl-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>KO</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="debl-source">
+            <pre><span class="ruby-comment"># File controllers/friend_blacklists_controller.rb, line 89</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">debl</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+        <span class="ruby-keyword">if</span> (<span class="ruby-constant">User</span>.<span class="ruby-identifier">where</span>(<span class="ruby-string">&#39;username=? OR username=?&#39;</span>, <span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>], <span class="ruby-identifier">params</span>[<span class="ruby-value">:belongsto</span>]).<span class="ruby-identifier">count</span> <span class="ruby-operator">==</span> <span class="ruby-value">2</span>)
+                <span class="ruby-identifier">f</span> = <span class="ruby-constant">Friendblacklist</span>.<span class="ruby-identifier">where</span>(<span class="ruby-string">&#39;belongsto=? AND username=?&#39;</span>,
+                                <span class="ruby-identifier">params</span>[<span class="ruby-value">:belongsto</span>], <span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>])
+                <span class="ruby-keyword">unless</span> (<span class="ruby-identifier">f</span>.<span class="ruby-identifier">empty?</span>)
+                        <span class="ruby-identifier">f</span>.<span class="ruby-identifier">first</span>.<span class="ruby-identifier">delete</span>
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;OK&#39;</span>; <span class="ruby-keyword">return</span> (<span class="ruby-identifier">packet</span>)
+                <span class="ruby-keyword">end</span>
+        <span class="ruby-keyword">end</span>
+        <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&#39;[debl]    user(s) doesn\t exist or friendship already exists :)&#39;</span>)
+        <span class="ruby-identifier">packet</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-delf" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">delf</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action delf</p>
+
+<p>Delete friend</p>
+
+<h3 id="method-i-delf-label-Parameters">Parameters<span><a href="#method-i-delf-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>username</code> - (string)</p>
+</li><li>
+<p><code>belongsto</code> - (string) - The username parameters belongsto to
+the user who sent the request</p>
+</li></ul>
+
+<h3 id="method-i-delf-label-Success">Success<span><a href="#method-i-delf-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-delf-label-Fail">Fail<span><a href="#method-i-delf-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>KO</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="delf-source">
+            <pre><span class="ruby-comment"># File controllers/friend_blacklists_controller.rb, line 40</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">delf</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;KO&#39;</span>
+        <span class="ruby-keyword">if</span> (<span class="ruby-constant">User</span>.<span class="ruby-identifier">where</span>(<span class="ruby-string">&#39;username=? OR username=?&#39;</span>, <span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>], <span class="ruby-identifier">params</span>[<span class="ruby-value">:belongsto</span>]).<span class="ruby-identifier">count</span> <span class="ruby-operator">==</span> <span class="ruby-value">2</span>)
+                <span class="ruby-identifier">f</span> = <span class="ruby-constant">Friendblacklist</span>.<span class="ruby-identifier">where</span>(<span class="ruby-string">&#39;belongsto=? AND username=?&#39;</span>,
+                                <span class="ruby-identifier">params</span>[<span class="ruby-value">:belongsto</span>], <span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>])
+                <span class="ruby-keyword">unless</span> (<span class="ruby-identifier">f</span>.<span class="ruby-identifier">empty?</span>)
+                        <span class="ruby-identifier">f</span>.<span class="ruby-identifier">first</span>.<span class="ruby-identifier">delete</span>
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&#39;OK&#39;</span>; <span class="ruby-keyword">return</span> (<span class="ruby-identifier">packet</span>)
+                <span class="ruby-keyword">end</span>
+        <span class="ruby-keyword">end</span>
+        <span class="ruby-identifier">log_error</span>(<span class="ruby-string">&#39;[delf]    user(s) doesn\t exist or friendship already exists :)&#39;</span>)
+        <span class="ruby-identifier">packet</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-gfrl" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">gfrl</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action gfrl</p>
+
+<p>Get player friendlist</p>
+
+<h3 id="method-i-gfrl-label-Parameters">Parameters<span><a href="#method-i-gfrl-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>username</code> - (string)</p>
+</li></ul>
+
+<h3 id="method-i-gfrl-label-Success">Success<span><a href="#method-i-gfrl-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>friend1\nfriend2\nfriend3\n</pre>
+
+<h3 id="method-i-gfrl-label-Fail">Fail<span><a href="#method-i-gfrl-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>-Empty string-</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="gfrl-source">
+            <pre><span class="ruby-comment"># File controllers/friend_blacklists_controller.rb, line 113</span>
+    <span class="ruby-keyword">def</span> <span class="ruby-identifier">gfrl</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+<span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;&quot;</span>
+            <span class="ruby-identifier">friendlist</span> = <span class="ruby-constant">Friendblacklist</span>.<span class="ruby-identifier">where</span>(<span class="ruby-string">&#39;typelist = &quot;F&quot; AND username = ? &#39;</span>, <span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>])
+            <span class="ruby-identifier">friendlist</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">item</span><span class="ruby-operator">|</span>
+                    <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> <span class="ruby-operator">+=</span> <span class="ruby-node">&quot;#{item.belongsto}\n&quot;</span> 
+            <span class="ruby-keyword">end</span>
+            <span class="ruby-identifier">packet</span>
+    <span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-gtbl" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">gtbl</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action gtbl</p>
+
+<p>Get player blacklist</p>
+
+<h3 id="method-i-gtbl-label-Parameters">Parameters<span><a href="#method-i-gtbl-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>username</code> - (string)</p>
+</li></ul>
+
+<h3 id="method-i-gtbl-label-Success">Success<span><a href="#method-i-gtbl-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>notFriend1\nnotFriend2\nnotFriend3\n</pre>
+
+<h3 id="method-i-gtbl-label-Fail">Fail<span><a href="#method-i-gtbl-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>-Empty string-</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="gtbl-source">
+            <pre><span class="ruby-comment"># File controllers/friend_blacklists_controller.rb, line 133</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">gtbl</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;&quot;</span>
+        <span class="ruby-identifier">blacklist</span> = <span class="ruby-constant">Friendblacklist</span>.<span class="ruby-identifier">where</span>(<span class="ruby-string">&#39;typelist = &quot;B&quot; AND username = ? &#39;</span>, <span class="ruby-identifier">params</span>[<span class="ruby-value">:username</span>])
+        <span class="ruby-identifier">blacklist</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span> <span class="ruby-identifier">item</span><span class="ruby-operator">|</span>
+                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> <span class="ruby-operator">+=</span> <span class="ruby-node">&quot;#{item.belongsto}\n&quot;</span>
+        <span class="ruby-keyword">end</span>
+        <span class="ruby-identifier">packet</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+    </section>
+  
+  </section>
+</main>
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="http://rdoc.rubyforge.org">RDoc</a> 4.1.1.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+

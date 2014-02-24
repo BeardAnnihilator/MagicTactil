@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>module DecksController - MagicTactil API Doc</title>
+
+<link href="./fonts.css" rel="stylesheet">
+<link href="./rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+</script>
+
+<script src="./js/jquery.js"></script>
+<script src="./js/navigation.js"></script>
+<script src="./js/search_index.js"></script>
+<script src="./js/search.js"></script>
+<script src="./js/searcher.js"></script>
+<script src="./js/darkfish.js"></script>
+
+
+<body id="top" role="document" class="module">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="./index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="./table_of_contents.html#pages">Pages</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="class-metadata">
+    
+    
+    
+    
+    <!-- Method Quickref -->
+<div id="method-list-section" class="nav-section">
+  <h3>Methods</h3>
+
+  <ul class="link-list" role="directory">
+    
+    <li ><a href="#method-i-crdk">#crdk</a>
+    
+    <li ><a href="#method-i-glid">#glid</a>
+    
+    <li ><a href="#method-i-sdtu">#sdtu</a>
+    
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-labelledby="module-DecksController">
+  <h1 id="module-DecksController" class="module">
+    module DecksController
+  </h1>
+
+  <section class="description">
+    
+  </section>
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Instance Methods</h3>
+       </header>
+
+    
+      <div id="method-i-crdk" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">crdk</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action crdk</p>
+
+<p>Create deck</p>
+
+<h3 id="method-i-crdk-label-Parameters">Parameters<span><a href="#method-i-crdk-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>nameOwner</code> - (string)</p>
+</li><li>
+<p><code>deckName</code> - (string)</p>
+</li><li>
+<p><code>isReal</code> - (boolean) - The value can be true or false, isReal
+means that the user can have a real deck with cards he owns or a deck with
+cards he wants to buy ( wish list )</p>
+</li></ul>
+
+<h3 id="method-i-crdk-label-Success">Success<span><a href="#method-i-crdk-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-crdk-label-Fail">Fail<span><a href="#method-i-crdk-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>KO</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="crdk-source">
+            <pre><span class="ruby-comment"># File controllers/decks_controller.rb, line 47</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">crdk</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>) 
+        <span class="ruby-keyword">if</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:deckName</span>] <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:nameOwner</span>] <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:isReal</span>]
+                <span class="ruby-keyword">unless</span> <span class="ruby-constant">Deck</span>.<span class="ruby-identifier">find_by_deckName_and_nameOwner</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:deckName</span>], <span class="ruby-identifier">params</span>[<span class="ruby-value">:nameOwner</span>])
+                        <span class="ruby-keyword">if</span> <span class="ruby-constant">User</span>.<span class="ruby-identifier">find_by_username</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:nameOwner</span>])
+                                <span class="ruby-identifier">newDeck</span> = <span class="ruby-constant">Deck</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">params</span>.<span class="ruby-identifier">except</span>(<span class="ruby-value">:client_name</span>))
+                                <span class="ruby-keyword">if</span> <span class="ruby-identifier">newDeck</span>.<span class="ruby-identifier">save</span>
+                                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;OK&quot;</span>
+                                <span class="ruby-keyword">else</span>
+                                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;KO&quot;</span>
+                                        <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[crdk]  #{newDeck.errors.messages}&quot;</span>)
+                                <span class="ruby-keyword">end</span>
+                        <span class="ruby-keyword">else</span>
+                                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;KO&quot;</span>
+                                <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[crdk]  username #{params[:nameOwner]} doesn&#39;t exist&quot;</span>)
+                        <span class="ruby-keyword">end</span>
+                <span class="ruby-keyword">else</span>
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;KO&quot;</span>
+                        <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[crdk]  deck  #{params[:deckName]}  already existe for the user #{params[:nameOwner]}&quot;</span>)
+                <span class="ruby-keyword">end</span>
+        <span class="ruby-keyword">else</span>
+                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;KO&quot;</span>   
+        <span class="ruby-keyword">end</span>
+        <span class="ruby-identifier">packet</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-glid" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">glid</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action glid</p>
+
+<p>Get ids of all player&#39;s deck</p>
+
+<h3 id="method-i-glid-label-Parameters">Parameters<span><a href="#method-i-glid-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>nameOwner</code> - (string)</p>
+</li></ul>
+
+<h3 id="method-i-glid-label-Success">Success<span><a href="#method-i-glid-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>idDeck\r1\ndeckName\r2\nisReal\rtrue\n</pre>
+
+<h3 id="method-i-glid-label-Fail">Fail<span><a href="#method-i-glid-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>KO</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="glid-source">
+            <pre><span class="ruby-comment"># File controllers/decks_controller.rb, line 82</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">glid</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>) 
+        <span class="ruby-keyword">if</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:nameOwner</span>]
+                <span class="ruby-keyword">if</span> <span class="ruby-constant">User</span>.<span class="ruby-identifier">find_by_username</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:nameOwner</span>])
+                        <span class="ruby-identifier">deckList</span> = <span class="ruby-constant">Deck</span>.<span class="ruby-identifier">where</span>(<span class="ruby-identifier">nameOwner</span><span class="ruby-operator">:</span>  <span class="ruby-identifier">params</span>[<span class="ruby-value">:nameOwner</span>])
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;&quot;</span>
+                        <span class="ruby-keyword">unless</span> <span class="ruby-identifier">deckList</span>.<span class="ruby-identifier">empty?</span>
+                                <span class="ruby-identifier">deckList</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">item</span><span class="ruby-operator">|</span>
+                                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> <span class="ruby-operator">+=</span> <span class="ruby-node">&quot;idDeck\r#{item.idDeck}\ndeckName\r#{item.deckName}\nisReal\r#{item.isReal}\n&quot;</span>
+                                <span class="ruby-keyword">end</span>
+                        <span class="ruby-keyword">end</span>
+                <span class="ruby-keyword">else</span>
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;KO&quot;</span>
+                <span class="ruby-keyword">end</span>
+        <span class="ruby-keyword">else</span>
+                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;KO&quot;</span>
+        <span class="ruby-keyword">end</span>
+        <span class="ruby-identifier">packet</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-sdtu" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">sdtu</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action sdtu</p>
+
+<p>Send deck to the user</p>
+
+<h3 id="method-i-sdtu-label-Parameters">Parameters<span><a href="#method-i-sdtu-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>nameOwner</code> - (string)</p>
+</li><li>
+<p><code>idDeck</code> - (integer) - Each has decks, each deck of each user
+has unique id</p>
+</li></ul>
+
+<h3 id="method-i-sdtu-label-Success">Success<span><a href="#method-i-sdtu-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>idDeck\r1\nidCard\r2\nnbCard\r4\nisSided\rfalse\n</pre>
+
+<h3 id="method-i-sdtu-label-Fail">Fail<span><a href="#method-i-sdtu-label-Fail">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>KO</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="sdtu-source">
+            <pre><span class="ruby-comment"># File controllers/decks_controller.rb, line 16</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">sdtu</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>) 
+        <span class="ruby-keyword">if</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:idDeck</span>] <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:nameOwner</span>]
+                <span class="ruby-keyword">unless</span> <span class="ruby-constant">Deck</span>.<span class="ruby-identifier">find_by_idDeck_and_nameOwner</span>(<span class="ruby-identifier">params</span>[<span class="ruby-value">:idDeck</span>], <span class="ruby-identifier">params</span>[<span class="ruby-value">:nameOwner</span>])
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;KO&quot;</span>
+                        <span class="ruby-keyword">return</span> <span class="ruby-identifier">packet</span>
+                        <span class="ruby-identifier">log_error</span>(<span class="ruby-node">&quot;[sdtu]  idDeck #{params[:idDeck]} or nameOwner #{params[:nameOwner]} doesn&#39;t existe&quot;</span>)
+                <span class="ruby-keyword">end</span>
+                <span class="ruby-keyword">if</span> <span class="ruby-identifier">cardListFromDeck</span> = <span class="ruby-constant">Deckcard</span>.<span class="ruby-identifier">where</span>(<span class="ruby-string">&#39;idDeck = ?&#39;</span>, <span class="ruby-identifier">params</span>[<span class="ruby-value">:idDeck</span>])
+                        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;idDeck\r&quot;</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:idDeck</span>] <span class="ruby-operator">+</span><span class="ruby-string">&quot;\n&quot;</span>
+                        <span class="ruby-identifier">cardListFromDeck</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">item</span><span class="ruby-operator">|</span>
+                                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> <span class="ruby-operator">+=</span> <span class="ruby-node">&quot;idCard\r#{item.idCard}\nnbCard\r#{item.nbCard}\nisSided\r#{item.isSided}\n&quot;</span>
+                        <span class="ruby-keyword">end</span>
+                <span class="ruby-keyword">end</span>
+        <span class="ruby-keyword">else</span>
+                <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;KO&quot;</span>
+        <span class="ruby-keyword">end</span>
+        <span class="ruby-identifier">packet</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+    </section>
+  
+  </section>
+</main>
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="http://rdoc.rubyforge.org">RDoc</a> 4.1.1.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+

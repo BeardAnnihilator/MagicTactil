@@ -1,0 +1,10 @@
+
+#$logger = Logger.new("log/logfile_#{Time.now}.log")
+
+def log_info(message)
+	#$logger.info("#{Time.now}:  #{message}")
+end
+
+def log_error(message)
+	#$logger.error("#{Time.now}: #{message}")
+end

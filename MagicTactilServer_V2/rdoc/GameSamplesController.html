@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>module GameSamplesController - MagicTactil API Doc</title>
+
+<link href="./fonts.css" rel="stylesheet">
+<link href="./rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+</script>
+
+<script src="./js/jquery.js"></script>
+<script src="./js/navigation.js"></script>
+<script src="./js/search_index.js"></script>
+<script src="./js/search.js"></script>
+<script src="./js/searcher.js"></script>
+<script src="./js/darkfish.js"></script>
+
+
+<body id="top" role="document" class="module">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="./index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="./table_of_contents.html#pages">Pages</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="class-metadata">
+    
+    
+    
+    
+    <!-- Method Quickref -->
+<div id="method-list-section" class="nav-section">
+  <h3>Methods</h3>
+
+  <ul class="link-list" role="directory">
+    
+    <li ><a href="#method-i-daab">#daab</a>
+    
+    <li ><a href="#method-i-move">#move</a>
+    
+    <li ><a href="#method-i-rset">#rset</a>
+    
+    <li ><a href="#method-i-sywl">#sywl</a>
+    
+    <li ><a href="#method-i-tapc">#tapc</a>
+    
+    <li ><a href="#method-i-upgi">#upgi</a>
+    
+    <li ><a href="#method-i-utaa">#utaa</a>
+    
+    <li ><a href="#method-i-utap">#utap</a>
+    
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-labelledby="module-GameSamplesController">
+  <h1 id="module-GameSamplesController" class="module">
+    module GameSamplesController
+  </h1>
+
+  <section class="description">
+    
+<p>params roomName, client_name</p>
+
+  </section>
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Instance Methods</h3>
+       </header>
+
+    
+      <div id="method-i-daab" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">daab</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>draw arrow from card A to card B Action daab</p>
+
+<p>Draw arrow from card A to card B</p>
+
+<h3 id="method-i-daab-label-Parameters">Parameters<span><a href="#method-i-daab-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>idCardA</code> - (integer) - This is the id ( on the board ) of the
+card A</p>
+</li><li>
+<p><code>idCardB</code> - (integer) - This is the id ( on the board ) of the
+card B</p>
+</li><li>
+<p><code>client_name</code> - (string) - This is the username you have chosen
+when you created the account, this is used to make the notif function
+working</p>
+</li><li>
+<p><code>roomName</code> - (string)</p>
+</li></ul>
+
+<h3 id="method-i-daab-label-Success">Success<span><a href="#method-i-daab-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-daab-label-Fail+">Fail <span><a href="#method-i-daab-label-Fail+">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre class="ruby"><span class="ruby-operator">-</span> <span class="ruby-constant">Cannot</span> <span class="ruby-identifier">fail</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">there</span> <span class="ruby-identifier">is</span> <span class="ruby-identifier">nobody</span> <span class="ruby-identifier">to</span> <span class="ruby-identifier">send</span> <span class="ruby-identifier">the</span> <span class="ruby-identifier">message</span> <span class="ruby-identifier">to</span>, <span class="ruby-identifier">the</span> <span class="ruby-identifier">function</span> <span class="ruby-identifier">notif</span> <span class="ruby-keyword">in</span> <span class="ruby-identifier">communication</span> <span class="ruby-keyword">module</span> <span class="ruby-identifier">will</span> <span class="ruby-identifier">just</span> <span class="ruby-identifier">any</span> <span class="ruby-identifier">message</span> <span class="ruby-operator">-</span>
+</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="daab-source">
+            <pre><span class="ruby-comment"># File controllers/game_samples_controller.rb, line 124</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">daab</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">params</span>[<span class="ruby-value">:data</span>] = <span class="ruby-identifier">serialize</span>(<span class="ruby-identifier">params</span>.<span class="ruby-identifier">except</span>(<span class="ruby-value">:client_name</span>))
+        <span class="ruby-identifier">params</span>[<span class="ruby-value">:function</span>] = <span class="ruby-string">&quot;DAAB&quot;</span>
+        <span class="ruby-identifier">communication</span>.<span class="ruby-identifier">notif</span>(<span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;OK&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-move" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">move</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action move</p>
+
+<p>Move a card from a place to another</p>
+
+<h3 id="method-i-move-label-Parameters">Parameters<span><a href="#method-i-move-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>idCard</code> - (integer) - The id of the card on the board the user
+who sent the request want to move</p>
+</li><li>
+<p><code>source</code> - (string) - Where the card is from ( hand, board,
+graveyard, exile, deck, enemy board)</p>
+</li><li>
+<p><code>destination</code> - (string) - the source where you want the card to
+be put</p>
+</li><li>
+<p><code>posX</code> - (integer) - This is a pourcentage</p>
+</li><li>
+<p><code>posY</code> - (integer) - This is a pourcentage</p>
+</li><li>
+<p><code>url</code> - (string) - The url of the card we want to move, permit
+to display the card</p>
+</li><li>
+<p><code>client_name</code> - (string) - This is the username you have chosen
+when you created the account, this is used to make the notif function
+working</p>
+</li><li>
+<p><code>roomName</code> - (string)</p>
+</li></ul>
+
+<h3 id="method-i-move-label-Success">Success<span><a href="#method-i-move-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-move-label-Fail+">Fail <span><a href="#method-i-move-label-Fail+">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre class="ruby"><span class="ruby-operator">-</span> <span class="ruby-constant">Cannot</span> <span class="ruby-identifier">fail</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">there</span> <span class="ruby-identifier">is</span> <span class="ruby-identifier">nobody</span> <span class="ruby-identifier">to</span> <span class="ruby-identifier">send</span> <span class="ruby-identifier">the</span> <span class="ruby-identifier">message</span> <span class="ruby-identifier">to</span>, <span class="ruby-identifier">the</span> <span class="ruby-identifier">function</span> <span class="ruby-identifier">notif</span> <span class="ruby-keyword">in</span> <span class="ruby-identifier">communication</span> <span class="ruby-keyword">module</span> <span class="ruby-identifier">will</span> <span class="ruby-identifier">just</span> <span class="ruby-identifier">any</span> <span class="ruby-identifier">message</span> <span class="ruby-operator">-</span>
+</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="move-source">
+            <pre><span class="ruby-comment"># File controllers/game_samples_controller.rb, line 25</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">move</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">params</span>[<span class="ruby-value">:data</span>] = <span class="ruby-identifier">serialize</span>(<span class="ruby-identifier">params</span>.<span class="ruby-identifier">except</span>(<span class="ruby-value">:client_name</span>))
+        <span class="ruby-identifier">p</span> <span class="ruby-identifier">params</span>[<span class="ruby-value">:data</span>]
+        <span class="ruby-identifier">params</span>[<span class="ruby-value">:function</span>] = <span class="ruby-string">&quot;MOVE&quot;</span>
+        <span class="ruby-identifier">communication</span>.<span class="ruby-identifier">notif</span>(<span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;OK&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-rset" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">rset</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action rset</p>
+
+<p>Reset the game</p>
+
+<h3 id="method-i-rset-label-Parameters">Parameters<span><a href="#method-i-rset-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>client_name</code> - (string) - This is the username you have chosen
+when you created the account, this is used to make the notif function
+working</p>
+</li><li>
+<p><code>roomName</code> - (string)</p>
+</li></ul>
+
+<h3 id="method-i-rset-label-Success">Success<span><a href="#method-i-rset-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-rset-label-Fail+">Fail <span><a href="#method-i-rset-label-Fail+">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre class="ruby"><span class="ruby-operator">-</span> <span class="ruby-constant">Cannot</span> <span class="ruby-identifier">fail</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">there</span> <span class="ruby-identifier">is</span> <span class="ruby-identifier">nobody</span> <span class="ruby-identifier">to</span> <span class="ruby-identifier">send</span> <span class="ruby-identifier">the</span> <span class="ruby-identifier">message</span> <span class="ruby-identifier">to</span>, <span class="ruby-identifier">the</span> <span class="ruby-identifier">function</span> <span class="ruby-identifier">notif</span> <span class="ruby-keyword">in</span> <span class="ruby-identifier">communication</span> <span class="ruby-keyword">module</span> <span class="ruby-identifier">will</span> <span class="ruby-identifier">just</span> <span class="ruby-identifier">any</span> <span class="ruby-identifier">message</span> <span class="ruby-operator">-</span>
+</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="rset-source">
+            <pre><span class="ruby-comment"># File controllers/game_samples_controller.rb, line 160</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">rset</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">params</span>[<span class="ruby-value">:data</span>] = <span class="ruby-identifier">serialize</span>(<span class="ruby-identifier">params</span>.<span class="ruby-identifier">except</span>(<span class="ruby-value">:client_name</span>))
+        <span class="ruby-identifier">params</span>[<span class="ruby-value">:function</span>] = <span class="ruby-string">&quot;RSET&quot;</span>
+        <span class="ruby-identifier">communication</span>.<span class="ruby-identifier">notif</span>(<span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;OK&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-sywl" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">sywl</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action sywl</p>
+
+<p>Give up the game</p>
+
+<h3 id="method-i-sywl-label-Parameters">Parameters<span><a href="#method-i-sywl-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>client_name</code> - (string) - This is the username you have chosen
+when you created the account, this is used to make the notif function
+working</p>
+</li><li>
+<p><code>roomName</code> - (string)</p>
+</li></ul>
+
+<h3 id="method-i-sywl-label-Success">Success<span><a href="#method-i-sywl-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-sywl-label-Fail+">Fail <span><a href="#method-i-sywl-label-Fail+">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre class="ruby"><span class="ruby-operator">-</span> <span class="ruby-constant">Cannot</span> <span class="ruby-identifier">fail</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">there</span> <span class="ruby-identifier">is</span> <span class="ruby-identifier">nobody</span> <span class="ruby-identifier">to</span> <span class="ruby-identifier">send</span> <span class="ruby-identifier">the</span> <span class="ruby-identifier">message</span> <span class="ruby-identifier">to</span>, <span class="ruby-identifier">the</span> <span class="ruby-identifier">function</span> <span class="ruby-identifier">notif</span> <span class="ruby-keyword">in</span> <span class="ruby-identifier">communication</span> <span class="ruby-keyword">module</span> <span class="ruby-identifier">will</span> <span class="ruby-identifier">just</span> <span class="ruby-identifier">any</span> <span class="ruby-identifier">message</span> <span class="ruby-operator">-</span>
+</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="sywl-source">
+            <pre><span class="ruby-comment"># File controllers/game_samples_controller.rb, line 142</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">sywl</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">params</span>[<span class="ruby-value">:data</span>] = <span class="ruby-identifier">serialize</span>(<span class="ruby-identifier">params</span>.<span class="ruby-identifier">except</span>(<span class="ruby-value">:client_name</span>))
+        <span class="ruby-identifier">params</span>[<span class="ruby-value">:function</span>] = <span class="ruby-string">&quot;SYWL&quot;</span>
+        <span class="ruby-identifier">communication</span>.<span class="ruby-identifier">notif</span>(<span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;OK&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-tapc" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">tapc</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action tapc</p>
+
+<p>Tap a specific card (Horizontal from vertical)</p>
+
+<h3 id="method-i-tapc-label-Parameters">Parameters<span><a href="#method-i-tapc-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>idCard</code> - (integer) - The id (on the board) of the card, the
+user who send the request want to tap</p>
+</li><li>
+<p><code>client_name</code> - (string) - This is the username you have chosen
+when you created the account, this is used to make the notif function
+working</p>
+</li><li>
+<p><code>roomName</code> - (string)</p>
+</li></ul>
+
+<h3 id="method-i-tapc-label-Success">Success<span><a href="#method-i-tapc-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-tapc-label-Fail+">Fail <span><a href="#method-i-tapc-label-Fail+">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre class="ruby"><span class="ruby-operator">-</span> <span class="ruby-constant">Cannot</span> <span class="ruby-identifier">fail</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">there</span> <span class="ruby-identifier">is</span> <span class="ruby-identifier">nobody</span> <span class="ruby-identifier">to</span> <span class="ruby-identifier">send</span> <span class="ruby-identifier">the</span> <span class="ruby-identifier">message</span> <span class="ruby-identifier">to</span>, <span class="ruby-identifier">the</span> <span class="ruby-identifier">function</span> <span class="ruby-identifier">notif</span> <span class="ruby-keyword">in</span> <span class="ruby-identifier">communication</span> <span class="ruby-keyword">module</span> <span class="ruby-identifier">will</span> <span class="ruby-identifier">just</span> <span class="ruby-identifier">any</span> <span class="ruby-identifier">message</span> <span class="ruby-operator">-</span>
+</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="tapc-source">
+            <pre><span class="ruby-comment"># File controllers/game_samples_controller.rb, line 45</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">tapc</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">params</span>[<span class="ruby-value">:data</span>] = <span class="ruby-identifier">serialize</span>(<span class="ruby-identifier">params</span>.<span class="ruby-identifier">except</span>(<span class="ruby-value">:client_name</span>))
+        <span class="ruby-identifier">params</span>[<span class="ruby-value">:function</span>] = <span class="ruby-string">&quot;TAPC&quot;</span>
+        <span class="ruby-identifier">communication</span>.<span class="ruby-identifier">notif</span>(<span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;OK&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-upgi" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">upgi</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action upgi</p>
+
+<p>Update information from the game ( Healthpoints, … )</p>
+
+<h3 id="method-i-upgi-label-Parameters">Parameters<span><a href="#method-i-upgi-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>healthpoints</code> - (integer)</p>
+</li><li>
+<p><code>client_name</code> - (string) - This is the username you have chosen
+when you created the account, this is used to make the notif function
+working</p>
+</li><li>
+<p><code>roomName</code> - (string)</p>
+</li></ul>
+
+<h3 id="method-i-upgi-label-Success">Success<span><a href="#method-i-upgi-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-upgi-label-Fail+">Fail <span><a href="#method-i-upgi-label-Fail+">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre class="ruby"><span class="ruby-operator">-</span> <span class="ruby-constant">Cannot</span> <span class="ruby-identifier">fail</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">there</span> <span class="ruby-identifier">is</span> <span class="ruby-identifier">nobody</span> <span class="ruby-identifier">to</span> <span class="ruby-identifier">send</span> <span class="ruby-identifier">the</span> <span class="ruby-identifier">message</span> <span class="ruby-identifier">to</span>, <span class="ruby-identifier">the</span> <span class="ruby-identifier">function</span> <span class="ruby-identifier">notif</span> <span class="ruby-keyword">in</span> <span class="ruby-identifier">communication</span> <span class="ruby-keyword">module</span> <span class="ruby-identifier">will</span> <span class="ruby-identifier">just</span> <span class="ruby-identifier">any</span> <span class="ruby-identifier">message</span> <span class="ruby-operator">-</span>
+</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="upgi-source">
+            <pre><span class="ruby-comment"># File controllers/game_samples_controller.rb, line 103</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">upgi</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">params</span>[<span class="ruby-value">:data</span>] = <span class="ruby-identifier">serialize</span>(<span class="ruby-identifier">params</span>.<span class="ruby-identifier">except</span>(<span class="ruby-value">:client_name</span>))
+        <span class="ruby-identifier">params</span>[<span class="ruby-value">:function</span>] = <span class="ruby-string">&quot;UPGI&quot;</span>
+        <span class="ruby-identifier">communication</span>.<span class="ruby-identifier">notif</span>(<span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;OK&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-utaa" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">utaa</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Action utaa</p>
+
+<p>Untall all card</p>
+
+<h3 id="method-i-utaa-label-Parameters">Parameters<span><a href="#method-i-utaa-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>client_name</code> - (string) - This is the username you have chosen
+when you created the account, this is used to make the notif function
+working</p>
+</li><li>
+<p><code>roomName</code> - (string)</p>
+</li></ul>
+
+<h3 id="method-i-utaa-label-Success">Success<span><a href="#method-i-utaa-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-utaa-label-Fail+">Fail <span><a href="#method-i-utaa-label-Fail+">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre class="ruby"><span class="ruby-operator">-</span> <span class="ruby-constant">Cannot</span> <span class="ruby-identifier">fail</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">there</span> <span class="ruby-identifier">is</span> <span class="ruby-identifier">nobody</span> <span class="ruby-identifier">to</span> <span class="ruby-identifier">send</span> <span class="ruby-identifier">the</span> <span class="ruby-identifier">message</span> <span class="ruby-identifier">to</span>, <span class="ruby-identifier">the</span> <span class="ruby-identifier">function</span> <span class="ruby-identifier">notif</span> <span class="ruby-keyword">in</span> <span class="ruby-identifier">communication</span> <span class="ruby-keyword">module</span> <span class="ruby-identifier">will</span> <span class="ruby-identifier">just</span> <span class="ruby-identifier">any</span> <span class="ruby-identifier">message</span> <span class="ruby-operator">-</span>
+</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="utaa-source">
+            <pre><span class="ruby-comment"># File controllers/game_samples_controller.rb, line 83</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">utaa</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">params</span>[<span class="ruby-value">:data</span>] = <span class="ruby-identifier">serialize</span>(<span class="ruby-identifier">params</span>.<span class="ruby-identifier">except</span>(<span class="ruby-value">:client_name</span>))
+        <span class="ruby-identifier">params</span>[<span class="ruby-value">:function</span>] = <span class="ruby-string">&quot;UTAA&quot;</span>
+        <span class="ruby-identifier">communication</span>.<span class="ruby-identifier">notif</span>(<span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;OK&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-utap" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">utap</span><span
+            class="method-args">(packet, params)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>untap a specific card (Vertical from horizontal) Action utap</p>
+
+<p>Untap a specific card (Vertical from horizontal)</p>
+
+<h3 id="method-i-utap-label-Parameters">Parameters<span><a href="#method-i-utap-label-Parameters">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+<ul><li>
+<p><code>idCard</code> - (integer) - This is the id (on the board) of the card
+the user who sent the request want to untap</p>
+</li><li>
+<p><code>client_name</code> - (string) - This is the username you have chosen
+when you created the account, this is used to make the notif function
+working</p>
+</li><li>
+<p><code>roomName</code> - (string)</p>
+</li></ul>
+
+<h3 id="method-i-utap-label-Success">Success<span><a href="#method-i-utap-label-Success">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre>OK</pre>
+
+<h3 id="method-i-utap-label-Fail+">Fail <span><a href="#method-i-utap-label-Fail+">&para;</a> <a href="#documentation">&uarr;</a></span></h3>
+
+<pre class="ruby"><span class="ruby-operator">-</span> <span class="ruby-constant">Cannot</span> <span class="ruby-identifier">fail</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">there</span> <span class="ruby-identifier">is</span> <span class="ruby-identifier">nobody</span> <span class="ruby-identifier">to</span> <span class="ruby-identifier">send</span> <span class="ruby-identifier">the</span> <span class="ruby-identifier">message</span> <span class="ruby-identifier">to</span>, <span class="ruby-identifier">the</span> <span class="ruby-identifier">function</span> <span class="ruby-identifier">notif</span> <span class="ruby-keyword">in</span> <span class="ruby-identifier">communication</span> <span class="ruby-keyword">module</span> <span class="ruby-identifier">will</span> <span class="ruby-identifier">just</span> <span class="ruby-identifier">any</span> <span class="ruby-identifier">message</span> <span class="ruby-operator">-</span>
+</pre>
+          
+          
+
+          
+          <div class="method-source-code" id="utap-source">
+            <pre><span class="ruby-comment"># File controllers/game_samples_controller.rb, line 65</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">utap</span>(<span class="ruby-identifier">packet</span>, <span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">params</span>[<span class="ruby-value">:data</span>] = <span class="ruby-identifier">serialize</span>(<span class="ruby-identifier">params</span>.<span class="ruby-identifier">except</span>(<span class="ruby-value">:client_name</span>))
+        <span class="ruby-identifier">params</span>[<span class="ruby-value">:function</span>] = <span class="ruby-string">&quot;UTAP&quot;</span>
+        <span class="ruby-identifier">communication</span>.<span class="ruby-identifier">notif</span>(<span class="ruby-identifier">params</span>)
+        <span class="ruby-identifier">packet</span>.<span class="ruby-identifier">data</span> = <span class="ruby-string">&quot;OK&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+    </section>
+  
+  </section>
+</main>
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="http://rdoc.rubyforge.org">RDoc</a> 4.1.1.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+

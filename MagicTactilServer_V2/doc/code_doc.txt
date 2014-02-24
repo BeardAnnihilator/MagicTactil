@@ -1,0 +1,4 @@
+1) run 'bundle install'.
+2) add the documented source code file to the array rdoc.rdoc_files in Rakefile.
+3) See code source documentation for Authentication#regu in Authentication.rb as example.
+4) run 'rake doc:api'
