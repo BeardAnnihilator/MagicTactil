@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title>Magic Tactil</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta content="" name="description" />
+<meta content="" name="author" />
+<!-- Le styles -->
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- 
+<style type="text/css">
+
+</style>
+
+ --><!-- HTML5 shim, for IE6-8 support of HTML5 elements --><!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<header>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+				<a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+				<span class="icon-bar"></span></a>
+				<!-- Be sure to leave the brand out there if you want it shown -->
+				<a class="brand" href="index.html"><span class="icon-bar">
+				<img alt="logo magic tactil" src="./image/magictactil.png" />
+				</span>Magic Tactil </a>
+				<!-- Everything you want hidden at 940px or less, place within here -->
+				<div class="nav-collapse collapse">
+					<ul class="nav">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="team.html">Team</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="news.html">News</a></li>						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<section class="visible-desktop" style="position: fixed; top: 50px; right: 5px;">
+	<a href="https://www.facebook.com/pages/Magictactil/319882788114639">
+	<img alt="Follow us on Facebook" src="image/facebook.png" title="Follow us on Facebook" />
+	</a><br />
+	<a href="https://twitter.com/MagicTactil">
+	<img alt="Follow us on Twitter" src="image/twitter.png" title="Follow us on Twitter" />
+	</a>
+</section>
+<div class="container">
+	<!-- Main hero unit for a primary marketing message or call to action -->
+	<div class="hero-unit">
+		<span class="pull-right">
+		<img alt="logo magic tactil" src="./image/magictactil.png" /> </span>
+		<h1>Magic Tactil</h1>
+		<p>Magic Tactil allows to play card games and board games on tactile devices.</p>
+		<p><a class="btn btn-primary btn-large" href="about.html">Learn more &raquo;</a></p>
+	</div>
+	<!-- Example row of columns -->
+	<div class="row-fluid">
+		<div class="span4">
+			<h2>What is Magic Tactil ?</h2>
+			<p>Magic Tactil tends to be adaptable with any cards games or board games, such as Munchkin, Android : NetRunner, Kings of Tokyo, 7 Wonders... </p>
+			<p><a class="btn" href="about.html">View details &raquo;</a></p>
+		</div>
+		<div class="span4">
+			<h2>Presentation of the team.</h2>
+			<p>Come see our faces.</p>
+			<p><a class="btn" href="team.html">View details &raquo;</a></p>
+		</div>
+		<div class="span4">
+			<h2>Contact.</h2>
+			<p>Feel free to send us an email at :
+			<a href="mailto:magictactil_2014@labeip.epitech.eu%20?Subject=Contact from web">
+			magictactil_2014@labeip.epitech.eu</a> </p>
+			<p><a class="btn" href="contact.html">View details &raquo;</a></p>
+		</div>
+	</div>
+	<section id="progress bar" class="row-fluid">
+		<div class="progress progress-striped  span10">
+			<div id="javaprogress" class="bar span10" style="width: 0%;">
+			</div>
+		</div>
+		<div class="span2">
+			Approximate release date : September 2014 </div>
+	</section>
+
+	<div class="container marketing">
+   
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-right" src="image/eip.jpg">
+        <h2 class="featurette-heading">What is <span class="muted">EIP</span></h2>
+        <p class="lead">The EIP (Epitech Innovative Project) is the main project during the Epitech program. This project is carried out during the 4th and 5th year of the program by a group The EIP (Epitech Innovative Project) is the main project during the Epitech program. This project is carried out during the 4th and 5th year of the program by a group averaging 8 students in it. The group must choose an EIP subject. It must be an original and innovative one, or students can take over from a previous EIP and keep working on it.</p>
+      </div>
+
+
+
+
+	<hr />
+	<footer>
+		<a href="http://www.epitech.eu/"><span class="pull-right">
+		<img alt="logo epitech" class="epitech" height="200" src="./image/epitech.jpg" style="padding-left: 30px;" width="266" />
+		</span></a>
+		<p>&copy; Magic Tactil 2013</p>
+		<section class="hidden-desktop">
+			<a href="https://www.facebook.com/pages/Magictactil/319882788114639">
+			<img alt="Follow us on Facebook" src="image/facebook.png" title="Follow us on Facebook" />
+			</a><a href="https://twitter.com/MagicTactil">
+			<img alt="Follow us on Twitter" src="image/twitter.png" title="Follow us on Twitter" />
+			</a>
+		</section>
+	</footer>
+</div>
+<!-- /container -->
+<!-- Java script end of file for faster loading-->
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script>
+	var start = new Date(2012,8,1);
+    var end = new Date(2014,8,1);
+    var today = new Date();
+	document.getElementById("javaprogress").style.width = Math.round(((today-start) * 100) / (end - start)) + '%';
+</script>
+
+</body>
+
+</html>
