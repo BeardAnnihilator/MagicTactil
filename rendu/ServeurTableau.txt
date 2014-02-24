@@ -1,0 +1,130 @@
+Serveur
+{
+	Autentification;
+	DbManager;
+	Profile;
+	map<Key, Room>
+
+	createRoom()
+}
+
+Paquet
+{
+	Source ( IP );
+	Destination ( nom du dest);
+	function ( nom de la fonction appellee )
+	size ( Size de l'array )
+	functionParam ( Array )
+}
+
+PaquetManager
+{
+	list<packet>   send;
+	list<packet>   rec;
+	
+	packet         getpacketRec()
+	void	       pushpacketSend()
+	packet         getpacketSend()
+	void	       pushpacketRec()
+
+}
+
+Profile
+{
+	getInfo();
+	setValue(); -> Pour chaque valeur de l'objet
+	statutInRoom (none, spec, player, admin)
+}
+
+Autentification
+{
+	CreateAccount(Paquet*);
+	LogIn(Paquet*);
+	LogOut(Paquet*);
+}
+
+DbManager
+{
+	NewUser(Array*);
+	UpdateStatut(Array*); (Si connecte ou pas)
+	getInfo(Array*);
+	getFriendList(Array*);
+	getBlackList(Array*);
+	getInfoEvent(Array*); -> Sans les inscrits
+	getParticipants(Array*);
+	AddCardToDeck();
+	DeleteCardToDeck();
+	AddDeckTOUSer();
+	DeleteDeckToUser();
+	UpdateRoom();
+}
+
+FriendList/BlackList
+{
+	getLists();
+	Add/Delete(Array*);
+}
+
+Chat
+{
+	PrivateMessage(Paquet*);
+	RoomMessage(Paquet*);
+}
+
+Event
+{
+	CreateEvent();
+	DeleteEvent();
+	UpdateEvent();
+	SendUpdate{
+	Event();
+	SignUpEvent();
+	SignOutEvent();
+}
+
+ACard : land/Other, Crea ( rappel d'heritage bad sense)
+{
+	id
+	name
+	edition
+	type
+	description
+}
+
+Deck
+{
+	list<ACard>
+	id
+	DeckName
+	Description
+	Owner
+}
+
+Room
+{
+	list<Profile>	
+	id
+	name
+	ownerRoom
+	isGameAvailable
+}
+
+Shop
+{
+	map<list<Profile, ACard>> Struct qui contient la ACard -> vente particulier
+	array<ACard> -> vente par booster	
+
+	sellCards();
+	buyCardsToPerson();
+	buyBoosters();
+}
+	
+TODO
+{
+	Reperes -> ex : Room old x/y new x/y carte
+	Shop
+	Room
+	test charge sur les cartes
+	Module de langue -> clients
+	class back up / time
+}

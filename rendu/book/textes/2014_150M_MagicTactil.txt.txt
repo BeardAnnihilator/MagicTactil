@@ -1,0 +1,5 @@
+Magic Tactil est la 1ére application  sur tablette, PC et smartphone qui permet de jouer, en ligne, aux jeux de cartes à collectionner avec un dynamisme non-altéré.
+En plus, d'échanger des cartes et de s'amuser avec ses amis, le joueur pourra participer à la vie d'une communauté internationale et promouvoir des évènements locaux, les joueurs présents sur ces évènements recevront même des récompenses.
+Au fil des parties, le joueur va acquérir des crédits qui lui serviront à acheter des cartes ou des boosters supplémentaires. Il est également possible de vendre ses cartes ou de les échanger directement avec ses amis.
+Pour un meilleur dynamisme les règles du jeu ne sont pas gérées, l'utilisateur joue comme il le ferait sur une table chez lui. Pour gérer les cas litigieux, les joueurs qui le souhaite constituerons un tribunal récompensé pour définir si un joueur a triché.
+Magic Tactil n'est pas uniquement un jeu, il a pour but de créer des joueurs et de les encourager à se rencontrer lors des évènements locaux.
